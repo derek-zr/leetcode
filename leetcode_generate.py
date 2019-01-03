@@ -510,12 +510,12 @@ class Leetcode:
     def write_readme(self):
         """Write Readme to current folder"""
         languages_readme = ','.join([x.capitalize() for x in self.languages])
-        md = '''# :pencil2: Leetcode Solutions with {language}
-Update time:  {tm}
-Solution by Derek Zheng(Contact ME at derek.zhengrui@gmail.com)
-Auto created by [leetcode_generate](https://github.com/bonfy/leetcode)
-I have solved **{num_solved}   /   {num_total}** problems~
-| # | Title | Source Code | Article | Difficulty |
+        md = '''# :pencil2: Leetcode Solutions with {language}  
+Update time:  {tm}  
+Solution by Derek Zheng [Contact ME] (derek.zhengrui@gmail.com)  
+Auto created by [leetcode_generate](https://github.com/bonfy/leetcode)  
+I have solved **{num_solved}   /   {num_total}** problems~  
+| # | Title | Source Code | Article | Difficulty |  
 |:---:|:---:|:---:|:---:|:---:|'''.format(
             language=languages_readme,
             tm=time.strftime('%Y-%m-%d %H:%M:%S', time.localtime(time.time())),
