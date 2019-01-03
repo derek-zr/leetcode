@@ -515,8 +515,10 @@ Update time:  {tm}
 Solution by Derek Zheng [Contact ME] (derek.zhengrui@gmail.com)  
 Auto created by [leetcode_generate](https://github.com/bonfy/leetcode)  
 I have solved **{num_solved}   /   {num_total}** problems~  
+
 | # | Title | Source Code | Article | Difficulty |  
-|:---:|:---:|:---:|:---:|:---:|'''.format(
+|:---:|:---:|:---:|:---:|:---:|
+'''.format(
             language=languages_readme,
             tm=time.strftime('%Y-%m-%d %H:%M:%S', time.localtime(time.time())),
             num_solved=self.num_solved,
