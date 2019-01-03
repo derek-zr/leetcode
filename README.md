@@ -1,6 +1,6 @@
 # :pencil2: Leetcode Solutions with Cpp
 Update time:  2019-01-03 22:35:52
-Solution by Derek Zheng [Contact ME](derek.zhengrui@gmail.com)
+Solution by Derek Zheng [Contact Me](derek.zhengrui@gmail.com)
 Auto created by [leetcode_generate](https://github.com/bonfy/leetcode)
 I have solved **232   /   915** problems~
 | # | Title | Source Code | Article | Difficulty |
