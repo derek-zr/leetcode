@@ -33,7 +33,7 @@ HEADERS = {
     'Host': 'leetcode.com',
     'User-Agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_9_2) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/33.0.1750.152 Safari/537.36',  # NOQA
 }
-
+root_dir = './Solution/'
 
 def get_config_from_file():
     cp = configparser.ConfigParser()
@@ -459,7 +459,8 @@ class Leetcode:
             )
             return
 
-        dirname = '{id}-{title}'.format(id=str(qid).zfill(3), title=qtitle)
+        check_and_make_dir(root_dir)
+        dirname = root_dir + '{id}-{title}'.format(id=str(qid).zfill(3), title=qtitle)
         print('begin download ' + dirname)
         check_and_make_dir(dirname)
         path = os.path.join(HOME, dirname)
@@ -468,6 +469,8 @@ class Leetcode:
                 title=qtitle, ext=self.prolangdict[slt['lang']].ext
             )
             filename = os.path.join(path, fname)
+            if os.path.exists(filename):
+                continue
             content = self._get_code_with_anno(slt)
             import codecs
 
@@ -536,7 +539,7 @@ I have solved **{num_solved}   /   {num_total}** problems~
                 language = ':lock:'
             else:
                 if item.solutions:
-                    dirname = '{id}-{title}'.format(
+                    dirname =root_dir + '{id}-{title}'.format(
                         id=str(item.question_id).zfill(3),
                         title=item.question__title_slug,
                     )
