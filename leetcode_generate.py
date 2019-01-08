@@ -602,8 +602,8 @@ def do_job(leetcode):
     print('Leetcode finish dowload')
     leetcode.write_readme()
     print('Leetcode finish write readme')
-    leetcode.push_to_github()
-    print('push to github')
+    #leetcode.push_to_github()
+    #print('push to github')
 
 
 if __name__ == '__main__':
