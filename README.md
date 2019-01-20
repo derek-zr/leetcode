@@ -1,8 +1,8 @@
 # :pencil2: Leetcode Solutions with Cpp  
-Update time:  2019-01-18 22:40:40  
+Update time:  2019-01-20 21:20:57  
 Solution by Derek Zheng (Contact ME at derek.zhengrui@gmail.com)  
 Auto created by [leetcode_generate](https://github.com/bonfy/leetcode)  
-I have solved **234   /   924** problems~  
+I have solved **235   /   928** problems~  
 
 | # | Title | Source Code | Article | Difficulty |  
 |:---:|:---:|:---:|:---:|:---:|
@@ -51,7 +51,7 @@ I have solved **234   /   924** problems~
 |43|[multiply-strings](https://leetcode.com/problems/multiply-strings)|[Cpp](https://github.com/derek-zr/leetcode/blob/master/./Solution/043-multiply-strings/multiply-strings.cpp)||Medium|
 |44|[wildcard-matching](https://leetcode.com/problems/wildcard-matching)|||Hard|
 |45|[jump-game-ii](https://leetcode.com/problems/jump-game-ii)|||Hard|
-|46|[permutations](https://leetcode.com/problems/permutations)|[Cpp](https://github.com/derek-zr/leetcode/blob/master/./Solution/046-permutations/permutations.cpp)||Medium|
+|46|[permutations](https://leetcode.com/problems/permutations)|[Cpp](https://github.com/derek-zr/leetcode/blob/master/./Solution/046-permutations/permutations.cpp)|[:memo:](https://leetcode.com/articles/permutations/)|Medium|
 |47|[permutations-ii](https://leetcode.com/problems/permutations-ii)|||Medium|
 |48|[rotate-image](https://leetcode.com/problems/rotate-image)||[:memo:](https://leetcode.com/articles/rotate-image/)|Medium|
 |49|[group-anagrams](https://leetcode.com/problems/group-anagrams)||[:memo:](https://leetcode.com/articles/group-anagrams/)|Medium|
@@ -459,7 +459,7 @@ I have solved **234   /   924** problems~
 |475|[heaters](https://leetcode.com/problems/heaters)|[Cpp](https://github.com/derek-zr/leetcode/blob/master/./Solution/475-heaters/heaters.cpp)||Easy|
 |476|[number-complement](https://leetcode.com/problems/number-complement)|[Cpp](https://github.com/derek-zr/leetcode/blob/master/./Solution/476-number-complement/number-complement.cpp)||Easy|
 |477|[total-hamming-distance](https://leetcode.com/problems/total-hamming-distance)|[Cpp](https://github.com/derek-zr/leetcode/blob/master/./Solution/477-total-hamming-distance/total-hamming-distance.cpp)|[:memo:](https://leetcode.com/articles/total-hamming-distance/)|Medium|
-|479|[largest-palindrome-product](https://leetcode.com/problems/largest-palindrome-product)|||Easy|
+|479|[largest-palindrome-product](https://leetcode.com/problems/largest-palindrome-product)|||Hard|
 |480|[sliding-window-median](https://leetcode.com/problems/sliding-window-median)||[:memo:](https://leetcode.com/articles/sliding-window-median/)|Hard|
 |481|[magical-string](https://leetcode.com/problems/magical-string)|||Medium|
 |482|[license-key-formatting](https://leetcode.com/problems/license-key-formatting)|||Easy|
@@ -513,7 +513,7 @@ I have solved **234   /   924** problems~
 |539|[minimum-time-difference](https://leetcode.com/problems/minimum-time-difference)|||Medium|
 |540|[single-element-in-a-sorted-array](https://leetcode.com/problems/single-element-in-a-sorted-array)|[Cpp](https://github.com/derek-zr/leetcode/blob/master/./Solution/540-single-element-in-a-sorted-array/single-element-in-a-sorted-array.cpp)||Medium|
 |541|[reverse-string-ii](https://leetcode.com/problems/reverse-string-ii)||[:memo:](https://leetcode.com/articles/reverse-string-ii/)|Easy|
-|542|[01-matrix](https://leetcode.com/problems/01-matrix)||[:memo:](https://leetcode.com/articles/01-matrix/)|Medium|
+|542|[01-matrix](https://leetcode.com/problems/01-matrix)|[Cpp](https://github.com/derek-zr/leetcode/blob/master/./Solution/542-01-matrix/01-matrix.cpp)|[:memo:](https://leetcode.com/articles/01-matrix/)|Medium|
 |543|[diameter-of-binary-tree](https://leetcode.com/problems/diameter-of-binary-tree)|[Cpp](https://github.com/derek-zr/leetcode/blob/master/./Solution/543-diameter-of-binary-tree/diameter-of-binary-tree.cpp)|[:memo:](https://leetcode.com/articles/diameter-of-binary-tree/)|Easy|
 |544|[output-contest-matches](https://leetcode.com/problems/output-contest-matches)|:lock:|[:memo:](https://leetcode.com/articles/output-contest-matches/)|Medium|
 |545|[boundary-of-binary-tree](https://leetcode.com/problems/boundary-of-binary-tree)|:lock:|[:memo:](https://leetcode.com/articles/boundary-of-binary-tree/)|Medium|
@@ -930,3 +930,7 @@ I have solved **234   /   924** problems~
 |1016|[subarray-sums-divisible-by-k](https://leetcode.com/problems/subarray-sums-divisible-by-k)||[:memo:](https://leetcode.com/articles/subarray-sums-divisible-by-k/)|Medium|
 |1017|[odd-even-jump](https://leetcode.com/problems/odd-even-jump)||[:memo:](https://leetcode.com/articles/odd-even-jump/)|Hard|
 |1018|[largest-perimeter-triangle](https://leetcode.com/problems/largest-perimeter-triangle)||[:memo:](https://leetcode.com/articles/largest-perimeter-triangle/)|Easy|
+|1019|[squares-of-a-sorted-array](https://leetcode.com/problems/squares-of-a-sorted-array)||[:memo:](https://leetcode.com/articles/squares-of-a-sorted-array/)|Easy|
+|1020|[longest-turbulent-subarray](https://leetcode.com/problems/longest-turbulent-subarray)||[:memo:](https://leetcode.com/articles/longest-turbulent-subarray/)|Medium|
+|1021|[distribute-coins-in-binary-tree](https://leetcode.com/problems/distribute-coins-in-binary-tree)||[:memo:](https://leetcode.com/articles/distribute-coins-in-binary-tree/)|Medium|
+|1022|[unique-paths-iii](https://leetcode.com/problems/unique-paths-iii)||[:memo:](https://leetcode.com/articles/unique-paths-iii/)|Hard|
