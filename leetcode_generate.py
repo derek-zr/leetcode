@@ -610,4 +610,5 @@ if __name__ == '__main__':
     leetcode = Leetcode()
     while True:
         do_job(leetcode)
+        print('waiting for tomorrow')
         time.sleep(24 * 60 * 60)
