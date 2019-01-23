@@ -446,6 +446,7 @@ class Leetcode:
         Download code by quiz
         quiz: type QuizItem
         """
+        global HasNew
         qid = quiz.question_id
         qtitle = quiz.question__title_slug
         slts = list(
@@ -471,6 +472,8 @@ class Leetcode:
             filename = os.path.join(path, fname)
             if os.path.exists(filename):
                 continue
+            
+            HasNew = True
             content = self._get_code_with_anno(slt)
             import codecs
 
@@ -586,6 +589,7 @@ I have solved **{num_solved}   /   {num_total}** problems~
 
 
 def do_job(leetcode):
+    global HasNew
     leetcode.load()
     print('Leetcode load self info')
     if len(sys.argv) == 1:
@@ -602,13 +606,17 @@ def do_job(leetcode):
     print('Leetcode finish dowload')
     leetcode.write_readme()
     print('Leetcode finish write readme')
-    leetcode.push_to_github()
-    print('push to github')
+    if HasNew:  #push when have new solution
+        leetcode.push_to_github()
+        print('push to github')
+    else:
+        print("no new solutions")
 
 
 if __name__ == '__main__':
     leetcode = Leetcode()
     while True:
+        HasNew = False
         do_job(leetcode)
         print('waiting for tomorrow')
         time.sleep(24 * 60 * 60)
