@@ -618,5 +618,6 @@ if __name__ == '__main__':
     while True:
         HasNew = False
         do_job(leetcode)
-        print('waiting for tomorrow')
+        print("current time: ",time.asctime( time.localtime(time.time())))
+        print('waiting for tomorrow...')
         time.sleep(24 * 60 * 60)

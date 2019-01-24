@@ -1,8 +1,8 @@
 # :pencil2: Leetcode Solutions with Cpp  
-Update time:  2019-01-23 11:09:32  
+Update time:  2019-01-24 10:24:34  
 Solution by Derek Zheng (Contact ME at derek.zhengrui@gmail.com)  
 Auto created by [leetcode_generate](https://github.com/bonfy/leetcode)  
-I have solved **238   /   928** problems~  
+I have solved **239   /   928** problems~  
 
 | # | Title | Source Code | Article | Difficulty |  
 |:---:|:---:|:---:|:---:|:---:|
@@ -22,7 +22,7 @@ I have solved **238   /   928** problems~
 |14|[longest-common-prefix](https://leetcode.com/problems/longest-common-prefix)|[Cpp](https://github.com/derek-zr/leetcode/blob/master/./Solution/014-longest-common-prefix/longest-common-prefix.cpp)|[:memo:](https://leetcode.com/articles/longest-common-prefix/)|Easy|
 |15|[3sum](https://leetcode.com/problems/3sum)|||Medium|
 |16|[3sum-closest](https://leetcode.com/problems/3sum-closest)|||Medium|
-|17|[letter-combinations-of-a-phone-number](https://leetcode.com/problems/letter-combinations-of-a-phone-number)|||Medium|
+|17|[letter-combinations-of-a-phone-number](https://leetcode.com/problems/letter-combinations-of-a-phone-number)||[:memo:](https://leetcode.com/articles/letter-combinations-of-a-phone-number/)|Medium|
 |18|[4sum](https://leetcode.com/problems/4sum)|||Medium|
 |19|[remove-nth-node-from-end-of-list](https://leetcode.com/problems/remove-nth-node-from-end-of-list)|[Cpp](https://github.com/derek-zr/leetcode/blob/master/./Solution/019-remove-nth-node-from-end-of-list/remove-nth-node-from-end-of-list.cpp)|[:memo:](https://leetcode.com/articles/remove-nth-node-from-end-of-list/)|Medium|
 |20|[valid-parentheses](https://leetcode.com/problems/valid-parentheses)|[Cpp](https://github.com/derek-zr/leetcode/blob/master/./Solution/020-valid-parentheses/valid-parentheses.cpp)|[:memo:](https://leetcode.com/articles/valid-parentheses/)|Easy|
@@ -384,7 +384,7 @@ I have solved **238   /   928** problems~
 |393|[utf-8-validation](https://leetcode.com/problems/utf-8-validation)||[:memo:](https://leetcode.com/articles/utf-8-validation/)|Medium|
 |394|[decode-string](https://leetcode.com/problems/decode-string)|[Cpp](https://github.com/derek-zr/leetcode/blob/master/./Solution/394-decode-string/decode-string.cpp)||Medium|
 |395|[longest-substring-with-at-least-k-repeating-characters](https://leetcode.com/problems/longest-substring-with-at-least-k-repeating-characters)|||Medium|
-|396|[rotate-function](https://leetcode.com/problems/rotate-function)|||Medium|
+|396|[rotate-function](https://leetcode.com/problems/rotate-function)|[Cpp](https://github.com/derek-zr/leetcode/blob/master/./Solution/396-rotate-function/rotate-function.cpp)||Medium|
 |397|[integer-replacement](https://leetcode.com/problems/integer-replacement)|||Medium|
 |398|[random-pick-index](https://leetcode.com/problems/random-pick-index)|||Medium|
 |399|[evaluate-division](https://leetcode.com/problems/evaluate-division)|||Medium|
