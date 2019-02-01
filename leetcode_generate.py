@@ -281,7 +281,8 @@ class Leetcode:
             data['is_favor'] = quiz['is_favor']
             data['total_acs'] = quiz['stat']['total_acs']
             data['total_submitted'] = quiz['stat']['total_submitted']
-            data['question_id'] = quiz['stat']['question_id']
+            #data['question_id'] = quiz['stat']['question_id']
+            data['question_id'] = quiz['stat']['frontend_question_id']
             data['status'] = quiz['status']
             item = QuizItem(**data)
             yield item
