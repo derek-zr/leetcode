@@ -13,6 +13,7 @@ import datetime
 import re
 import sys
 import html
+import functools
 
 from selenium import webdriver
 from collections import namedtuple, OrderedDict
@@ -334,7 +335,7 @@ class Leetcode:
                 offset += limit
                 last_key = data['last_key']
                 # print('last_key:', last_key)
-                time.sleep(1.5)
+                time.sleep(2.5)
             else:
                 break
 
@@ -512,8 +513,12 @@ class Leetcode:
         for quiz in ac_items:
             pool.submit(self._download_code_by_quiz, quiz)
         pool.shutdown(wait=True)
-
+    
+    def cmp_item(self,item1,item2):
+        return item1.question_id > item2.question_id 
+    
     def write_readme(self):
+        self.items.sort(key=functools.cmp_to_key(self.cmp_item))
         """Write Readme to current folder"""
         languages_readme = ','.join([x.capitalize() for x in self.languages])
         md = '''# :pencil2: Leetcode Solutions with {language}  
@@ -597,8 +602,8 @@ def do_job(leetcode):
         # leetcode.dowload()
         # we use multi thread
         print('download all leetcode solutions')
-        # leetcode.download_with_thread_pool()
-        leetcode.download()
+        leetcode.download_with_thread_pool()
+        #leetcode.download()
     else:
         for qid in sys.argv[1:]:
             print('begin leetcode by id: {id}'.format(id=qid))
@@ -617,7 +622,9 @@ if __name__ == '__main__':
     leetcode = Leetcode()
     while True:
         HasNew = False
+        start = time.time()
         do_job(leetcode)
         print("current time: ",time.asctime( time.localtime(time.time())))
+        time_cost = time.time()-start
         print('waiting for tomorrow...')
-        time.sleep(24 * 60 * 60)
+        time.sleep(24 * 60 * 60-time_cost)
