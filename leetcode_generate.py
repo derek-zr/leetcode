@@ -1,8 +1,7 @@
 # coding:utf-8
 #
-# Author: BONFY<foreverbonfy@163.com>
-# Github: https://github.com/bonfy
-# Repo:   https://github.com/bonfy/leetcode
+# Author: BONFY
+# Modified By: Derek Zheng
 # Usage:  Leetcode solution downloader and auto generate readme
 #
 import requests
@@ -334,7 +333,7 @@ class Leetcode:
                 offset += limit
                 last_key = data['last_key']
                 # print('last_key:', last_key)
-                time.sleep(2.5)
+                time.sleep(1.5)
             else:
                 break
 
