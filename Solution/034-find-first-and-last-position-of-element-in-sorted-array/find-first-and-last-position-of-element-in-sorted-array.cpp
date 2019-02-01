@@ -23,25 +23,26 @@ public:
     vector<int> searchRange(vector<int>& nums, int target) {
         vector<int> ans(2,-1);
         if(nums.size()==0) return ans;
-        int left = 0;
-        int right = nums.size()-1;
-        int mid=0;
+        //第一次二分
+        int left=0,right=nums.size()-1;   //此处要-1，避免出现 [-1] 0 test case错误
         while(left<right){
-            mid = left + (right-left)/2;
-            if(nums[mid]<target) left = mid+1;
-            else right = mid;
+            //cout<<left<<right<<endl;
+            int mid = left+(right-left)/2;
+            if(nums[mid]<target) left=mid+1;
+            else right=mid;
         }
         if(nums[right]!=target) return ans;
         ans[0]=right;
-        //do again
-        left=0;
-        right=nums.size();
+        
+        //第二次二分查找
+        left=0,right=nums.size(); //此处不能-1，避免出现 [1] 1 test case 错误
         while(left<right){
-            mid = left + (right-left)/2;
-            if(nums[mid]<=target) left = mid+1;   //修改这里的条件，加上等号
-            else right = mid;
+            cout<<left<<right<<endl;
+            int mid = left+(right-left)/2;
+            if(nums[mid]<=target) left=mid+1;
+            else right=mid;
         }
-        ans[1]=left-1;
+        ans[1]=right-1;
         
         return ans;
     }

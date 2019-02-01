@@ -33,10 +33,12 @@
 class Solution {
 public:
     bool isSubsequence(string s, string t) {
-       int s1=0;
-       for(int i=0;i<t.size();i++){
-           if(s[s1]==t[i]) s1++;
-       }
-       return s1==s.size();
+        int len1=s.size(),len2=t.size();
+        int i=0,j=0;
+        while(i<len1 && j<len2){
+            if(s[i]==t[j]) i++;
+            j++;
+        }
+        return i==len1 ? true : false;
     }
 };
