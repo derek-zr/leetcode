@@ -518,6 +518,7 @@ class Leetcode:
         return item1.question_id > item2.question_id 
     
     def write_readme(self):
+        print("sorting according to question_id")
         self.items.sort(key=functools.cmp_to_key(self.cmp_item))
         """Write Readme to current folder"""
         languages_readme = ','.join([x.capitalize() for x in self.languages])
