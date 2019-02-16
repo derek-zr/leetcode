@@ -1,8 +1,8 @@
 # :pencil2: Leetcode Solutions with Cpp  
-Update time:  2019-02-15 10:25:05  
+Update time:  2019-02-16 10:25:06  
 Solution by Derek Zheng (Contact ME at derek.zhengrui@gmail.com)  
 Auto created by [leetcode_generate](https://github.com/bonfy/leetcode)  
-I have solved **262   /   941** problems~  
+I have solved **267   /   941** problems~  
 
 | # | Title | Source Code | Article | Difficulty |  
 |:---:|:---:|:---:|:---:|:---:|
@@ -91,7 +91,7 @@ I have solved **262   /   941** problems~
 |83|[remove-duplicates-from-sorted-list](https://leetcode.com/problems/remove-duplicates-from-sorted-list)|[Cpp](https://github.com/derek-zr/leetcode/blob/master/./Solution/083-remove-duplicates-from-sorted-list/remove-duplicates-from-sorted-list.cpp)|[:memo:](https://leetcode.com/articles/remove-duplicates-from-sorted-list/)|Easy|
 |84|[largest-rectangle-in-histogram](https://leetcode.com/problems/largest-rectangle-in-histogram)||[:memo:](https://leetcode.com/articles/largest-rectangle-in-histogram/)|Hard|
 |85|[maximal-rectangle](https://leetcode.com/problems/maximal-rectangle)|||Hard|
-|86|[partition-list](https://leetcode.com/problems/partition-list)||[:memo:](https://leetcode.com/articles/partition-list/)|Medium|
+|86|[partition-list](https://leetcode.com/problems/partition-list)|[Cpp](https://github.com/derek-zr/leetcode/blob/master/./Solution/086-partition-list/partition-list.cpp)|[:memo:](https://leetcode.com/articles/partition-list/)|Medium|
 |87|[scramble-string](https://leetcode.com/problems/scramble-string)|||Hard|
 |88|[merge-sorted-array](https://leetcode.com/problems/merge-sorted-array)|[Cpp](https://github.com/derek-zr/leetcode/blob/master/./Solution/088-merge-sorted-array/merge-sorted-array.cpp)|[:memo:](https://leetcode.com/articles/merge-sorted-arrays/)|Easy|
 |89|[gray-code](https://leetcode.com/problems/gray-code)|[Cpp](https://github.com/derek-zr/leetcode/blob/master/./Solution/089-gray-code/gray-code.cpp)||Medium|
@@ -310,7 +310,7 @@ I have solved **262   /   941** problems~
 |319|[bulb-switcher](https://leetcode.com/problems/bulb-switcher)|[Cpp](https://github.com/derek-zr/leetcode/blob/master/./Solution/319-bulb-switcher/bulb-switcher.cpp)||Medium|
 |320|[generalized-abbreviation](https://leetcode.com/problems/generalized-abbreviation)|:lock:|[:memo:](https://leetcode.com/articles/generalized-abbreviation/)|Medium|
 |321|[create-maximum-number](https://leetcode.com/problems/create-maximum-number)|||Hard|
-|322|[coin-change](https://leetcode.com/problems/coin-change)||[:memo:](https://leetcode.com/articles/coin-change/)|Medium|
+|322|[coin-change](https://leetcode.com/problems/coin-change)|[Cpp](https://github.com/derek-zr/leetcode/blob/master/./Solution/322-coin-change/coin-change.cpp)|[:memo:](https://leetcode.com/articles/coin-change/)|Medium|
 |323|[number-of-connected-components-in-an-undirected-graph](https://leetcode.com/problems/number-of-connected-components-in-an-undirected-graph)|:lock:||Medium|
 |324|[wiggle-sort-ii](https://leetcode.com/problems/wiggle-sort-ii)|||Medium|
 |325|[maximum-size-subarray-sum-equals-k](https://leetcode.com/problems/maximum-size-subarray-sum-equals-k)|:lock:||Medium|
@@ -392,7 +392,7 @@ I have solved **262   /   941** problems~
 |401|[binary-watch](https://leetcode.com/problems/binary-watch)|||Easy|
 |402|[remove-k-digits](https://leetcode.com/problems/remove-k-digits)|||Medium|
 |403|[frog-jump](https://leetcode.com/problems/frog-jump)||[:memo:](https://leetcode.com/articles/frog-jump/)|Hard|
-|404|[sum-of-left-leaves](https://leetcode.com/problems/sum-of-left-leaves)|||Easy|
+|404|[sum-of-left-leaves](https://leetcode.com/problems/sum-of-left-leaves)|[Cpp](https://github.com/derek-zr/leetcode/blob/master/./Solution/404-sum-of-left-leaves/sum-of-left-leaves.cpp)||Easy|
 |405|[convert-a-number-to-hexadecimal](https://leetcode.com/problems/convert-a-number-to-hexadecimal)|||Easy|
 |406|[queue-reconstruction-by-height](https://leetcode.com/problems/queue-reconstruction-by-height)|[Cpp](https://github.com/derek-zr/leetcode/blob/master/./Solution/406-queue-reconstruction-by-height/queue-reconstruction-by-height.cpp)||Medium|
 |407|[trapping-rain-water-ii](https://leetcode.com/problems/trapping-rain-water-ii)|||Hard|
@@ -656,7 +656,7 @@ I have solved **262   /   941** problems~
 |728|[self-dividing-numbers](https://leetcode.com/problems/self-dividing-numbers)|[Cpp](https://github.com/derek-zr/leetcode/blob/master/./Solution/728-self-dividing-numbers/self-dividing-numbers.cpp)|[:memo:](https://leetcode.com/articles/self-dividing-numbers/)|Easy|
 |729|[my-calendar-i](https://leetcode.com/problems/my-calendar-i)||[:memo:](https://leetcode.com/articles/my-calendar-i/)|Medium|
 |730|[count-different-palindromic-subsequences](https://leetcode.com/problems/count-different-palindromic-subsequences)||[:memo:](https://leetcode.com/articles/count-different-palindromic-subsequences/)|Hard|
-|731|[my-calendar-ii](https://leetcode.com/problems/my-calendar-ii)||[:memo:](https://leetcode.com/articles/my-calendar-ii/)|Medium|
+|731|[my-calendar-ii](https://leetcode.com/problems/my-calendar-ii)|[Cpp](https://github.com/derek-zr/leetcode/blob/master/./Solution/731-my-calendar-ii/my-calendar-ii.cpp)|[:memo:](https://leetcode.com/articles/my-calendar-ii/)|Medium|
 |732|[my-calendar-iii](https://leetcode.com/problems/my-calendar-iii)||[:memo:](https://leetcode.com/articles/my-calendar-iii/)|Hard|
 |733|[flood-fill](https://leetcode.com/problems/flood-fill)||[:memo:](https://leetcode.com/articles/flood-fill/)|Easy|
 |734|[sentence-similarity](https://leetcode.com/problems/sentence-similarity)|:lock:|[:memo:](https://leetcode.com/articles/sentence-similarity/)|Easy|
@@ -669,7 +669,7 @@ I have solved **262   /   941** problems~
 |741|[cherry-pickup](https://leetcode.com/problems/cherry-pickup)||[:memo:](https://leetcode.com/articles/cherry-pickup/)|Hard|
 |709|[to-lower-case](https://leetcode.com/problems/to-lower-case)|[Cpp](https://github.com/derek-zr/leetcode/blob/master/./Solution/709-to-lower-case/to-lower-case.cpp)||Easy|
 |742|[closest-leaf-in-a-binary-tree](https://leetcode.com/problems/closest-leaf-in-a-binary-tree)|:lock:|[:memo:](https://leetcode.com/articles/closest-leaf-in-binary-tree/)|Medium|
-|743|[network-delay-time](https://leetcode.com/problems/network-delay-time)|[Cpp](https://github.com/derek-zr/leetcode/blob/master/./Solution/743-network-delay-time/network-delay-time.cpp)|[:memo:](https://leetcode.com/articles/network-delay-time/)|Easy|
+|743|[network-delay-time](https://leetcode.com/problems/network-delay-time)|[Cpp](https://github.com/derek-zr/leetcode/blob/master/./Solution/743-network-delay-time/network-delay-time.cpp)|[:memo:](https://leetcode.com/articles/network-delay-time/)|Medium|
 |744|[find-smallest-letter-greater-than-target](https://leetcode.com/problems/find-smallest-letter-greater-than-target)|[Cpp](https://github.com/derek-zr/leetcode/blob/master/./Solution/744-find-smallest-letter-greater-than-target/find-smallest-letter-greater-than-target.cpp)|[:memo:](https://leetcode.com/articles/find-smallest-letter-greater-than-target/)|Easy|
 |745|[prefix-and-suffix-search](https://leetcode.com/problems/prefix-and-suffix-search)||[:memo:](https://leetcode.com/articles/prefix-and-suffix-search/)|Hard|
 |746|[min-cost-climbing-stairs](https://leetcode.com/problems/min-cost-climbing-stairs)||[:memo:](https://leetcode.com/articles/min-cost-climbing-stairs/)|Easy|
@@ -797,7 +797,7 @@ I have solved **262   /   941** problems~
 |846|[hand-of-straights](https://leetcode.com/problems/hand-of-straights)|[Cpp](https://github.com/derek-zr/leetcode/blob/master/./Solution/846-hand-of-straights/hand-of-straights.cpp)|[:memo:](https://leetcode.com/articles/hand-of-straights/)|Medium|
 |847|[shortest-path-visiting-all-nodes](https://leetcode.com/problems/shortest-path-visiting-all-nodes)||[:memo:](https://leetcode.com/articles/shortest-path-visiting-all-nodes/)|Hard|
 |848|[shifting-letters](https://leetcode.com/problems/shifting-letters)||[:memo:](https://leetcode.com/articles/shifting-letters/)|Medium|
-|849|[maximize-distance-to-closest-person](https://leetcode.com/problems/maximize-distance-to-closest-person)||[:memo:](https://leetcode.com/articles/maximize-distance-to-closest-person/)|Easy|
+|849|[maximize-distance-to-closest-person](https://leetcode.com/problems/maximize-distance-to-closest-person)|[Cpp](https://github.com/derek-zr/leetcode/blob/master/./Solution/849-maximize-distance-to-closest-person/maximize-distance-to-closest-person.cpp)|[:memo:](https://leetcode.com/articles/maximize-distance-to-closest-person/)|Easy|
 |850|[rectangle-area-ii](https://leetcode.com/problems/rectangle-area-ii)||[:memo:](https://leetcode.com/articles/rectangle-area-ii/)|Hard|
 |851|[loud-and-rich](https://leetcode.com/problems/loud-and-rich)||[:memo:](https://leetcode.com/articles/loud-and-rich/)|Medium|
 |852|[peak-index-in-a-mountain-array](https://leetcode.com/problems/peak-index-in-a-mountain-array)|[Cpp](https://github.com/derek-zr/leetcode/blob/master/./Solution/852-peak-index-in-a-mountain-array/peak-index-in-a-mountain-array.cpp)|[:memo:](https://leetcode.com/articles/peak-index-in-a-mountain-array/)|Easy|
