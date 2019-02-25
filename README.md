@@ -1,8 +1,8 @@
 # :pencil2: Leetcode Solutions with Cpp  
-Update time:  2019-02-24 11:27:03  
+Update time:  2019-02-25 11:27:23  
 Solution by Derek Zheng (Contact ME at derek.zhengrui@gmail.com)  
 Auto created by [leetcode_generate](https://github.com/bonfy/leetcode)  
-I have solved **278   /   945** problems~  
+I have solved **279   /   949** problems~  
 
 | # | Title | Source Code | Article | Difficulty |  
 |:---:|:---:|:---:|:---:|:---:|
@@ -15,7 +15,7 @@ I have solved **278   /   945** problems~
 |7|[reverse-integer](https://leetcode.com/problems/reverse-integer)|[Cpp](https://github.com/derek-zr/leetcode/blob/master/./Solution/007-reverse-integer/reverse-integer.cpp)|[:memo:](https://leetcode.com/articles/reverse-integer/)|Easy|
 |8|[string-to-integer-atoi](https://leetcode.com/problems/string-to-integer-atoi)|[Cpp](https://github.com/derek-zr/leetcode/blob/master/./Solution/008-string-to-integer-atoi/string-to-integer-atoi.cpp)||Medium|
 |9|[palindrome-number](https://leetcode.com/problems/palindrome-number)|[Cpp](https://github.com/derek-zr/leetcode/blob/master/./Solution/009-palindrome-number/palindrome-number.cpp)|[:memo:](https://leetcode.com/articles/palindrome-number/)|Easy|
-|10|[regular-expression-matching](https://leetcode.com/problems/regular-expression-matching)||[:memo:](https://leetcode.com/articles/regular-expression-matching/)|Hard|
+|10|[regular-expression-matching](https://leetcode.com/problems/regular-expression-matching)|[Cpp](https://github.com/derek-zr/leetcode/blob/master/./Solution/010-regular-expression-matching/regular-expression-matching.cpp)|[:memo:](https://leetcode.com/articles/regular-expression-matching/)|Hard|
 |11|[container-with-most-water](https://leetcode.com/problems/container-with-most-water)|[Cpp](https://github.com/derek-zr/leetcode/blob/master/./Solution/011-container-with-most-water/container-with-most-water.cpp)|[:memo:](https://leetcode.com/articles/container-with-most-water/)|Medium|
 |12|[integer-to-roman](https://leetcode.com/problems/integer-to-roman)|||Medium|
 |13|[roman-to-integer](https://leetcode.com/problems/roman-to-integer)|[Cpp](https://github.com/derek-zr/leetcode/blob/master/./Solution/013-roman-to-integer/roman-to-integer.cpp)||Easy|
@@ -951,3 +951,7 @@ I have solved **278   /   945** problems~
 |994|[rotting-oranges](https://leetcode.com/problems/rotting-oranges)||[:memo:](https://leetcode.com/articles/rotting-oranges/)|Easy|
 |995|[minimum-number-of-k-consecutive-bit-flips](https://leetcode.com/problems/minimum-number-of-k-consecutive-bit-flips)||[:memo:](https://leetcode.com/articles/minimum-number-of-k-consecutive-bit-flips/)|Hard|
 |996|[number-of-squareful-arrays](https://leetcode.com/problems/number-of-squareful-arrays)||[:memo:](https://leetcode.com/articles/number-of-squareful-arrays/)|Hard|
+|997|[find-the-town-judge](https://leetcode.com/problems/find-the-town-judge)|||Easy|
+|998|[maximum-binary-tree-ii](https://leetcode.com/problems/maximum-binary-tree-ii)|||Medium|
+|999|[available-captures-for-rook](https://leetcode.com/problems/available-captures-for-rook)|||Easy|
+|1001|[grid-illumination](https://leetcode.com/problems/grid-illumination)|||Hard|
