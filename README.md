@@ -1,8 +1,8 @@
 # :pencil2: Leetcode Solutions with Cpp  
-Update time:  2019-02-26 11:27:17  
+Update time:  2019-02-28 10:03:44  
 Solution by Derek Zheng (Contact ME at derek.zhengrui@gmail.com)  
 Auto created by [leetcode_generate](https://github.com/bonfy/leetcode)  
-I have solved **281   /   949** problems~  
+I have solved **282   /   949** problems~  
 
 | # | Title | Source Code | Article | Difficulty |  
 |:---:|:---:|:---:|:---:|:---:|
@@ -151,7 +151,7 @@ I have solved **281   /   949** problems~
 |143|[reorder-list](https://leetcode.com/problems/reorder-list)|[Cpp](https://github.com/derek-zr/leetcode/blob/master/./Solution/143-reorder-list/reorder-list.cpp)||Medium|
 |144|[binary-tree-preorder-traversal](https://leetcode.com/problems/binary-tree-preorder-traversal)||[:memo:](https://leetcode.com/articles/binary-tree-preorder-transversal/)|Medium|
 |145|[binary-tree-postorder-traversal](https://leetcode.com/problems/binary-tree-postorder-traversal)||[:memo:](https://leetcode.com/articles/binary-tree-postorder-transversal/)|Hard|
-|146|[lru-cache](https://leetcode.com/problems/lru-cache)|||Hard|
+|146|[lru-cache](https://leetcode.com/problems/lru-cache)||[:memo:](https://leetcode.com/articles/lru-cache/)|Hard|
 |147|[insertion-sort-list](https://leetcode.com/problems/insertion-sort-list)|||Medium|
 |148|[sort-list](https://leetcode.com/problems/sort-list)|||Medium|
 |149|[max-points-on-a-line](https://leetcode.com/problems/max-points-on-a-line)||[:memo:](https://leetcode.com/articles/max-points-on-a-line/)|Hard|
@@ -295,7 +295,7 @@ I have solved **281   /   949** problems~
 |304|[range-sum-query-2d-immutable](https://leetcode.com/problems/range-sum-query-2d-immutable)||[:memo:](https://leetcode.com/articles/range-sum-query-2d-immutable/)|Medium|
 |305|[number-of-islands-ii](https://leetcode.com/problems/number-of-islands-ii)|:lock:|[:memo:](https://leetcode.com/articles/number-of-islands-ii/)|Hard|
 |306|[additive-number](https://leetcode.com/problems/additive-number)|[Cpp](https://github.com/derek-zr/leetcode/blob/master/./Solution/306-additive-number/additive-number.cpp)||Medium|
-|307|[range-sum-query-mutable](https://leetcode.com/problems/range-sum-query-mutable)||[:memo:](https://leetcode.com/articles/range-sum-query-mutable/)|Medium|
+|307|[range-sum-query-mutable](https://leetcode.com/problems/range-sum-query-mutable)|[Cpp](https://github.com/derek-zr/leetcode/blob/master/./Solution/307-range-sum-query-mutable/range-sum-query-mutable.cpp)|[:memo:](https://leetcode.com/articles/range-sum-query-mutable/)|Medium|
 |308|[range-sum-query-2d-mutable](https://leetcode.com/problems/range-sum-query-2d-mutable)|:lock:||Hard|
 |309|[best-time-to-buy-and-sell-stock-with-cooldown](https://leetcode.com/problems/best-time-to-buy-and-sell-stock-with-cooldown)|[Cpp](https://github.com/derek-zr/leetcode/blob/master/./Solution/309-best-time-to-buy-and-sell-stock-with-cooldown/best-time-to-buy-and-sell-stock-with-cooldown.cpp)||Medium|
 |310|[minimum-height-trees](https://leetcode.com/problems/minimum-height-trees)|||Medium|
@@ -440,7 +440,7 @@ I have solved **281   /   949** problems~
 |455|[assign-cookies](https://leetcode.com/problems/assign-cookies)|[Cpp](https://github.com/derek-zr/leetcode/blob/master/./Solution/455-assign-cookies/assign-cookies.cpp)||Easy|
 |456|[132-pattern](https://leetcode.com/problems/132-pattern)|[Cpp](https://github.com/derek-zr/leetcode/blob/master/./Solution/456-132-pattern/132-pattern.cpp)|[:memo:](https://leetcode.com/articles/132-pattern/)|Medium|
 |457|[circular-array-loop](https://leetcode.com/problems/circular-array-loop)|[Cpp](https://github.com/derek-zr/leetcode/blob/master/./Solution/457-circular-array-loop/circular-array-loop.cpp)||Medium|
-|458|[poor-pigs](https://leetcode.com/problems/poor-pigs)|||Easy|
+|458|[poor-pigs](https://leetcode.com/problems/poor-pigs)|||Hard|
 |459|[repeated-substring-pattern](https://leetcode.com/problems/repeated-substring-pattern)|||Easy|
 |460|[lfu-cache](https://leetcode.com/problems/lfu-cache)|||Hard|
 |461|[hamming-distance](https://leetcode.com/problems/hamming-distance)|[Cpp](https://github.com/derek-zr/leetcode/blob/master/./Solution/461-hamming-distance/hamming-distance.cpp)||Easy|
