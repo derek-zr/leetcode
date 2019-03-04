@@ -1,8 +1,8 @@
 # :pencil2: Leetcode Solutions with Cpp  
-Update time:  2019-03-03 09:35:10  
+Update time:  2019-03-04 09:41:26  
 Solution by Derek Zheng (Contact ME at derek.zhengrui@gmail.com)  
 Auto created by [leetcode_generate](https://github.com/bonfy/leetcode)  
-I have solved **288   /   949** problems~  
+I have solved **289   /   953** problems~  
 
 | # | Title | Source Code | Article | Difficulty |  
 |:---:|:---:|:---:|:---:|:---:|
@@ -726,7 +726,7 @@ I have solved **288   /   949** problems~
 |782|[transform-to-chessboard](https://leetcode.com/problems/transform-to-chessboard)||[:memo:](https://leetcode.com/articles/transform-to-chessboard/)|Hard|
 |783|[minimum-distance-between-bst-nodes](https://leetcode.com/problems/minimum-distance-between-bst-nodes)||[:memo:](https://leetcode.com/articles/minimum-distance-between-bst-nodes/)|Easy|
 |784|[letter-case-permutation](https://leetcode.com/problems/letter-case-permutation)||[:memo:](https://leetcode.com/articles/letter-case-permutation/)|Easy|
-|785|[is-graph-bipartite](https://leetcode.com/problems/is-graph-bipartite)||[:memo:](https://leetcode.com/articles/is-graph-bipartite/)|Medium|
+|785|[is-graph-bipartite](https://leetcode.com/problems/is-graph-bipartite)|[Cpp](https://github.com/derek-zr/leetcode/blob/master/./Solution/785-is-graph-bipartite/is-graph-bipartite.cpp)|[:memo:](https://leetcode.com/articles/is-graph-bipartite/)|Medium|
 |786|[k-th-smallest-prime-fraction](https://leetcode.com/problems/k-th-smallest-prime-fraction)||[:memo:](https://leetcode.com/articles/k-th-smallest-prime-fraction/)|Hard|
 |787|[cheapest-flights-within-k-stops](https://leetcode.com/problems/cheapest-flights-within-k-stops)|[Cpp](https://github.com/derek-zr/leetcode/blob/master/./Solution/787-cheapest-flights-within-k-stops/cheapest-flights-within-k-stops.cpp)|[:memo:](https://leetcode.com/articles/cheapest-flights-within-k-stops/)|Medium|
 |788|[rotated-digits](https://leetcode.com/problems/rotated-digits)||[:memo:](https://leetcode.com/articles/rotated-digits/)|Easy|
@@ -954,4 +954,8 @@ I have solved **288   /   949** problems~
 |997|[find-the-town-judge](https://leetcode.com/problems/find-the-town-judge)|||Easy|
 |998|[maximum-binary-tree-ii](https://leetcode.com/problems/maximum-binary-tree-ii)|||Medium|
 |999|[available-captures-for-rook](https://leetcode.com/problems/available-captures-for-rook)|||Easy|
+|1000|[minimum-cost-to-merge-stones](https://leetcode.com/problems/minimum-cost-to-merge-stones)|||Hard|
 |1001|[grid-illumination](https://leetcode.com/problems/grid-illumination)|||Hard|
+|1002|[find-common-characters](https://leetcode.com/problems/find-common-characters)|||Easy|
+|1003|[check-if-word-is-valid-after-substitutions](https://leetcode.com/problems/check-if-word-is-valid-after-substitutions)|||Medium|
+|1004|[max-consecutive-ones-iii](https://leetcode.com/problems/max-consecutive-ones-iii)|||Medium|
