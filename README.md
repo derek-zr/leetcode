@@ -1,8 +1,8 @@
 # :pencil2: Leetcode Solutions with Cpp  
-Update time:  2019-03-04 09:41:26  
+Update time:  2019-03-05 09:33:42  
 Solution by Derek Zheng (Contact ME at derek.zhengrui@gmail.com)  
 Auto created by [leetcode_generate](https://github.com/bonfy/leetcode)  
-I have solved **289   /   953** problems~  
+I have solved **290   /   953** problems~  
 
 | # | Title | Source Code | Article | Difficulty |  
 |:---:|:---:|:---:|:---:|:---:|
@@ -620,7 +620,7 @@ I have solved **289   /   953** problems~
 |681|[next-closest-time](https://leetcode.com/problems/next-closest-time)|:lock:|[:memo:](https://leetcode.com/articles/next-closest-time/)|Medium|
 |682|[baseball-game](https://leetcode.com/problems/baseball-game)|[Cpp](https://github.com/derek-zr/leetcode/blob/master/./Solution/682-baseball-game/baseball-game.cpp)|[:memo:](https://leetcode.com/articles/baseball-game/)|Easy|
 |683|[k-empty-slots](https://leetcode.com/problems/k-empty-slots)|:lock:|[:memo:](https://leetcode.com/articles/k-empty-slots/)|Hard|
-|684|[redundant-connection](https://leetcode.com/problems/redundant-connection)||[:memo:](https://leetcode.com/articles/redundant-connection/)|Medium|
+|684|[redundant-connection](https://leetcode.com/problems/redundant-connection)|[Cpp](https://github.com/derek-zr/leetcode/blob/master/./Solution/684-redundant-connection/redundant-connection.cpp)|[:memo:](https://leetcode.com/articles/redundant-connection/)|Medium|
 |685|[redundant-connection-ii](https://leetcode.com/problems/redundant-connection-ii)||[:memo:](https://leetcode.com/articles/redundant-connection-ii/)|Hard|
 |686|[repeated-string-match](https://leetcode.com/problems/repeated-string-match)|[Cpp](https://github.com/derek-zr/leetcode/blob/master/./Solution/686-repeated-string-match/repeated-string-match.cpp)|[:memo:](https://leetcode.com/articles/repeated-string-match/)|Easy|
 |687|[longest-univalue-path](https://leetcode.com/problems/longest-univalue-path)|[Cpp](https://github.com/derek-zr/leetcode/blob/master/./Solution/687-longest-univalue-path/longest-univalue-path.cpp)|[:memo:](https://leetcode.com/articles/longest-univalue-path/)|Easy|
