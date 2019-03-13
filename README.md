@@ -1,8 +1,8 @@
 # :pencil2: Leetcode Solutions with Cpp  
-Update time:  2019-03-12 09:33:16  
+Update time:  2019-03-13 09:33:15  
 Solution by Derek Zheng (Contact ME at derek.zhengrui@gmail.com)  
 Auto created by [leetcode_generate](https://github.com/bonfy/leetcode)  
-I have solved **302   /   957** problems~  
+I have solved **303   /   957** problems~  
 
 | # | Title | Source Code | Article | Difficulty |  
 |:---:|:---:|:---:|:---:|:---:|
@@ -41,7 +41,7 @@ I have solved **302   /   957** problems~
 |33|[search-in-rotated-sorted-array](https://leetcode.com/problems/search-in-rotated-sorted-array)|[Cpp](https://github.com/derek-zr/leetcode/blob/master/./Solution/033-search-in-rotated-sorted-array/search-in-rotated-sorted-array.cpp)|[:memo:](https://leetcode.com/articles/search-in-rotated-sorted-array/)|Medium|
 |34|[find-first-and-last-position-of-element-in-sorted-array](https://leetcode.com/problems/find-first-and-last-position-of-element-in-sorted-array)|[Cpp](https://github.com/derek-zr/leetcode/blob/master/./Solution/034-find-first-and-last-position-of-element-in-sorted-array/find-first-and-last-position-of-element-in-sorted-array.cpp)|[:memo:](https://leetcode.com/articles/find-first-and-last-position-element-sorted-array/)|Medium|
 |35|[search-insert-position](https://leetcode.com/problems/search-insert-position)|[Cpp](https://github.com/derek-zr/leetcode/blob/master/./Solution/035-search-insert-position/search-insert-position.cpp)||Easy|
-|36|[valid-sudoku](https://leetcode.com/problems/valid-sudoku)||[:memo:](https://leetcode.com/articles/valid-sudoku/)|Medium|
+|36|[valid-sudoku](https://leetcode.com/problems/valid-sudoku)|[Cpp](https://github.com/derek-zr/leetcode/blob/master/./Solution/036-valid-sudoku/valid-sudoku.cpp)|[:memo:](https://leetcode.com/articles/valid-sudoku/)|Medium|
 |37|[sudoku-solver](https://leetcode.com/problems/sudoku-solver)|||Hard|
 |38|[count-and-say](https://leetcode.com/problems/count-and-say)|[Cpp](https://github.com/derek-zr/leetcode/blob/master/./Solution/038-count-and-say/count-and-say.cpp)||Easy|
 |39|[combination-sum](https://leetcode.com/problems/combination-sum)|||Medium|
@@ -139,7 +139,7 @@ I have solved **302   /   957** problems~
 |131|[palindrome-partitioning](https://leetcode.com/problems/palindrome-partitioning)|||Medium|
 |132|[palindrome-partitioning-ii](https://leetcode.com/problems/palindrome-partitioning-ii)|||Hard|
 |133|[clone-graph](https://leetcode.com/problems/clone-graph)|[Cpp](https://github.com/derek-zr/leetcode/blob/master/./Solution/133-clone-graph/clone-graph.cpp)||Medium|
-|134|[gas-station](https://leetcode.com/problems/gas-station)|[Cpp](https://github.com/derek-zr/leetcode/blob/master/./Solution/134-gas-station/gas-station.cpp)||Medium|
+|134|[gas-station](https://leetcode.com/problems/gas-station)|[Cpp](https://github.com/derek-zr/leetcode/blob/master/./Solution/134-gas-station/gas-station.cpp)|[:memo:](https://leetcode.com/articles/gas-station/)|Medium|
 |135|[candy](https://leetcode.com/problems/candy)||[:memo:](https://leetcode.com/articles/candy/)|Hard|
 |136|[single-number](https://leetcode.com/problems/single-number)|[Cpp](https://github.com/derek-zr/leetcode/blob/master/./Solution/136-single-number/single-number.cpp)|[:memo:](https://leetcode.com/articles/single-number/)|Easy|
 |137|[single-number-ii](https://leetcode.com/problems/single-number-ii)|||Medium|
