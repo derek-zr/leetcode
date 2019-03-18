@@ -1,8 +1,8 @@
 # :pencil2: Leetcode Solutions with Cpp  
-Update time:  2019-03-17 09:43:56  
+Update time:  2019-03-18 09:43:57  
 Solution by Derek Zheng (Contact ME at derek.zhengrui@gmail.com)  
 Auto created by [leetcode_generate](https://github.com/bonfy/leetcode)  
-I have solved **307   /   957** problems~  
+I have solved **309   /   961** problems~  
 
 | # | Title | Source Code | Article | Difficulty |  
 |:---:|:---:|:---:|:---:|:---:|
@@ -54,8 +54,8 @@ I have solved **307   /   957** problems~
 |46|[permutations](https://leetcode.com/problems/permutations)|[Cpp](https://github.com/derek-zr/leetcode/blob/master/./Solution/046-permutations/permutations.cpp)|[:memo:](https://leetcode.com/articles/permutations/)|Medium|
 |47|[permutations-ii](https://leetcode.com/problems/permutations-ii)|||Medium|
 |48|[rotate-image](https://leetcode.com/problems/rotate-image)|[Cpp](https://github.com/derek-zr/leetcode/blob/master/./Solution/048-rotate-image/rotate-image.cpp)|[:memo:](https://leetcode.com/articles/rotate-image/)|Medium|
-|49|[group-anagrams](https://leetcode.com/problems/group-anagrams)||[:memo:](https://leetcode.com/articles/group-anagrams/)|Medium|
-|50|[powx-n](https://leetcode.com/problems/powx-n)||[:memo:](https://leetcode.com/articles/powx-n/)|Medium|
+|49|[group-anagrams](https://leetcode.com/problems/group-anagrams)|[Cpp](https://github.com/derek-zr/leetcode/blob/master/./Solution/049-group-anagrams/group-anagrams.cpp)|[:memo:](https://leetcode.com/articles/group-anagrams/)|Medium|
+|50|[powx-n](https://leetcode.com/problems/powx-n)|[Cpp](https://github.com/derek-zr/leetcode/blob/master/./Solution/050-powx-n/powx-n.cpp)|[:memo:](https://leetcode.com/articles/powx-n/)|Medium|
 |51|[n-queens](https://leetcode.com/problems/n-queens)|||Hard|
 |52|[n-queens-ii](https://leetcode.com/problems/n-queens-ii)||[:memo:](https://leetcode.com/articles/n-queens-ii/)|Hard|
 |53|[maximum-subarray](https://leetcode.com/problems/maximum-subarray)|[Cpp](https://github.com/derek-zr/leetcode/blob/master/./Solution/053-maximum-subarray/maximum-subarray.cpp)||Easy|
@@ -963,3 +963,7 @@ I have solved **307   /   957** problems~
 |1006|[clumsy-factorial](https://leetcode.com/problems/clumsy-factorial)|||Medium|
 |1007|[minimum-domino-rotations-for-equal-row](https://leetcode.com/problems/minimum-domino-rotations-for-equal-row)|||Medium|
 |1008|[construct-binary-search-tree-from-preorder-traversal](https://leetcode.com/problems/construct-binary-search-tree-from-preorder-traversal)|||Medium|
+|1012|[complement-of-base-10-integer](https://leetcode.com/problems/complement-of-base-10-integer)|||Easy|
+|1013|[pairs-of-songs-with-total-durations-divisible-by-60](https://leetcode.com/problems/pairs-of-songs-with-total-durations-divisible-by-60)|||Easy|
+|1014|[capacity-to-ship-packages-within-d-days](https://leetcode.com/problems/capacity-to-ship-packages-within-d-days)|||Medium|
+|1015|[numbers-with-repeated-digits](https://leetcode.com/problems/numbers-with-repeated-digits)|||Hard|
