@@ -1,8 +1,8 @@
 # :pencil2: Leetcode Solutions with Cpp  
-Update time:  2019-03-20 09:43:58  
+Update time:  2019-03-21 09:43:54  
 Solution by Derek Zheng (Contact ME at derek.zhengrui@gmail.com)  
 Auto created by [leetcode_generate](https://github.com/bonfy/leetcode)  
-I have solved **312   /   961** problems~  
+I have solved **313   /   961** problems~  
 
 | # | Title | Source Code | Article | Difficulty |  
 |:---:|:---:|:---:|:---:|:---:|
@@ -42,7 +42,7 @@ I have solved **312   /   961** problems~
 |34|[find-first-and-last-position-of-element-in-sorted-array](https://leetcode.com/problems/find-first-and-last-position-of-element-in-sorted-array)|[Cpp](https://github.com/derek-zr/leetcode/blob/master/./Solution/034-find-first-and-last-position-of-element-in-sorted-array/find-first-and-last-position-of-element-in-sorted-array.cpp)|[:memo:](https://leetcode.com/articles/find-first-and-last-position-element-sorted-array/)|Medium|
 |35|[search-insert-position](https://leetcode.com/problems/search-insert-position)|[Cpp](https://github.com/derek-zr/leetcode/blob/master/./Solution/035-search-insert-position/search-insert-position.cpp)||Easy|
 |36|[valid-sudoku](https://leetcode.com/problems/valid-sudoku)|[Cpp](https://github.com/derek-zr/leetcode/blob/master/./Solution/036-valid-sudoku/valid-sudoku.cpp)|[:memo:](https://leetcode.com/articles/valid-sudoku/)|Medium|
-|37|[sudoku-solver](https://leetcode.com/problems/sudoku-solver)|||Hard|
+|37|[sudoku-solver](https://leetcode.com/problems/sudoku-solver)||[:memo:](https://leetcode.com/articles/sudoku-solver/)|Hard|
 |38|[count-and-say](https://leetcode.com/problems/count-and-say)|[Cpp](https://github.com/derek-zr/leetcode/blob/master/./Solution/038-count-and-say/count-and-say.cpp)||Easy|
 |39|[combination-sum](https://leetcode.com/problems/combination-sum)|||Medium|
 |40|[combination-sum-ii](https://leetcode.com/problems/combination-sum-ii)|[Cpp](https://github.com/derek-zr/leetcode/blob/master/./Solution/040-combination-sum-ii/combination-sum-ii.cpp)||Medium|
@@ -78,7 +78,7 @@ I have solved **312   /   961** problems~
 |70|[climbing-stairs](https://leetcode.com/problems/climbing-stairs)|[Cpp](https://github.com/derek-zr/leetcode/blob/master/./Solution/070-climbing-stairs/climbing-stairs.cpp)|[:memo:](https://leetcode.com/articles/climbing-stairs/)|Easy|
 |71|[simplify-path](https://leetcode.com/problems/simplify-path)|||Medium|
 |72|[edit-distance](https://leetcode.com/problems/edit-distance)||[:memo:](https://leetcode.com/articles/edit-distance/)|Hard|
-|73|[set-matrix-zeroes](https://leetcode.com/problems/set-matrix-zeroes)||[:memo:](https://leetcode.com/articles/set-matrix-zeroes/)|Medium|
+|73|[set-matrix-zeroes](https://leetcode.com/problems/set-matrix-zeroes)|[Cpp](https://github.com/derek-zr/leetcode/blob/master/./Solution/073-set-matrix-zeroes/set-matrix-zeroes.cpp)|[:memo:](https://leetcode.com/articles/set-matrix-zeroes/)|Medium|
 |74|[search-a-2d-matrix](https://leetcode.com/problems/search-a-2d-matrix)|||Medium|
 |75|[sort-colors](https://leetcode.com/problems/sort-colors)|||Medium|
 |76|[minimum-window-substring](https://leetcode.com/problems/minimum-window-substring)|[Cpp](https://github.com/derek-zr/leetcode/blob/master/./Solution/076-minimum-window-substring/minimum-window-substring.cpp)|[:memo:](https://leetcode.com/articles/minimum-window-substring/)|Hard|
