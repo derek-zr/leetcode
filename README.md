@@ -1,8 +1,8 @@
 # :pencil2: Leetcode Solutions with Cpp  
-Update time:  2019-03-24 09:44:00  
+Update time:  2019-03-25 17:27:26  
 Solution by Derek Zheng (Contact ME at derek.zhengrui@gmail.com)  
 Auto created by [leetcode_generate](https://github.com/bonfy/leetcode)  
-I have solved **316   /   961** problems~  
+I have solved **317   /   965** problems~  
 
 | # | Title | Source Code | Article | Difficulty |  
 |:---:|:---:|:---:|:---:|:---:|
@@ -96,7 +96,7 @@ I have solved **316   /   961** problems~
 |88|[merge-sorted-array](https://leetcode.com/problems/merge-sorted-array)|[Cpp](https://github.com/derek-zr/leetcode/blob/master/./Solution/088-merge-sorted-array/merge-sorted-array.cpp)|[:memo:](https://leetcode.com/articles/merge-sorted-arrays/)|Easy|
 |89|[gray-code](https://leetcode.com/problems/gray-code)|[Cpp](https://github.com/derek-zr/leetcode/blob/master/./Solution/089-gray-code/gray-code.cpp)||Medium|
 |90|[subsets-ii](https://leetcode.com/problems/subsets-ii)|[Cpp](https://github.com/derek-zr/leetcode/blob/master/./Solution/090-subsets-ii/subsets-ii.cpp)||Medium|
-|91|[decode-ways](https://leetcode.com/problems/decode-ways)|||Medium|
+|91|[decode-ways](https://leetcode.com/problems/decode-ways)|[Cpp](https://github.com/derek-zr/leetcode/blob/master/./Solution/091-decode-ways/decode-ways.cpp)||Medium|
 |92|[reverse-linked-list-ii](https://leetcode.com/problems/reverse-linked-list-ii)|[Cpp](https://github.com/derek-zr/leetcode/blob/master/./Solution/092-reverse-linked-list-ii/reverse-linked-list-ii.cpp)|[:memo:](https://leetcode.com/articles/reverse-linked-list-ii/)|Medium|
 |93|[restore-ip-addresses](https://leetcode.com/problems/restore-ip-addresses)||[:memo:](https://leetcode.com/articles/restore-ip-addresses/)|Medium|
 |94|[binary-tree-inorder-traversal](https://leetcode.com/problems/binary-tree-inorder-traversal)|[Cpp](https://github.com/derek-zr/leetcode/blob/master/./Solution/094-binary-tree-inorder-traversal/binary-tree-inorder-traversal.cpp)|[:memo:](https://leetcode.com/articles/binary-tree-inorder-traversal/)|Medium|
@@ -967,3 +967,7 @@ I have solved **316   /   961** problems~
 |1013|[pairs-of-songs-with-total-durations-divisible-by-60](https://leetcode.com/problems/pairs-of-songs-with-total-durations-divisible-by-60)|||Easy|
 |1014|[capacity-to-ship-packages-within-d-days](https://leetcode.com/problems/capacity-to-ship-packages-within-d-days)|||Medium|
 |1015|[numbers-with-repeated-digits](https://leetcode.com/problems/numbers-with-repeated-digits)|||Hard|
+|1020|[partition-array-into-three-parts-with-equal-sum](https://leetcode.com/problems/partition-array-into-three-parts-with-equal-sum)|||Easy|
+|1021|[best-sightseeing-pair](https://leetcode.com/problems/best-sightseeing-pair)|||Medium|
+|1022|[smallest-integer-divisible-by-k](https://leetcode.com/problems/smallest-integer-divisible-by-k)|||Medium|
+|1023|[binary-string-with-substrings-representing-1-to-n](https://leetcode.com/problems/binary-string-with-substrings-representing-1-to-n)|||Medium|
