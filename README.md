@@ -1,8 +1,8 @@
 # :pencil2: Leetcode Solutions with Cpp  
-Update time:  2019-03-27 17:39:08  
+Update time:  2019-03-28 17:38:44  
 Solution by Derek Zheng (Contact ME at derek.zhengrui@gmail.com)  
 Auto created by [leetcode_generate](https://github.com/bonfy/leetcode)  
-I have solved **321   /   965** problems~  
+I have solved **323   /   965** problems~  
 
 | # | Title | Source Code | Article | Difficulty |  
 |:---:|:---:|:---:|:---:|:---:|
@@ -123,14 +123,14 @@ I have solved **321   /   965** problems~
 |115|[distinct-subsequences](https://leetcode.com/problems/distinct-subsequences)|||Hard|
 |116|[populating-next-right-pointers-in-each-node](https://leetcode.com/problems/populating-next-right-pointers-in-each-node)|[Cpp](https://github.com/derek-zr/leetcode/blob/master/./Solution/116-populating-next-right-pointers-in-each-node/populating-next-right-pointers-in-each-node.cpp)||Medium|
 |117|[populating-next-right-pointers-in-each-node-ii](https://leetcode.com/problems/populating-next-right-pointers-in-each-node-ii)|||Medium|
-|118|[pascals-triangle](https://leetcode.com/problems/pascals-triangle)||[:memo:](https://leetcode.com/articles/pascals-triangle/)|Easy|
+|118|[pascals-triangle](https://leetcode.com/problems/pascals-triangle)|[Cpp](https://github.com/derek-zr/leetcode/blob/master/./Solution/118-pascals-triangle/pascals-triangle.cpp)|[:memo:](https://leetcode.com/articles/pascals-triangle/)|Easy|
 |119|[pascals-triangle-ii](https://leetcode.com/problems/pascals-triangle-ii)|||Easy|
 |120|[triangle](https://leetcode.com/problems/triangle)|[Cpp](https://github.com/derek-zr/leetcode/blob/master/./Solution/120-triangle/triangle.cpp)||Medium|
 |121|[best-time-to-buy-and-sell-stock](https://leetcode.com/problems/best-time-to-buy-and-sell-stock)|[Cpp](https://github.com/derek-zr/leetcode/blob/master/./Solution/121-best-time-to-buy-and-sell-stock/best-time-to-buy-and-sell-stock.cpp)|[:memo:](https://leetcode.com/articles/best-time-to-buy-and-sell-stock/)|Easy|
 |122|[best-time-to-buy-and-sell-stock-ii](https://leetcode.com/problems/best-time-to-buy-and-sell-stock-ii)|[Cpp](https://github.com/derek-zr/leetcode/blob/master/./Solution/122-best-time-to-buy-and-sell-stock-ii/best-time-to-buy-and-sell-stock-ii.cpp)|[:memo:](https://leetcode.com/articles/best-time-to-buy-and-sell-stock-ii/)|Easy|
 |123|[best-time-to-buy-and-sell-stock-iii](https://leetcode.com/problems/best-time-to-buy-and-sell-stock-iii)|||Hard|
 |124|[binary-tree-maximum-path-sum](https://leetcode.com/problems/binary-tree-maximum-path-sum)|[Cpp](https://github.com/derek-zr/leetcode/blob/master/./Solution/124-binary-tree-maximum-path-sum/binary-tree-maximum-path-sum.cpp)|[:memo:](https://leetcode.com/articles/binary-tree-maximum-path-sum/)|Hard|
-|125|[valid-palindrome](https://leetcode.com/problems/valid-palindrome)|||Easy|
+|125|[valid-palindrome](https://leetcode.com/problems/valid-palindrome)|[Cpp](https://github.com/derek-zr/leetcode/blob/master/./Solution/125-valid-palindrome/valid-palindrome.cpp)||Easy|
 |126|[word-ladder-ii](https://leetcode.com/problems/word-ladder-ii)|||Hard|
 |127|[word-ladder](https://leetcode.com/problems/word-ladder)|[Cpp](https://github.com/derek-zr/leetcode/blob/master/./Solution/127-word-ladder/word-ladder.cpp)|[:memo:](https://leetcode.com/articles/word-ladder/)|Medium|
 |128|[longest-consecutive-sequence](https://leetcode.com/problems/longest-consecutive-sequence)||[:memo:](https://leetcode.com/articles/longest-consecutive-sequence/)|Hard|
@@ -683,7 +683,7 @@ I have solved **321   /   965** problems~
 |754|[reach-a-number](https://leetcode.com/problems/reach-a-number)|[Cpp](https://github.com/derek-zr/leetcode/blob/master/./Solution/754-reach-a-number/reach-a-number.cpp)|[:memo:](https://leetcode.com/articles/reach-a-number/)|Easy|
 |755|[pour-water](https://leetcode.com/problems/pour-water)|:lock:|[:memo:](https://leetcode.com/articles/pour-water/)|Medium|
 |756|[pyramid-transition-matrix](https://leetcode.com/problems/pyramid-transition-matrix)|[Cpp](https://github.com/derek-zr/leetcode/blob/master/./Solution/756-pyramid-transition-matrix/pyramid-transition-matrix.cpp)|[:memo:](https://leetcode.com/articles/pyramid-transition-matrix/)|Medium|
-|426|[convert-binary-search-tree-to-sorted-doubly-linked-list](https://leetcode.com/problems/convert-binary-search-tree-to-sorted-doubly-linked-list)|:lock:||Medium|
+|426|[convert-binary-search-tree-to-sorted-doubly-linked-list](https://leetcode.com/problems/convert-binary-search-tree-to-sorted-doubly-linked-list)|:lock:|[:memo:](https://leetcode.com/articles/convert-binary-search-tree-to-sorted-doubly-linked/)|Medium|
 |757|[set-intersection-size-at-least-two](https://leetcode.com/problems/set-intersection-size-at-least-two)||[:memo:](https://leetcode.com/articles/set-intersection-size-at-least-two/)|Hard|
 |758|[bold-words-in-string](https://leetcode.com/problems/bold-words-in-string)|:lock:|[:memo:](https://leetcode.com/articles/bold-words-in-string/)|Easy|
 |759|[employee-free-time](https://leetcode.com/problems/employee-free-time)|:lock:|[:memo:](https://leetcode.com/articles/employee-free-time/)|Hard|
