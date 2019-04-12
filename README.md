@@ -1,8 +1,8 @@
 # :pencil2: Leetcode Solutions with Cpp  
-Update time:  2019-04-08 21:15:41  
+Update time:  2019-04-12 22:10:47  
 Solution by Derek Zheng (Contact ME at derek.zhengrui@gmail.com)  
 Auto created by [leetcode_generate](https://github.com/bonfy/leetcode)  
-I have solved **342   /   973** problems~  
+I have solved **346   /   973** problems~  
 
 | # | Title | Source Code | Article | Difficulty |  
 |:---:|:---:|:---:|:---:|:---:|
@@ -80,7 +80,7 @@ I have solved **342   /   973** problems~
 |72|[edit-distance](https://leetcode.com/problems/edit-distance)||[:memo:](https://leetcode.com/articles/edit-distance/)|Hard|
 |73|[set-matrix-zeroes](https://leetcode.com/problems/set-matrix-zeroes)|[Cpp](https://github.com/derek-zr/leetcode/blob/master/./Solution/073-set-matrix-zeroes/set-matrix-zeroes.cpp)|[:memo:](https://leetcode.com/articles/set-matrix-zeroes/)|Medium|
 |74|[search-a-2d-matrix](https://leetcode.com/problems/search-a-2d-matrix)|||Medium|
-|75|[sort-colors](https://leetcode.com/problems/sort-colors)|[Cpp](https://github.com/derek-zr/leetcode/blob/master/./Solution/075-sort-colors/sort-colors.cpp)||Medium|
+|75|[sort-colors](https://leetcode.com/problems/sort-colors)|[Cpp](https://github.com/derek-zr/leetcode/blob/master/./Solution/075-sort-colors/sort-colors.cpp)|[:memo:](https://leetcode.com/articles/sort-colors/)|Medium|
 |76|[minimum-window-substring](https://leetcode.com/problems/minimum-window-substring)|[Cpp](https://github.com/derek-zr/leetcode/blob/master/./Solution/076-minimum-window-substring/minimum-window-substring.cpp)|[:memo:](https://leetcode.com/articles/minimum-window-substring/)|Hard|
 |77|[combinations](https://leetcode.com/problems/combinations)||[:memo:](https://leetcode.com/articles/combinations/)|Medium|
 |78|[subsets](https://leetcode.com/problems/subsets)|[Cpp](https://github.com/derek-zr/leetcode/blob/master/./Solution/078-subsets/subsets.cpp)||Medium|
@@ -204,10 +204,10 @@ I have solved **342   /   973** problems~
 |212|[word-search-ii](https://leetcode.com/problems/word-search-ii)|[Cpp](https://github.com/derek-zr/leetcode/blob/master/./Solution/212-word-search-ii/word-search-ii.cpp)||Hard|
 |213|[house-robber-ii](https://leetcode.com/problems/house-robber-ii)|[Cpp](https://github.com/derek-zr/leetcode/blob/master/./Solution/213-house-robber-ii/house-robber-ii.cpp)||Medium|
 |214|[shortest-palindrome](https://leetcode.com/problems/shortest-palindrome)||[:memo:](https://leetcode.com/articles/shortest-palindrome/)|Hard|
-|215|[kth-largest-element-in-an-array](https://leetcode.com/problems/kth-largest-element-in-an-array)||[:memo:](https://leetcode.com/articles/kth-largest-element-in-an-array/)|Medium|
+|215|[kth-largest-element-in-an-array](https://leetcode.com/problems/kth-largest-element-in-an-array)|[Cpp](https://github.com/derek-zr/leetcode/blob/master/./Solution/215-kth-largest-element-in-an-array/kth-largest-element-in-an-array.cpp)|[:memo:](https://leetcode.com/articles/kth-largest-element-in-an-array/)|Medium|
 |216|[combination-sum-iii](https://leetcode.com/problems/combination-sum-iii)|[Cpp](https://github.com/derek-zr/leetcode/blob/master/./Solution/216-combination-sum-iii/combination-sum-iii.cpp)||Medium|
 |217|[contains-duplicate](https://leetcode.com/problems/contains-duplicate)|[Cpp](https://github.com/derek-zr/leetcode/blob/master/./Solution/217-contains-duplicate/contains-duplicate.cpp)|[:memo:](https://leetcode.com/articles/contains-duplicate/)|Easy|
-|218|[the-skyline-problem](https://leetcode.com/problems/the-skyline-problem)||[:memo:](https://leetcode.com/articles/skyline-problem/)|Hard|
+|218|[the-skyline-problem](https://leetcode.com/problems/the-skyline-problem)|[Cpp](https://github.com/derek-zr/leetcode/blob/master/./Solution/218-the-skyline-problem/the-skyline-problem.cpp)|[:memo:](https://leetcode.com/articles/skyline-problem/)|Hard|
 |219|[contains-duplicate-ii](https://leetcode.com/problems/contains-duplicate-ii)||[:memo:](https://leetcode.com/articles/contains-duplicate-ii/)|Easy|
 |220|[contains-duplicate-iii](https://leetcode.com/problems/contains-duplicate-iii)|[Cpp](https://github.com/derek-zr/leetcode/blob/master/./Solution/220-contains-duplicate-iii/contains-duplicate-iii.cpp)|[:memo:](https://leetcode.com/articles/contains-duplicate-iii/)|Medium|
 |221|[maximal-square](https://leetcode.com/problems/maximal-square)|[Cpp](https://github.com/derek-zr/leetcode/blob/master/./Solution/221-maximal-square/maximal-square.cpp)|[:memo:](https://leetcode.com/articles/maximal-square/)|Medium|
@@ -216,10 +216,10 @@ I have solved **342   /   973** problems~
 |224|[basic-calculator](https://leetcode.com/problems/basic-calculator)|||Hard|
 |225|[implement-stack-using-queues](https://leetcode.com/problems/implement-stack-using-queues)||[:memo:](https://leetcode.com/articles/implement-stack-using-queues/)|Easy|
 |226|[invert-binary-tree](https://leetcode.com/problems/invert-binary-tree)|[Cpp](https://github.com/derek-zr/leetcode/blob/master/./Solution/226-invert-binary-tree/invert-binary-tree.cpp)|[:memo:](https://leetcode.com/articles/invert-binary-tree/)|Easy|
-|227|[basic-calculator-ii](https://leetcode.com/problems/basic-calculator-ii)|||Medium|
+|227|[basic-calculator-ii](https://leetcode.com/problems/basic-calculator-ii)|[Cpp](https://github.com/derek-zr/leetcode/blob/master/./Solution/227-basic-calculator-ii/basic-calculator-ii.cpp)||Medium|
 |228|[summary-ranges](https://leetcode.com/problems/summary-ranges)||[:memo:](https://leetcode.com/articles/summary-ranges/)|Medium|
 |229|[majority-element-ii](https://leetcode.com/problems/majority-element-ii)|[Cpp](https://github.com/derek-zr/leetcode/blob/master/./Solution/229-majority-element-ii/majority-element-ii.cpp)||Medium|
-|230|[kth-smallest-element-in-a-bst](https://leetcode.com/problems/kth-smallest-element-in-a-bst)|||Medium|
+|230|[kth-smallest-element-in-a-bst](https://leetcode.com/problems/kth-smallest-element-in-a-bst)|[Cpp](https://github.com/derek-zr/leetcode/blob/master/./Solution/230-kth-smallest-element-in-a-bst/kth-smallest-element-in-a-bst.cpp)||Medium|
 |231|[power-of-two](https://leetcode.com/problems/power-of-two)|[Cpp](https://github.com/derek-zr/leetcode/blob/master/./Solution/231-power-of-two/power-of-two.cpp)||Easy|
 |232|[implement-queue-using-stacks](https://leetcode.com/problems/implement-queue-using-stacks)||[:memo:](https://leetcode.com/articles/implement-queue-using-stacks/)|Easy|
 |233|[number-of-digit-one](https://leetcode.com/problems/number-of-digit-one)||[:memo:](https://leetcode.com/articles/number-of-digit-one/)|Hard|
