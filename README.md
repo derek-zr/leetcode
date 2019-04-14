@@ -1,8 +1,8 @@
 # :pencil2: Leetcode Solutions with Cpp  
-Update time:  2019-04-13 22:10:44  
+Update time:  2019-04-14 22:11:01  
 Solution by Derek Zheng (Contact ME at derek.zhengrui@gmail.com)  
 Auto created by [leetcode_generate](https://github.com/bonfy/leetcode)  
-I have solved **348   /   973** problems~  
+I have solved **349   /   977** problems~  
 
 | # | Title | Source Code | Article | Difficulty |  
 |:---:|:---:|:---:|:---:|:---:|
@@ -228,7 +228,7 @@ I have solved **348   /   973** problems~
 |236|[lowest-common-ancestor-of-a-binary-tree](https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-tree)|[Cpp](https://github.com/derek-zr/leetcode/blob/master/./Solution/236-lowest-common-ancestor-of-a-binary-tree/lowest-common-ancestor-of-a-binary-tree.cpp)|[:memo:](https://leetcode.com/articles/lowest-common-ancestor-of-a-binary-tree/)|Medium|
 |237|[delete-node-in-a-linked-list](https://leetcode.com/problems/delete-node-in-a-linked-list)|[Cpp](https://github.com/derek-zr/leetcode/blob/master/./Solution/237-delete-node-in-a-linked-list/delete-node-in-a-linked-list.cpp)|[:memo:](https://leetcode.com/articles/delete-node-linked-list/)|Easy|
 |238|[product-of-array-except-self](https://leetcode.com/problems/product-of-array-except-self)|[Cpp](https://github.com/derek-zr/leetcode/blob/master/./Solution/238-product-of-array-except-self/product-of-array-except-self.cpp)||Medium|
-|239|[sliding-window-maximum](https://leetcode.com/problems/sliding-window-maximum)||[:memo:](https://leetcode.com/articles/sliding-window-maximum/)|Hard|
+|239|[sliding-window-maximum](https://leetcode.com/problems/sliding-window-maximum)|[Cpp](https://github.com/derek-zr/leetcode/blob/master/./Solution/239-sliding-window-maximum/sliding-window-maximum.cpp)|[:memo:](https://leetcode.com/articles/sliding-window-maximum/)|Hard|
 |240|[search-a-2d-matrix-ii](https://leetcode.com/problems/search-a-2d-matrix-ii)||[:memo:](https://leetcode.com/articles/search-a-2d-matrix-ii/)|Medium|
 |241|[different-ways-to-add-parentheses](https://leetcode.com/problems/different-ways-to-add-parentheses)|||Medium|
 |242|[valid-anagram](https://leetcode.com/problems/valid-anagram)|[Cpp](https://github.com/derek-zr/leetcode/blob/master/./Solution/242-valid-anagram/valid-anagram.cpp)|[:memo:](https://leetcode.com/articles/valid-anagram/)|Easy|
@@ -979,3 +979,7 @@ I have solved **348   /   973** problems~
 |1022|[sum-of-root-to-leaf-binary-numbers](https://leetcode.com/problems/sum-of-root-to-leaf-binary-numbers)|||Easy|
 |1023|[camelcase-matching](https://leetcode.com/problems/camelcase-matching)|||Medium|
 |1024|[video-stitching](https://leetcode.com/problems/video-stitching)|||Medium|
+|1025|[divisor-game](https://leetcode.com/problems/divisor-game)|||Easy|
+|1027|[longest-arithmetic-sequence](https://leetcode.com/problems/longest-arithmetic-sequence)|||Medium|
+|1026|[maximum-difference-between-node-and-ancestor](https://leetcode.com/problems/maximum-difference-between-node-and-ancestor)|||Medium|
+|1028|[recover-a-tree-from-preorder-traversal](https://leetcode.com/problems/recover-a-tree-from-preorder-traversal)|||Hard|
