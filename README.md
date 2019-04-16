@@ -1,8 +1,8 @@
 # :pencil2: Leetcode Solutions with Cpp  
-Update time:  2019-04-15 22:10:45  
+Update time:  2019-04-16 22:10:47  
 Solution by Derek Zheng (Contact ME at derek.zhengrui@gmail.com)  
 Auto created by [leetcode_generate](https://github.com/bonfy/leetcode)  
-I have solved **351   /   977** problems~  
+I have solved **353   /   977** problems~  
 
 | # | Title | Source Code | Article | Difficulty |  
 |:---:|:---:|:---:|:---:|:---:|
@@ -277,13 +277,13 @@ I have solved **351   /   977** problems~
 |286|[walls-and-gates](https://leetcode.com/problems/walls-and-gates)|:lock:|[:memo:](https://leetcode.com/articles/walls-and-gates/)|Medium|
 |287|[find-the-duplicate-number](https://leetcode.com/problems/find-the-duplicate-number)|[Cpp](https://github.com/derek-zr/leetcode/blob/master/./Solution/287-find-the-duplicate-number/find-the-duplicate-number.cpp)|[:memo:](https://leetcode.com/articles/find-the-duplicate-number/)|Medium|
 |288|[unique-word-abbreviation](https://leetcode.com/problems/unique-word-abbreviation)|:lock:|[:memo:](https://leetcode.com/articles/unique-word-abbreviation/)|Medium|
-|289|[game-of-life](https://leetcode.com/problems/game-of-life)|||Medium|
+|289|[game-of-life](https://leetcode.com/problems/game-of-life)|[Cpp](https://github.com/derek-zr/leetcode/blob/master/./Solution/289-game-of-life/game-of-life.cpp)||Medium|
 |290|[word-pattern](https://leetcode.com/problems/word-pattern)|||Easy|
 |291|[word-pattern-ii](https://leetcode.com/problems/word-pattern-ii)|:lock:||Hard|
 |292|[nim-game](https://leetcode.com/problems/nim-game)|[Cpp](https://github.com/derek-zr/leetcode/blob/master/./Solution/292-nim-game/nim-game.cpp)|[:memo:](https://leetcode.com/articles/nim-game/)|Easy|
 |293|[flip-game](https://leetcode.com/problems/flip-game)|:lock:||Easy|
 |294|[flip-game-ii](https://leetcode.com/problems/flip-game-ii)|:lock:||Medium|
-|295|[find-median-from-data-stream](https://leetcode.com/problems/find-median-from-data-stream)||[:memo:](https://leetcode.com/articles/find-median-from-data-stream/)|Hard|
+|295|[find-median-from-data-stream](https://leetcode.com/problems/find-median-from-data-stream)|[Cpp](https://github.com/derek-zr/leetcode/blob/master/./Solution/295-find-median-from-data-stream/find-median-from-data-stream.cpp)|[:memo:](https://leetcode.com/articles/find-median-from-data-stream/)|Hard|
 |296|[best-meeting-point](https://leetcode.com/problems/best-meeting-point)|:lock:|[:memo:](https://leetcode.com/articles/best-meeting-point/)|Hard|
 |297|[serialize-and-deserialize-binary-tree](https://leetcode.com/problems/serialize-and-deserialize-binary-tree)||[:memo:](https://leetcode.com/articles/serialize-and-deserialize-binary-tree/)|Hard|
 |298|[binary-tree-longest-consecutive-sequence](https://leetcode.com/problems/binary-tree-longest-consecutive-sequence)|:lock:|[:memo:](https://leetcode.com/articles/binary-tree-longest-consecutive-sequence/)|Medium|
@@ -440,7 +440,7 @@ I have solved **351   /   977** problems~
 |455|[assign-cookies](https://leetcode.com/problems/assign-cookies)|[Cpp](https://github.com/derek-zr/leetcode/blob/master/./Solution/455-assign-cookies/assign-cookies.cpp)||Easy|
 |456|[132-pattern](https://leetcode.com/problems/132-pattern)|[Cpp](https://github.com/derek-zr/leetcode/blob/master/./Solution/456-132-pattern/132-pattern.cpp)|[:memo:](https://leetcode.com/articles/132-pattern/)|Medium|
 |457|[circular-array-loop](https://leetcode.com/problems/circular-array-loop)|[Cpp](https://github.com/derek-zr/leetcode/blob/master/./Solution/457-circular-array-loop/circular-array-loop.cpp)||Medium|
-|458|[poor-pigs](https://leetcode.com/problems/poor-pigs)|||Hard|
+|458|[poor-pigs](https://leetcode.com/problems/poor-pigs)||[:memo:](https://leetcode.com/articles/poor-pigs/)|Hard|
 |459|[repeated-substring-pattern](https://leetcode.com/problems/repeated-substring-pattern)|||Easy|
 |460|[lfu-cache](https://leetcode.com/problems/lfu-cache)|||Hard|
 |461|[hamming-distance](https://leetcode.com/problems/hamming-distance)|[Cpp](https://github.com/derek-zr/leetcode/blob/master/./Solution/461-hamming-distance/hamming-distance.cpp)||Easy|
