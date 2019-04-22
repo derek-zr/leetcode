@@ -1,8 +1,8 @@
 # :pencil2: Leetcode Solutions with Cpp  
-Update time:  2019-04-21 09:48:15  
+Update time:  2019-04-22 15:28:15  
 Solution by Derek Zheng (Contact ME at derek.zhengrui@gmail.com)  
 Auto created by [leetcode_generate](https://github.com/bonfy/leetcode)  
-I have solved **358   /   978** problems~  
+I have solved **360   /   982** problems~  
 
 | # | Title | Source Code | Article | Difficulty |  
 |:---:|:---:|:---:|:---:|:---:|
@@ -317,12 +317,12 @@ I have solved **358   /   978** problems~
 |326|[power-of-three](https://leetcode.com/problems/power-of-three)|[Cpp](https://github.com/derek-zr/leetcode/blob/master/./Solution/326-power-of-three/power-of-three.cpp)|[:memo:](https://leetcode.com/articles/power-of-three/)|Easy|
 |327|[count-of-range-sum](https://leetcode.com/problems/count-of-range-sum)|||Hard|
 |328|[odd-even-linked-list](https://leetcode.com/problems/odd-even-linked-list)|[Cpp](https://github.com/derek-zr/leetcode/blob/master/./Solution/328-odd-even-linked-list/odd-even-linked-list.cpp)|[:memo:](https://leetcode.com/articles/odd-even-linked-list/)|Medium|
-|329|[longest-increasing-path-in-a-matrix](https://leetcode.com/problems/longest-increasing-path-in-a-matrix)||[:memo:](https://leetcode.com/articles/longest-increasing-path-matrix/)|Hard|
+|329|[longest-increasing-path-in-a-matrix](https://leetcode.com/problems/longest-increasing-path-in-a-matrix)|[Cpp](https://github.com/derek-zr/leetcode/blob/master/./Solution/329-longest-increasing-path-in-a-matrix/longest-increasing-path-in-a-matrix.cpp)|[:memo:](https://leetcode.com/articles/longest-increasing-path-matrix/)|Hard|
 |330|[patching-array](https://leetcode.com/problems/patching-array)||[:memo:](https://leetcode.com/articles/patching-array/)|Hard|
 |331|[verify-preorder-serialization-of-a-binary-tree](https://leetcode.com/problems/verify-preorder-serialization-of-a-binary-tree)|||Medium|
 |332|[reconstruct-itinerary](https://leetcode.com/problems/reconstruct-itinerary)|||Medium|
 |333|[largest-bst-subtree](https://leetcode.com/problems/largest-bst-subtree)|:lock:||Medium|
-|334|[increasing-triplet-subsequence](https://leetcode.com/problems/increasing-triplet-subsequence)|||Medium|
+|334|[increasing-triplet-subsequence](https://leetcode.com/problems/increasing-triplet-subsequence)|[Cpp](https://github.com/derek-zr/leetcode/blob/master/./Solution/334-increasing-triplet-subsequence/increasing-triplet-subsequence.cpp)||Medium|
 |335|[self-crossing](https://leetcode.com/problems/self-crossing)|||Hard|
 |336|[palindrome-pairs](https://leetcode.com/problems/palindrome-pairs)|||Hard|
 |337|[house-robber-iii](https://leetcode.com/problems/house-robber-iii)|[Cpp](https://github.com/derek-zr/leetcode/blob/master/./Solution/337-house-robber-iii/house-robber-iii.cpp)||Medium|
@@ -984,3 +984,7 @@ I have solved **358   /   978** problems~
 |1027|[longest-arithmetic-sequence](https://leetcode.com/problems/longest-arithmetic-sequence)|||Medium|
 |1026|[maximum-difference-between-node-and-ancestor](https://leetcode.com/problems/maximum-difference-between-node-and-ancestor)|||Medium|
 |1028|[recover-a-tree-from-preorder-traversal](https://leetcode.com/problems/recover-a-tree-from-preorder-traversal)|||Hard|
+|1030|[matrix-cells-in-distance-order](https://leetcode.com/problems/matrix-cells-in-distance-order)|||Easy|
+|1029|[two-city-scheduling](https://leetcode.com/problems/two-city-scheduling)|||Easy|
+|1031|[maximum-sum-of-two-non-overlapping-subarrays](https://leetcode.com/problems/maximum-sum-of-two-non-overlapping-subarrays)|||Medium|
+|1032|[stream-of-characters](https://leetcode.com/problems/stream-of-characters)|||Hard|
