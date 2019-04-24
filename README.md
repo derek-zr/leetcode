@@ -1,8 +1,8 @@
 # :pencil2: Leetcode Solutions with Cpp  
-Update time:  2019-04-23 15:28:18  
+Update time:  2019-04-24 15:28:17  
 Solution by Derek Zheng (Contact ME at derek.zhengrui@gmail.com)  
 Auto created by [leetcode_generate](https://github.com/bonfy/leetcode)  
-I have solved **362   /   982** problems~  
+I have solved **364   /   982** problems~  
 
 | # | Title | Source Code | Article | Difficulty |  
 |:---:|:---:|:---:|:---:|:---:|
@@ -338,7 +338,7 @@ I have solved **362   /   982** problems~
 |347|[top-k-frequent-elements](https://leetcode.com/problems/top-k-frequent-elements)|[Cpp](https://github.com/derek-zr/leetcode/blob/master/./Solution/347-top-k-frequent-elements/top-k-frequent-elements.cpp)|[:memo:](https://leetcode.com/articles/top-k-frequent-elements/)|Medium|
 |348|[design-tic-tac-toe](https://leetcode.com/problems/design-tic-tac-toe)|:lock:||Medium|
 |349|[intersection-of-two-arrays](https://leetcode.com/problems/intersection-of-two-arrays)||[:memo:](https://leetcode.com/articles/intersection-of-two-arrays/)|Easy|
-|350|[intersection-of-two-arrays-ii](https://leetcode.com/problems/intersection-of-two-arrays-ii)|||Easy|
+|350|[intersection-of-two-arrays-ii](https://leetcode.com/problems/intersection-of-two-arrays-ii)|[Cpp](https://github.com/derek-zr/leetcode/blob/master/./Solution/350-intersection-of-two-arrays-ii/intersection-of-two-arrays-ii.cpp)||Easy|
 |351|[android-unlock-patterns](https://leetcode.com/problems/android-unlock-patterns)|:lock:|[:memo:](https://leetcode.com/articles/android-unlock-patterns/)|Medium|
 |352|[data-stream-as-disjoint-intervals](https://leetcode.com/problems/data-stream-as-disjoint-intervals)|||Hard|
 |353|[design-snake-game](https://leetcode.com/problems/design-snake-game)|:lock:||Medium|
@@ -366,7 +366,7 @@ I have solved **362   /   982** problems~
 |375|[guess-number-higher-or-lower-ii](https://leetcode.com/problems/guess-number-higher-or-lower-ii)|[Cpp](https://github.com/derek-zr/leetcode/blob/master/./Solution/375-guess-number-higher-or-lower-ii/guess-number-higher-or-lower-ii.cpp)|[:memo:](https://leetcode.com/articles/guess-number-higher-or-lower-ii/)|Medium|
 |376|[wiggle-subsequence](https://leetcode.com/problems/wiggle-subsequence)|[Cpp](https://github.com/derek-zr/leetcode/blob/master/./Solution/376-wiggle-subsequence/wiggle-subsequence.cpp)|[:memo:](https://leetcode.com/articles/wiggle-subsequence/)|Medium|
 |377|[combination-sum-iv](https://leetcode.com/problems/combination-sum-iv)|[Cpp](https://github.com/derek-zr/leetcode/blob/master/./Solution/377-combination-sum-iv/combination-sum-iv.cpp)||Medium|
-|378|[kth-smallest-element-in-a-sorted-matrix](https://leetcode.com/problems/kth-smallest-element-in-a-sorted-matrix)|||Medium|
+|378|[kth-smallest-element-in-a-sorted-matrix](https://leetcode.com/problems/kth-smallest-element-in-a-sorted-matrix)|[Cpp](https://github.com/derek-zr/leetcode/blob/master/./Solution/378-kth-smallest-element-in-a-sorted-matrix/kth-smallest-element-in-a-sorted-matrix.cpp)||Medium|
 |379|[design-phone-directory](https://leetcode.com/problems/design-phone-directory)|:lock:||Medium|
 |380|[insert-delete-getrandom-o1](https://leetcode.com/problems/insert-delete-getrandom-o1)|||Medium|
 |381|[insert-delete-getrandom-o1-duplicates-allowed](https://leetcode.com/problems/insert-delete-getrandom-o1-duplicates-allowed)|||Hard|
