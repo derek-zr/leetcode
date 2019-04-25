@@ -1,8 +1,8 @@
 # :pencil2: Leetcode Solutions with Cpp  
-Update time:  2019-04-24 15:28:17  
+Update time:  2019-04-25 15:28:17  
 Solution by Derek Zheng (Contact ME at derek.zhengrui@gmail.com)  
 Auto created by [leetcode_generate](https://github.com/bonfy/leetcode)  
-I have solved **364   /   982** problems~  
+I have solved **365   /   982** problems~  
 
 | # | Title | Source Code | Article | Difficulty |  
 |:---:|:---:|:---:|:---:|:---:|
@@ -368,7 +368,7 @@ I have solved **364   /   982** problems~
 |377|[combination-sum-iv](https://leetcode.com/problems/combination-sum-iv)|[Cpp](https://github.com/derek-zr/leetcode/blob/master/./Solution/377-combination-sum-iv/combination-sum-iv.cpp)||Medium|
 |378|[kth-smallest-element-in-a-sorted-matrix](https://leetcode.com/problems/kth-smallest-element-in-a-sorted-matrix)|[Cpp](https://github.com/derek-zr/leetcode/blob/master/./Solution/378-kth-smallest-element-in-a-sorted-matrix/kth-smallest-element-in-a-sorted-matrix.cpp)||Medium|
 |379|[design-phone-directory](https://leetcode.com/problems/design-phone-directory)|:lock:||Medium|
-|380|[insert-delete-getrandom-o1](https://leetcode.com/problems/insert-delete-getrandom-o1)|||Medium|
+|380|[insert-delete-getrandom-o1](https://leetcode.com/problems/insert-delete-getrandom-o1)|[Cpp](https://github.com/derek-zr/leetcode/blob/master/./Solution/380-insert-delete-getrandom-o1/insert-delete-getrandom-o1.cpp)||Medium|
 |381|[insert-delete-getrandom-o1-duplicates-allowed](https://leetcode.com/problems/insert-delete-getrandom-o1-duplicates-allowed)|||Hard|
 |382|[linked-list-random-node](https://leetcode.com/problems/linked-list-random-node)|[Cpp](https://github.com/derek-zr/leetcode/blob/master/./Solution/382-linked-list-random-node/linked-list-random-node.cpp)||Medium|
 |383|[ransom-note](https://leetcode.com/problems/ransom-note)|||Easy|
@@ -709,7 +709,7 @@ I have solved **364   /   982** problems~
 |770|[basic-calculator-iv](https://leetcode.com/problems/basic-calculator-iv)||[:memo:](https://leetcode.com/articles/basic-calculator-iv/)|Hard|
 |771|[jewels-and-stones](https://leetcode.com/problems/jewels-and-stones)|[Cpp](https://github.com/derek-zr/leetcode/blob/master/./Solution/771-jewels-and-stones/jewels-and-stones.cpp)|[:memo:](https://leetcode.com/articles/jewels-and-stones/)|Easy|
 |700|[search-in-a-binary-search-tree](https://leetcode.com/problems/search-in-a-binary-search-tree)|[Cpp](https://github.com/derek-zr/leetcode/blob/master/./Solution/700-search-in-a-binary-search-tree/search-in-a-binary-search-tree.cpp)||Easy|
-|701|[insert-into-a-binary-search-tree](https://leetcode.com/problems/insert-into-a-binary-search-tree)|[Cpp](https://github.com/derek-zr/leetcode/blob/master/./Solution/701-insert-into-a-binary-search-tree/insert-into-a-binary-search-tree.cpp)||Medium|
+|701|[insert-into-a-binary-search-tree](https://leetcode.com/problems/insert-into-a-binary-search-tree)|[Cpp](https://github.com/derek-zr/leetcode/blob/master/./Solution/701-insert-into-a-binary-search-tree/insert-into-a-binary-search-tree.cpp)|[:memo:](https://leetcode.com/articles/insert-into-a-bst/)|Medium|
 |772|[basic-calculator-iii](https://leetcode.com/problems/basic-calculator-iii)|:lock:||Hard|
 |702|[search-in-a-sorted-array-of-unknown-size](https://leetcode.com/problems/search-in-a-sorted-array-of-unknown-size)|:lock:||Medium|
 |773|[sliding-puzzle](https://leetcode.com/problems/sliding-puzzle)||[:memo:](https://leetcode.com/articles/sliding-puzzle/)|Hard|
