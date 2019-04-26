@@ -1,8 +1,8 @@
 # :pencil2: Leetcode Solutions with Cpp  
-Update time:  2019-04-25 15:28:17  
+Update time:  2019-04-26 15:28:24  
 Solution by Derek Zheng (Contact ME at derek.zhengrui@gmail.com)  
 Auto created by [leetcode_generate](https://github.com/bonfy/leetcode)  
-I have solved **365   /   982** problems~  
+I have solved **366   /   982** problems~  
 
 | # | Title | Source Code | Article | Difficulty |  
 |:---:|:---:|:---:|:---:|:---:|
@@ -383,7 +383,7 @@ I have solved **365   /   982** problems~
 |392|[is-subsequence](https://leetcode.com/problems/is-subsequence)|[Cpp](https://github.com/derek-zr/leetcode/blob/master/./Solution/392-is-subsequence/is-subsequence.cpp)||Medium|
 |393|[utf-8-validation](https://leetcode.com/problems/utf-8-validation)|[Cpp](https://github.com/derek-zr/leetcode/blob/master/./Solution/393-utf-8-validation/utf-8-validation.cpp)|[:memo:](https://leetcode.com/articles/utf-8-validation/)|Medium|
 |394|[decode-string](https://leetcode.com/problems/decode-string)|[Cpp](https://github.com/derek-zr/leetcode/blob/master/./Solution/394-decode-string/decode-string.cpp)||Medium|
-|395|[longest-substring-with-at-least-k-repeating-characters](https://leetcode.com/problems/longest-substring-with-at-least-k-repeating-characters)|||Medium|
+|395|[longest-substring-with-at-least-k-repeating-characters](https://leetcode.com/problems/longest-substring-with-at-least-k-repeating-characters)|[Cpp](https://github.com/derek-zr/leetcode/blob/master/./Solution/395-longest-substring-with-at-least-k-repeating-characters/longest-substring-with-at-least-k-repeating-characters.cpp)||Medium|
 |396|[rotate-function](https://leetcode.com/problems/rotate-function)|[Cpp](https://github.com/derek-zr/leetcode/blob/master/./Solution/396-rotate-function/rotate-function.cpp)||Medium|
 |397|[integer-replacement](https://leetcode.com/problems/integer-replacement)|||Medium|
 |398|[random-pick-index](https://leetcode.com/problems/random-pick-index)|||Medium|
@@ -892,7 +892,7 @@ I have solved **365   /   982** problems~
 |935|[knight-dialer](https://leetcode.com/problems/knight-dialer)||[:memo:](https://leetcode.com/articles/knight-dialer/)|Medium|
 |936|[stamping-the-sequence](https://leetcode.com/problems/stamping-the-sequence)||[:memo:](https://leetcode.com/articles/stamping-the-sequence/)|Hard|
 |937|[reorder-log-files](https://leetcode.com/problems/reorder-log-files)||[:memo:](https://leetcode.com/articles/reorder-log-files/)|Easy|
-|938|[range-sum-of-bst](https://leetcode.com/problems/range-sum-of-bst)||[:memo:](https://leetcode.com/articles/range-sum-of-bst/)|Medium|
+|938|[range-sum-of-bst](https://leetcode.com/problems/range-sum-of-bst)||[:memo:](https://leetcode.com/articles/range-sum-of-bst/)|Easy|
 |939|[minimum-area-rectangle](https://leetcode.com/problems/minimum-area-rectangle)|[Cpp](https://github.com/derek-zr/leetcode/blob/master/./Solution/939-minimum-area-rectangle/minimum-area-rectangle.cpp)|[:memo:](https://leetcode.com/articles/minimum-area-rectangle/)|Medium|
 |940|[distinct-subsequences-ii](https://leetcode.com/problems/distinct-subsequences-ii)||[:memo:](https://leetcode.com/articles/distinct-subsequences-ii/)|Hard|
 |941|[valid-mountain-array](https://leetcode.com/problems/valid-mountain-array)||[:memo:](https://leetcode.com/articles/valid-mountain-array/)|Easy|
