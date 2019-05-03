@@ -1,8 +1,8 @@
 # :pencil2: Leetcode Solutions with Cpp  
-Update time:  2019-05-02 21:09:15  
+Update time:  2019-05-03 21:09:15  
 Solution by Derek Zheng (Contact ME at derek.zhengrui@gmail.com)  
 Auto created by [leetcode_generate](https://github.com/bonfy/leetcode)  
-I have solved **371   /   986** problems~  
+I have solved **372   /   986** problems~  
 
 | # | Title | Source Code | Article | Difficulty |  
 |:---:|:---:|:---:|:---:|:---:|
@@ -147,7 +147,7 @@ I have solved **371   /   986** problems~
 |139|[word-break](https://leetcode.com/problems/word-break)|[Cpp](https://github.com/derek-zr/leetcode/blob/master/./Solution/139-word-break/word-break.cpp)|[:memo:](https://leetcode.com/articles/word-break/)|Medium|
 |140|[word-break-ii](https://leetcode.com/problems/word-break-ii)|[Cpp](https://github.com/derek-zr/leetcode/blob/master/./Solution/140-word-break-ii/word-break-ii.cpp)|[:memo:](https://leetcode.com/articles/word-break-ii/)|Hard|
 |141|[linked-list-cycle](https://leetcode.com/problems/linked-list-cycle)|[Cpp](https://github.com/derek-zr/leetcode/blob/master/./Solution/141-linked-list-cycle/linked-list-cycle.cpp)|[:memo:](https://leetcode.com/articles/linked-list-cycle/)|Easy|
-|142|[linked-list-cycle-ii](https://leetcode.com/problems/linked-list-cycle-ii)||[:memo:](https://leetcode.com/articles/linked-list-cycle-ii/)|Medium|
+|142|[linked-list-cycle-ii](https://leetcode.com/problems/linked-list-cycle-ii)|[Cpp](https://github.com/derek-zr/leetcode/blob/master/./Solution/142-linked-list-cycle-ii/linked-list-cycle-ii.cpp)|[:memo:](https://leetcode.com/articles/linked-list-cycle-ii/)|Medium|
 |143|[reorder-list](https://leetcode.com/problems/reorder-list)|[Cpp](https://github.com/derek-zr/leetcode/blob/master/./Solution/143-reorder-list/reorder-list.cpp)||Medium|
 |144|[binary-tree-preorder-traversal](https://leetcode.com/problems/binary-tree-preorder-traversal)||[:memo:](https://leetcode.com/articles/binary-tree-preorder-transversal/)|Medium|
 |145|[binary-tree-postorder-traversal](https://leetcode.com/problems/binary-tree-postorder-traversal)||[:memo:](https://leetcode.com/articles/binary-tree-postorder-transversal/)|Hard|
@@ -963,7 +963,7 @@ I have solved **371   /   986** problems~
 |1005|[maximize-sum-of-array-after-k-negations](https://leetcode.com/problems/maximize-sum-of-array-after-k-negations)|||Easy|
 |1006|[clumsy-factorial](https://leetcode.com/problems/clumsy-factorial)|||Medium|
 |1007|[minimum-domino-rotations-for-equal-row](https://leetcode.com/problems/minimum-domino-rotations-for-equal-row)|||Medium|
-|1008|[construct-binary-search-tree-from-preorder-traversal](https://leetcode.com/problems/construct-binary-search-tree-from-preorder-traversal)|||Medium|
+|1008|[construct-binary-search-tree-from-preorder-traversal](https://leetcode.com/problems/construct-binary-search-tree-from-preorder-traversal)||[:memo:](https://leetcode.com/articles/construct-bst-from-preorder-traversal/)|Medium|
 |1009|[complement-of-base-10-integer](https://leetcode.com/problems/complement-of-base-10-integer)|||Easy|
 |1010|[pairs-of-songs-with-total-durations-divisible-by-60](https://leetcode.com/problems/pairs-of-songs-with-total-durations-divisible-by-60)|||Easy|
 |1011|[capacity-to-ship-packages-within-d-days](https://leetcode.com/problems/capacity-to-ship-packages-within-d-days)|||Medium|
