@@ -1,8 +1,8 @@
 # :pencil2: Leetcode Solutions with Cpp  
-Update time:  2019-05-03 21:09:15  
+Update time:  2019-05-04 21:09:20  
 Solution by Derek Zheng (Contact ME at derek.zhengrui@gmail.com)  
 Auto created by [leetcode_generate](https://github.com/bonfy/leetcode)  
-I have solved **372   /   986** problems~  
+I have solved **373   /   986** problems~  
 
 | # | Title | Source Code | Article | Difficulty |  
 |:---:|:---:|:---:|:---:|:---:|
@@ -289,7 +289,7 @@ I have solved **372   /   986** problems~
 |298|[binary-tree-longest-consecutive-sequence](https://leetcode.com/problems/binary-tree-longest-consecutive-sequence)|:lock:|[:memo:](https://leetcode.com/articles/binary-tree-longest-consecutive-sequence/)|Medium|
 |299|[bulls-and-cows](https://leetcode.com/problems/bulls-and-cows)|||Medium|
 |300|[longest-increasing-subsequence](https://leetcode.com/problems/longest-increasing-subsequence)|[Cpp](https://github.com/derek-zr/leetcode/blob/master/./Solution/300-longest-increasing-subsequence/longest-increasing-subsequence.cpp)|[:memo:](https://leetcode.com/articles/longest-increasing-subsequence/)|Medium|
-|301|[remove-invalid-parentheses](https://leetcode.com/problems/remove-invalid-parentheses)||[:memo:](https://leetcode.com/articles/remove-invalid-parentheses/)|Hard|
+|301|[remove-invalid-parentheses](https://leetcode.com/problems/remove-invalid-parentheses)|[Cpp](https://github.com/derek-zr/leetcode/blob/master/./Solution/301-remove-invalid-parentheses/remove-invalid-parentheses.cpp)|[:memo:](https://leetcode.com/articles/remove-invalid-parentheses/)|Hard|
 |302|[smallest-rectangle-enclosing-black-pixels](https://leetcode.com/problems/smallest-rectangle-enclosing-black-pixels)|:lock:|[:memo:](https://leetcode.com/articles/smallest-rectangle-enclosing-black-pixels/)|Hard|
 |303|[range-sum-query-immutable](https://leetcode.com/problems/range-sum-query-immutable)||[:memo:](https://leetcode.com/articles/range-sum-query-immutable/)|Easy|
 |304|[range-sum-query-2d-immutable](https://leetcode.com/problems/range-sum-query-2d-immutable)||[:memo:](https://leetcode.com/articles/range-sum-query-2d-immutable/)|Medium|
