@@ -234,9 +234,14 @@ class Leetcode:
 
     def load_items_from_api(self):
         """ load items from api"""
+        global NetworkOK
         api_url = self.base_url + '/api/problems/algorithms/'  # NOQA
         r = self.session.get(api_url, proxies=PROXIES)
-        assert r.status_code == 200
+        if r.status_code != 200:
+            NetworkOK = False
+            return
+        else:
+            NetworkOK = True
         rst = json.loads(r.text)
         # make sure your user_name is not None
         # thus the stat_status_pairs is real
@@ -325,7 +330,11 @@ class Leetcode:
             
             resp = self.session.get(submissions_url, proxies=PROXIES)
             # print(submissions_url, ':', resp.status_code)
-            assert resp.status_code == 200
+            if resp.status_code != 200:
+                NetworkOK = False
+                return 
+            else:
+                NetworkOK = True
             data = resp.json()
             if 'has_next' not in data.keys():
                 raise Exception('Get submissions wrong, Check network\n')
@@ -387,7 +396,11 @@ class Leetcode:
         solution_url = solution['submission_url']
         print(solution_url)
         r = self.session.get(solution_url, proxies=PROXIES)
-        assert r.status_code == 200
+        if r.status_code != 200:
+            NetworkOK = False
+            return
+        else:
+            NetworkOK = True
         pattern = re.compile(
             r'<meta name=\"description\" content=\"(?P<question>.*)\" />\n    \n    <meta property=\"og:image\"',
             re.S,
@@ -624,8 +637,11 @@ if __name__ == '__main__':
     leetcode = Leetcode()
     while True:
         HasNew = False
+        NetworkOK = True
         start = time.time()
         do_job(leetcode)
+        while not NetworkOK:
+            do_job(leetcode)
         print("current time: ",time.asctime( time.localtime(time.time())))
         time_cost = time.time()-start
         print('waiting for tomorrow...')
