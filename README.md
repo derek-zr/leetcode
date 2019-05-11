@@ -1,8 +1,8 @@
 # :pencil2: Leetcode Solutions with Cpp  
-Update time:  2019-05-10 20:13:16  
+Update time:  2019-05-11 20:13:01  
 Solution by Derek Zheng (Contact ME at derek.zhengrui@gmail.com)  
 Auto created by [leetcode_generate](https://github.com/bonfy/leetcode)  
-I have solved **383   /   990** problems~  
+I have solved **384   /   990** problems~  
 
 | # | Title | Source Code | Article | Difficulty |  
 |:---:|:---:|:---:|:---:|:---:|
@@ -35,7 +35,7 @@ I have solved **383   /   990** problems~
 |27|[remove-element](https://leetcode.com/problems/remove-element)|[Cpp](https://github.com/derek-zr/leetcode/blob/master/./Solution/027-remove-element/remove-element.cpp)|[:memo:](https://leetcode.com/articles/remove-element/)|Easy|
 |28|[implement-strstr](https://leetcode.com/problems/implement-strstr)|[Cpp](https://github.com/derek-zr/leetcode/blob/master/./Solution/028-implement-strstr/implement-strstr.cpp)||Easy|
 |29|[divide-two-integers](https://leetcode.com/problems/divide-two-integers)|[Cpp](https://github.com/derek-zr/leetcode/blob/master/./Solution/029-divide-two-integers/divide-two-integers.cpp)||Medium|
-|30|[substring-with-concatenation-of-all-words](https://leetcode.com/problems/substring-with-concatenation-of-all-words)|||Hard|
+|30|[substring-with-concatenation-of-all-words](https://leetcode.com/problems/substring-with-concatenation-of-all-words)|[Cpp](https://github.com/derek-zr/leetcode/blob/master/./Solution/030-substring-with-concatenation-of-all-words/substring-with-concatenation-of-all-words.cpp)||Hard|
 |31|[next-permutation](https://leetcode.com/problems/next-permutation)|[Cpp](https://github.com/derek-zr/leetcode/blob/master/./Solution/031-next-permutation/next-permutation.cpp)|[:memo:](https://leetcode.com/articles/next-permutation/)|Medium|
 |32|[longest-valid-parentheses](https://leetcode.com/problems/longest-valid-parentheses)|[Cpp](https://github.com/derek-zr/leetcode/blob/master/./Solution/032-longest-valid-parentheses/longest-valid-parentheses.cpp)|[:memo:](https://leetcode.com/articles/longest-valid-parentheses/)|Hard|
 |33|[search-in-rotated-sorted-array](https://leetcode.com/problems/search-in-rotated-sorted-array)|[Cpp](https://github.com/derek-zr/leetcode/blob/master/./Solution/033-search-in-rotated-sorted-array/search-in-rotated-sorted-array.cpp)|[:memo:](https://leetcode.com/articles/search-in-rotated-sorted-array/)|Medium|
