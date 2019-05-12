@@ -1,8 +1,8 @@
 # :pencil2: Leetcode Solutions with Cpp  
-Update time:  2019-05-11 20:13:01  
+Update time:  2019-05-12 20:13:01  
 Solution by Derek Zheng (Contact ME at derek.zhengrui@gmail.com)  
 Auto created by [leetcode_generate](https://github.com/bonfy/leetcode)  
-I have solved **384   /   990** problems~  
+I have solved **386   /   994** problems~  
 
 | # | Title | Source Code | Article | Difficulty |  
 |:---:|:---:|:---:|:---:|:---:|
@@ -42,7 +42,7 @@ I have solved **384   /   990** problems~
 |34|[find-first-and-last-position-of-element-in-sorted-array](https://leetcode.com/problems/find-first-and-last-position-of-element-in-sorted-array)|[Cpp](https://github.com/derek-zr/leetcode/blob/master/./Solution/034-find-first-and-last-position-of-element-in-sorted-array/find-first-and-last-position-of-element-in-sorted-array.cpp)|[:memo:](https://leetcode.com/articles/find-first-and-last-position-element-sorted-array/)|Medium|
 |35|[search-insert-position](https://leetcode.com/problems/search-insert-position)|[Cpp](https://github.com/derek-zr/leetcode/blob/master/./Solution/035-search-insert-position/search-insert-position.cpp)||Easy|
 |36|[valid-sudoku](https://leetcode.com/problems/valid-sudoku)|[Cpp](https://github.com/derek-zr/leetcode/blob/master/./Solution/036-valid-sudoku/valid-sudoku.cpp)|[:memo:](https://leetcode.com/articles/valid-sudoku/)|Medium|
-|37|[sudoku-solver](https://leetcode.com/problems/sudoku-solver)||[:memo:](https://leetcode.com/articles/sudoku-solver/)|Hard|
+|37|[sudoku-solver](https://leetcode.com/problems/sudoku-solver)|[Cpp](https://github.com/derek-zr/leetcode/blob/master/./Solution/037-sudoku-solver/sudoku-solver.cpp)|[:memo:](https://leetcode.com/articles/sudoku-solver/)|Hard|
 |38|[count-and-say](https://leetcode.com/problems/count-and-say)|[Cpp](https://github.com/derek-zr/leetcode/blob/master/./Solution/038-count-and-say/count-and-say.cpp)||Easy|
 |39|[combination-sum](https://leetcode.com/problems/combination-sum)|[Cpp](https://github.com/derek-zr/leetcode/blob/master/./Solution/039-combination-sum/combination-sum.cpp)||Medium|
 |40|[combination-sum-ii](https://leetcode.com/problems/combination-sum-ii)|[Cpp](https://github.com/derek-zr/leetcode/blob/master/./Solution/040-combination-sum-ii/combination-sum-ii.cpp)||Medium|
@@ -52,7 +52,7 @@ I have solved **384   /   990** problems~
 |44|[wildcard-matching](https://leetcode.com/problems/wildcard-matching)|[Cpp](https://github.com/derek-zr/leetcode/blob/master/./Solution/044-wildcard-matching/wildcard-matching.cpp)||Hard|
 |45|[jump-game-ii](https://leetcode.com/problems/jump-game-ii)|[Cpp](https://github.com/derek-zr/leetcode/blob/master/./Solution/045-jump-game-ii/jump-game-ii.cpp)||Hard|
 |46|[permutations](https://leetcode.com/problems/permutations)|[Cpp](https://github.com/derek-zr/leetcode/blob/master/./Solution/046-permutations/permutations.cpp)|[:memo:](https://leetcode.com/articles/permutations/)|Medium|
-|47|[permutations-ii](https://leetcode.com/problems/permutations-ii)|||Medium|
+|47|[permutations-ii](https://leetcode.com/problems/permutations-ii)|[Cpp](https://github.com/derek-zr/leetcode/blob/master/./Solution/047-permutations-ii/permutations-ii.cpp)||Medium|
 |48|[rotate-image](https://leetcode.com/problems/rotate-image)|[Cpp](https://github.com/derek-zr/leetcode/blob/master/./Solution/048-rotate-image/rotate-image.cpp)|[:memo:](https://leetcode.com/articles/rotate-image/)|Medium|
 |49|[group-anagrams](https://leetcode.com/problems/group-anagrams)|[Cpp](https://github.com/derek-zr/leetcode/blob/master/./Solution/049-group-anagrams/group-anagrams.cpp)|[:memo:](https://leetcode.com/articles/group-anagrams/)|Medium|
 |50|[powx-n](https://leetcode.com/problems/powx-n)|[Cpp](https://github.com/derek-zr/leetcode/blob/master/./Solution/050-powx-n/powx-n.cpp)|[:memo:](https://leetcode.com/articles/powx-n/)|Medium|
@@ -996,3 +996,7 @@ I have solved **384   /   990** problems~
 |1040|[moving-stones-until-consecutive-ii](https://leetcode.com/problems/moving-stones-until-consecutive-ii)|||Medium|
 |1038|[binary-search-tree-to-greater-sum-tree](https://leetcode.com/problems/binary-search-tree-to-greater-sum-tree)|||Medium|
 |1037|[valid-boomerang](https://leetcode.com/problems/valid-boomerang)|||Easy|
+|1041|[robot-bounded-in-circle](https://leetcode.com/problems/robot-bounded-in-circle)|||Easy|
+|1042|[flower-planting-with-no-adjacent](https://leetcode.com/problems/flower-planting-with-no-adjacent)|||Easy|
+|1043|[partition-array-for-maximum-sum](https://leetcode.com/problems/partition-array-for-maximum-sum)|||Medium|
+|1044|[longest-duplicate-substring](https://leetcode.com/problems/longest-duplicate-substring)|||Hard|
