@@ -1,8 +1,8 @@
 # :pencil2: Leetcode Solutions with Cpp  
-Update time:  2019-05-12 20:26:49  
+Update time:  2019-05-13 20:25:41  
 Solution by Derek Zheng (Contact ME at derek.zhengrui@gmail.com)  
 Auto created by [leetcode_generate](https://github.com/bonfy/leetcode)  
-I have solved **387   /   994** problems~  
+I have solved **389   /   994** problems~  
 
 | # | Title | Source Code | Article | Difficulty |  
 |:---:|:---:|:---:|:---:|:---:|
@@ -57,12 +57,12 @@ I have solved **387   /   994** problems~
 |49|[group-anagrams](https://leetcode.com/problems/group-anagrams)|[Cpp](https://github.com/derek-zr/leetcode/blob/master/./Solution/049-group-anagrams/group-anagrams.cpp)|[:memo:](https://leetcode.com/articles/group-anagrams/)|Medium|
 |50|[powx-n](https://leetcode.com/problems/powx-n)|[Cpp](https://github.com/derek-zr/leetcode/blob/master/./Solution/050-powx-n/powx-n.cpp)|[:memo:](https://leetcode.com/articles/powx-n/)|Medium|
 |51|[n-queens](https://leetcode.com/problems/n-queens)|[Cpp](https://github.com/derek-zr/leetcode/blob/master/./Solution/051-n-queens/n-queens.cpp)|[:memo:](https://leetcode.com/articles/n-queens/)|Hard|
-|52|[n-queens-ii](https://leetcode.com/problems/n-queens-ii)||[:memo:](https://leetcode.com/articles/n-queens-ii/)|Hard|
+|52|[n-queens-ii](https://leetcode.com/problems/n-queens-ii)|[Cpp](https://github.com/derek-zr/leetcode/blob/master/./Solution/052-n-queens-ii/n-queens-ii.cpp)|[:memo:](https://leetcode.com/articles/n-queens-ii/)|Hard|
 |53|[maximum-subarray](https://leetcode.com/problems/maximum-subarray)|[Cpp](https://github.com/derek-zr/leetcode/blob/master/./Solution/053-maximum-subarray/maximum-subarray.cpp)||Easy|
 |54|[spiral-matrix](https://leetcode.com/problems/spiral-matrix)|[Cpp](https://github.com/derek-zr/leetcode/blob/master/./Solution/054-spiral-matrix/spiral-matrix.cpp)|[:memo:](https://leetcode.com/articles/spiral-matrix/)|Medium|
 |55|[jump-game](https://leetcode.com/problems/jump-game)|[Cpp](https://github.com/derek-zr/leetcode/blob/master/./Solution/055-jump-game/jump-game.cpp)|[:memo:](https://leetcode.com/articles/jump-game/)|Medium|
 |56|[merge-intervals](https://leetcode.com/problems/merge-intervals)|[Cpp](https://github.com/derek-zr/leetcode/blob/master/./Solution/056-merge-intervals/merge-intervals.cpp)|[:memo:](https://leetcode.com/articles/merge-intervals/)|Medium|
-|57|[insert-interval](https://leetcode.com/problems/insert-interval)|||Hard|
+|57|[insert-interval](https://leetcode.com/problems/insert-interval)|[Cpp](https://github.com/derek-zr/leetcode/blob/master/./Solution/057-insert-interval/insert-interval.cpp)||Hard|
 |58|[length-of-last-word](https://leetcode.com/problems/length-of-last-word)|[Cpp](https://github.com/derek-zr/leetcode/blob/master/./Solution/058-length-of-last-word/length-of-last-word.cpp)||Easy|
 |59|[spiral-matrix-ii](https://leetcode.com/problems/spiral-matrix-ii)|||Medium|
 |60|[permutation-sequence](https://leetcode.com/problems/permutation-sequence)|||Medium|
