@@ -561,11 +561,12 @@ I have solved **{num_solved}   /   {num_total}** problems~
             if item.is_lock:
                 language = ':lock:'
             else:
-                if item.solutions:
-                    dirname =root_dir + '{id}-{title}'.format(
+                dirname =root_dir + '{id}-{title}'.format(
                         id=str(item.question_id).zfill(3),
                         title=item.question__title_slug,
                     )
+                #print(dirname,os.path.exists(dirname))
+                if item.solutions or os.path.exists(dirname):
                     language = ''
                     language_lst = [
                         i['lang']
