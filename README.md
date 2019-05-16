@@ -1,8 +1,8 @@
 # :pencil2: Leetcode Solutions with Cpp  
-Update time:  2019-05-15 21:34:02  
+Update time:  2019-05-16 19:51:51  
 Solution by Derek Zheng (Contact ME at derek.zhengrui@gmail.com)  
 Auto created by [leetcode_generate](https://github.com/bonfy/leetcode)  
-I have solved **391   /   994** problems~  
+I have solved **392   /   994** problems~  
 
 | # | Title | Source Code | Article | Difficulty |  
 |:---:|:---:|:---:|:---:|:---:|
@@ -66,7 +66,7 @@ I have solved **391   /   994** problems~
 |58|[length-of-last-word](https://leetcode.com/problems/length-of-last-word)|[Cpp](https://github.com/derek-zr/leetcode/blob/master/./Solution/058-length-of-last-word/length-of-last-word.cpp)||Easy|
 |59|[spiral-matrix-ii](https://leetcode.com/problems/spiral-matrix-ii)|[Cpp](https://github.com/derek-zr/leetcode/blob/master/./Solution/059-spiral-matrix-ii/spiral-matrix-ii.cpp)||Medium|
 |60|[permutation-sequence](https://leetcode.com/problems/permutation-sequence)|[Cpp](https://github.com/derek-zr/leetcode/blob/master/./Solution/060-permutation-sequence/permutation-sequence.cpp)||Medium|
-|61|[rotate-list](https://leetcode.com/problems/rotate-list)||[:memo:](https://leetcode.com/articles/rotate-list/)|Medium|
+|61|[rotate-list](https://leetcode.com/problems/rotate-list)|[Cpp](https://github.com/derek-zr/leetcode/blob/master/./Solution/061-rotate-list/rotate-list.cpp)|[:memo:](https://leetcode.com/articles/rotate-list/)|Medium|
 |62|[unique-paths](https://leetcode.com/problems/unique-paths)|[Cpp](https://github.com/derek-zr/leetcode/blob/master/./Solution/062-unique-paths/unique-paths.cpp)||Medium|
 |63|[unique-paths-ii](https://leetcode.com/problems/unique-paths-ii)||[:memo:](https://leetcode.com/articles/unique-paths-ii/)|Medium|
 |64|[minimum-path-sum](https://leetcode.com/problems/minimum-path-sum)|[Cpp](https://github.com/derek-zr/leetcode/blob/master/./Solution/064-minimum-path-sum/minimum-path-sum.cpp)|[:memo:](https://leetcode.com/articles/minimum-path-sum/)|Medium|
@@ -277,7 +277,7 @@ I have solved **391   /   994** problems~
 |286|[walls-and-gates](https://leetcode.com/problems/walls-and-gates)|:lock:|[:memo:](https://leetcode.com/articles/walls-and-gates/)|Medium|
 |287|[find-the-duplicate-number](https://leetcode.com/problems/find-the-duplicate-number)|[Cpp](https://github.com/derek-zr/leetcode/blob/master/./Solution/287-find-the-duplicate-number/find-the-duplicate-number.cpp)|[:memo:](https://leetcode.com/articles/find-the-duplicate-number/)|Medium|
 |288|[unique-word-abbreviation](https://leetcode.com/problems/unique-word-abbreviation)|:lock:|[:memo:](https://leetcode.com/articles/unique-word-abbreviation/)|Medium|
-|289|[game-of-life](https://leetcode.com/problems/game-of-life)|[Cpp](https://github.com/derek-zr/leetcode/blob/master/./Solution/289-game-of-life/game-of-life.cpp)||Medium|
+|289|[game-of-life](https://leetcode.com/problems/game-of-life)|[Cpp](https://github.com/derek-zr/leetcode/blob/master/./Solution/289-game-of-life/game-of-life.cpp)|[:memo:](https://leetcode.com/articles/game-of-life/)|Medium|
 |290|[word-pattern](https://leetcode.com/problems/word-pattern)|||Easy|
 |291|[word-pattern-ii](https://leetcode.com/problems/word-pattern-ii)|:lock:||Hard|
 |292|[nim-game](https://leetcode.com/problems/nim-game)|[Cpp](https://github.com/derek-zr/leetcode/blob/master/./Solution/292-nim-game/nim-game.cpp)|[:memo:](https://leetcode.com/articles/nim-game/)|Easy|
