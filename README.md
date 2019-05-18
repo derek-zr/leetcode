@@ -1,8 +1,8 @@
 # :pencil2: Leetcode Solutions with Cpp  
-Update time:  2019-05-17 19:51:56  
+Update time:  2019-05-18 19:51:51  
 Solution by Derek Zheng (Contact ME at derek.zhengrui@gmail.com)  
 Auto created by [leetcode_generate](https://github.com/bonfy/leetcode)  
-I have solved **393   /   994** problems~  
+I have solved **395   /   994** problems~  
 
 | # | Title | Source Code | Article | Difficulty |  
 |:---:|:---:|:---:|:---:|:---:|
@@ -70,10 +70,10 @@ I have solved **393   /   994** problems~
 |62|[unique-paths](https://leetcode.com/problems/unique-paths)|[Cpp](https://github.com/derek-zr/leetcode/blob/master/./Solution/062-unique-paths/unique-paths.cpp)||Medium|
 |63|[unique-paths-ii](https://leetcode.com/problems/unique-paths-ii)|[Cpp](https://github.com/derek-zr/leetcode/blob/master/./Solution/063-unique-paths-ii/unique-paths-ii.cpp)|[:memo:](https://leetcode.com/articles/unique-paths-ii/)|Medium|
 |64|[minimum-path-sum](https://leetcode.com/problems/minimum-path-sum)|[Cpp](https://github.com/derek-zr/leetcode/blob/master/./Solution/064-minimum-path-sum/minimum-path-sum.cpp)|[:memo:](https://leetcode.com/articles/minimum-path-sum/)|Medium|
-|65|[valid-number](https://leetcode.com/problems/valid-number)|||Hard|
+|65|[valid-number](https://leetcode.com/problems/valid-number)|[Cpp](https://github.com/derek-zr/leetcode/blob/master/./Solution/065-valid-number/valid-number.cpp)||Hard|
 |66|[plus-one](https://leetcode.com/problems/plus-one)|[Cpp](https://github.com/derek-zr/leetcode/blob/master/./Solution/066-plus-one/plus-one.cpp)||Easy|
 |67|[add-binary](https://leetcode.com/problems/add-binary)|[Cpp](https://github.com/derek-zr/leetcode/blob/master/./Solution/067-add-binary/add-binary.cpp)||Easy|
-|68|[text-justification](https://leetcode.com/problems/text-justification)|||Hard|
+|68|[text-justification](https://leetcode.com/problems/text-justification)|[Cpp](https://github.com/derek-zr/leetcode/blob/master/./Solution/068-text-justification/text-justification.cpp)||Hard|
 |69|[sqrtx](https://leetcode.com/problems/sqrtx)|[Cpp](https://github.com/derek-zr/leetcode/blob/master/./Solution/069-sqrtx/sqrtx.cpp)||Easy|
 |70|[climbing-stairs](https://leetcode.com/problems/climbing-stairs)|[Cpp](https://github.com/derek-zr/leetcode/blob/master/./Solution/070-climbing-stairs/climbing-stairs.cpp)|[:memo:](https://leetcode.com/articles/climbing-stairs/)|Easy|
 |71|[simplify-path](https://leetcode.com/problems/simplify-path)|||Medium|
