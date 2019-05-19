@@ -1,8 +1,8 @@
 # :pencil2: Leetcode Solutions with Cpp  
-Update time:  2019-05-18 19:51:51  
+Update time:  2019-05-19 19:51:49  
 Solution by Derek Zheng (Contact ME at derek.zhengrui@gmail.com)  
 Auto created by [leetcode_generate](https://github.com/bonfy/leetcode)  
-I have solved **395   /   994** problems~  
+I have solved **396   /   998** problems~  
 
 | # | Title | Source Code | Article | Difficulty |  
 |:---:|:---:|:---:|:---:|:---:|
@@ -49,7 +49,7 @@ I have solved **395   /   994** problems~
 |41|[first-missing-positive](https://leetcode.com/problems/first-missing-positive)|[Cpp](https://github.com/derek-zr/leetcode/blob/master/./Solution/041-first-missing-positive/first-missing-positive.cpp)|[:memo:](https://leetcode.com/articles/first-missing-positive/)|Hard|
 |42|[trapping-rain-water](https://leetcode.com/problems/trapping-rain-water)|[Cpp](https://github.com/derek-zr/leetcode/blob/master/./Solution/042-trapping-rain-water/trapping-rain-water.cpp)|[:memo:](https://leetcode.com/articles/trapping-rain-water/)|Hard|
 |43|[multiply-strings](https://leetcode.com/problems/multiply-strings)|[Cpp](https://github.com/derek-zr/leetcode/blob/master/./Solution/043-multiply-strings/multiply-strings.cpp)||Medium|
-|44|[wildcard-matching](https://leetcode.com/problems/wildcard-matching)|[Cpp](https://github.com/derek-zr/leetcode/blob/master/./Solution/044-wildcard-matching/wildcard-matching.cpp)||Hard|
+|44|[wildcard-matching](https://leetcode.com/problems/wildcard-matching)|[Cpp](https://github.com/derek-zr/leetcode/blob/master/./Solution/044-wildcard-matching/wildcard-matching.cpp)|[:memo:](https://leetcode.com/articles/wildcard-matching/)|Hard|
 |45|[jump-game-ii](https://leetcode.com/problems/jump-game-ii)|[Cpp](https://github.com/derek-zr/leetcode/blob/master/./Solution/045-jump-game-ii/jump-game-ii.cpp)||Hard|
 |46|[permutations](https://leetcode.com/problems/permutations)|[Cpp](https://github.com/derek-zr/leetcode/blob/master/./Solution/046-permutations/permutations.cpp)|[:memo:](https://leetcode.com/articles/permutations/)|Medium|
 |47|[permutations-ii](https://leetcode.com/problems/permutations-ii)|[Cpp](https://github.com/derek-zr/leetcode/blob/master/./Solution/047-permutations-ii/permutations-ii.cpp)||Medium|
@@ -76,7 +76,7 @@ I have solved **395   /   994** problems~
 |68|[text-justification](https://leetcode.com/problems/text-justification)|[Cpp](https://github.com/derek-zr/leetcode/blob/master/./Solution/068-text-justification/text-justification.cpp)||Hard|
 |69|[sqrtx](https://leetcode.com/problems/sqrtx)|[Cpp](https://github.com/derek-zr/leetcode/blob/master/./Solution/069-sqrtx/sqrtx.cpp)||Easy|
 |70|[climbing-stairs](https://leetcode.com/problems/climbing-stairs)|[Cpp](https://github.com/derek-zr/leetcode/blob/master/./Solution/070-climbing-stairs/climbing-stairs.cpp)|[:memo:](https://leetcode.com/articles/climbing-stairs/)|Easy|
-|71|[simplify-path](https://leetcode.com/problems/simplify-path)|||Medium|
+|71|[simplify-path](https://leetcode.com/problems/simplify-path)|[Cpp](https://github.com/derek-zr/leetcode/blob/master/./Solution/071-simplify-path/simplify-path.cpp)||Medium|
 |72|[edit-distance](https://leetcode.com/problems/edit-distance)|[Cpp](https://github.com/derek-zr/leetcode/blob/master/./Solution/072-edit-distance/edit-distance.cpp)|[:memo:](https://leetcode.com/articles/edit-distance/)|Hard|
 |73|[set-matrix-zeroes](https://leetcode.com/problems/set-matrix-zeroes)|[Cpp](https://github.com/derek-zr/leetcode/blob/master/./Solution/073-set-matrix-zeroes/set-matrix-zeroes.cpp)|[:memo:](https://leetcode.com/articles/set-matrix-zeroes/)|Medium|
 |74|[search-a-2d-matrix](https://leetcode.com/problems/search-a-2d-matrix)||[:memo:](https://leetcode.com/articles/search-in-2d-matrix/)|Medium|
@@ -1000,3 +1000,7 @@ I have solved **395   /   994** problems~
 |1042|[flower-planting-with-no-adjacent](https://leetcode.com/problems/flower-planting-with-no-adjacent)|||Easy|
 |1043|[partition-array-for-maximum-sum](https://leetcode.com/problems/partition-array-for-maximum-sum)|||Medium|
 |1044|[longest-duplicate-substring](https://leetcode.com/problems/longest-duplicate-substring)|||Hard|
+|1046|[last-stone-weight](https://leetcode.com/problems/last-stone-weight)|||Easy|
+|1047|[remove-all-adjacent-duplicates-in-string](https://leetcode.com/problems/remove-all-adjacent-duplicates-in-string)|||Easy|
+|1048|[longest-string-chain](https://leetcode.com/problems/longest-string-chain)|||Medium|
+|1049|[last-stone-weight-ii](https://leetcode.com/problems/last-stone-weight-ii)|||Medium|
