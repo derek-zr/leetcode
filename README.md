@@ -1,8 +1,8 @@
 # :pencil2: Leetcode Solutions with Cpp  
-Update time:  2019-05-31 19:51:33  
+Update time:  2019-06-02 19:51:34  
 Solution by Derek Zheng (Contact ME at derek.zhengrui@gmail.com)  
 Auto created by [leetcode_generate](https://github.com/bonfy/leetcode)  
-I have solved **411   /   1002** problems~  
+I have solved **413   /   1019** problems~  
 
 | # | Title | Source Code | Article | Difficulty |  
 |:---:|:---:|:---:|:---:|:---:|
@@ -120,9 +120,9 @@ I have solved **411   /   1002** problems~
 |112|[path-sum](https://leetcode.com/problems/path-sum)|[Cpp](https://github.com/derek-zr/leetcode/blob/master/./Solution/112-path-sum/path-sum.cpp)|[:memo:](https://leetcode.com/articles/path-sum/)|Easy|
 |113|[path-sum-ii](https://leetcode.com/problems/path-sum-ii)|[Cpp](https://github.com/derek-zr/leetcode/blob/master/./Solution/113-path-sum-ii/path-sum-ii.cpp)||Medium|
 |114|[flatten-binary-tree-to-linked-list](https://leetcode.com/problems/flatten-binary-tree-to-linked-list)|[Cpp](https://github.com/derek-zr/leetcode/blob/master/./Solution/114-flatten-binary-tree-to-linked-list/flatten-binary-tree-to-linked-list.cpp)||Medium|
-|115|[distinct-subsequences](https://leetcode.com/problems/distinct-subsequences)|||Hard|
+|115|[distinct-subsequences](https://leetcode.com/problems/distinct-subsequences)|[Cpp](https://github.com/derek-zr/leetcode/blob/master/./Solution/115-distinct-subsequences/distinct-subsequences.cpp)||Hard|
 |116|[populating-next-right-pointers-in-each-node](https://leetcode.com/problems/populating-next-right-pointers-in-each-node)|[Cpp](https://github.com/derek-zr/leetcode/blob/master/./Solution/116-populating-next-right-pointers-in-each-node/populating-next-right-pointers-in-each-node.cpp)||Medium|
-|117|[populating-next-right-pointers-in-each-node-ii](https://leetcode.com/problems/populating-next-right-pointers-in-each-node-ii)|||Medium|
+|117|[populating-next-right-pointers-in-each-node-ii](https://leetcode.com/problems/populating-next-right-pointers-in-each-node-ii)|[Cpp](https://github.com/derek-zr/leetcode/blob/master/./Solution/117-populating-next-right-pointers-in-each-node-ii/populating-next-right-pointers-in-each-node-ii.cpp)||Medium|
 |118|[pascals-triangle](https://leetcode.com/problems/pascals-triangle)|[Cpp](https://github.com/derek-zr/leetcode/blob/master/./Solution/118-pascals-triangle/pascals-triangle.cpp)|[:memo:](https://leetcode.com/articles/pascals-triangle/)|Easy|
 |119|[pascals-triangle-ii](https://leetcode.com/problems/pascals-triangle-ii)|||Easy|
 |120|[triangle](https://leetcode.com/problems/triangle)|[Cpp](https://github.com/derek-zr/leetcode/blob/master/./Solution/120-triangle/triangle.cpp)||Medium|
@@ -151,7 +151,7 @@ I have solved **411   /   1002** problems~
 |143|[reorder-list](https://leetcode.com/problems/reorder-list)|[Cpp](https://github.com/derek-zr/leetcode/blob/master/./Solution/143-reorder-list/reorder-list.cpp)||Medium|
 |144|[binary-tree-preorder-traversal](https://leetcode.com/problems/binary-tree-preorder-traversal)||[:memo:](https://leetcode.com/articles/binary-tree-preorder-transversal/)|Medium|
 |145|[binary-tree-postorder-traversal](https://leetcode.com/problems/binary-tree-postorder-traversal)||[:memo:](https://leetcode.com/articles/binary-tree-postorder-transversal/)|Hard|
-|146|[lru-cache](https://leetcode.com/problems/lru-cache)|[Cpp](https://github.com/derek-zr/leetcode/blob/master/./Solution/146-lru-cache/lru-cache.cpp)|[:memo:](https://leetcode.com/articles/lru-cache/)|Hard|
+|146|[lru-cache](https://leetcode.com/problems/lru-cache)|[Cpp](https://github.com/derek-zr/leetcode/blob/master/./Solution/146-lru-cache/lru-cache.cpp)|[:memo:](https://leetcode.com/articles/lru-cache/)|Medium|
 |147|[insertion-sort-list](https://leetcode.com/problems/insertion-sort-list)|||Medium|
 |148|[sort-list](https://leetcode.com/problems/sort-list)|[Cpp](https://github.com/derek-zr/leetcode/blob/master/./Solution/148-sort-list/sort-list.cpp)||Medium|
 |149|[max-points-on-a-line](https://leetcode.com/problems/max-points-on-a-line)|[Cpp](https://github.com/derek-zr/leetcode/blob/master/./Solution/149-max-points-on-a-line/max-points-on-a-line.cpp)|[:memo:](https://leetcode.com/articles/max-points-on-a-line/)|Hard|
@@ -488,11 +488,12 @@ I have solved **411   /   1002** problems~
 |507|[perfect-number](https://leetcode.com/problems/perfect-number)|[Cpp](https://github.com/derek-zr/leetcode/blob/master/./Solution/507-perfect-number/perfect-number.cpp)|[:memo:](https://leetcode.com/articles/perfect-number/)|Easy|
 |508|[most-frequent-subtree-sum](https://leetcode.com/problems/most-frequent-subtree-sum)|[Cpp](https://github.com/derek-zr/leetcode/blob/master/./Solution/508-most-frequent-subtree-sum/most-frequent-subtree-sum.cpp)||Medium|
 |510|[inorder-successor-in-bst-ii](https://leetcode.com/problems/inorder-successor-in-bst-ii)|:lock:||Medium|
+|1059|[all-paths-from-source-lead-to-destination](https://leetcode.com/problems/all-paths-from-source-lead-to-destination)|:lock:||Medium|
 |513|[find-bottom-left-tree-value](https://leetcode.com/problems/find-bottom-left-tree-value)|[Cpp](https://github.com/derek-zr/leetcode/blob/master/./Solution/513-find-bottom-left-tree-value/find-bottom-left-tree-value.cpp)||Medium|
 |514|[freedom-trail](https://leetcode.com/problems/freedom-trail)|[Cpp](https://github.com/derek-zr/leetcode/blob/master/./Solution/514-freedom-trail/freedom-trail.cpp)||Hard|
 |515|[find-largest-value-in-each-tree-row](https://leetcode.com/problems/find-largest-value-in-each-tree-row)|[Cpp](https://github.com/derek-zr/leetcode/blob/master/./Solution/515-find-largest-value-in-each-tree-row/find-largest-value-in-each-tree-row.cpp)||Medium|
 |516|[longest-palindromic-subsequence](https://leetcode.com/problems/longest-palindromic-subsequence)|[Cpp](https://github.com/derek-zr/leetcode/blob/master/./Solution/516-longest-palindromic-subsequence/longest-palindromic-subsequence.cpp)||Medium|
-|517|[super-washing-machines](https://leetcode.com/problems/super-washing-machines)|[Cpp](https://github.com/derek-zr/leetcode/blob/master/./Solution/517-super-washing-machines/super-washing-machines.cpp)||Hard|
+|517|[super-washing-machines](https://leetcode.com/problems/super-washing-machines)|[Cpp](https://github.com/derek-zr/leetcode/blob/master/./Solution/517-super-washing-machines/super-washing-machines.cpp)|[:memo:](https://leetcode.com/articles/super-washing-machines/)|Hard|
 |518|[coin-change-2](https://leetcode.com/problems/coin-change-2)|[Cpp](https://github.com/derek-zr/leetcode/blob/master/./Solution/518-coin-change-2/coin-change-2.cpp)||Medium|
 |520|[detect-capital](https://leetcode.com/problems/detect-capital)|||Easy|
 |521|[longest-uncommon-subsequence-i](https://leetcode.com/problems/longest-uncommon-subsequence-i)|[Cpp](https://github.com/derek-zr/leetcode/blob/master/./Solution/521-longest-uncommon-subsequence-i/longest-uncommon-subsequence-i.cpp)|[:memo:](https://leetcode.com/articles/longest-uncommon-subsequence-i/)|Easy|
@@ -964,18 +965,30 @@ I have solved **411   /   1002** problems~
 |1006|[clumsy-factorial](https://leetcode.com/problems/clumsy-factorial)|||Medium|
 |1007|[minimum-domino-rotations-for-equal-row](https://leetcode.com/problems/minimum-domino-rotations-for-equal-row)||[:memo:](https://leetcode.com/articles/minimum-domino-rotations-for-equal-row/)|Medium|
 |1008|[construct-binary-search-tree-from-preorder-traversal](https://leetcode.com/problems/construct-binary-search-tree-from-preorder-traversal)||[:memo:](https://leetcode.com/articles/construct-bst-from-preorder-traversal/)|Medium|
+|1055|[shortest-way-to-form-string](https://leetcode.com/problems/shortest-way-to-form-string)|:lock:||Medium|
+|1057|[campus-bikes](https://leetcode.com/problems/campus-bikes)|:lock:||Medium|
+|1058|[minimize-rounding-error-to-meet-target](https://leetcode.com/problems/minimize-rounding-error-to-meet-target)|:lock:||Medium|
 |1009|[complement-of-base-10-integer](https://leetcode.com/problems/complement-of-base-10-integer)|||Easy|
 |1010|[pairs-of-songs-with-total-durations-divisible-by-60](https://leetcode.com/problems/pairs-of-songs-with-total-durations-divisible-by-60)|||Easy|
 |1011|[capacity-to-ship-packages-within-d-days](https://leetcode.com/problems/capacity-to-ship-packages-within-d-days)|||Medium|
 |1012|[numbers-with-repeated-digits](https://leetcode.com/problems/numbers-with-repeated-digits)|||Hard|
+|1061|[lexicographically-smallest-equivalent-string](https://leetcode.com/problems/lexicographically-smallest-equivalent-string)|:lock:||Medium|
+|1060|[missing-element-in-sorted-array](https://leetcode.com/problems/missing-element-in-sorted-array)|:lock:||Medium|
+|1062|[longest-repeating-substring](https://leetcode.com/problems/longest-repeating-substring)|:lock:||Medium|
+|1063|[number-of-valid-subarrays](https://leetcode.com/problems/number-of-valid-subarrays)|:lock:||Hard|
 |1013|[partition-array-into-three-parts-with-equal-sum](https://leetcode.com/problems/partition-array-into-three-parts-with-equal-sum)|||Easy|
 |1014|[best-sightseeing-pair](https://leetcode.com/problems/best-sightseeing-pair)|||Medium|
 |1015|[smallest-integer-divisible-by-k](https://leetcode.com/problems/smallest-integer-divisible-by-k)|||Medium|
 |1016|[binary-string-with-substrings-representing-1-to-n](https://leetcode.com/problems/binary-string-with-substrings-representing-1-to-n)|||Medium|
+|1064|[fixed-point](https://leetcode.com/problems/fixed-point)|:lock:||Easy|
+|1066|[campus-bikes-ii](https://leetcode.com/problems/campus-bikes-ii)|:lock:||Medium|
+|1067|[digit-count-in-range](https://leetcode.com/problems/digit-count-in-range)|:lock:||Hard|
+|1056|[confusing-number](https://leetcode.com/problems/confusing-number)|:lock:||Easy|
 |1017|[convert-to-base-2](https://leetcode.com/problems/convert-to-base-2)|||Medium|
 |1018|[binary-prefix-divisible-by-5](https://leetcode.com/problems/binary-prefix-divisible-by-5)|||Easy|
 |1019|[next-greater-node-in-linked-list](https://leetcode.com/problems/next-greater-node-in-linked-list)|||Medium|
 |1020|[number-of-enclaves](https://leetcode.com/problems/number-of-enclaves)|||Medium|
+|1065|[index-pairs-of-a-string](https://leetcode.com/problems/index-pairs-of-a-string)|:lock:||Easy|
 |1021|[remove-outermost-parentheses](https://leetcode.com/problems/remove-outermost-parentheses)|||Easy|
 |1022|[sum-of-root-to-leaf-binary-numbers](https://leetcode.com/problems/sum-of-root-to-leaf-binary-numbers)|||Easy|
 |1023|[camelcase-matching](https://leetcode.com/problems/camelcase-matching)|||Medium|
@@ -1008,3 +1021,7 @@ I have solved **411   /   1002** problems~
 |1052|[grumpy-bookstore-owner](https://leetcode.com/problems/grumpy-bookstore-owner)|||Medium|
 |1053|[previous-permutation-with-one-swap](https://leetcode.com/problems/previous-permutation-with-one-swap)|||Medium|
 |1054|[distant-barcodes](https://leetcode.com/problems/distant-barcodes)|||Medium|
+|1074|[number-of-submatrices-that-sum-to-target](https://leetcode.com/problems/number-of-submatrices-that-sum-to-target)|||Hard|
+|1071|[greatest-common-divisor-of-strings](https://leetcode.com/problems/greatest-common-divisor-of-strings)|||Easy|
+|1072|[flip-columns-for-maximum-number-of-equal-rows](https://leetcode.com/problems/flip-columns-for-maximum-number-of-equal-rows)|||Medium|
+|1073|[adding-two-negabinary-numbers](https://leetcode.com/problems/adding-two-negabinary-numbers)|||Medium|
