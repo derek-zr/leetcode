@@ -1,8 +1,8 @@
 # :pencil2: Leetcode Solutions with Cpp  
-Update time:  2019-06-06 19:50:10  
+Update time:  2019-06-09 19:51:29  
 Solution by Derek Zheng (Contact ME at derek.zhengrui@gmail.com)  
 Auto created by [leetcode_generate](https://github.com/bonfy/leetcode)  
-I have solved **417   /   1019** problems~  
+I have solved **419   /   1023** problems~  
 
 | # | Title | Source Code | Article | Difficulty |  
 |:---:|:---:|:---:|:---:|:---:|
@@ -140,9 +140,9 @@ I have solved **417   /   1019** problems~
 |132|[palindrome-partitioning-ii](https://leetcode.com/problems/palindrome-partitioning-ii)|[Cpp](https://github.com/derek-zr/leetcode/blob/master/./Solution/132-palindrome-partitioning-ii/palindrome-partitioning-ii.cpp)||Hard|
 |133|[clone-graph](https://leetcode.com/problems/clone-graph)|[Cpp](https://github.com/derek-zr/leetcode/blob/master/./Solution/133-clone-graph/clone-graph.cpp)||Medium|
 |134|[gas-station](https://leetcode.com/problems/gas-station)|[Cpp](https://github.com/derek-zr/leetcode/blob/master/./Solution/134-gas-station/gas-station.cpp)|[:memo:](https://leetcode.com/articles/gas-station/)|Medium|
-|135|[candy](https://leetcode.com/problems/candy)||[:memo:](https://leetcode.com/articles/candy/)|Hard|
+|135|[candy](https://leetcode.com/problems/candy)|[Cpp](https://github.com/derek-zr/leetcode/blob/master/./Solution/135-candy/candy.cpp)|[:memo:](https://leetcode.com/articles/candy/)|Hard|
 |136|[single-number](https://leetcode.com/problems/single-number)|[Cpp](https://github.com/derek-zr/leetcode/blob/master/./Solution/136-single-number/single-number.cpp)|[:memo:](https://leetcode.com/articles/single-number/)|Easy|
-|137|[single-number-ii](https://leetcode.com/problems/single-number-ii)|||Medium|
+|137|[single-number-ii](https://leetcode.com/problems/single-number-ii)|[Cpp](https://github.com/derek-zr/leetcode/blob/master/./Solution/137-single-number-ii/single-number-ii.cpp)||Medium|
 |138|[copy-list-with-random-pointer](https://leetcode.com/problems/copy-list-with-random-pointer)|[Cpp](https://github.com/derek-zr/leetcode/blob/master/./Solution/138-copy-list-with-random-pointer/copy-list-with-random-pointer.cpp)|[:memo:](https://leetcode.com/articles/copy-list-with-random-pointer/)|Medium|
 |139|[word-break](https://leetcode.com/problems/word-break)|[Cpp](https://github.com/derek-zr/leetcode/blob/master/./Solution/139-word-break/word-break.cpp)|[:memo:](https://leetcode.com/articles/word-break/)|Medium|
 |140|[word-break-ii](https://leetcode.com/problems/word-break-ii)|[Cpp](https://github.com/derek-zr/leetcode/blob/master/./Solution/140-word-break-ii/word-break-ii.cpp)|[:memo:](https://leetcode.com/articles/word-break-ii/)|Hard|
@@ -178,7 +178,7 @@ I have solved **417   /   1019** problems~
 |170|[two-sum-iii-data-structure-design](https://leetcode.com/problems/two-sum-iii-data-structure-design)|:lock:||Easy|
 |171|[excel-sheet-column-number](https://leetcode.com/problems/excel-sheet-column-number)|[Cpp](https://github.com/derek-zr/leetcode/blob/master/./Solution/171-excel-sheet-column-number/excel-sheet-column-number.cpp)||Easy|
 |172|[factorial-trailing-zeroes](https://leetcode.com/problems/factorial-trailing-zeroes)|[Cpp](https://github.com/derek-zr/leetcode/blob/master/./Solution/172-factorial-trailing-zeroes/factorial-trailing-zeroes.cpp)||Easy|
-|173|[binary-search-tree-iterator](https://leetcode.com/problems/binary-search-tree-iterator)|||Medium|
+|173|[binary-search-tree-iterator](https://leetcode.com/problems/binary-search-tree-iterator)||[:memo:](https://leetcode.com/articles/binary-search-tree-iterator/)|Medium|
 |174|[dungeon-game](https://leetcode.com/problems/dungeon-game)|||Hard|
 |179|[largest-number](https://leetcode.com/problems/largest-number)|[Cpp](https://github.com/derek-zr/leetcode/blob/master/./Solution/179-largest-number/largest-number.cpp)|[:memo:](https://leetcode.com/articles/largest-number/)|Medium|
 |186|[reverse-words-in-a-string-ii](https://leetcode.com/problems/reverse-words-in-a-string-ii)|:lock:||Medium|
@@ -1025,3 +1025,7 @@ I have solved **417   /   1019** problems~
 |1071|[greatest-common-divisor-of-strings](https://leetcode.com/problems/greatest-common-divisor-of-strings)|||Easy|
 |1072|[flip-columns-for-maximum-number-of-equal-rows](https://leetcode.com/problems/flip-columns-for-maximum-number-of-equal-rows)|||Medium|
 |1073|[adding-two-negabinary-numbers](https://leetcode.com/problems/adding-two-negabinary-numbers)|||Medium|
+|5083|[occurrences-after-bigram](https://leetcode.com/problems/occurrences-after-bigram)|||Easy|
+|5084|[insufficient-nodes-in-root-to-leaf-paths](https://leetcode.com/problems/insufficient-nodes-in-root-to-leaf-paths)|||Medium|
+|5086|[smallest-subsequence-of-distinct-characters](https://leetcode.com/problems/smallest-subsequence-of-distinct-characters)|||Medium|
+|5087|[letter-tile-possibilities](https://leetcode.com/problems/letter-tile-possibilities)|||Medium|
