@@ -1,8 +1,8 @@
 # :pencil2: Leetcode Solutions with Cpp  
-Update time:  2019-06-12 19:51:23  
+Update time:  2019-06-13 16:46:58  
 Solution by Derek Zheng (Contact ME at derek.zhengrui@gmail.com)  
 Auto created by [leetcode_generate](https://github.com/bonfy/leetcode)  
-I have solved **422   /   1023** problems~  
+I have solved **423   /   1023** problems~  
 
 | # | Title | Source Code | Article | Difficulty |  
 |:---:|:---:|:---:|:---:|:---:|
@@ -156,7 +156,7 @@ I have solved **422   /   1023** problems~
 |148|[sort-list](https://leetcode.com/problems/sort-list)|[Cpp](https://github.com/derek-zr/leetcode/blob/master/./Solution/148-sort-list/sort-list.cpp)||Medium|
 |149|[max-points-on-a-line](https://leetcode.com/problems/max-points-on-a-line)|[Cpp](https://github.com/derek-zr/leetcode/blob/master/./Solution/149-max-points-on-a-line/max-points-on-a-line.cpp)|[:memo:](https://leetcode.com/articles/max-points-on-a-line/)|Hard|
 |150|[evaluate-reverse-polish-notation](https://leetcode.com/problems/evaluate-reverse-polish-notation)|[Cpp](https://github.com/derek-zr/leetcode/blob/master/./Solution/150-evaluate-reverse-polish-notation/evaluate-reverse-polish-notation.cpp)||Medium|
-|151|[reverse-words-in-a-string](https://leetcode.com/problems/reverse-words-in-a-string)|||Medium|
+|151|[reverse-words-in-a-string](https://leetcode.com/problems/reverse-words-in-a-string)|[Cpp](https://github.com/derek-zr/leetcode/blob/master/./Solution/151-reverse-words-in-a-string/reverse-words-in-a-string.cpp)||Medium|
 |152|[maximum-product-subarray](https://leetcode.com/problems/maximum-product-subarray)|[Cpp](https://github.com/derek-zr/leetcode/blob/master/./Solution/152-maximum-product-subarray/maximum-product-subarray.cpp)||Medium|
 |153|[find-minimum-in-rotated-sorted-array](https://leetcode.com/problems/find-minimum-in-rotated-sorted-array)||[:memo:](https://leetcode.com/articles/find-minimum-in-rotated-sorted-array/)|Medium|
 |154|[find-minimum-in-rotated-sorted-array-ii](https://leetcode.com/problems/find-minimum-in-rotated-sorted-array-ii)|||Hard|
@@ -973,7 +973,7 @@ I have solved **422   /   1023** problems~
 |1011|[capacity-to-ship-packages-within-d-days](https://leetcode.com/problems/capacity-to-ship-packages-within-d-days)|||Medium|
 |1012|[numbers-with-repeated-digits](https://leetcode.com/problems/numbers-with-repeated-digits)|||Hard|
 |1061|[lexicographically-smallest-equivalent-string](https://leetcode.com/problems/lexicographically-smallest-equivalent-string)|:lock:||Medium|
-|1060|[missing-element-in-sorted-array](https://leetcode.com/problems/missing-element-in-sorted-array)|:lock:||Medium|
+|1060|[missing-element-in-sorted-array](https://leetcode.com/problems/missing-element-in-sorted-array)|:lock:|[:memo:](https://leetcode.com/articles/missing-element-in-sorted-array/)|Medium|
 |1062|[longest-repeating-substring](https://leetcode.com/problems/longest-repeating-substring)|:lock:||Medium|
 |1063|[number-of-valid-subarrays](https://leetcode.com/problems/number-of-valid-subarrays)|:lock:||Hard|
 |1013|[partition-array-into-three-parts-with-equal-sum](https://leetcode.com/problems/partition-array-into-three-parts-with-equal-sum)|||Easy|
