@@ -1,8 +1,8 @@
 # :pencil2: Leetcode Solutions with Cpp  
-Update time:  2019-06-15 16:46:59  
+Update time:  2019-06-16 16:46:57  
 Solution by Derek Zheng (Contact ME at derek.zhengrui@gmail.com)  
 Auto created by [leetcode_generate](https://github.com/bonfy/leetcode)  
-I have solved **425   /   1023** problems~  
+I have solved **426   /   1031** problems~  
 
 | # | Title | Source Code | Article | Difficulty |  
 |:---:|:---:|:---:|:---:|:---:|
@@ -169,7 +169,7 @@ I have solved **425   /   1023** problems~
 |161|[one-edit-distance](https://leetcode.com/problems/one-edit-distance)|:lock:|[:memo:](https://leetcode.com/articles/one-edit-distance/)|Medium|
 |162|[find-peak-element](https://leetcode.com/problems/find-peak-element)|[Cpp](https://github.com/derek-zr/leetcode/blob/master/./Solution/162-find-peak-element/find-peak-element.cpp)|[:memo:](https://leetcode.com/articles/find-peak-element/)|Medium|
 |163|[missing-ranges](https://leetcode.com/problems/missing-ranges)|:lock:||Medium|
-|164|[maximum-gap](https://leetcode.com/problems/maximum-gap)||[:memo:](https://leetcode.com/articles/maximum-gap/)|Hard|
+|164|[maximum-gap](https://leetcode.com/problems/maximum-gap)|[Cpp](https://github.com/derek-zr/leetcode/blob/master/./Solution/164-maximum-gap/maximum-gap.cpp)|[:memo:](https://leetcode.com/articles/maximum-gap/)|Hard|
 |165|[compare-version-numbers](https://leetcode.com/problems/compare-version-numbers)|||Medium|
 |166|[fraction-to-recurring-decimal](https://leetcode.com/problems/fraction-to-recurring-decimal)|[Cpp](https://github.com/derek-zr/leetcode/blob/master/./Solution/166-fraction-to-recurring-decimal/fraction-to-recurring-decimal.cpp)|[:memo:](https://leetcode.com/articles/fraction-to-recurring-decimal/)|Medium|
 |167|[two-sum-ii-input-array-is-sorted](https://leetcode.com/problems/two-sum-ii-input-array-is-sorted)||[:memo:](https://leetcode.com/articles/two-sum-ii-input-array-is-sorted/)|Easy|
@@ -480,7 +480,7 @@ I have solved **425   /   1023** problems~
 |499|[the-maze-iii](https://leetcode.com/problems/the-maze-iii)|:lock:||Hard|
 |500|[keyboard-row](https://leetcode.com/problems/keyboard-row)|[Cpp](https://github.com/derek-zr/leetcode/blob/master/./Solution/500-keyboard-row/keyboard-row.cpp)||Easy|
 |501|[find-mode-in-binary-search-tree](https://leetcode.com/problems/find-mode-in-binary-search-tree)|||Easy|
-|502|[ipo](https://leetcode.com/problems/ipo)|||Hard|
+|502|[ipo](https://leetcode.com/problems/ipo)||[:memo:](https://leetcode.com/articles/ipo/)|Hard|
 |503|[next-greater-element-ii](https://leetcode.com/problems/next-greater-element-ii)||[:memo:](https://leetcode.com/articles/next-greater-element-ii/)|Medium|
 |504|[base-7](https://leetcode.com/problems/base-7)|||Easy|
 |505|[the-maze-ii](https://leetcode.com/problems/the-maze-ii)|:lock:|[:memo:](https://leetcode.com/articles/the-maze-ii/)|Medium|
@@ -988,11 +988,15 @@ I have solved **425   /   1023** problems~
 |1018|[binary-prefix-divisible-by-5](https://leetcode.com/problems/binary-prefix-divisible-by-5)|||Easy|
 |1019|[next-greater-node-in-linked-list](https://leetcode.com/problems/next-greater-node-in-linked-list)|||Medium|
 |1020|[number-of-enclaves](https://leetcode.com/problems/number-of-enclaves)|||Medium|
+|1086|[high-five](https://leetcode.com/problems/high-five)|:lock:||Easy|
 |1065|[index-pairs-of-a-string](https://leetcode.com/problems/index-pairs-of-a-string)|:lock:||Easy|
+|1087|[brace-expansion](https://leetcode.com/problems/brace-expansion)|:lock:||Medium|
+|1088|[confusing-number-ii](https://leetcode.com/problems/confusing-number-ii)|:lock:||Hard|
 |1021|[remove-outermost-parentheses](https://leetcode.com/problems/remove-outermost-parentheses)|||Easy|
 |1022|[sum-of-root-to-leaf-binary-numbers](https://leetcode.com/problems/sum-of-root-to-leaf-binary-numbers)|||Easy|
 |1023|[camelcase-matching](https://leetcode.com/problems/camelcase-matching)|||Medium|
 |1024|[video-stitching](https://leetcode.com/problems/video-stitching)|||Medium|
+|1085|[sum-of-digits-in-the-minimum-number](https://leetcode.com/problems/sum-of-digits-in-the-minimum-number)|:lock:||Easy|
 |1025|[divisor-game](https://leetcode.com/problems/divisor-game)|||Easy|
 |1027|[longest-arithmetic-sequence](https://leetcode.com/problems/longest-arithmetic-sequence)|||Medium|
 |1026|[maximum-difference-between-node-and-ancestor](https://leetcode.com/problems/maximum-difference-between-node-and-ancestor)|||Medium|
@@ -1029,3 +1033,7 @@ I have solved **425   /   1023** problems~
 |1080|[insufficient-nodes-in-root-to-leaf-paths](https://leetcode.com/problems/insufficient-nodes-in-root-to-leaf-paths)|||Medium|
 |1081|[smallest-subsequence-of-distinct-characters](https://leetcode.com/problems/smallest-subsequence-of-distinct-characters)|||Medium|
 |1079|[letter-tile-possibilities](https://leetcode.com/problems/letter-tile-possibilities)|||Medium|
+|1089|[duplicate-zeros](https://leetcode.com/problems/duplicate-zeros)|||Easy|
+|1090|[largest-values-from-labels](https://leetcode.com/problems/largest-values-from-labels)|||Medium|
+|1092|[shortest-common-supersequence](https://leetcode.com/problems/shortest-common-supersequence)|||Hard|
+|1091|[shortest-path-in-binary-matrix](https://leetcode.com/problems/shortest-path-in-binary-matrix)|||Medium|
