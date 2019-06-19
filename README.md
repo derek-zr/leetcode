@@ -1,8 +1,8 @@
 # :pencil2: Leetcode Solutions with Cpp  
-Update time:  2019-06-17 16:47:05  
+Update time:  2019-06-19 16:46:55  
 Solution by Derek Zheng (Contact ME at derek.zhengrui@gmail.com)  
 Auto created by [leetcode_generate](https://github.com/bonfy/leetcode)  
-I have solved **427   /   1031** problems~  
+I have solved **428   /   1031** problems~  
 
 | # | Title | Source Code | Article | Difficulty |  
 |:---:|:---:|:---:|:---:|:---:|
@@ -172,7 +172,7 @@ I have solved **427   /   1031** problems~
 |164|[maximum-gap](https://leetcode.com/problems/maximum-gap)|[Cpp](https://github.com/derek-zr/leetcode/blob/master/./Solution/164-maximum-gap/maximum-gap.cpp)|[:memo:](https://leetcode.com/articles/maximum-gap/)|Hard|
 |165|[compare-version-numbers](https://leetcode.com/problems/compare-version-numbers)|[Cpp](https://github.com/derek-zr/leetcode/blob/master/./Solution/165-compare-version-numbers/compare-version-numbers.cpp)||Medium|
 |166|[fraction-to-recurring-decimal](https://leetcode.com/problems/fraction-to-recurring-decimal)|[Cpp](https://github.com/derek-zr/leetcode/blob/master/./Solution/166-fraction-to-recurring-decimal/fraction-to-recurring-decimal.cpp)|[:memo:](https://leetcode.com/articles/fraction-to-recurring-decimal/)|Medium|
-|167|[two-sum-ii-input-array-is-sorted](https://leetcode.com/problems/two-sum-ii-input-array-is-sorted)||[:memo:](https://leetcode.com/articles/two-sum-ii-input-array-is-sorted/)|Easy|
+|167|[two-sum-ii-input-array-is-sorted](https://leetcode.com/problems/two-sum-ii-input-array-is-sorted)|[Cpp](https://github.com/derek-zr/leetcode/blob/master/./Solution/167-two-sum-ii-input-array-is-sorted/two-sum-ii-input-array-is-sorted.cpp)|[:memo:](https://leetcode.com/articles/two-sum-ii-input-array-is-sorted/)|Easy|
 |168|[excel-sheet-column-title](https://leetcode.com/problems/excel-sheet-column-title)|||Easy|
 |169|[majority-element](https://leetcode.com/problems/majority-element)|[Cpp](https://github.com/derek-zr/leetcode/blob/master/./Solution/169-majority-element/majority-element.cpp)|[:memo:](https://leetcode.com/articles/majority-element/)|Easy|
 |170|[two-sum-iii-data-structure-design](https://leetcode.com/problems/two-sum-iii-data-structure-design)|:lock:||Easy|
@@ -300,7 +300,7 @@ I have solved **427   /   1031** problems~
 |309|[best-time-to-buy-and-sell-stock-with-cooldown](https://leetcode.com/problems/best-time-to-buy-and-sell-stock-with-cooldown)|[Cpp](https://github.com/derek-zr/leetcode/blob/master/./Solution/309-best-time-to-buy-and-sell-stock-with-cooldown/best-time-to-buy-and-sell-stock-with-cooldown.cpp)||Medium|
 |310|[minimum-height-trees](https://leetcode.com/problems/minimum-height-trees)|||Medium|
 |311|[sparse-matrix-multiplication](https://leetcode.com/problems/sparse-matrix-multiplication)|:lock:||Medium|
-|312|[burst-balloons](https://leetcode.com/problems/burst-balloons)|[Cpp](https://github.com/derek-zr/leetcode/blob/master/./Solution/312-burst-balloons/burst-balloons.cpp)||Hard|
+|312|[burst-balloons](https://leetcode.com/problems/burst-balloons)|[Cpp](https://github.com/derek-zr/leetcode/blob/master/./Solution/312-burst-balloons/burst-balloons.cpp)|[:memo:](https://leetcode.com/articles/burst-balloons/)|Hard|
 |313|[super-ugly-number](https://leetcode.com/problems/super-ugly-number)|||Medium|
 |314|[binary-tree-vertical-order-traversal](https://leetcode.com/problems/binary-tree-vertical-order-traversal)|:lock:||Medium|
 |315|[count-of-smaller-numbers-after-self](https://leetcode.com/problems/count-of-smaller-numbers-after-self)|[Cpp](https://github.com/derek-zr/leetcode/blob/master/./Solution/315-count-of-smaller-numbers-after-self/count-of-smaller-numbers-after-self.cpp)||Hard|
