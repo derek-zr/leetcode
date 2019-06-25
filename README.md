@@ -1,8 +1,8 @@
 # :pencil2: Leetcode Solutions with Cpp  
-Update time:  2019-06-21 18:15:31  
+Update time:  2019-06-25 18:14:12  
 Solution by Derek Zheng (Contact ME at derek.zhengrui@gmail.com)  
 Auto created by [leetcode_generate](https://github.com/bonfy/leetcode)  
-I have solved **429   /   1031** problems~  
+I have solved **430   /   1035** problems~  
 
 | # | Title | Source Code | Article | Difficulty |  
 |:---:|:---:|:---:|:---:|:---:|
@@ -178,7 +178,7 @@ I have solved **429   /   1031** problems~
 |170|[two-sum-iii-data-structure-design](https://leetcode.com/problems/two-sum-iii-data-structure-design)|:lock:||Easy|
 |171|[excel-sheet-column-number](https://leetcode.com/problems/excel-sheet-column-number)|[Cpp](https://github.com/derek-zr/leetcode/blob/master/./Solution/171-excel-sheet-column-number/excel-sheet-column-number.cpp)||Easy|
 |172|[factorial-trailing-zeroes](https://leetcode.com/problems/factorial-trailing-zeroes)|[Cpp](https://github.com/derek-zr/leetcode/blob/master/./Solution/172-factorial-trailing-zeroes/factorial-trailing-zeroes.cpp)||Easy|
-|173|[binary-search-tree-iterator](https://leetcode.com/problems/binary-search-tree-iterator)||[:memo:](https://leetcode.com/articles/binary-search-tree-iterator/)|Medium|
+|173|[binary-search-tree-iterator](https://leetcode.com/problems/binary-search-tree-iterator)|[Cpp](https://github.com/derek-zr/leetcode/blob/master/./Solution/173-binary-search-tree-iterator/binary-search-tree-iterator.cpp)|[:memo:](https://leetcode.com/articles/binary-search-tree-iterator/)|Medium|
 |174|[dungeon-game](https://leetcode.com/problems/dungeon-game)|||Hard|
 |179|[largest-number](https://leetcode.com/problems/largest-number)|[Cpp](https://github.com/derek-zr/leetcode/blob/master/./Solution/179-largest-number/largest-number.cpp)|[:memo:](https://leetcode.com/articles/largest-number/)|Medium|
 |186|[reverse-words-in-a-string-ii](https://leetcode.com/problems/reverse-words-in-a-string-ii)|:lock:||Medium|
@@ -213,7 +213,7 @@ I have solved **429   /   1031** problems~
 |221|[maximal-square](https://leetcode.com/problems/maximal-square)|[Cpp](https://github.com/derek-zr/leetcode/blob/master/./Solution/221-maximal-square/maximal-square.cpp)|[:memo:](https://leetcode.com/articles/maximal-square/)|Medium|
 |222|[count-complete-tree-nodes](https://leetcode.com/problems/count-complete-tree-nodes)|[Cpp](https://github.com/derek-zr/leetcode/blob/master/./Solution/222-count-complete-tree-nodes/count-complete-tree-nodes.cpp)|[:memo:](https://leetcode.com/articles/count-complete-tree-nodes/)|Medium|
 |223|[rectangle-area](https://leetcode.com/problems/rectangle-area)|[Cpp](https://github.com/derek-zr/leetcode/blob/master/./Solution/223-rectangle-area/rectangle-area.cpp)||Medium|
-|224|[basic-calculator](https://leetcode.com/problems/basic-calculator)|[Cpp](https://github.com/derek-zr/leetcode/blob/master/./Solution/224-basic-calculator/basic-calculator.cpp)||Hard|
+|224|[basic-calculator](https://leetcode.com/problems/basic-calculator)|[Cpp](https://github.com/derek-zr/leetcode/blob/master/./Solution/224-basic-calculator/basic-calculator.cpp)|[:memo:](https://leetcode.com/articles/basic-calculator/)|Hard|
 |225|[implement-stack-using-queues](https://leetcode.com/problems/implement-stack-using-queues)||[:memo:](https://leetcode.com/articles/implement-stack-using-queues/)|Easy|
 |226|[invert-binary-tree](https://leetcode.com/problems/invert-binary-tree)|[Cpp](https://github.com/derek-zr/leetcode/blob/master/./Solution/226-invert-binary-tree/invert-binary-tree.cpp)|[:memo:](https://leetcode.com/articles/invert-binary-tree/)|Easy|
 |227|[basic-calculator-ii](https://leetcode.com/problems/basic-calculator-ii)|[Cpp](https://github.com/derek-zr/leetcode/blob/master/./Solution/227-basic-calculator-ii/basic-calculator-ii.cpp)||Medium|
@@ -1016,9 +1016,9 @@ I have solved **429   /   1031** problems~
 |1041|[robot-bounded-in-circle](https://leetcode.com/problems/robot-bounded-in-circle)|||Easy|
 |1042|[flower-planting-with-no-adjacent](https://leetcode.com/problems/flower-planting-with-no-adjacent)|||Easy|
 |1043|[partition-array-for-maximum-sum](https://leetcode.com/problems/partition-array-for-maximum-sum)|||Medium|
-|1044|[longest-duplicate-substring](https://leetcode.com/problems/longest-duplicate-substring)|||Hard|
+|1044|[longest-duplicate-substring](https://leetcode.com/problems/longest-duplicate-substring)||[:memo:](https://leetcode.com/articles/longest-duplicate-substring/)|Hard|
 |1046|[last-stone-weight](https://leetcode.com/problems/last-stone-weight)|||Easy|
-|1047|[remove-all-adjacent-duplicates-in-string](https://leetcode.com/problems/remove-all-adjacent-duplicates-in-string)|||Easy|
+|1047|[remove-all-adjacent-duplicates-in-string](https://leetcode.com/problems/remove-all-adjacent-duplicates-in-string)||[:memo:](https://leetcode.com/articles/remove-all-adjacent-duplicates-in-string/)|Easy|
 |1048|[longest-string-chain](https://leetcode.com/problems/longest-string-chain)|||Medium|
 |1049|[last-stone-weight-ii](https://leetcode.com/problems/last-stone-weight-ii)|||Medium|
 |1051|[height-checker](https://leetcode.com/problems/height-checker)|||Easy|
@@ -1037,3 +1037,7 @@ I have solved **429   /   1031** problems~
 |1090|[largest-values-from-labels](https://leetcode.com/problems/largest-values-from-labels)|||Medium|
 |1092|[shortest-common-supersequence](https://leetcode.com/problems/shortest-common-supersequence)|||Hard|
 |1091|[shortest-path-in-binary-matrix](https://leetcode.com/problems/shortest-path-in-binary-matrix)|||Medium|
+|1093|[statistics-from-a-large-sample](https://leetcode.com/problems/statistics-from-a-large-sample)|||Medium|
+|1094|[car-pooling](https://leetcode.com/problems/car-pooling)|||Medium|
+|1095|[find-in-mountain-array](https://leetcode.com/problems/find-in-mountain-array)|||Hard|
+|1096|[brace-expansion-ii](https://leetcode.com/problems/brace-expansion-ii)|||Hard|
