@@ -1,8 +1,8 @@
 # :pencil2: Leetcode Solutions with Cpp  
-Update time:  2019-06-25 18:14:12  
+Update time:  2019-06-26 18:15:29  
 Solution by Derek Zheng (Contact ME at derek.zhengrui@gmail.com)  
 Auto created by [leetcode_generate](https://github.com/bonfy/leetcode)  
-I have solved **430   /   1035** problems~  
+I have solved **431   /   1035** problems~  
 
 | # | Title | Source Code | Article | Difficulty |  
 |:---:|:---:|:---:|:---:|:---:|
@@ -179,7 +179,7 @@ I have solved **430   /   1035** problems~
 |171|[excel-sheet-column-number](https://leetcode.com/problems/excel-sheet-column-number)|[Cpp](https://github.com/derek-zr/leetcode/blob/master/./Solution/171-excel-sheet-column-number/excel-sheet-column-number.cpp)||Easy|
 |172|[factorial-trailing-zeroes](https://leetcode.com/problems/factorial-trailing-zeroes)|[Cpp](https://github.com/derek-zr/leetcode/blob/master/./Solution/172-factorial-trailing-zeroes/factorial-trailing-zeroes.cpp)||Easy|
 |173|[binary-search-tree-iterator](https://leetcode.com/problems/binary-search-tree-iterator)|[Cpp](https://github.com/derek-zr/leetcode/blob/master/./Solution/173-binary-search-tree-iterator/binary-search-tree-iterator.cpp)|[:memo:](https://leetcode.com/articles/binary-search-tree-iterator/)|Medium|
-|174|[dungeon-game](https://leetcode.com/problems/dungeon-game)|||Hard|
+|174|[dungeon-game](https://leetcode.com/problems/dungeon-game)|[Cpp](https://github.com/derek-zr/leetcode/blob/master/./Solution/174-dungeon-game/dungeon-game.cpp)||Hard|
 |179|[largest-number](https://leetcode.com/problems/largest-number)|[Cpp](https://github.com/derek-zr/leetcode/blob/master/./Solution/179-largest-number/largest-number.cpp)|[:memo:](https://leetcode.com/articles/largest-number/)|Medium|
 |186|[reverse-words-in-a-string-ii](https://leetcode.com/problems/reverse-words-in-a-string-ii)|:lock:||Medium|
 |187|[repeated-dna-sequences](https://leetcode.com/problems/repeated-dna-sequences)|[Cpp](https://github.com/derek-zr/leetcode/blob/master/./Solution/187-repeated-dna-sequences/repeated-dna-sequences.cpp)||Medium|
@@ -369,7 +369,7 @@ I have solved **430   /   1035** problems~
 |378|[kth-smallest-element-in-a-sorted-matrix](https://leetcode.com/problems/kth-smallest-element-in-a-sorted-matrix)|[Cpp](https://github.com/derek-zr/leetcode/blob/master/./Solution/378-kth-smallest-element-in-a-sorted-matrix/kth-smallest-element-in-a-sorted-matrix.cpp)||Medium|
 |379|[design-phone-directory](https://leetcode.com/problems/design-phone-directory)|:lock:||Medium|
 |380|[insert-delete-getrandom-o1](https://leetcode.com/problems/insert-delete-getrandom-o1)|[Cpp](https://github.com/derek-zr/leetcode/blob/master/./Solution/380-insert-delete-getrandom-o1/insert-delete-getrandom-o1.cpp)||Medium|
-|381|[insert-delete-getrandom-o1-duplicates-allowed](https://leetcode.com/problems/insert-delete-getrandom-o1-duplicates-allowed)|||Hard|
+|381|[insert-delete-getrandom-o1-duplicates-allowed](https://leetcode.com/problems/insert-delete-getrandom-o1-duplicates-allowed)||[:memo:](https://leetcode.com/articles/insert-delete-getrandom-o1-duplicates-allowed/)|Hard|
 |382|[linked-list-random-node](https://leetcode.com/problems/linked-list-random-node)|[Cpp](https://github.com/derek-zr/leetcode/blob/master/./Solution/382-linked-list-random-node/linked-list-random-node.cpp)||Medium|
 |383|[ransom-note](https://leetcode.com/problems/ransom-note)|||Easy|
 |384|[shuffle-an-array](https://leetcode.com/problems/shuffle-an-array)|[Cpp](https://github.com/derek-zr/leetcode/blob/master/./Solution/384-shuffle-an-array/shuffle-an-array.cpp)|[:memo:](https://leetcode.com/articles/shuffle-an-array/)|Medium|
