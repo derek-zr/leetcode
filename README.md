@@ -1,8 +1,8 @@
 # :pencil2: Leetcode Solutions with Cpp  
-Update time:  2019-06-27 18:15:38  
+Update time:  2019-06-29 18:14:10  
 Solution by Derek Zheng (Contact ME at derek.zhengrui@gmail.com)  
 Auto created by [leetcode_generate](https://github.com/bonfy/leetcode)  
-I have solved **432   /   1035** problems~  
+I have solved **435   /   1035** problems~  
 
 | # | Title | Source Code | Article | Difficulty |  
 |:---:|:---:|:---:|:---:|:---:|
@@ -104,7 +104,7 @@ I have solved **432   /   1035** problems~
 |96|[unique-binary-search-trees](https://leetcode.com/problems/unique-binary-search-trees)|[Cpp](https://github.com/derek-zr/leetcode/blob/master/./Solution/096-unique-binary-search-trees/unique-binary-search-trees.cpp)|[:memo:](https://leetcode.com/articles/unique-binary-search-trees/)|Medium|
 |97|[interleaving-string](https://leetcode.com/problems/interleaving-string)|[Cpp](https://github.com/derek-zr/leetcode/blob/master/./Solution/097-interleaving-string/interleaving-string.cpp)|[:memo:](https://leetcode.com/articles/interleaving-strings/)|Hard|
 |98|[validate-binary-search-tree](https://leetcode.com/problems/validate-binary-search-tree)|[Cpp](https://github.com/derek-zr/leetcode/blob/master/./Solution/098-validate-binary-search-tree/validate-binary-search-tree.cpp)|[:memo:](https://leetcode.com/articles/validate-binary-search-tree/)|Medium|
-|99|[recover-binary-search-tree](https://leetcode.com/problems/recover-binary-search-tree)|[Cpp](https://github.com/derek-zr/leetcode/blob/master/./Solution/099-recover-binary-search-tree/recover-binary-search-tree.cpp)||Hard|
+|99|[recover-binary-search-tree](https://leetcode.com/problems/recover-binary-search-tree)|[Cpp](https://github.com/derek-zr/leetcode/blob/master/./Solution/099-recover-binary-search-tree/recover-binary-search-tree.cpp)|[:memo:](https://leetcode.com/articles/recover-binary-search-tree/)|Hard|
 |100|[same-tree](https://leetcode.com/problems/same-tree)|[Cpp](https://github.com/derek-zr/leetcode/blob/master/./Solution/100-same-tree/same-tree.cpp)|[:memo:](https://leetcode.com/articles/same-tree/)|Easy|
 |101|[symmetric-tree](https://leetcode.com/problems/symmetric-tree)|[Cpp](https://github.com/derek-zr/leetcode/blob/master/./Solution/101-symmetric-tree/symmetric-tree.cpp)|[:memo:](https://leetcode.com/articles/symmetric-tree/)|Easy|
 |102|[binary-tree-level-order-traversal](https://leetcode.com/problems/binary-tree-level-order-traversal)|[Cpp](https://github.com/derek-zr/leetcode/blob/master/./Solution/102-binary-tree-level-order-traversal/binary-tree-level-order-traversal.cpp)|[:memo:](https://leetcode.com/articles/binary-tree-level-order-traversal/)|Medium|
@@ -190,11 +190,11 @@ I have solved **432   /   1035** problems~
 |198|[house-robber](https://leetcode.com/problems/house-robber)|[Cpp](https://github.com/derek-zr/leetcode/blob/master/./Solution/198-house-robber/house-robber.cpp)|[:memo:](https://leetcode.com/articles/house-robber/)|Easy|
 |199|[binary-tree-right-side-view](https://leetcode.com/problems/binary-tree-right-side-view)|[Cpp](https://github.com/derek-zr/leetcode/blob/master/./Solution/199-binary-tree-right-side-view/binary-tree-right-side-view.cpp)|[:memo:](https://leetcode.com/articles/binary-tree-right-side-view/)|Medium|
 |200|[number-of-islands](https://leetcode.com/problems/number-of-islands)|[Cpp](https://github.com/derek-zr/leetcode/blob/master/./Solution/200-number-of-islands/number-of-islands.cpp)|[:memo:](https://leetcode.com/articles/number-of-islands/)|Medium|
-|201|[bitwise-and-of-numbers-range](https://leetcode.com/problems/bitwise-and-of-numbers-range)|||Medium|
+|201|[bitwise-and-of-numbers-range](https://leetcode.com/problems/bitwise-and-of-numbers-range)|[Cpp](https://github.com/derek-zr/leetcode/blob/master/./Solution/201-bitwise-and-of-numbers-range/bitwise-and-of-numbers-range.cpp)||Medium|
 |202|[happy-number](https://leetcode.com/problems/happy-number)|[Cpp](https://github.com/derek-zr/leetcode/blob/master/./Solution/202-happy-number/happy-number.cpp)||Easy|
-|203|[remove-linked-list-elements](https://leetcode.com/problems/remove-linked-list-elements)|||Easy|
+|203|[remove-linked-list-elements](https://leetcode.com/problems/remove-linked-list-elements)|[Cpp](https://github.com/derek-zr/leetcode/blob/master/./Solution/203-remove-linked-list-elements/remove-linked-list-elements.cpp)||Easy|
 |204|[count-primes](https://leetcode.com/problems/count-primes)|[Cpp](https://github.com/derek-zr/leetcode/blob/master/./Solution/204-count-primes/count-primes.cpp)||Easy|
-|205|[isomorphic-strings](https://leetcode.com/problems/isomorphic-strings)|||Easy|
+|205|[isomorphic-strings](https://leetcode.com/problems/isomorphic-strings)|[Cpp](https://github.com/derek-zr/leetcode/blob/master/./Solution/205-isomorphic-strings/isomorphic-strings.cpp)||Easy|
 |206|[reverse-linked-list](https://leetcode.com/problems/reverse-linked-list)|[Cpp](https://github.com/derek-zr/leetcode/blob/master/./Solution/206-reverse-linked-list/reverse-linked-list.cpp)|[:memo:](https://leetcode.com/articles/reverse-linked-list/)|Easy|
 |207|[course-schedule](https://leetcode.com/problems/course-schedule)|[Cpp](https://github.com/derek-zr/leetcode/blob/master/./Solution/207-course-schedule/course-schedule.cpp)||Medium|
 |208|[implement-trie-prefix-tree](https://leetcode.com/problems/implement-trie-prefix-tree)|[Cpp](https://github.com/derek-zr/leetcode/blob/master/./Solution/208-implement-trie-prefix-tree/implement-trie-prefix-tree.cpp)|[:memo:](https://leetcode.com/articles/implement-trie-prefix-tree/)|Medium|
