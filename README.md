@@ -1,8 +1,8 @@
 # :pencil2: Leetcode Solutions with Cpp  
-Update time:  2019-06-29 18:14:10  
+Update time:  2019-06-30 18:14:13  
 Solution by Derek Zheng (Contact ME at derek.zhengrui@gmail.com)  
 Auto created by [leetcode_generate](https://github.com/bonfy/leetcode)  
-I have solved **435   /   1035** problems~  
+I have solved **437   /   1043** problems~  
 
 | # | Title | Source Code | Article | Difficulty |  
 |:---:|:---:|:---:|:---:|:---:|
@@ -198,9 +198,9 @@ I have solved **435   /   1035** problems~
 |206|[reverse-linked-list](https://leetcode.com/problems/reverse-linked-list)|[Cpp](https://github.com/derek-zr/leetcode/blob/master/./Solution/206-reverse-linked-list/reverse-linked-list.cpp)|[:memo:](https://leetcode.com/articles/reverse-linked-list/)|Easy|
 |207|[course-schedule](https://leetcode.com/problems/course-schedule)|[Cpp](https://github.com/derek-zr/leetcode/blob/master/./Solution/207-course-schedule/course-schedule.cpp)||Medium|
 |208|[implement-trie-prefix-tree](https://leetcode.com/problems/implement-trie-prefix-tree)|[Cpp](https://github.com/derek-zr/leetcode/blob/master/./Solution/208-implement-trie-prefix-tree/implement-trie-prefix-tree.cpp)|[:memo:](https://leetcode.com/articles/implement-trie-prefix-tree/)|Medium|
-|209|[minimum-size-subarray-sum](https://leetcode.com/problems/minimum-size-subarray-sum)||[:memo:](https://leetcode.com/articles/minimum-size-subarray-sum/)|Medium|
+|209|[minimum-size-subarray-sum](https://leetcode.com/problems/minimum-size-subarray-sum)|[Cpp](https://github.com/derek-zr/leetcode/blob/master/./Solution/209-minimum-size-subarray-sum/minimum-size-subarray-sum.cpp)|[:memo:](https://leetcode.com/articles/minimum-size-subarray-sum/)|Medium|
 |210|[course-schedule-ii](https://leetcode.com/problems/course-schedule-ii)|[Cpp](https://github.com/derek-zr/leetcode/blob/master/./Solution/210-course-schedule-ii/course-schedule-ii.cpp)|[:memo:](https://leetcode.com/articles/course-schedule-ii/)|Medium|
-|211|[add-and-search-word-data-structure-design](https://leetcode.com/problems/add-and-search-word-data-structure-design)|||Medium|
+|211|[add-and-search-word-data-structure-design](https://leetcode.com/problems/add-and-search-word-data-structure-design)|[Cpp](https://github.com/derek-zr/leetcode/blob/master/./Solution/211-add-and-search-word-data-structure-design/add-and-search-word-data-structure-design.cpp)||Medium|
 |212|[word-search-ii](https://leetcode.com/problems/word-search-ii)|[Cpp](https://github.com/derek-zr/leetcode/blob/master/./Solution/212-word-search-ii/word-search-ii.cpp)||Hard|
 |213|[house-robber-ii](https://leetcode.com/problems/house-robber-ii)|[Cpp](https://github.com/derek-zr/leetcode/blob/master/./Solution/213-house-robber-ii/house-robber-ii.cpp)||Medium|
 |214|[shortest-palindrome](https://leetcode.com/problems/shortest-palindrome)||[:memo:](https://leetcode.com/articles/shortest-palindrome/)|Hard|
@@ -997,6 +997,9 @@ I have solved **435   /   1035** problems~
 |1023|[camelcase-matching](https://leetcode.com/problems/camelcase-matching)|||Medium|
 |1024|[video-stitching](https://leetcode.com/problems/video-stitching)|||Medium|
 |1085|[sum-of-digits-in-the-minimum-number](https://leetcode.com/problems/sum-of-digits-in-the-minimum-number)|:lock:||Easy|
+|1099|[two-sum-less-than-k](https://leetcode.com/problems/two-sum-less-than-k)|:lock:||Easy|
+|1100|[find-k-length-substrings-with-no-repeated-characters](https://leetcode.com/problems/find-k-length-substrings-with-no-repeated-characters)|:lock:||Medium|
+|1101|[the-earliest-moment-when-everyone-become-friends](https://leetcode.com/problems/the-earliest-moment-when-everyone-become-friends)|:lock:||Medium|
 |1025|[divisor-game](https://leetcode.com/problems/divisor-game)|||Easy|
 |1027|[longest-arithmetic-sequence](https://leetcode.com/problems/longest-arithmetic-sequence)|||Medium|
 |1026|[maximum-difference-between-node-and-ancestor](https://leetcode.com/problems/maximum-difference-between-node-and-ancestor)|||Medium|
@@ -1005,6 +1008,7 @@ I have solved **435   /   1035** problems~
 |1029|[two-city-scheduling](https://leetcode.com/problems/two-city-scheduling)||[:memo:](https://leetcode.com/articles/two-city-scheduling/)|Easy|
 |1031|[maximum-sum-of-two-non-overlapping-subarrays](https://leetcode.com/problems/maximum-sum-of-two-non-overlapping-subarrays)|||Medium|
 |1032|[stream-of-characters](https://leetcode.com/problems/stream-of-characters)|||Hard|
+|1102|[path-with-maximum-minimum-value](https://leetcode.com/problems/path-with-maximum-minimum-value)|:lock:||Medium|
 |1033|[moving-stones-until-consecutive](https://leetcode.com/problems/moving-stones-until-consecutive)|||Easy|
 |1034|[coloring-a-border](https://leetcode.com/problems/coloring-a-border)|||Medium|
 |1035|[uncrossed-lines](https://leetcode.com/problems/uncrossed-lines)|||Medium|
@@ -1041,3 +1045,7 @@ I have solved **435   /   1035** problems~
 |1094|[car-pooling](https://leetcode.com/problems/car-pooling)|||Medium|
 |1095|[find-in-mountain-array](https://leetcode.com/problems/find-in-mountain-array)|||Hard|
 |1096|[brace-expansion-ii](https://leetcode.com/problems/brace-expansion-ii)|||Hard|
+|1104|[path-in-zigzag-labelled-binary-tree](https://leetcode.com/problems/path-in-zigzag-labelled-binary-tree)|||Easy|
+|1103|[distribute-candies-to-people](https://leetcode.com/problems/distribute-candies-to-people)|||Easy|
+|1105|[filling-bookcase-shelves](https://leetcode.com/problems/filling-bookcase-shelves)|||Medium|
+|1106|[parsing-a-boolean-expression](https://leetcode.com/problems/parsing-a-boolean-expression)|||Hard|
