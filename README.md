@@ -1,8 +1,8 @@
 # :pencil2: Leetcode Solutions with Cpp  
-Update time:  2019-06-30 18:14:13  
+Update time:  2019-07-01 18:15:19  
 Solution by Derek Zheng (Contact ME at derek.zhengrui@gmail.com)  
 Auto created by [leetcode_generate](https://github.com/bonfy/leetcode)  
-I have solved **437   /   1043** problems~  
+I have solved **438   /   1043** problems~  
 
 | # | Title | Source Code | Article | Difficulty |  
 |:---:|:---:|:---:|:---:|:---:|
@@ -203,7 +203,7 @@ I have solved **437   /   1043** problems~
 |211|[add-and-search-word-data-structure-design](https://leetcode.com/problems/add-and-search-word-data-structure-design)|[Cpp](https://github.com/derek-zr/leetcode/blob/master/./Solution/211-add-and-search-word-data-structure-design/add-and-search-word-data-structure-design.cpp)||Medium|
 |212|[word-search-ii](https://leetcode.com/problems/word-search-ii)|[Cpp](https://github.com/derek-zr/leetcode/blob/master/./Solution/212-word-search-ii/word-search-ii.cpp)||Hard|
 |213|[house-robber-ii](https://leetcode.com/problems/house-robber-ii)|[Cpp](https://github.com/derek-zr/leetcode/blob/master/./Solution/213-house-robber-ii/house-robber-ii.cpp)||Medium|
-|214|[shortest-palindrome](https://leetcode.com/problems/shortest-palindrome)||[:memo:](https://leetcode.com/articles/shortest-palindrome/)|Hard|
+|214|[shortest-palindrome](https://leetcode.com/problems/shortest-palindrome)|[Cpp](https://github.com/derek-zr/leetcode/blob/master/./Solution/214-shortest-palindrome/shortest-palindrome.cpp)|[:memo:](https://leetcode.com/articles/shortest-palindrome/)|Hard|
 |215|[kth-largest-element-in-an-array](https://leetcode.com/problems/kth-largest-element-in-an-array)|[Cpp](https://github.com/derek-zr/leetcode/blob/master/./Solution/215-kth-largest-element-in-an-array/kth-largest-element-in-an-array.cpp)|[:memo:](https://leetcode.com/articles/kth-largest-element-in-an-array/)|Medium|
 |216|[combination-sum-iii](https://leetcode.com/problems/combination-sum-iii)|[Cpp](https://github.com/derek-zr/leetcode/blob/master/./Solution/216-combination-sum-iii/combination-sum-iii.cpp)||Medium|
 |217|[contains-duplicate](https://leetcode.com/problems/contains-duplicate)|[Cpp](https://github.com/derek-zr/leetcode/blob/master/./Solution/217-contains-duplicate/contains-duplicate.cpp)|[:memo:](https://leetcode.com/articles/contains-duplicate/)|Easy|
