@@ -1,8 +1,8 @@
 # :pencil2: Leetcode Solutions with Cpp  
-Update time:  2019-07-03 18:15:17  
+Update time:  2019-07-04 18:14:11  
 Solution by Derek Zheng (Contact ME at derek.zhengrui@gmail.com)  
 Auto created by [leetcode_generate](https://github.com/bonfy/leetcode)  
-I have solved **442   /   1043** problems~  
+I have solved **444   /   1043** problems~  
 
 | # | Title | Source Code | Article | Difficulty |  
 |:---:|:---:|:---:|:---:|:---:|
@@ -222,7 +222,7 @@ I have solved **442   /   1043** problems~
 |230|[kth-smallest-element-in-a-bst](https://leetcode.com/problems/kth-smallest-element-in-a-bst)|[Cpp](https://github.com/derek-zr/leetcode/blob/master/./Solution/230-kth-smallest-element-in-a-bst/kth-smallest-element-in-a-bst.cpp)|[:memo:](https://leetcode.com/articles/kth-smallest-element-in-a-bst/)|Medium|
 |231|[power-of-two](https://leetcode.com/problems/power-of-two)|[Cpp](https://github.com/derek-zr/leetcode/blob/master/./Solution/231-power-of-two/power-of-two.cpp)||Easy|
 |232|[implement-queue-using-stacks](https://leetcode.com/problems/implement-queue-using-stacks)|[Cpp](https://github.com/derek-zr/leetcode/blob/master/./Solution/232-implement-queue-using-stacks/implement-queue-using-stacks.cpp)|[:memo:](https://leetcode.com/articles/implement-queue-using-stacks/)|Easy|
-|233|[number-of-digit-one](https://leetcode.com/problems/number-of-digit-one)||[:memo:](https://leetcode.com/articles/number-of-digit-one/)|Hard|
+|233|[number-of-digit-one](https://leetcode.com/problems/number-of-digit-one)|[Cpp](https://github.com/derek-zr/leetcode/blob/master/./Solution/233-number-of-digit-one/number-of-digit-one.cpp)|[:memo:](https://leetcode.com/articles/number-of-digit-one/)|Hard|
 |234|[palindrome-linked-list](https://leetcode.com/problems/palindrome-linked-list)|[Cpp](https://github.com/derek-zr/leetcode/blob/master/./Solution/234-palindrome-linked-list/palindrome-linked-list.cpp)||Easy|
 |235|[lowest-common-ancestor-of-a-binary-search-tree](https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-search-tree)|[Cpp](https://github.com/derek-zr/leetcode/blob/master/./Solution/235-lowest-common-ancestor-of-a-binary-search-tree/lowest-common-ancestor-of-a-binary-search-tree.cpp)|[:memo:](https://leetcode.com/articles/lowest-common-ancestor-of-a-binary-search-tree/)|Easy|
 |236|[lowest-common-ancestor-of-a-binary-tree](https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-tree)|[Cpp](https://github.com/derek-zr/leetcode/blob/master/./Solution/236-lowest-common-ancestor-of-a-binary-tree/lowest-common-ancestor-of-a-binary-tree.cpp)|[:memo:](https://leetcode.com/articles/lowest-common-ancestor-of-a-binary-tree/)|Medium|
@@ -230,7 +230,7 @@ I have solved **442   /   1043** problems~
 |238|[product-of-array-except-self](https://leetcode.com/problems/product-of-array-except-self)|[Cpp](https://github.com/derek-zr/leetcode/blob/master/./Solution/238-product-of-array-except-self/product-of-array-except-self.cpp)|[:memo:](https://leetcode.com/articles/product-of-array-except-self/)|Medium|
 |239|[sliding-window-maximum](https://leetcode.com/problems/sliding-window-maximum)|[Cpp](https://github.com/derek-zr/leetcode/blob/master/./Solution/239-sliding-window-maximum/sliding-window-maximum.cpp)|[:memo:](https://leetcode.com/articles/sliding-window-maximum/)|Hard|
 |240|[search-a-2d-matrix-ii](https://leetcode.com/problems/search-a-2d-matrix-ii)|[Cpp](https://github.com/derek-zr/leetcode/blob/master/./Solution/240-search-a-2d-matrix-ii/search-a-2d-matrix-ii.cpp)|[:memo:](https://leetcode.com/articles/search-a-2d-matrix-ii/)|Medium|
-|241|[different-ways-to-add-parentheses](https://leetcode.com/problems/different-ways-to-add-parentheses)|||Medium|
+|241|[different-ways-to-add-parentheses](https://leetcode.com/problems/different-ways-to-add-parentheses)|[Cpp](https://github.com/derek-zr/leetcode/blob/master/./Solution/241-different-ways-to-add-parentheses/different-ways-to-add-parentheses.cpp)||Medium|
 |242|[valid-anagram](https://leetcode.com/problems/valid-anagram)|[Cpp](https://github.com/derek-zr/leetcode/blob/master/./Solution/242-valid-anagram/valid-anagram.cpp)|[:memo:](https://leetcode.com/articles/valid-anagram/)|Easy|
 |243|[shortest-word-distance](https://leetcode.com/problems/shortest-word-distance)|:lock:|[:memo:](https://leetcode.com/articles/shortest-word-distance/)|Easy|
 |244|[shortest-word-distance-ii](https://leetcode.com/problems/shortest-word-distance-ii)|:lock:|[:memo:](https://leetcode.com/articles/shortest-word-distance-ii/)|Medium|
@@ -1046,6 +1046,6 @@ I have solved **442   /   1043** problems~
 |1095|[find-in-mountain-array](https://leetcode.com/problems/find-in-mountain-array)|||Hard|
 |1096|[brace-expansion-ii](https://leetcode.com/problems/brace-expansion-ii)|||Hard|
 |1104|[path-in-zigzag-labelled-binary-tree](https://leetcode.com/problems/path-in-zigzag-labelled-binary-tree)|||Medium|
-|1103|[distribute-candies-to-people](https://leetcode.com/problems/distribute-candies-to-people)|||Easy|
+|1103|[distribute-candies-to-people](https://leetcode.com/problems/distribute-candies-to-people)||[:memo:](https://leetcode.com/articles/distribute-candies-to-people/)|Easy|
 |1105|[filling-bookcase-shelves](https://leetcode.com/problems/filling-bookcase-shelves)|||Medium|
 |1106|[parsing-a-boolean-expression](https://leetcode.com/problems/parsing-a-boolean-expression)|||Hard|
