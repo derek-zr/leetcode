@@ -1,8 +1,8 @@
 # :pencil2: Leetcode Solutions with Cpp  
-Update time:  2019-07-06 18:15:23  
+Update time:  2019-07-07 18:15:11  
 Solution by Derek Zheng (Contact ME at derek.zhengrui@gmail.com)  
 Auto created by [leetcode_generate](https://github.com/bonfy/leetcode)  
-I have solved **447   /   1043** problems~  
+I have solved **449   /   1047** problems~  
 
 | # | Title | Source Code | Article | Difficulty |  
 |:---:|:---:|:---:|:---:|:---:|
@@ -251,15 +251,15 @@ I have solved **447   /   1043** problems~
 |259|[3sum-smaller](https://leetcode.com/problems/3sum-smaller)|:lock:|[:memo:](https://leetcode.com/articles/3sum-smaller/)|Medium|
 |260|[single-number-iii](https://leetcode.com/problems/single-number-iii)|[Cpp](https://github.com/derek-zr/leetcode/blob/master/./Solution/260-single-number-iii/single-number-iii.cpp)||Medium|
 |261|[graph-valid-tree](https://leetcode.com/problems/graph-valid-tree)|:lock:||Medium|
-|263|[ugly-number](https://leetcode.com/problems/ugly-number)|||Easy|
-|264|[ugly-number-ii](https://leetcode.com/problems/ugly-number-ii)|||Medium|
+|263|[ugly-number](https://leetcode.com/problems/ugly-number)|[Cpp](https://github.com/derek-zr/leetcode/blob/master/./Solution/263-ugly-number/ugly-number.cpp)||Easy|
+|264|[ugly-number-ii](https://leetcode.com/problems/ugly-number-ii)|[Cpp](https://github.com/derek-zr/leetcode/blob/master/./Solution/264-ugly-number-ii/ugly-number-ii.cpp)||Medium|
 |265|[paint-house-ii](https://leetcode.com/problems/paint-house-ii)|:lock:||Hard|
 |266|[palindrome-permutation](https://leetcode.com/problems/palindrome-permutation)|:lock:|[:memo:](https://leetcode.com/articles/palindrome-permutation/)|Easy|
 |267|[palindrome-permutation-ii](https://leetcode.com/problems/palindrome-permutation-ii)|:lock:|[:memo:](https://leetcode.com/articles/palindrome-permutation-ii/)|Medium|
 |268|[missing-number](https://leetcode.com/problems/missing-number)|[Cpp](https://github.com/derek-zr/leetcode/blob/master/./Solution/268-missing-number/missing-number.cpp)|[:memo:](https://leetcode.com/articles/missing-number/)|Easy|
 |269|[alien-dictionary](https://leetcode.com/problems/alien-dictionary)|:lock:||Hard|
 |270|[closest-binary-search-tree-value](https://leetcode.com/problems/closest-binary-search-tree-value)|:lock:||Easy|
-|271|[encode-and-decode-strings](https://leetcode.com/problems/encode-and-decode-strings)|:lock:||Medium|
+|271|[encode-and-decode-strings](https://leetcode.com/problems/encode-and-decode-strings)|:lock:|[:memo:](https://leetcode.com/articles/encode-and-decode-strings/)|Medium|
 |272|[closest-binary-search-tree-value-ii](https://leetcode.com/problems/closest-binary-search-tree-value-ii)|:lock:||Hard|
 |273|[integer-to-english-words](https://leetcode.com/problems/integer-to-english-words)||[:memo:](https://leetcode.com/articles/integer-to-english-words/)|Hard|
 |274|[h-index](https://leetcode.com/problems/h-index)||[:memo:](https://leetcode.com/articles/h-index/)|Medium|
@@ -1049,3 +1049,7 @@ I have solved **447   /   1043** problems~
 |1103|[distribute-candies-to-people](https://leetcode.com/problems/distribute-candies-to-people)||[:memo:](https://leetcode.com/articles/distribute-candies-to-people/)|Easy|
 |1105|[filling-bookcase-shelves](https://leetcode.com/problems/filling-bookcase-shelves)|||Medium|
 |1106|[parsing-a-boolean-expression](https://leetcode.com/problems/parsing-a-boolean-expression)|||Hard|
+|1108|[defanging-an-ip-address](https://leetcode.com/problems/defanging-an-ip-address)|||Easy|
+|1109|[corporate-flight-bookings](https://leetcode.com/problems/corporate-flight-bookings)|||Medium|
+|1110|[delete-nodes-and-return-forest](https://leetcode.com/problems/delete-nodes-and-return-forest)|||Medium|
+|1111|[maximum-nesting-depth-of-two-valid-parentheses-strings](https://leetcode.com/problems/maximum-nesting-depth-of-two-valid-parentheses-strings)|||Medium|
