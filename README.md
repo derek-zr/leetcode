@@ -1,8 +1,8 @@
 # :pencil2: Leetcode Solutions with Cpp  
-Update time:  2019-07-07 18:15:11  
+Update time:  2019-07-08 18:15:20  
 Solution by Derek Zheng (Contact ME at derek.zhengrui@gmail.com)  
 Auto created by [leetcode_generate](https://github.com/bonfy/leetcode)  
-I have solved **449   /   1047** problems~  
+I have solved **452   /   1047** problems~  
 
 | # | Title | Source Code | Article | Difficulty |  
 |:---:|:---:|:---:|:---:|:---:|
@@ -261,8 +261,8 @@ I have solved **449   /   1047** problems~
 |270|[closest-binary-search-tree-value](https://leetcode.com/problems/closest-binary-search-tree-value)|:lock:||Easy|
 |271|[encode-and-decode-strings](https://leetcode.com/problems/encode-and-decode-strings)|:lock:|[:memo:](https://leetcode.com/articles/encode-and-decode-strings/)|Medium|
 |272|[closest-binary-search-tree-value-ii](https://leetcode.com/problems/closest-binary-search-tree-value-ii)|:lock:||Hard|
-|273|[integer-to-english-words](https://leetcode.com/problems/integer-to-english-words)||[:memo:](https://leetcode.com/articles/integer-to-english-words/)|Hard|
-|274|[h-index](https://leetcode.com/problems/h-index)||[:memo:](https://leetcode.com/articles/h-index/)|Medium|
+|273|[integer-to-english-words](https://leetcode.com/problems/integer-to-english-words)|[Cpp](https://github.com/derek-zr/leetcode/blob/master/./Solution/273-integer-to-english-words/integer-to-english-words.cpp)|[:memo:](https://leetcode.com/articles/integer-to-english-words/)|Hard|
+|274|[h-index](https://leetcode.com/problems/h-index)|[Cpp](https://github.com/derek-zr/leetcode/blob/master/./Solution/274-h-index/h-index.cpp)|[:memo:](https://leetcode.com/articles/h-index/)|Medium|
 |275|[h-index-ii](https://leetcode.com/problems/h-index-ii)|||Medium|
 |276|[paint-fence](https://leetcode.com/problems/paint-fence)|:lock:||Easy|
 |277|[find-the-celebrity](https://leetcode.com/problems/find-the-celebrity)|:lock:||Medium|
@@ -270,7 +270,7 @@ I have solved **449   /   1047** problems~
 |279|[perfect-squares](https://leetcode.com/problems/perfect-squares)|[Cpp](https://github.com/derek-zr/leetcode/blob/master/./Solution/279-perfect-squares/perfect-squares.cpp)||Medium|
 |280|[wiggle-sort](https://leetcode.com/problems/wiggle-sort)|:lock:|[:memo:](https://leetcode.com/articles/wiggle-sort/)|Medium|
 |281|[zigzag-iterator](https://leetcode.com/problems/zigzag-iterator)|:lock:||Medium|
-|282|[expression-add-operators](https://leetcode.com/problems/expression-add-operators)||[:memo:](https://leetcode.com/articles/expression-add-operators/)|Hard|
+|282|[expression-add-operators](https://leetcode.com/problems/expression-add-operators)|[Cpp](https://github.com/derek-zr/leetcode/blob/master/./Solution/282-expression-add-operators/expression-add-operators.cpp)|[:memo:](https://leetcode.com/articles/expression-add-operators/)|Hard|
 |283|[move-zeroes](https://leetcode.com/problems/move-zeroes)|[Cpp](https://github.com/derek-zr/leetcode/blob/master/./Solution/283-move-zeroes/move-zeroes.cpp)|[:memo:](https://leetcode.com/articles/move-zeroes/)|Easy|
 |284|[peeking-iterator](https://leetcode.com/problems/peeking-iterator)|[Cpp](https://github.com/derek-zr/leetcode/blob/master/./Solution/284-peeking-iterator/peeking-iterator.cpp)||Medium|
 |285|[inorder-successor-in-bst](https://leetcode.com/problems/inorder-successor-in-bst)|:lock:||Medium|
