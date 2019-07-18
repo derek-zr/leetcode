@@ -1,8 +1,8 @@
 # :pencil2: Leetcode Solutions with Cpp  
-Update time:  2019-07-17 09:47:12  
+Update time:  2019-07-18 09:47:10  
 Solution by Derek Zheng (Contact ME at derek.zhengrui@gmail.com)  
 Auto created by [leetcode_generate](https://github.com/bonfy/leetcode)  
-I have solved **461   /   1055** problems~  
+I have solved **462   /   1055** problems~  
 
 | # | Title | Source Code | Article | Difficulty |  
 |:---:|:---:|:---:|:---:|:---:|
@@ -315,7 +315,7 @@ I have solved **461   /   1055** problems~
 |324|[wiggle-sort-ii](https://leetcode.com/problems/wiggle-sort-ii)|[Cpp](https://github.com/derek-zr/leetcode/blob/master/./Solution/324-wiggle-sort-ii/wiggle-sort-ii.cpp)||Medium|
 |325|[maximum-size-subarray-sum-equals-k](https://leetcode.com/problems/maximum-size-subarray-sum-equals-k)|:lock:||Medium|
 |326|[power-of-three](https://leetcode.com/problems/power-of-three)|[Cpp](https://github.com/derek-zr/leetcode/blob/master/./Solution/326-power-of-three/power-of-three.cpp)|[:memo:](https://leetcode.com/articles/power-of-three/)|Easy|
-|327|[count-of-range-sum](https://leetcode.com/problems/count-of-range-sum)|||Hard|
+|327|[count-of-range-sum](https://leetcode.com/problems/count-of-range-sum)|[Cpp](https://github.com/derek-zr/leetcode/blob/master/./Solution/327-count-of-range-sum/count-of-range-sum.cpp)||Hard|
 |328|[odd-even-linked-list](https://leetcode.com/problems/odd-even-linked-list)|[Cpp](https://github.com/derek-zr/leetcode/blob/master/./Solution/328-odd-even-linked-list/odd-even-linked-list.cpp)|[:memo:](https://leetcode.com/articles/odd-even-linked-list/)|Medium|
 |329|[longest-increasing-path-in-a-matrix](https://leetcode.com/problems/longest-increasing-path-in-a-matrix)|[Cpp](https://github.com/derek-zr/leetcode/blob/master/./Solution/329-longest-increasing-path-in-a-matrix/longest-increasing-path-in-a-matrix.cpp)|[:memo:](https://leetcode.com/articles/longest-increasing-path-matrix/)|Hard|
 |330|[patching-array](https://leetcode.com/problems/patching-array)||[:memo:](https://leetcode.com/articles/patching-array/)|Hard|
