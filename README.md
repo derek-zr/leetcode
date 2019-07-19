@@ -1,8 +1,8 @@
 # :pencil2: Leetcode Solutions with Cpp  
-Update time:  2019-07-18 09:47:10  
+Update time:  2019-07-19 09:48:26  
 Solution by Derek Zheng (Contact ME at derek.zhengrui@gmail.com)  
 Auto created by [leetcode_generate](https://github.com/bonfy/leetcode)  
-I have solved **462   /   1055** problems~  
+I have solved **463   /   1055** problems~  
 
 | # | Title | Source Code | Article | Difficulty |  
 |:---:|:---:|:---:|:---:|:---:|
@@ -263,7 +263,7 @@ I have solved **462   /   1055** problems~
 |272|[closest-binary-search-tree-value-ii](https://leetcode.com/problems/closest-binary-search-tree-value-ii)|:lock:||Hard|
 |273|[integer-to-english-words](https://leetcode.com/problems/integer-to-english-words)|[Cpp](https://github.com/derek-zr/leetcode/blob/master/./Solution/273-integer-to-english-words/integer-to-english-words.cpp)|[:memo:](https://leetcode.com/articles/integer-to-english-words/)|Hard|
 |274|[h-index](https://leetcode.com/problems/h-index)|[Cpp](https://github.com/derek-zr/leetcode/blob/master/./Solution/274-h-index/h-index.cpp)|[:memo:](https://leetcode.com/articles/h-index/)|Medium|
-|275|[h-index-ii](https://leetcode.com/problems/h-index-ii)|[Cpp](https://github.com/derek-zr/leetcode/blob/master/./Solution/275-h-index-ii/h-index-ii.cpp)||Medium|
+|275|[h-index-ii](https://leetcode.com/problems/h-index-ii)|[Cpp](https://github.com/derek-zr/leetcode/blob/master/./Solution/275-h-index-ii/h-index-ii.cpp)|[:memo:](https://leetcode.com/articles/h-index-ii/)|Medium|
 |276|[paint-fence](https://leetcode.com/problems/paint-fence)|:lock:||Easy|
 |277|[find-the-celebrity](https://leetcode.com/problems/find-the-celebrity)|:lock:||Medium|
 |278|[first-bad-version](https://leetcode.com/problems/first-bad-version)|[Cpp](https://github.com/derek-zr/leetcode/blob/master/./Solution/278-first-bad-version/first-bad-version.cpp)|[:memo:](https://leetcode.com/articles/first-bad-version/)|Easy|
@@ -318,7 +318,7 @@ I have solved **462   /   1055** problems~
 |327|[count-of-range-sum](https://leetcode.com/problems/count-of-range-sum)|[Cpp](https://github.com/derek-zr/leetcode/blob/master/./Solution/327-count-of-range-sum/count-of-range-sum.cpp)||Hard|
 |328|[odd-even-linked-list](https://leetcode.com/problems/odd-even-linked-list)|[Cpp](https://github.com/derek-zr/leetcode/blob/master/./Solution/328-odd-even-linked-list/odd-even-linked-list.cpp)|[:memo:](https://leetcode.com/articles/odd-even-linked-list/)|Medium|
 |329|[longest-increasing-path-in-a-matrix](https://leetcode.com/problems/longest-increasing-path-in-a-matrix)|[Cpp](https://github.com/derek-zr/leetcode/blob/master/./Solution/329-longest-increasing-path-in-a-matrix/longest-increasing-path-in-a-matrix.cpp)|[:memo:](https://leetcode.com/articles/longest-increasing-path-matrix/)|Hard|
-|330|[patching-array](https://leetcode.com/problems/patching-array)||[:memo:](https://leetcode.com/articles/patching-array/)|Hard|
+|330|[patching-array](https://leetcode.com/problems/patching-array)|[Cpp](https://github.com/derek-zr/leetcode/blob/master/./Solution/330-patching-array/patching-array.cpp)|[:memo:](https://leetcode.com/articles/patching-array/)|Hard|
 |331|[verify-preorder-serialization-of-a-binary-tree](https://leetcode.com/problems/verify-preorder-serialization-of-a-binary-tree)|||Medium|
 |332|[reconstruct-itinerary](https://leetcode.com/problems/reconstruct-itinerary)|||Medium|
 |333|[largest-bst-subtree](https://leetcode.com/problems/largest-bst-subtree)|:lock:||Medium|
