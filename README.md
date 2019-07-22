@@ -1,8 +1,8 @@
 # :pencil2: Leetcode Solutions with Cpp  
-Update time:  2019-07-21 09:47:11  
+Update time:  2019-07-22 09:47:12  
 Solution by Derek Zheng (Contact ME at derek.zhengrui@gmail.com)  
 Auto created by [leetcode_generate](https://github.com/bonfy/leetcode)  
-I have solved **465   /   1055** problems~  
+I have solved **467   /   1059** problems~  
 
 | # | Title | Source Code | Article | Difficulty |  
 |:---:|:---:|:---:|:---:|:---:|
@@ -323,8 +323,8 @@ I have solved **465   /   1055** problems~
 |332|[reconstruct-itinerary](https://leetcode.com/problems/reconstruct-itinerary)|[Cpp](https://github.com/derek-zr/leetcode/blob/master/./Solution/332-reconstruct-itinerary/reconstruct-itinerary.cpp)||Medium|
 |333|[largest-bst-subtree](https://leetcode.com/problems/largest-bst-subtree)|:lock:||Medium|
 |334|[increasing-triplet-subsequence](https://leetcode.com/problems/increasing-triplet-subsequence)|[Cpp](https://github.com/derek-zr/leetcode/blob/master/./Solution/334-increasing-triplet-subsequence/increasing-triplet-subsequence.cpp)||Medium|
-|335|[self-crossing](https://leetcode.com/problems/self-crossing)|||Hard|
-|336|[palindrome-pairs](https://leetcode.com/problems/palindrome-pairs)|||Hard|
+|335|[self-crossing](https://leetcode.com/problems/self-crossing)|[Cpp](https://github.com/derek-zr/leetcode/blob/master/./Solution/335-self-crossing/self-crossing.cpp)||Hard|
+|336|[palindrome-pairs](https://leetcode.com/problems/palindrome-pairs)|[Cpp](https://github.com/derek-zr/leetcode/blob/master/./Solution/336-palindrome-pairs/palindrome-pairs.cpp)||Hard|
 |337|[house-robber-iii](https://leetcode.com/problems/house-robber-iii)|[Cpp](https://github.com/derek-zr/leetcode/blob/master/./Solution/337-house-robber-iii/house-robber-iii.cpp)||Medium|
 |338|[counting-bits](https://leetcode.com/problems/counting-bits)|[Cpp](https://github.com/derek-zr/leetcode/blob/master/./Solution/338-counting-bits/counting-bits.cpp)|[:memo:](https://leetcode.com/articles/counting-bits/)|Medium|
 |339|[nested-list-weight-sum](https://leetcode.com/problems/nested-list-weight-sum)|:lock:|[:memo:](https://leetcode.com/articles/nested-list-weight-sum/)|Easy|
@@ -474,7 +474,7 @@ I have solved **465   /   1055** problems~
 |492|[construct-the-rectangle](https://leetcode.com/problems/construct-the-rectangle)|[Cpp](https://github.com/derek-zr/leetcode/blob/master/./Solution/492-construct-the-rectangle/construct-the-rectangle.cpp)||Easy|
 |493|[reverse-pairs](https://leetcode.com/problems/reverse-pairs)||[:memo:](https://leetcode.com/articles/reverse-pairs/)|Hard|
 |494|[target-sum](https://leetcode.com/problems/target-sum)|[Cpp](https://github.com/derek-zr/leetcode/blob/master/./Solution/494-target-sum/target-sum.cpp)|[:memo:](https://leetcode.com/articles/target-sum/)|Medium|
-|495|[teemo-attacking](https://leetcode.com/problems/teemo-attacking)|||Medium|
+|495|[teemo-attacking](https://leetcode.com/problems/teemo-attacking)||[:memo:](https://leetcode.com/articles/teemo-attacking/)|Medium|
 |496|[next-greater-element-i](https://leetcode.com/problems/next-greater-element-i)|[Cpp](https://github.com/derek-zr/leetcode/blob/master/./Solution/496-next-greater-element-i/next-greater-element-i.cpp)|[:memo:](https://leetcode.com/articles/greater-element-i/)|Easy|
 |498|[diagonal-traverse](https://leetcode.com/problems/diagonal-traverse)|||Medium|
 |499|[the-maze-iii](https://leetcode.com/problems/the-maze-iii)|:lock:||Hard|
@@ -1061,3 +1061,7 @@ I have solved **465   /   1055** problems~
 |1123|[lowest-common-ancestor-of-deepest-leaves](https://leetcode.com/problems/lowest-common-ancestor-of-deepest-leaves)|||Medium|
 |1124|[longest-well-performing-interval](https://leetcode.com/problems/longest-well-performing-interval)|||Medium|
 |1125|[smallest-sufficient-team](https://leetcode.com/problems/smallest-sufficient-team)|||Hard|
+|1128|[number-of-equivalent-domino-pairs](https://leetcode.com/problems/number-of-equivalent-domino-pairs)|||Easy|
+|1130|[minimum-cost-tree-from-leaf-values](https://leetcode.com/problems/minimum-cost-tree-from-leaf-values)|||Medium|
+|1129|[shortest-path-with-alternating-colors](https://leetcode.com/problems/shortest-path-with-alternating-colors)|||Medium|
+|1131|[maximum-of-absolute-value-expression](https://leetcode.com/problems/maximum-of-absolute-value-expression)|||Medium|
