@@ -1,8 +1,8 @@
 # :pencil2: Leetcode Solutions with Cpp  
-Update time:  2019-07-23 09:48:15  
+Update time:  2019-07-24 09:45:46  
 Solution by Derek Zheng (Contact ME at derek.zhengrui@gmail.com)  
 Auto created by [leetcode_generate](https://github.com/bonfy/leetcode)  
-I have solved **471   /   1059** problems~  
+I have solved **474   /   1059** problems~  
 
 | # | Title | Source Code | Article | Difficulty |  
 |:---:|:---:|:---:|:---:|:---:|
@@ -351,17 +351,17 @@ I have solved **471   /   1059** problems~
 |360|[sort-transformed-array](https://leetcode.com/problems/sort-transformed-array)|:lock:||Medium|
 |361|[bomb-enemy](https://leetcode.com/problems/bomb-enemy)|:lock:||Medium|
 |362|[design-hit-counter](https://leetcode.com/problems/design-hit-counter)|:lock:||Medium|
-|363|[max-sum-of-rectangle-no-larger-than-k](https://leetcode.com/problems/max-sum-of-rectangle-no-larger-than-k)|||Hard|
+|363|[max-sum-of-rectangle-no-larger-than-k](https://leetcode.com/problems/max-sum-of-rectangle-no-larger-than-k)|[Cpp](https://github.com/derek-zr/leetcode/blob/master/./Solution/363-max-sum-of-rectangle-no-larger-than-k/max-sum-of-rectangle-no-larger-than-k.cpp)||Hard|
 |364|[nested-list-weight-sum-ii](https://leetcode.com/problems/nested-list-weight-sum-ii)|:lock:||Medium|
 |365|[water-and-jug-problem](https://leetcode.com/problems/water-and-jug-problem)|[Cpp](https://github.com/derek-zr/leetcode/blob/master/./Solution/365-water-and-jug-problem/water-and-jug-problem.cpp)||Medium|
 |366|[find-leaves-of-binary-tree](https://leetcode.com/problems/find-leaves-of-binary-tree)|:lock:||Medium|
-|367|[valid-perfect-square](https://leetcode.com/problems/valid-perfect-square)|||Easy|
+|367|[valid-perfect-square](https://leetcode.com/problems/valid-perfect-square)|[Cpp](https://github.com/derek-zr/leetcode/blob/master/./Solution/367-valid-perfect-square/valid-perfect-square.cpp)||Easy|
 |368|[largest-divisible-subset](https://leetcode.com/problems/largest-divisible-subset)|[Cpp](https://github.com/derek-zr/leetcode/blob/master/./Solution/368-largest-divisible-subset/largest-divisible-subset.cpp)||Medium|
 |369|[plus-one-linked-list](https://leetcode.com/problems/plus-one-linked-list)|:lock:||Medium|
 |370|[range-addition](https://leetcode.com/problems/range-addition)|:lock:|[:memo:](https://leetcode.com/articles/range-addition/)|Medium|
 |371|[sum-of-two-integers](https://leetcode.com/problems/sum-of-two-integers)|[Cpp](https://github.com/derek-zr/leetcode/blob/master/./Solution/371-sum-of-two-integers/sum-of-two-integers.cpp)||Easy|
 |372|[super-pow](https://leetcode.com/problems/super-pow)|[Cpp](https://github.com/derek-zr/leetcode/blob/master/./Solution/372-super-pow/super-pow.cpp)||Medium|
-|373|[find-k-pairs-with-smallest-sums](https://leetcode.com/problems/find-k-pairs-with-smallest-sums)|||Medium|
+|373|[find-k-pairs-with-smallest-sums](https://leetcode.com/problems/find-k-pairs-with-smallest-sums)|[Cpp](https://github.com/derek-zr/leetcode/blob/master/./Solution/373-find-k-pairs-with-smallest-sums/find-k-pairs-with-smallest-sums.cpp)||Medium|
 |374|[guess-number-higher-or-lower](https://leetcode.com/problems/guess-number-higher-or-lower)|[Cpp](https://github.com/derek-zr/leetcode/blob/master/./Solution/374-guess-number-higher-or-lower/guess-number-higher-or-lower.cpp)|[:memo:](https://leetcode.com/articles/guess-number-higher-or-lower/)|Easy|
 |375|[guess-number-higher-or-lower-ii](https://leetcode.com/problems/guess-number-higher-or-lower-ii)|[Cpp](https://github.com/derek-zr/leetcode/blob/master/./Solution/375-guess-number-higher-or-lower-ii/guess-number-higher-or-lower-ii.cpp)|[:memo:](https://leetcode.com/articles/guess-number-higher-or-lower-ii/)|Medium|
 |376|[wiggle-subsequence](https://leetcode.com/problems/wiggle-subsequence)|[Cpp](https://github.com/derek-zr/leetcode/blob/master/./Solution/376-wiggle-subsequence/wiggle-subsequence.cpp)|[:memo:](https://leetcode.com/articles/wiggle-subsequence/)|Medium|
@@ -974,7 +974,7 @@ I have solved **471   /   1059** problems~
 |1012|[numbers-with-repeated-digits](https://leetcode.com/problems/numbers-with-repeated-digits)|||Hard|
 |1061|[lexicographically-smallest-equivalent-string](https://leetcode.com/problems/lexicographically-smallest-equivalent-string)|:lock:||Medium|
 |1060|[missing-element-in-sorted-array](https://leetcode.com/problems/missing-element-in-sorted-array)|:lock:|[:memo:](https://leetcode.com/articles/missing-element-in-sorted-array/)|Medium|
-|1062|[longest-repeating-substring](https://leetcode.com/problems/longest-repeating-substring)|:lock:||Medium|
+|1062|[longest-repeating-substring](https://leetcode.com/problems/longest-repeating-substring)|:lock:|[:memo:](https://leetcode.com/articles/longest-repeating-substring/)|Medium|
 |1063|[number-of-valid-subarrays](https://leetcode.com/problems/number-of-valid-subarrays)|:lock:||Hard|
 |1013|[partition-array-into-three-parts-with-equal-sum](https://leetcode.com/problems/partition-array-into-three-parts-with-equal-sum)|||Easy|
 |1014|[best-sightseeing-pair](https://leetcode.com/problems/best-sightseeing-pair)|||Medium|
