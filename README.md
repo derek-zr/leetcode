@@ -1,8 +1,8 @@
 # :pencil2: Leetcode Solutions with Cpp  
-Update time:  2019-07-24 09:45:46  
+Update time:  2019-07-25 09:48:09  
 Solution by Derek Zheng (Contact ME at derek.zhengrui@gmail.com)  
 Auto created by [leetcode_generate](https://github.com/bonfy/leetcode)  
-I have solved **474   /   1059** problems~  
+I have solved **477   /   1059** problems~  
 
 | # | Title | Source Code | Article | Difficulty |  
 |:---:|:---:|:---:|:---:|:---:|
@@ -369,11 +369,11 @@ I have solved **474   /   1059** problems~
 |378|[kth-smallest-element-in-a-sorted-matrix](https://leetcode.com/problems/kth-smallest-element-in-a-sorted-matrix)|[Cpp](https://github.com/derek-zr/leetcode/blob/master/./Solution/378-kth-smallest-element-in-a-sorted-matrix/kth-smallest-element-in-a-sorted-matrix.cpp)||Medium|
 |379|[design-phone-directory](https://leetcode.com/problems/design-phone-directory)|:lock:||Medium|
 |380|[insert-delete-getrandom-o1](https://leetcode.com/problems/insert-delete-getrandom-o1)|[Cpp](https://github.com/derek-zr/leetcode/blob/master/./Solution/380-insert-delete-getrandom-o1/insert-delete-getrandom-o1.cpp)||Medium|
-|381|[insert-delete-getrandom-o1-duplicates-allowed](https://leetcode.com/problems/insert-delete-getrandom-o1-duplicates-allowed)||[:memo:](https://leetcode.com/articles/insert-delete-getrandom-o1-duplicates-allowed/)|Hard|
+|381|[insert-delete-getrandom-o1-duplicates-allowed](https://leetcode.com/problems/insert-delete-getrandom-o1-duplicates-allowed)|[Cpp](https://github.com/derek-zr/leetcode/blob/master/./Solution/381-insert-delete-getrandom-o1-duplicates-allowed/insert-delete-getrandom-o1-duplicates-allowed.cpp)|[:memo:](https://leetcode.com/articles/insert-delete-getrandom-o1-duplicates-allowed/)|Hard|
 |382|[linked-list-random-node](https://leetcode.com/problems/linked-list-random-node)|[Cpp](https://github.com/derek-zr/leetcode/blob/master/./Solution/382-linked-list-random-node/linked-list-random-node.cpp)||Medium|
-|383|[ransom-note](https://leetcode.com/problems/ransom-note)|||Easy|
+|383|[ransom-note](https://leetcode.com/problems/ransom-note)|[Cpp](https://github.com/derek-zr/leetcode/blob/master/./Solution/383-ransom-note/ransom-note.cpp)||Easy|
 |384|[shuffle-an-array](https://leetcode.com/problems/shuffle-an-array)|[Cpp](https://github.com/derek-zr/leetcode/blob/master/./Solution/384-shuffle-an-array/shuffle-an-array.cpp)|[:memo:](https://leetcode.com/articles/shuffle-an-array/)|Medium|
-|385|[mini-parser](https://leetcode.com/problems/mini-parser)|||Medium|
+|385|[mini-parser](https://leetcode.com/problems/mini-parser)|[Cpp](https://github.com/derek-zr/leetcode/blob/master/./Solution/385-mini-parser/mini-parser.cpp)||Medium|
 |386|[lexicographical-numbers](https://leetcode.com/problems/lexicographical-numbers)|||Medium|
 |387|[first-unique-character-in-a-string](https://leetcode.com/problems/first-unique-character-in-a-string)|[Cpp](https://github.com/derek-zr/leetcode/blob/master/./Solution/387-first-unique-character-in-a-string/first-unique-character-in-a-string.cpp)|[:memo:](https://leetcode.com/articles/first-unique-character-in-a-string/)|Easy|
 |388|[longest-absolute-file-path](https://leetcode.com/problems/longest-absolute-file-path)|||Medium|
@@ -420,7 +420,7 @@ I have solved **474   /   1059** problems~
 |435|[non-overlapping-intervals](https://leetcode.com/problems/non-overlapping-intervals)|[Cpp](https://github.com/derek-zr/leetcode/blob/master/./Solution/435-non-overlapping-intervals/non-overlapping-intervals.cpp)|[:memo:](https://leetcode.com/articles/non-overlapping-intervals/)|Medium|
 |436|[find-right-interval](https://leetcode.com/problems/find-right-interval)||[:memo:](https://leetcode.com/articles/find-right-interval/)|Medium|
 |437|[path-sum-iii](https://leetcode.com/problems/path-sum-iii)|[Cpp](https://github.com/derek-zr/leetcode/blob/master/./Solution/437-path-sum-iii/path-sum-iii.cpp)||Easy|
-|438|[find-all-anagrams-in-a-string](https://leetcode.com/problems/find-all-anagrams-in-a-string)|[Cpp](https://github.com/derek-zr/leetcode/blob/master/./Solution/438-find-all-anagrams-in-a-string/find-all-anagrams-in-a-string.cpp)||Easy|
+|438|[find-all-anagrams-in-a-string](https://leetcode.com/problems/find-all-anagrams-in-a-string)|[Cpp](https://github.com/derek-zr/leetcode/blob/master/./Solution/438-find-all-anagrams-in-a-string/find-all-anagrams-in-a-string.cpp)||Medium|
 |439|[ternary-expression-parser](https://leetcode.com/problems/ternary-expression-parser)|:lock:||Medium|
 |440|[k-th-smallest-in-lexicographical-order](https://leetcode.com/problems/k-th-smallest-in-lexicographical-order)|[Cpp](https://github.com/derek-zr/leetcode/blob/master/./Solution/440-k-th-smallest-in-lexicographical-order/k-th-smallest-in-lexicographical-order.cpp)||Hard|
 |441|[arranging-coins](https://leetcode.com/problems/arranging-coins)|||Easy|
