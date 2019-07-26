@@ -1,8 +1,8 @@
 # :pencil2: Leetcode Solutions with Cpp  
-Update time:  2019-07-25 09:48:09  
+Update time:  2019-07-26 09:47:12  
 Solution by Derek Zheng (Contact ME at derek.zhengrui@gmail.com)  
 Auto created by [leetcode_generate](https://github.com/bonfy/leetcode)  
-I have solved **477   /   1059** problems~  
+I have solved **482   /   1059** problems~  
 
 | # | Title | Source Code | Article | Difficulty |  
 |:---:|:---:|:---:|:---:|:---:|
@@ -374,12 +374,12 @@ I have solved **477   /   1059** problems~
 |383|[ransom-note](https://leetcode.com/problems/ransom-note)|[Cpp](https://github.com/derek-zr/leetcode/blob/master/./Solution/383-ransom-note/ransom-note.cpp)||Easy|
 |384|[shuffle-an-array](https://leetcode.com/problems/shuffle-an-array)|[Cpp](https://github.com/derek-zr/leetcode/blob/master/./Solution/384-shuffle-an-array/shuffle-an-array.cpp)|[:memo:](https://leetcode.com/articles/shuffle-an-array/)|Medium|
 |385|[mini-parser](https://leetcode.com/problems/mini-parser)|[Cpp](https://github.com/derek-zr/leetcode/blob/master/./Solution/385-mini-parser/mini-parser.cpp)||Medium|
-|386|[lexicographical-numbers](https://leetcode.com/problems/lexicographical-numbers)|||Medium|
+|386|[lexicographical-numbers](https://leetcode.com/problems/lexicographical-numbers)|[Cpp](https://github.com/derek-zr/leetcode/blob/master/./Solution/386-lexicographical-numbers/lexicographical-numbers.cpp)||Medium|
 |387|[first-unique-character-in-a-string](https://leetcode.com/problems/first-unique-character-in-a-string)|[Cpp](https://github.com/derek-zr/leetcode/blob/master/./Solution/387-first-unique-character-in-a-string/first-unique-character-in-a-string.cpp)|[:memo:](https://leetcode.com/articles/first-unique-character-in-a-string/)|Easy|
-|388|[longest-absolute-file-path](https://leetcode.com/problems/longest-absolute-file-path)|||Medium|
-|389|[find-the-difference](https://leetcode.com/problems/find-the-difference)|||Easy|
-|390|[elimination-game](https://leetcode.com/problems/elimination-game)|||Medium|
-|391|[perfect-rectangle](https://leetcode.com/problems/perfect-rectangle)|||Hard|
+|388|[longest-absolute-file-path](https://leetcode.com/problems/longest-absolute-file-path)|[Cpp](https://github.com/derek-zr/leetcode/blob/master/./Solution/388-longest-absolute-file-path/longest-absolute-file-path.cpp)||Medium|
+|389|[find-the-difference](https://leetcode.com/problems/find-the-difference)|[Cpp](https://github.com/derek-zr/leetcode/blob/master/./Solution/389-find-the-difference/find-the-difference.cpp)||Easy|
+|390|[elimination-game](https://leetcode.com/problems/elimination-game)|[Cpp](https://github.com/derek-zr/leetcode/blob/master/./Solution/390-elimination-game/elimination-game.cpp)||Medium|
+|391|[perfect-rectangle](https://leetcode.com/problems/perfect-rectangle)|[Cpp](https://github.com/derek-zr/leetcode/blob/master/./Solution/391-perfect-rectangle/perfect-rectangle.cpp)||Hard|
 |392|[is-subsequence](https://leetcode.com/problems/is-subsequence)|[Cpp](https://github.com/derek-zr/leetcode/blob/master/./Solution/392-is-subsequence/is-subsequence.cpp)||Medium|
 |393|[utf-8-validation](https://leetcode.com/problems/utf-8-validation)|[Cpp](https://github.com/derek-zr/leetcode/blob/master/./Solution/393-utf-8-validation/utf-8-validation.cpp)|[:memo:](https://leetcode.com/articles/utf-8-validation/)|Medium|
 |394|[decode-string](https://leetcode.com/problems/decode-string)|[Cpp](https://github.com/derek-zr/leetcode/blob/master/./Solution/394-decode-string/decode-string.cpp)||Medium|
