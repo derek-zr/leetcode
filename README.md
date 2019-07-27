@@ -1,8 +1,8 @@
 # :pencil2: Leetcode Solutions with Cpp  
-Update time:  2019-07-26 09:47:12  
+Update time:  2019-07-27 09:48:05  
 Solution by Derek Zheng (Contact ME at derek.zhengrui@gmail.com)  
 Auto created by [leetcode_generate](https://github.com/bonfy/leetcode)  
-I have solved **482   /   1059** problems~  
+I have solved **484   /   1059** problems~  
 
 | # | Title | Source Code | Article | Difficulty |  
 |:---:|:---:|:---:|:---:|:---:|
@@ -385,8 +385,8 @@ I have solved **482   /   1059** problems~
 |394|[decode-string](https://leetcode.com/problems/decode-string)|[Cpp](https://github.com/derek-zr/leetcode/blob/master/./Solution/394-decode-string/decode-string.cpp)||Medium|
 |395|[longest-substring-with-at-least-k-repeating-characters](https://leetcode.com/problems/longest-substring-with-at-least-k-repeating-characters)|[Cpp](https://github.com/derek-zr/leetcode/blob/master/./Solution/395-longest-substring-with-at-least-k-repeating-characters/longest-substring-with-at-least-k-repeating-characters.cpp)||Medium|
 |396|[rotate-function](https://leetcode.com/problems/rotate-function)|[Cpp](https://github.com/derek-zr/leetcode/blob/master/./Solution/396-rotate-function/rotate-function.cpp)||Medium|
-|397|[integer-replacement](https://leetcode.com/problems/integer-replacement)|||Medium|
-|398|[random-pick-index](https://leetcode.com/problems/random-pick-index)|||Medium|
+|397|[integer-replacement](https://leetcode.com/problems/integer-replacement)|[Cpp](https://github.com/derek-zr/leetcode/blob/master/./Solution/397-integer-replacement/integer-replacement.cpp)||Medium|
+|398|[random-pick-index](https://leetcode.com/problems/random-pick-index)|[Cpp](https://github.com/derek-zr/leetcode/blob/master/./Solution/398-random-pick-index/random-pick-index.cpp)||Medium|
 |399|[evaluate-division](https://leetcode.com/problems/evaluate-division)|[Cpp](https://github.com/derek-zr/leetcode/blob/master/./Solution/399-evaluate-division/evaluate-division.cpp)||Medium|
 |400|[nth-digit](https://leetcode.com/problems/nth-digit)|||Easy|
 |401|[binary-watch](https://leetcode.com/problems/binary-watch)|||Easy|
