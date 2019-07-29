@@ -1,8 +1,8 @@
 # :pencil2: Leetcode Solutions with Cpp  
-Update time:  2019-07-27 09:48:05  
+Update time:  2019-07-29 09:48:21  
 Solution by Derek Zheng (Contact ME at derek.zhengrui@gmail.com)  
 Auto created by [leetcode_generate](https://github.com/bonfy/leetcode)  
-I have solved **484   /   1059** problems~  
+I have solved **487   /   1067** problems~  
 
 | # | Title | Source Code | Article | Difficulty |  
 |:---:|:---:|:---:|:---:|:---:|
@@ -389,12 +389,12 @@ I have solved **484   /   1059** problems~
 |398|[random-pick-index](https://leetcode.com/problems/random-pick-index)|[Cpp](https://github.com/derek-zr/leetcode/blob/master/./Solution/398-random-pick-index/random-pick-index.cpp)||Medium|
 |399|[evaluate-division](https://leetcode.com/problems/evaluate-division)|[Cpp](https://github.com/derek-zr/leetcode/blob/master/./Solution/399-evaluate-division/evaluate-division.cpp)||Medium|
 |400|[nth-digit](https://leetcode.com/problems/nth-digit)|||Easy|
-|401|[binary-watch](https://leetcode.com/problems/binary-watch)|||Easy|
-|402|[remove-k-digits](https://leetcode.com/problems/remove-k-digits)|||Medium|
-|403|[frog-jump](https://leetcode.com/problems/frog-jump)||[:memo:](https://leetcode.com/articles/frog-jump/)|Hard|
+|401|[binary-watch](https://leetcode.com/problems/binary-watch)|[Cpp](https://github.com/derek-zr/leetcode/blob/master/./Solution/401-binary-watch/binary-watch.cpp)||Easy|
+|402|[remove-k-digits](https://leetcode.com/problems/remove-k-digits)|[Cpp](https://github.com/derek-zr/leetcode/blob/master/./Solution/402-remove-k-digits/remove-k-digits.cpp)||Medium|
+|403|[frog-jump](https://leetcode.com/problems/frog-jump)|[Cpp](https://github.com/derek-zr/leetcode/blob/master/./Solution/403-frog-jump/frog-jump.cpp)|[:memo:](https://leetcode.com/articles/frog-jump/)|Hard|
 |404|[sum-of-left-leaves](https://leetcode.com/problems/sum-of-left-leaves)|[Cpp](https://github.com/derek-zr/leetcode/blob/master/./Solution/404-sum-of-left-leaves/sum-of-left-leaves.cpp)||Easy|
 |405|[convert-a-number-to-hexadecimal](https://leetcode.com/problems/convert-a-number-to-hexadecimal)|||Easy|
-|406|[queue-reconstruction-by-height](https://leetcode.com/problems/queue-reconstruction-by-height)|[Cpp](https://github.com/derek-zr/leetcode/blob/master/./Solution/406-queue-reconstruction-by-height/queue-reconstruction-by-height.cpp)||Medium|
+|406|[queue-reconstruction-by-height](https://leetcode.com/problems/queue-reconstruction-by-height)|[Cpp](https://github.com/derek-zr/leetcode/blob/master/./Solution/406-queue-reconstruction-by-height/queue-reconstruction-by-height.cpp)|[:memo:](https://leetcode.com/articles/queue-reconstruction-by-height/)|Medium|
 |407|[trapping-rain-water-ii](https://leetcode.com/problems/trapping-rain-water-ii)|||Hard|
 |408|[valid-word-abbreviation](https://leetcode.com/problems/valid-word-abbreviation)|:lock:||Easy|
 |409|[longest-palindrome](https://leetcode.com/problems/longest-palindrome)||[:memo:](https://leetcode.com/articles/longest-palindrome/)|Easy|
@@ -1004,6 +1004,7 @@ I have solved **484   /   1059** problems~
 |1027|[longest-arithmetic-sequence](https://leetcode.com/problems/longest-arithmetic-sequence)|||Medium|
 |1118|[number-of-days-in-a-month](https://leetcode.com/problems/number-of-days-in-a-month)|:lock:||Easy|
 |1119|[remove-vowels-from-a-string](https://leetcode.com/problems/remove-vowels-from-a-string)|:lock:||Easy|
+|1134|[armstrong-number](https://leetcode.com/problems/armstrong-number)|:lock:||Easy|
 |1120|[maximum-average-subtree](https://leetcode.com/problems/maximum-average-subtree)|:lock:||Medium|
 |1026|[maximum-difference-between-node-and-ancestor](https://leetcode.com/problems/maximum-difference-between-node-and-ancestor)|||Medium|
 |1028|[recover-a-tree-from-preorder-traversal](https://leetcode.com/problems/recover-a-tree-from-preorder-traversal)|||Hard|
@@ -1011,7 +1012,10 @@ I have solved **484   /   1059** problems~
 |1029|[two-city-scheduling](https://leetcode.com/problems/two-city-scheduling)||[:memo:](https://leetcode.com/articles/two-city-scheduling/)|Easy|
 |1031|[maximum-sum-of-two-non-overlapping-subarrays](https://leetcode.com/problems/maximum-sum-of-two-non-overlapping-subarrays)|||Medium|
 |1032|[stream-of-characters](https://leetcode.com/problems/stream-of-characters)|||Hard|
+|1133|[largest-unique-number](https://leetcode.com/problems/largest-unique-number)|:lock:||Easy|
 |1102|[path-with-maximum-minimum-value](https://leetcode.com/problems/path-with-maximum-minimum-value)|:lock:||Medium|
+|1135|[connecting-cities-with-minimum-cost](https://leetcode.com/problems/connecting-cities-with-minimum-cost)|:lock:||Medium|
+|1136|[parallel-courses](https://leetcode.com/problems/parallel-courses)|:lock:||Hard|
 |1033|[moving-stones-until-consecutive](https://leetcode.com/problems/moving-stones-until-consecutive)|||Easy|
 |1034|[coloring-a-border](https://leetcode.com/problems/coloring-a-border)|||Medium|
 |1035|[uncrossed-lines](https://leetcode.com/problems/uncrossed-lines)|||Medium|
@@ -1065,3 +1069,7 @@ I have solved **484   /   1059** problems~
 |1130|[minimum-cost-tree-from-leaf-values](https://leetcode.com/problems/minimum-cost-tree-from-leaf-values)|||Medium|
 |1129|[shortest-path-with-alternating-colors](https://leetcode.com/problems/shortest-path-with-alternating-colors)|||Medium|
 |1131|[maximum-of-absolute-value-expression](https://leetcode.com/problems/maximum-of-absolute-value-expression)|||Medium|
+|1137|[n-th-tribonacci-number](https://leetcode.com/problems/n-th-tribonacci-number)|||Easy|
+|1138|[alphabet-board-path](https://leetcode.com/problems/alphabet-board-path)|||Medium|
+|1139|[largest-1-bordered-square](https://leetcode.com/problems/largest-1-bordered-square)|||Medium|
+|1140|[stone-game-ii](https://leetcode.com/problems/stone-game-ii)|||Medium|
