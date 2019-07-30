@@ -1,8 +1,8 @@
 # :pencil2: Leetcode Solutions with Cpp  
-Update time:  2019-07-29 09:48:21  
+Update time:  2019-07-30 09:48:06  
 Solution by Derek Zheng (Contact ME at derek.zhengrui@gmail.com)  
 Auto created by [leetcode_generate](https://github.com/bonfy/leetcode)  
-I have solved **487   /   1067** problems~  
+I have solved **489   /   1067** problems~  
 
 | # | Title | Source Code | Article | Difficulty |  
 |:---:|:---:|:---:|:---:|:---:|
@@ -393,9 +393,9 @@ I have solved **487   /   1067** problems~
 |402|[remove-k-digits](https://leetcode.com/problems/remove-k-digits)|[Cpp](https://github.com/derek-zr/leetcode/blob/master/./Solution/402-remove-k-digits/remove-k-digits.cpp)||Medium|
 |403|[frog-jump](https://leetcode.com/problems/frog-jump)|[Cpp](https://github.com/derek-zr/leetcode/blob/master/./Solution/403-frog-jump/frog-jump.cpp)|[:memo:](https://leetcode.com/articles/frog-jump/)|Hard|
 |404|[sum-of-left-leaves](https://leetcode.com/problems/sum-of-left-leaves)|[Cpp](https://github.com/derek-zr/leetcode/blob/master/./Solution/404-sum-of-left-leaves/sum-of-left-leaves.cpp)||Easy|
-|405|[convert-a-number-to-hexadecimal](https://leetcode.com/problems/convert-a-number-to-hexadecimal)|||Easy|
+|405|[convert-a-number-to-hexadecimal](https://leetcode.com/problems/convert-a-number-to-hexadecimal)|[Cpp](https://github.com/derek-zr/leetcode/blob/master/./Solution/405-convert-a-number-to-hexadecimal/convert-a-number-to-hexadecimal.cpp)||Easy|
 |406|[queue-reconstruction-by-height](https://leetcode.com/problems/queue-reconstruction-by-height)|[Cpp](https://github.com/derek-zr/leetcode/blob/master/./Solution/406-queue-reconstruction-by-height/queue-reconstruction-by-height.cpp)|[:memo:](https://leetcode.com/articles/queue-reconstruction-by-height/)|Medium|
-|407|[trapping-rain-water-ii](https://leetcode.com/problems/trapping-rain-water-ii)|||Hard|
+|407|[trapping-rain-water-ii](https://leetcode.com/problems/trapping-rain-water-ii)|[Cpp](https://github.com/derek-zr/leetcode/blob/master/./Solution/407-trapping-rain-water-ii/trapping-rain-water-ii.cpp)||Hard|
 |408|[valid-word-abbreviation](https://leetcode.com/problems/valid-word-abbreviation)|:lock:||Easy|
 |409|[longest-palindrome](https://leetcode.com/problems/longest-palindrome)||[:memo:](https://leetcode.com/articles/longest-palindrome/)|Easy|
 |410|[split-array-largest-sum](https://leetcode.com/problems/split-array-largest-sum)|[Cpp](https://github.com/derek-zr/leetcode/blob/master/./Solution/410-split-array-largest-sum/split-array-largest-sum.cpp)|[:memo:](https://leetcode.com/articles/split-array-largest-sum/)|Hard|
