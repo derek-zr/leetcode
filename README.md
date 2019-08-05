@@ -1,8 +1,8 @@
 # :pencil2: Leetcode Solutions with Cpp  
-Update time:  2019-07-30 15:08:15  
+Update time:  2019-08-05 15:08:01  
 Solution by Derek Zheng (Contact ME at derek.zhengrui@gmail.com)  
 Auto created by [leetcode_generate](https://github.com/bonfy/leetcode)  
-I have solved **492   /   1067** problems~  
+I have solved **496   /   1072** problems~  
 
 | # | Title | Source Code | Article | Difficulty |  
 |:---:|:---:|:---:|:---:|:---:|
@@ -287,7 +287,7 @@ I have solved **492   /   1067** problems~
 |296|[best-meeting-point](https://leetcode.com/problems/best-meeting-point)|:lock:|[:memo:](https://leetcode.com/articles/best-meeting-point/)|Hard|
 |297|[serialize-and-deserialize-binary-tree](https://leetcode.com/problems/serialize-and-deserialize-binary-tree)|[Cpp](https://github.com/derek-zr/leetcode/blob/master/./Solution/297-serialize-and-deserialize-binary-tree/serialize-and-deserialize-binary-tree.cpp)|[:memo:](https://leetcode.com/articles/serialize-and-deserialize-binary-tree/)|Hard|
 |298|[binary-tree-longest-consecutive-sequence](https://leetcode.com/problems/binary-tree-longest-consecutive-sequence)|:lock:|[:memo:](https://leetcode.com/articles/binary-tree-longest-consecutive-sequence/)|Medium|
-|299|[bulls-and-cows](https://leetcode.com/problems/bulls-and-cows)|[Cpp](https://github.com/derek-zr/leetcode/blob/master/./Solution/299-bulls-and-cows/bulls-and-cows.cpp)||Medium|
+|299|[bulls-and-cows](https://leetcode.com/problems/bulls-and-cows)|[Cpp](https://github.com/derek-zr/leetcode/blob/master/./Solution/299-bulls-and-cows/bulls-and-cows.cpp)||Easy|
 |300|[longest-increasing-subsequence](https://leetcode.com/problems/longest-increasing-subsequence)|[Cpp](https://github.com/derek-zr/leetcode/blob/master/./Solution/300-longest-increasing-subsequence/longest-increasing-subsequence.cpp)|[:memo:](https://leetcode.com/articles/longest-increasing-subsequence/)|Medium|
 |301|[remove-invalid-parentheses](https://leetcode.com/problems/remove-invalid-parentheses)|[Cpp](https://github.com/derek-zr/leetcode/blob/master/./Solution/301-remove-invalid-parentheses/remove-invalid-parentheses.cpp)|[:memo:](https://leetcode.com/articles/remove-invalid-parentheses/)|Hard|
 |302|[smallest-rectangle-enclosing-black-pixels](https://leetcode.com/problems/smallest-rectangle-enclosing-black-pixels)|:lock:|[:memo:](https://leetcode.com/articles/smallest-rectangle-enclosing-black-pixels/)|Hard|
@@ -319,7 +319,7 @@ I have solved **492   /   1067** problems~
 |328|[odd-even-linked-list](https://leetcode.com/problems/odd-even-linked-list)|[Cpp](https://github.com/derek-zr/leetcode/blob/master/./Solution/328-odd-even-linked-list/odd-even-linked-list.cpp)|[:memo:](https://leetcode.com/articles/odd-even-linked-list/)|Medium|
 |329|[longest-increasing-path-in-a-matrix](https://leetcode.com/problems/longest-increasing-path-in-a-matrix)|[Cpp](https://github.com/derek-zr/leetcode/blob/master/./Solution/329-longest-increasing-path-in-a-matrix/longest-increasing-path-in-a-matrix.cpp)|[:memo:](https://leetcode.com/articles/longest-increasing-path-matrix/)|Hard|
 |330|[patching-array](https://leetcode.com/problems/patching-array)|[Cpp](https://github.com/derek-zr/leetcode/blob/master/./Solution/330-patching-array/patching-array.cpp)|[:memo:](https://leetcode.com/articles/patching-array/)|Hard|
-|331|[verify-preorder-serialization-of-a-binary-tree](https://leetcode.com/problems/verify-preorder-serialization-of-a-binary-tree)|[Cpp](https://github.com/derek-zr/leetcode/blob/master/./Solution/331-verify-preorder-serialization-of-a-binary-tree/verify-preorder-serialization-of-a-binary-tree.cpp)||Medium|
+|331|[verify-preorder-serialization-of-a-binary-tree](https://leetcode.com/problems/verify-preorder-serialization-of-a-binary-tree)|[Cpp](https://github.com/derek-zr/leetcode/blob/master/./Solution/331-verify-preorder-serialization-of-a-binary-tree/verify-preorder-serialization-of-a-binary-tree.cpp)|[:memo:](https://leetcode.com/articles/verify-preorder-serialization-of-a-binary-tree/)|Medium|
 |332|[reconstruct-itinerary](https://leetcode.com/problems/reconstruct-itinerary)|[Cpp](https://github.com/derek-zr/leetcode/blob/master/./Solution/332-reconstruct-itinerary/reconstruct-itinerary.cpp)||Medium|
 |333|[largest-bst-subtree](https://leetcode.com/problems/largest-bst-subtree)|:lock:||Medium|
 |334|[increasing-triplet-subsequence](https://leetcode.com/problems/increasing-triplet-subsequence)|[Cpp](https://github.com/derek-zr/leetcode/blob/master/./Solution/334-increasing-triplet-subsequence/increasing-triplet-subsequence.cpp)||Medium|
@@ -698,7 +698,7 @@ I have solved **492   /   1067** problems~
 |764|[largest-plus-sign](https://leetcode.com/problems/largest-plus-sign)||[:memo:](https://leetcode.com/articles/largest-plus-sign/)|Medium|
 |765|[couples-holding-hands](https://leetcode.com/problems/couples-holding-hands)||[:memo:](https://leetcode.com/articles/couples-holding-hands/)|Hard|
 |431|[encode-n-ary-tree-to-binary-tree](https://leetcode.com/problems/encode-n-ary-tree-to-binary-tree)|:lock:||Hard|
-|427|[construct-quad-tree](https://leetcode.com/problems/construct-quad-tree)|||Medium|
+|427|[construct-quad-tree](https://leetcode.com/problems/construct-quad-tree)|[Cpp](https://github.com/derek-zr/leetcode/blob/master/./Solution/427-construct-quad-tree/construct-quad-tree.cpp)||Medium|
 |558|[quad-tree-intersection](https://leetcode.com/problems/quad-tree-intersection)|[Cpp](https://github.com/derek-zr/leetcode/blob/master/./Solution/558-quad-tree-intersection/quad-tree-intersection.cpp)||Easy|
 |559|[maximum-depth-of-n-ary-tree](https://leetcode.com/problems/maximum-depth-of-n-ary-tree)|[Cpp](https://github.com/derek-zr/leetcode/blob/master/./Solution/559-maximum-depth-of-n-ary-tree/maximum-depth-of-n-ary-tree.cpp)|[:memo:](https://leetcode.com/articles/maximum-depth-of-n-ary-tree/)|Easy|
 |589|[n-ary-tree-preorder-traversal](https://leetcode.com/problems/n-ary-tree-preorder-traversal)|[Cpp](https://github.com/derek-zr/leetcode/blob/master/./Solution/589-n-ary-tree-preorder-traversal/n-ary-tree-preorder-traversal.cpp)|[:memo:](https://leetcode.com/articles/n-ary-tree-preorder-traversal/)|Easy|
@@ -832,9 +832,9 @@ I have solved **492   /   1067** problems~
 |878|[nth-magical-number](https://leetcode.com/problems/nth-magical-number)||[:memo:](https://leetcode.com/articles/nth-magical-number/)|Hard|
 |879|[profitable-schemes](https://leetcode.com/problems/profitable-schemes)|[Cpp](https://github.com/derek-zr/leetcode/blob/master/./Solution/879-profitable-schemes/profitable-schemes.cpp)|[:memo:](https://leetcode.com/articles/profitable-schemes/)|Hard|
 |528|[random-pick-with-weight](https://leetcode.com/problems/random-pick-with-weight)||[:memo:](https://leetcode.com/articles/random-pick-with-weight/)|Medium|
-|519|[random-flip-matrix](https://leetcode.com/problems/random-flip-matrix)||[:memo:](https://leetcode.com/articles/random-flip-matrix/)|Medium|
+|519|[random-flip-matrix](https://leetcode.com/problems/random-flip-matrix)|[Cpp](https://github.com/derek-zr/leetcode/blob/master/./Solution/519-random-flip-matrix/random-flip-matrix.cpp)|[:memo:](https://leetcode.com/articles/random-flip-matrix/)|Medium|
 |497|[random-point-in-non-overlapping-rectangles](https://leetcode.com/problems/random-point-in-non-overlapping-rectangles)|[Cpp](https://github.com/derek-zr/leetcode/blob/master/./Solution/497-random-point-in-non-overlapping-rectangles/random-point-in-non-overlapping-rectangles.cpp)|[:memo:](https://leetcode.com/articles/random-point-in-non-overlapping-rectangles/)|Medium|
-|478|[generate-random-point-in-a-circle](https://leetcode.com/problems/generate-random-point-in-a-circle)||[:memo:](https://leetcode.com/articles/generate-random-point-in-a-circle/)|Medium|
+|478|[generate-random-point-in-a-circle](https://leetcode.com/problems/generate-random-point-in-a-circle)|[Cpp](https://github.com/derek-zr/leetcode/blob/master/./Solution/478-generate-random-point-in-a-circle/generate-random-point-in-a-circle.cpp)|[:memo:](https://leetcode.com/articles/generate-random-point-in-a-circle/)|Medium|
 |880|[decoded-string-at-index](https://leetcode.com/problems/decoded-string-at-index)||[:memo:](https://leetcode.com/articles/decoded-string-at-index/)|Medium|
 |881|[boats-to-save-people](https://leetcode.com/problems/boats-to-save-people)||[:memo:](https://leetcode.com/articles/boats-to-save-people/)|Medium|
 |882|[reachable-nodes-in-subdivided-graph](https://leetcode.com/problems/reachable-nodes-in-subdivided-graph)||[:memo:](https://leetcode.com/articles/reachable-nodes-in-subdivided-graph/)|Hard|
@@ -928,7 +928,7 @@ I have solved **492   /   1067** problems~
 |970|[powerful-integers](https://leetcode.com/problems/powerful-integers)||[:memo:](https://leetcode.com/articles/powerful-integers/)|Easy|
 |971|[flip-binary-tree-to-match-preorder-traversal](https://leetcode.com/problems/flip-binary-tree-to-match-preorder-traversal)||[:memo:](https://leetcode.com/articles/flip-binary-tree-to-match-preorder-traversal/)|Medium|
 |972|[equal-rational-numbers](https://leetcode.com/problems/equal-rational-numbers)||[:memo:](https://leetcode.com/articles/equal-rational-numbers/)|Hard|
-|509|[fibonacci-number](https://leetcode.com/problems/fibonacci-number)|||Easy|
+|509|[fibonacci-number](https://leetcode.com/problems/fibonacci-number)|[Cpp](https://github.com/derek-zr/leetcode/blob/master/./Solution/509-fibonacci-number/fibonacci-number.cpp)||Easy|
 |973|[k-closest-points-to-origin](https://leetcode.com/problems/k-closest-points-to-origin)||[:memo:](https://leetcode.com/articles/k-closest-points-to-origin/)|Medium|
 |974|[subarray-sums-divisible-by-k](https://leetcode.com/problems/subarray-sums-divisible-by-k)||[:memo:](https://leetcode.com/articles/subarray-sums-divisible-by-k/)|Medium|
 |975|[odd-even-jump](https://leetcode.com/problems/odd-even-jump)||[:memo:](https://leetcode.com/articles/odd-even-jump/)|Hard|
@@ -1025,7 +1025,7 @@ I have solved **492   /   1067** problems~
 |1038|[binary-search-tree-to-greater-sum-tree](https://leetcode.com/problems/binary-search-tree-to-greater-sum-tree)|||Medium|
 |1037|[valid-boomerang](https://leetcode.com/problems/valid-boomerang)|||Easy|
 |1121|[divide-array-into-increasing-sequences](https://leetcode.com/problems/divide-array-into-increasing-sequences)|:lock:||Hard|
-|1041|[robot-bounded-in-circle](https://leetcode.com/problems/robot-bounded-in-circle)|||Easy|
+|1041|[robot-bounded-in-circle](https://leetcode.com/problems/robot-bounded-in-circle)|||Medium|
 |1042|[flower-planting-with-no-adjacent](https://leetcode.com/problems/flower-planting-with-no-adjacent)|||Easy|
 |1043|[partition-array-for-maximum-sum](https://leetcode.com/problems/partition-array-for-maximum-sum)|||Medium|
 |1044|[longest-duplicate-substring](https://leetcode.com/problems/longest-duplicate-substring)||[:memo:](https://leetcode.com/articles/longest-duplicate-substring/)|Hard|
@@ -1069,7 +1069,12 @@ I have solved **492   /   1067** problems~
 |1130|[minimum-cost-tree-from-leaf-values](https://leetcode.com/problems/minimum-cost-tree-from-leaf-values)|||Medium|
 |1129|[shortest-path-with-alternating-colors](https://leetcode.com/problems/shortest-path-with-alternating-colors)|||Medium|
 |1131|[maximum-of-absolute-value-expression](https://leetcode.com/problems/maximum-of-absolute-value-expression)|||Medium|
-|1137|[n-th-tribonacci-number](https://leetcode.com/problems/n-th-tribonacci-number)|||Easy|
+|1137|[n-th-tribonacci-number](https://leetcode.com/problems/n-th-tribonacci-number)||[:memo:](https://leetcode.com/articles/n-th-tribonacci-number/)|Easy|
 |1138|[alphabet-board-path](https://leetcode.com/problems/alphabet-board-path)|||Medium|
 |1139|[largest-1-bordered-square](https://leetcode.com/problems/largest-1-bordered-square)|||Medium|
 |1140|[stone-game-ii](https://leetcode.com/problems/stone-game-ii)|||Medium|
+|1144|[decrease-elements-to-make-array-zigzag](https://leetcode.com/problems/decrease-elements-to-make-array-zigzag)|||Medium|
+|1145|[binary-tree-coloring-game](https://leetcode.com/problems/binary-tree-coloring-game)|||Medium|
+|1146|[snapshot-array](https://leetcode.com/problems/snapshot-array)|||Medium|
+|1143|[longest-common-subsequence](https://leetcode.com/problems/longest-common-subsequence)|||Medium|
+|1147|[longest-chunked-palindrome-decomposition](https://leetcode.com/problems/longest-chunked-palindrome-decomposition)|||Hard|
