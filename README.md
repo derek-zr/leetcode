@@ -1,8 +1,8 @@
 # :pencil2: Leetcode Solutions with Cpp  
-Update time:  2019-08-05 15:08:01  
+Update time:  2019-08-07 15:08:15  
 Solution by Derek Zheng (Contact ME at derek.zhengrui@gmail.com)  
 Auto created by [leetcode_generate](https://github.com/bonfy/leetcode)  
-I have solved **496   /   1072** problems~  
+I have solved **497   /   1072** problems~  
 
 | # | Title | Source Code | Article | Difficulty |  
 |:---:|:---:|:---:|:---:|:---:|
@@ -495,7 +495,7 @@ I have solved **496   /   1072** problems~
 |516|[longest-palindromic-subsequence](https://leetcode.com/problems/longest-palindromic-subsequence)|[Cpp](https://github.com/derek-zr/leetcode/blob/master/./Solution/516-longest-palindromic-subsequence/longest-palindromic-subsequence.cpp)||Medium|
 |517|[super-washing-machines](https://leetcode.com/problems/super-washing-machines)|[Cpp](https://github.com/derek-zr/leetcode/blob/master/./Solution/517-super-washing-machines/super-washing-machines.cpp)|[:memo:](https://leetcode.com/articles/super-washing-machines/)|Hard|
 |518|[coin-change-2](https://leetcode.com/problems/coin-change-2)|[Cpp](https://github.com/derek-zr/leetcode/blob/master/./Solution/518-coin-change-2/coin-change-2.cpp)||Medium|
-|520|[detect-capital](https://leetcode.com/problems/detect-capital)|||Easy|
+|520|[detect-capital](https://leetcode.com/problems/detect-capital)|[Cpp](https://github.com/derek-zr/leetcode/blob/master/./Solution/520-detect-capital/detect-capital.cpp)||Easy|
 |521|[longest-uncommon-subsequence-i](https://leetcode.com/problems/longest-uncommon-subsequence-i)|[Cpp](https://github.com/derek-zr/leetcode/blob/master/./Solution/521-longest-uncommon-subsequence-i/longest-uncommon-subsequence-i.cpp)|[:memo:](https://leetcode.com/articles/longest-uncommon-subsequence-i/)|Easy|
 |522|[longest-uncommon-subsequence-ii](https://leetcode.com/problems/longest-uncommon-subsequence-ii)||[:memo:](https://leetcode.com/articles/longest-uncommon-subsequence-ii/)|Medium|
 |523|[continuous-subarray-sum](https://leetcode.com/problems/continuous-subarray-sum)||[:memo:](https://leetcode.com/articles/continous-subarray-sum/)|Medium|
@@ -570,7 +570,7 @@ I have solved **496   /   1072** problems~
 |629|[k-inverse-pairs-array](https://leetcode.com/problems/k-inverse-pairs-array)||[:memo:](https://leetcode.com/articles/k-inverse-pairs-array/)|Hard|
 |630|[course-schedule-iii](https://leetcode.com/problems/course-schedule-iii)||[:memo:](https://leetcode.com/articles/course-schedule-iii/)|Hard|
 |631|[design-excel-sum-formula](https://leetcode.com/problems/design-excel-sum-formula)|:lock:|[:memo:](https://leetcode.com/articles/design-excel-sum-formula/)|Hard|
-|632|[smallest-range](https://leetcode.com/problems/smallest-range)||[:memo:](https://leetcode.com/articles/smallest-range/)|Hard|
+|632|[smallest-range-covering-elements-from-k-lists](https://leetcode.com/problems/smallest-range-covering-elements-from-k-lists)||[:memo:](https://leetcode.com/articles/smallest-range/)|Hard|
 |633|[sum-of-square-numbers](https://leetcode.com/problems/sum-of-square-numbers)||[:memo:](https://leetcode.com/articles/sum-of-square-numbers/)|Easy|
 |634|[find-the-derangement-of-an-array](https://leetcode.com/problems/find-the-derangement-of-an-array)|:lock:|[:memo:](https://leetcode.com/articles/find-derangements/)|Medium|
 |635|[design-log-storage-system](https://leetcode.com/problems/design-log-storage-system)|:lock:|[:memo:](https://leetcode.com/articles/design-log-storage/)|Medium|
