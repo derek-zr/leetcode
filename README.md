@@ -1,8 +1,8 @@
 # :pencil2: Leetcode Solutions with Cpp  
-Update time:  2019-08-07 15:08:15  
+Update time:  2019-08-08 15:06:10  
 Solution by Derek Zheng (Contact ME at derek.zhengrui@gmail.com)  
 Auto created by [leetcode_generate](https://github.com/bonfy/leetcode)  
-I have solved **497   /   1072** problems~  
+I have solved **498   /   1072** problems~  
 
 | # | Title | Source Code | Article | Difficulty |  
 |:---:|:---:|:---:|:---:|:---:|
@@ -380,7 +380,7 @@ I have solved **497   /   1072** problems~
 |389|[find-the-difference](https://leetcode.com/problems/find-the-difference)|[Cpp](https://github.com/derek-zr/leetcode/blob/master/./Solution/389-find-the-difference/find-the-difference.cpp)||Easy|
 |390|[elimination-game](https://leetcode.com/problems/elimination-game)|[Cpp](https://github.com/derek-zr/leetcode/blob/master/./Solution/390-elimination-game/elimination-game.cpp)||Medium|
 |391|[perfect-rectangle](https://leetcode.com/problems/perfect-rectangle)|[Cpp](https://github.com/derek-zr/leetcode/blob/master/./Solution/391-perfect-rectangle/perfect-rectangle.cpp)||Hard|
-|392|[is-subsequence](https://leetcode.com/problems/is-subsequence)|[Cpp](https://github.com/derek-zr/leetcode/blob/master/./Solution/392-is-subsequence/is-subsequence.cpp)||Medium|
+|392|[is-subsequence](https://leetcode.com/problems/is-subsequence)|[Cpp](https://github.com/derek-zr/leetcode/blob/master/./Solution/392-is-subsequence/is-subsequence.cpp)||Easy|
 |393|[utf-8-validation](https://leetcode.com/problems/utf-8-validation)|[Cpp](https://github.com/derek-zr/leetcode/blob/master/./Solution/393-utf-8-validation/utf-8-validation.cpp)|[:memo:](https://leetcode.com/articles/utf-8-validation/)|Medium|
 |394|[decode-string](https://leetcode.com/problems/decode-string)|[Cpp](https://github.com/derek-zr/leetcode/blob/master/./Solution/394-decode-string/decode-string.cpp)||Medium|
 |395|[longest-substring-with-at-least-k-repeating-characters](https://leetcode.com/problems/longest-substring-with-at-least-k-repeating-characters)|[Cpp](https://github.com/derek-zr/leetcode/blob/master/./Solution/395-longest-substring-with-at-least-k-repeating-characters/longest-substring-with-at-least-k-repeating-characters.cpp)||Medium|
@@ -388,7 +388,7 @@ I have solved **497   /   1072** problems~
 |397|[integer-replacement](https://leetcode.com/problems/integer-replacement)|[Cpp](https://github.com/derek-zr/leetcode/blob/master/./Solution/397-integer-replacement/integer-replacement.cpp)||Medium|
 |398|[random-pick-index](https://leetcode.com/problems/random-pick-index)|[Cpp](https://github.com/derek-zr/leetcode/blob/master/./Solution/398-random-pick-index/random-pick-index.cpp)||Medium|
 |399|[evaluate-division](https://leetcode.com/problems/evaluate-division)|[Cpp](https://github.com/derek-zr/leetcode/blob/master/./Solution/399-evaluate-division/evaluate-division.cpp)||Medium|
-|400|[nth-digit](https://leetcode.com/problems/nth-digit)|||Easy|
+|400|[nth-digit](https://leetcode.com/problems/nth-digit)|||Medium|
 |401|[binary-watch](https://leetcode.com/problems/binary-watch)|[Cpp](https://github.com/derek-zr/leetcode/blob/master/./Solution/401-binary-watch/binary-watch.cpp)||Easy|
 |402|[remove-k-digits](https://leetcode.com/problems/remove-k-digits)|[Cpp](https://github.com/derek-zr/leetcode/blob/master/./Solution/402-remove-k-digits/remove-k-digits.cpp)||Medium|
 |403|[frog-jump](https://leetcode.com/problems/frog-jump)|[Cpp](https://github.com/derek-zr/leetcode/blob/master/./Solution/403-frog-jump/frog-jump.cpp)|[:memo:](https://leetcode.com/articles/frog-jump/)|Hard|
@@ -690,7 +690,7 @@ I have solved **497   /   1072** problems~
 |759|[employee-free-time](https://leetcode.com/problems/employee-free-time)|:lock:|[:memo:](https://leetcode.com/articles/employee-free-time/)|Hard|
 |760|[find-anagram-mappings](https://leetcode.com/problems/find-anagram-mappings)|:lock:|[:memo:](https://leetcode.com/articles/find-anagram-mappings/)|Easy|
 |761|[special-binary-string](https://leetcode.com/problems/special-binary-string)||[:memo:](https://leetcode.com/articles/special-binary-string/)|Hard|
-|429|[n-ary-tree-level-order-traversal](https://leetcode.com/problems/n-ary-tree-level-order-traversal)|||Easy|
+|429|[n-ary-tree-level-order-traversal](https://leetcode.com/problems/n-ary-tree-level-order-traversal)|[Cpp](https://github.com/derek-zr/leetcode/blob/master/./Solution/429-n-ary-tree-level-order-traversal/n-ary-tree-level-order-traversal.cpp)||Easy|
 |428|[serialize-and-deserialize-n-ary-tree](https://leetcode.com/problems/serialize-and-deserialize-n-ary-tree)|:lock:||Hard|
 |430|[flatten-a-multilevel-doubly-linked-list](https://leetcode.com/problems/flatten-a-multilevel-doubly-linked-list)|||Medium|
 |762|[prime-number-of-set-bits-in-binary-representation](https://leetcode.com/problems/prime-number-of-set-bits-in-binary-representation)|[Cpp](https://github.com/derek-zr/leetcode/blob/master/./Solution/762-prime-number-of-set-bits-in-binary-representation/prime-number-of-set-bits-in-binary-representation.cpp)|[:memo:](https://leetcode.com/articles/prime-number-of-set-bits-in-binary-representation/)|Easy|
