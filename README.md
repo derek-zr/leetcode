@@ -1,8 +1,8 @@
 # :pencil2: Leetcode Solutions with Cpp  
-Update time:  2019-08-08 15:06:10  
+Update time:  2019-08-09 15:07:58  
 Solution by Derek Zheng (Contact ME at derek.zhengrui@gmail.com)  
 Auto created by [leetcode_generate](https://github.com/bonfy/leetcode)  
-I have solved **498   /   1072** problems~  
+I have solved **499   /   1072** problems~  
 
 | # | Title | Source Code | Article | Difficulty |  
 |:---:|:---:|:---:|:---:|:---:|
@@ -414,7 +414,7 @@ I have solved **498   /   1072** problems~
 |423|[reconstruct-original-digits-from-english](https://leetcode.com/problems/reconstruct-original-digits-from-english)|[Cpp](https://github.com/derek-zr/leetcode/blob/master/./Solution/423-reconstruct-original-digits-from-english/reconstruct-original-digits-from-english.cpp)|[:memo:](https://leetcode.com/articles/reconstruct-original-digits-from-english/)|Medium|
 |424|[longest-repeating-character-replacement](https://leetcode.com/problems/longest-repeating-character-replacement)|[Cpp](https://github.com/derek-zr/leetcode/blob/master/./Solution/424-longest-repeating-character-replacement/longest-repeating-character-replacement.cpp)||Medium|
 |425|[word-squares](https://leetcode.com/problems/word-squares)|:lock:||Hard|
-|432|[all-oone-data-structure](https://leetcode.com/problems/all-oone-data-structure)|||Hard|
+|432|[all-oone-data-structure](https://leetcode.com/problems/all-oone-data-structure)|[Cpp](https://github.com/derek-zr/leetcode/blob/master/./Solution/432-all-oone-data-structure/all-oone-data-structure.cpp)||Hard|
 |433|[minimum-genetic-mutation](https://leetcode.com/problems/minimum-genetic-mutation)|[Cpp](https://github.com/derek-zr/leetcode/blob/master/./Solution/433-minimum-genetic-mutation/minimum-genetic-mutation.cpp)||Medium|
 |434|[number-of-segments-in-a-string](https://leetcode.com/problems/number-of-segments-in-a-string)||[:memo:](https://leetcode.com/articles/number-of-segments-in-a-string/)|Easy|
 |435|[non-overlapping-intervals](https://leetcode.com/problems/non-overlapping-intervals)|[Cpp](https://github.com/derek-zr/leetcode/blob/master/./Solution/435-non-overlapping-intervals/non-overlapping-intervals.cpp)|[:memo:](https://leetcode.com/articles/non-overlapping-intervals/)|Medium|
