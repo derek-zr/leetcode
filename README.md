@@ -1,8 +1,8 @@
 # :pencil2: Leetcode Solutions with Cpp  
-Update time:  2019-08-09 15:07:58  
+Update time:  2019-08-10 15:06:12  
 Solution by Derek Zheng (Contact ME at derek.zhengrui@gmail.com)  
 Auto created by [leetcode_generate](https://github.com/bonfy/leetcode)  
-I have solved **499   /   1072** problems~  
+I have solved **501   /   1072** problems~  
 
 | # | Title | Source Code | Article | Difficulty |  
 |:---:|:---:|:---:|:---:|:---:|
@@ -74,7 +74,7 @@ I have solved **499   /   1072** problems~
 |66|[plus-one](https://leetcode.com/problems/plus-one)|[Cpp](https://github.com/derek-zr/leetcode/blob/master/./Solution/066-plus-one/plus-one.cpp)||Easy|
 |67|[add-binary](https://leetcode.com/problems/add-binary)|[Cpp](https://github.com/derek-zr/leetcode/blob/master/./Solution/067-add-binary/add-binary.cpp)||Easy|
 |68|[text-justification](https://leetcode.com/problems/text-justification)|[Cpp](https://github.com/derek-zr/leetcode/blob/master/./Solution/068-text-justification/text-justification.cpp)||Hard|
-|69|[sqrtx](https://leetcode.com/problems/sqrtx)|[Cpp](https://github.com/derek-zr/leetcode/blob/master/./Solution/069-sqrtx/sqrtx.cpp)||Easy|
+|69|[sqrtx](https://leetcode.com/problems/sqrtx)|[Cpp](https://github.com/derek-zr/leetcode/blob/master/./Solution/069-sqrtx/sqrtx.cpp)|[:memo:](https://leetcode.com/articles/sqrtx/)|Easy|
 |70|[climbing-stairs](https://leetcode.com/problems/climbing-stairs)|[Cpp](https://github.com/derek-zr/leetcode/blob/master/./Solution/070-climbing-stairs/climbing-stairs.cpp)|[:memo:](https://leetcode.com/articles/climbing-stairs/)|Easy|
 |71|[simplify-path](https://leetcode.com/problems/simplify-path)|[Cpp](https://github.com/derek-zr/leetcode/blob/master/./Solution/071-simplify-path/simplify-path.cpp)||Medium|
 |72|[edit-distance](https://leetcode.com/problems/edit-distance)|[Cpp](https://github.com/derek-zr/leetcode/blob/master/./Solution/072-edit-distance/edit-distance.cpp)|[:memo:](https://leetcode.com/articles/edit-distance/)|Hard|
@@ -416,7 +416,7 @@ I have solved **499   /   1072** problems~
 |425|[word-squares](https://leetcode.com/problems/word-squares)|:lock:||Hard|
 |432|[all-oone-data-structure](https://leetcode.com/problems/all-oone-data-structure)|[Cpp](https://github.com/derek-zr/leetcode/blob/master/./Solution/432-all-oone-data-structure/all-oone-data-structure.cpp)||Hard|
 |433|[minimum-genetic-mutation](https://leetcode.com/problems/minimum-genetic-mutation)|[Cpp](https://github.com/derek-zr/leetcode/blob/master/./Solution/433-minimum-genetic-mutation/minimum-genetic-mutation.cpp)||Medium|
-|434|[number-of-segments-in-a-string](https://leetcode.com/problems/number-of-segments-in-a-string)||[:memo:](https://leetcode.com/articles/number-of-segments-in-a-string/)|Easy|
+|434|[number-of-segments-in-a-string](https://leetcode.com/problems/number-of-segments-in-a-string)|[Cpp](https://github.com/derek-zr/leetcode/blob/master/./Solution/434-number-of-segments-in-a-string/number-of-segments-in-a-string.cpp)|[:memo:](https://leetcode.com/articles/number-of-segments-in-a-string/)|Easy|
 |435|[non-overlapping-intervals](https://leetcode.com/problems/non-overlapping-intervals)|[Cpp](https://github.com/derek-zr/leetcode/blob/master/./Solution/435-non-overlapping-intervals/non-overlapping-intervals.cpp)|[:memo:](https://leetcode.com/articles/non-overlapping-intervals/)|Medium|
 |436|[find-right-interval](https://leetcode.com/problems/find-right-interval)||[:memo:](https://leetcode.com/articles/find-right-interval/)|Medium|
 |437|[path-sum-iii](https://leetcode.com/problems/path-sum-iii)|[Cpp](https://github.com/derek-zr/leetcode/blob/master/./Solution/437-path-sum-iii/path-sum-iii.cpp)||Easy|
@@ -692,7 +692,7 @@ I have solved **499   /   1072** problems~
 |761|[special-binary-string](https://leetcode.com/problems/special-binary-string)||[:memo:](https://leetcode.com/articles/special-binary-string/)|Hard|
 |429|[n-ary-tree-level-order-traversal](https://leetcode.com/problems/n-ary-tree-level-order-traversal)|[Cpp](https://github.com/derek-zr/leetcode/blob/master/./Solution/429-n-ary-tree-level-order-traversal/n-ary-tree-level-order-traversal.cpp)||Easy|
 |428|[serialize-and-deserialize-n-ary-tree](https://leetcode.com/problems/serialize-and-deserialize-n-ary-tree)|:lock:||Hard|
-|430|[flatten-a-multilevel-doubly-linked-list](https://leetcode.com/problems/flatten-a-multilevel-doubly-linked-list)|||Medium|
+|430|[flatten-a-multilevel-doubly-linked-list](https://leetcode.com/problems/flatten-a-multilevel-doubly-linked-list)|[Cpp](https://github.com/derek-zr/leetcode/blob/master/./Solution/430-flatten-a-multilevel-doubly-linked-list/flatten-a-multilevel-doubly-linked-list.cpp)||Medium|
 |762|[prime-number-of-set-bits-in-binary-representation](https://leetcode.com/problems/prime-number-of-set-bits-in-binary-representation)|[Cpp](https://github.com/derek-zr/leetcode/blob/master/./Solution/762-prime-number-of-set-bits-in-binary-representation/prime-number-of-set-bits-in-binary-representation.cpp)|[:memo:](https://leetcode.com/articles/prime-number-of-set-bits-in-binary-representation/)|Easy|
 |763|[partition-labels](https://leetcode.com/problems/partition-labels)|[Cpp](https://github.com/derek-zr/leetcode/blob/master/./Solution/763-partition-labels/partition-labels.cpp)|[:memo:](https://leetcode.com/articles/partition-labels/)|Medium|
 |764|[largest-plus-sign](https://leetcode.com/problems/largest-plus-sign)||[:memo:](https://leetcode.com/articles/largest-plus-sign/)|Medium|
