@@ -1,8 +1,8 @@
 # :pencil2: Leetcode Solutions with Cpp  
-Update time:  2019-08-10 15:06:12  
+Update time:  2019-08-11 15:06:09  
 Solution by Derek Zheng (Contact ME at derek.zhengrui@gmail.com)  
 Auto created by [leetcode_generate](https://github.com/bonfy/leetcode)  
-I have solved **501   /   1072** problems~  
+I have solved **504   /   1080** problems~  
 
 | # | Title | Source Code | Article | Difficulty |  
 |:---:|:---:|:---:|:---:|:---:|
@@ -418,16 +418,16 @@ I have solved **501   /   1072** problems~
 |433|[minimum-genetic-mutation](https://leetcode.com/problems/minimum-genetic-mutation)|[Cpp](https://github.com/derek-zr/leetcode/blob/master/./Solution/433-minimum-genetic-mutation/minimum-genetic-mutation.cpp)||Medium|
 |434|[number-of-segments-in-a-string](https://leetcode.com/problems/number-of-segments-in-a-string)|[Cpp](https://github.com/derek-zr/leetcode/blob/master/./Solution/434-number-of-segments-in-a-string/number-of-segments-in-a-string.cpp)|[:memo:](https://leetcode.com/articles/number-of-segments-in-a-string/)|Easy|
 |435|[non-overlapping-intervals](https://leetcode.com/problems/non-overlapping-intervals)|[Cpp](https://github.com/derek-zr/leetcode/blob/master/./Solution/435-non-overlapping-intervals/non-overlapping-intervals.cpp)|[:memo:](https://leetcode.com/articles/non-overlapping-intervals/)|Medium|
-|436|[find-right-interval](https://leetcode.com/problems/find-right-interval)||[:memo:](https://leetcode.com/articles/find-right-interval/)|Medium|
+|436|[find-right-interval](https://leetcode.com/problems/find-right-interval)|[Cpp](https://github.com/derek-zr/leetcode/blob/master/./Solution/436-find-right-interval/find-right-interval.cpp)|[:memo:](https://leetcode.com/articles/find-right-interval/)|Medium|
 |437|[path-sum-iii](https://leetcode.com/problems/path-sum-iii)|[Cpp](https://github.com/derek-zr/leetcode/blob/master/./Solution/437-path-sum-iii/path-sum-iii.cpp)||Easy|
 |438|[find-all-anagrams-in-a-string](https://leetcode.com/problems/find-all-anagrams-in-a-string)|[Cpp](https://github.com/derek-zr/leetcode/blob/master/./Solution/438-find-all-anagrams-in-a-string/find-all-anagrams-in-a-string.cpp)||Medium|
 |439|[ternary-expression-parser](https://leetcode.com/problems/ternary-expression-parser)|:lock:||Medium|
 |440|[k-th-smallest-in-lexicographical-order](https://leetcode.com/problems/k-th-smallest-in-lexicographical-order)|[Cpp](https://github.com/derek-zr/leetcode/blob/master/./Solution/440-k-th-smallest-in-lexicographical-order/k-th-smallest-in-lexicographical-order.cpp)||Hard|
-|441|[arranging-coins](https://leetcode.com/problems/arranging-coins)|||Easy|
+|441|[arranging-coins](https://leetcode.com/problems/arranging-coins)|[Cpp](https://github.com/derek-zr/leetcode/blob/master/./Solution/441-arranging-coins/arranging-coins.cpp)||Easy|
 |442|[find-all-duplicates-in-an-array](https://leetcode.com/problems/find-all-duplicates-in-an-array)|[Cpp](https://github.com/derek-zr/leetcode/blob/master/./Solution/442-find-all-duplicates-in-an-array/find-all-duplicates-in-an-array.cpp)||Medium|
 |443|[string-compression](https://leetcode.com/problems/string-compression)|[Cpp](https://github.com/derek-zr/leetcode/blob/master/./Solution/443-string-compression/string-compression.cpp)|[:memo:](https://leetcode.com/articles/string-compression/)|Easy|
 |444|[sequence-reconstruction](https://leetcode.com/problems/sequence-reconstruction)|:lock:||Medium|
-|445|[add-two-numbers-ii](https://leetcode.com/problems/add-two-numbers-ii)|||Medium|
+|445|[add-two-numbers-ii](https://leetcode.com/problems/add-two-numbers-ii)|[Cpp](https://github.com/derek-zr/leetcode/blob/master/./Solution/445-add-two-numbers-ii/add-two-numbers-ii.cpp)||Medium|
 |446|[arithmetic-slices-ii-subsequence](https://leetcode.com/problems/arithmetic-slices-ii-subsequence)||[:memo:](https://leetcode.com/articles/arithmetic-slices-ii-subsequence/)|Hard|
 |447|[number-of-boomerangs](https://leetcode.com/problems/number-of-boomerangs)|||Easy|
 |448|[find-all-numbers-disappeared-in-an-array](https://leetcode.com/problems/find-all-numbers-disappeared-in-an-array)|[Cpp](https://github.com/derek-zr/leetcode/blob/master/./Solution/448-find-all-numbers-disappeared-in-an-array/find-all-numbers-disappeared-in-an-array.cpp)||Easy|
@@ -1016,10 +1016,13 @@ I have solved **501   /   1072** problems~
 |1102|[path-with-maximum-minimum-value](https://leetcode.com/problems/path-with-maximum-minimum-value)|:lock:||Medium|
 |1135|[connecting-cities-with-minimum-cost](https://leetcode.com/problems/connecting-cities-with-minimum-cost)|:lock:||Medium|
 |1136|[parallel-courses](https://leetcode.com/problems/parallel-courses)|:lock:||Hard|
+|1150|[is-a-a-majority-element](https://leetcode.com/problems/is-a-a-majority-element)|:lock:||Easy|
 |1033|[moving-stones-until-consecutive](https://leetcode.com/problems/moving-stones-until-consecutive)|||Easy|
 |1034|[coloring-a-border](https://leetcode.com/problems/coloring-a-border)|||Medium|
 |1035|[uncrossed-lines](https://leetcode.com/problems/uncrossed-lines)|||Medium|
 |1036|[escape-a-large-maze](https://leetcode.com/problems/escape-a-large-maze)|||Hard|
+|1151|[minimum-swaps-to-group-all-1s-together](https://leetcode.com/problems/minimum-swaps-to-group-all-1s-together)|:lock:||Medium|
+|1152|[analyse-user-website-visit-pattern](https://leetcode.com/problems/analyse-user-website-visit-pattern)|:lock:||Medium|
 |1039|[minimum-score-triangulation-of-polygon](https://leetcode.com/problems/minimum-score-triangulation-of-polygon)|||Medium|
 |1040|[moving-stones-until-consecutive-ii](https://leetcode.com/problems/moving-stones-until-consecutive-ii)|||Medium|
 |1038|[binary-search-tree-to-greater-sum-tree](https://leetcode.com/problems/binary-search-tree-to-greater-sum-tree)|||Medium|
@@ -1029,6 +1032,7 @@ I have solved **501   /   1072** problems~
 |1042|[flower-planting-with-no-adjacent](https://leetcode.com/problems/flower-planting-with-no-adjacent)|||Easy|
 |1043|[partition-array-for-maximum-sum](https://leetcode.com/problems/partition-array-for-maximum-sum)|||Medium|
 |1044|[longest-duplicate-substring](https://leetcode.com/problems/longest-duplicate-substring)||[:memo:](https://leetcode.com/articles/longest-duplicate-substring/)|Hard|
+|1153|[string-transforms-into-another-string](https://leetcode.com/problems/string-transforms-into-another-string)|:lock:||Hard|
 |1046|[last-stone-weight](https://leetcode.com/problems/last-stone-weight)|||Easy|
 |1047|[remove-all-adjacent-duplicates-in-string](https://leetcode.com/problems/remove-all-adjacent-duplicates-in-string)||[:memo:](https://leetcode.com/articles/remove-all-adjacent-duplicates-in-string/)|Easy|
 |1048|[longest-string-chain](https://leetcode.com/problems/longest-string-chain)|||Medium|
@@ -1078,3 +1082,7 @@ I have solved **501   /   1072** problems~
 |1146|[snapshot-array](https://leetcode.com/problems/snapshot-array)|||Medium|
 |1143|[longest-common-subsequence](https://leetcode.com/problems/longest-common-subsequence)|||Medium|
 |1147|[longest-chunked-palindrome-decomposition](https://leetcode.com/problems/longest-chunked-palindrome-decomposition)|||Hard|
+|1154|[ordinal-number-of-date](https://leetcode.com/problems/ordinal-number-of-date)|||Easy|
+|1156|[swap-for-maximum-repeated-substring](https://leetcode.com/problems/swap-for-maximum-repeated-substring)|||Medium|
+|1157|[online-majority-element-in-subarray](https://leetcode.com/problems/online-majority-element-in-subarray)|||Hard|
+|1155|[number-of-dice-rolls-with-target-sum](https://leetcode.com/problems/number-of-dice-rolls-with-target-sum)|||Medium|
