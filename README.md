@@ -1,8 +1,8 @@
 # :pencil2: Leetcode Solutions with Cpp  
-Update time:  2019-08-11 15:06:09  
+Update time:  2019-08-12 15:06:12  
 Solution by Derek Zheng (Contact ME at derek.zhengrui@gmail.com)  
 Auto created by [leetcode_generate](https://github.com/bonfy/leetcode)  
-I have solved **504   /   1080** problems~  
+I have solved **508   /   1080** problems~  
 
 | # | Title | Source Code | Article | Difficulty |  
 |:---:|:---:|:---:|:---:|:---:|
@@ -142,7 +142,7 @@ I have solved **504   /   1080** problems~
 |134|[gas-station](https://leetcode.com/problems/gas-station)|[Cpp](https://github.com/derek-zr/leetcode/blob/master/./Solution/134-gas-station/gas-station.cpp)|[:memo:](https://leetcode.com/articles/gas-station/)|Medium|
 |135|[candy](https://leetcode.com/problems/candy)|[Cpp](https://github.com/derek-zr/leetcode/blob/master/./Solution/135-candy/candy.cpp)|[:memo:](https://leetcode.com/articles/candy/)|Hard|
 |136|[single-number](https://leetcode.com/problems/single-number)|[Cpp](https://github.com/derek-zr/leetcode/blob/master/./Solution/136-single-number/single-number.cpp)|[:memo:](https://leetcode.com/articles/single-number/)|Easy|
-|137|[single-number-ii](https://leetcode.com/problems/single-number-ii)|[Cpp](https://github.com/derek-zr/leetcode/blob/master/./Solution/137-single-number-ii/single-number-ii.cpp)||Medium|
+|137|[single-number-ii](https://leetcode.com/problems/single-number-ii)|[Cpp](https://github.com/derek-zr/leetcode/blob/master/./Solution/137-single-number-ii/single-number-ii.cpp)|[:memo:](https://leetcode.com/articles/single-number-ii/)|Medium|
 |138|[copy-list-with-random-pointer](https://leetcode.com/problems/copy-list-with-random-pointer)|[Cpp](https://github.com/derek-zr/leetcode/blob/master/./Solution/138-copy-list-with-random-pointer/copy-list-with-random-pointer.cpp)|[:memo:](https://leetcode.com/articles/copy-list-with-random-pointer/)|Medium|
 |139|[word-break](https://leetcode.com/problems/word-break)|[Cpp](https://github.com/derek-zr/leetcode/blob/master/./Solution/139-word-break/word-break.cpp)|[:memo:](https://leetcode.com/articles/word-break/)|Medium|
 |140|[word-break-ii](https://leetcode.com/problems/word-break-ii)|[Cpp](https://github.com/derek-zr/leetcode/blob/master/./Solution/140-word-break-ii/word-break-ii.cpp)|[:memo:](https://leetcode.com/articles/word-break-ii/)|Hard|
@@ -428,14 +428,14 @@ I have solved **504   /   1080** problems~
 |443|[string-compression](https://leetcode.com/problems/string-compression)|[Cpp](https://github.com/derek-zr/leetcode/blob/master/./Solution/443-string-compression/string-compression.cpp)|[:memo:](https://leetcode.com/articles/string-compression/)|Easy|
 |444|[sequence-reconstruction](https://leetcode.com/problems/sequence-reconstruction)|:lock:||Medium|
 |445|[add-two-numbers-ii](https://leetcode.com/problems/add-two-numbers-ii)|[Cpp](https://github.com/derek-zr/leetcode/blob/master/./Solution/445-add-two-numbers-ii/add-two-numbers-ii.cpp)||Medium|
-|446|[arithmetic-slices-ii-subsequence](https://leetcode.com/problems/arithmetic-slices-ii-subsequence)||[:memo:](https://leetcode.com/articles/arithmetic-slices-ii-subsequence/)|Hard|
-|447|[number-of-boomerangs](https://leetcode.com/problems/number-of-boomerangs)|||Easy|
+|446|[arithmetic-slices-ii-subsequence](https://leetcode.com/problems/arithmetic-slices-ii-subsequence)|[Cpp](https://github.com/derek-zr/leetcode/blob/master/./Solution/446-arithmetic-slices-ii-subsequence/arithmetic-slices-ii-subsequence.cpp)|[:memo:](https://leetcode.com/articles/arithmetic-slices-ii-subsequence/)|Hard|
+|447|[number-of-boomerangs](https://leetcode.com/problems/number-of-boomerangs)|[Cpp](https://github.com/derek-zr/leetcode/blob/master/./Solution/447-number-of-boomerangs/number-of-boomerangs.cpp)||Easy|
 |448|[find-all-numbers-disappeared-in-an-array](https://leetcode.com/problems/find-all-numbers-disappeared-in-an-array)|[Cpp](https://github.com/derek-zr/leetcode/blob/master/./Solution/448-find-all-numbers-disappeared-in-an-array/find-all-numbers-disappeared-in-an-array.cpp)||Easy|
 |449|[serialize-and-deserialize-bst](https://leetcode.com/problems/serialize-and-deserialize-bst)|[Cpp](https://github.com/derek-zr/leetcode/blob/master/./Solution/449-serialize-and-deserialize-bst/serialize-and-deserialize-bst.cpp)|[:memo:](https://leetcode.com/articles/serialize-and-deserialize-bst/)|Medium|
 |450|[delete-node-in-a-bst](https://leetcode.com/problems/delete-node-in-a-bst)|[Cpp](https://github.com/derek-zr/leetcode/blob/master/./Solution/450-delete-node-in-a-bst/delete-node-in-a-bst.cpp)|[:memo:](https://leetcode.com/articles/delete-node-in-a-bst/)|Medium|
-|451|[sort-characters-by-frequency](https://leetcode.com/problems/sort-characters-by-frequency)|||Medium|
+|451|[sort-characters-by-frequency](https://leetcode.com/problems/sort-characters-by-frequency)|[Cpp](https://github.com/derek-zr/leetcode/blob/master/./Solution/451-sort-characters-by-frequency/sort-characters-by-frequency.cpp)||Medium|
 |452|[minimum-number-of-arrows-to-burst-balloons](https://leetcode.com/problems/minimum-number-of-arrows-to-burst-balloons)|[Cpp](https://github.com/derek-zr/leetcode/blob/master/./Solution/452-minimum-number-of-arrows-to-burst-balloons/minimum-number-of-arrows-to-burst-balloons.cpp)|[:memo:](https://leetcode.com/articles/minimum-number-of-arrows-to-burst-balloons/)|Medium|
-|453|[minimum-moves-to-equal-array-elements](https://leetcode.com/problems/minimum-moves-to-equal-array-elements)||[:memo:](https://leetcode.com/articles/minimum-moves-to-equal-array-elements/)|Easy|
+|453|[minimum-moves-to-equal-array-elements](https://leetcode.com/problems/minimum-moves-to-equal-array-elements)|[Cpp](https://github.com/derek-zr/leetcode/blob/master/./Solution/453-minimum-moves-to-equal-array-elements/minimum-moves-to-equal-array-elements.cpp)|[:memo:](https://leetcode.com/articles/minimum-moves-to-equal-array-elements/)|Easy|
 |454|[4sum-ii](https://leetcode.com/problems/4sum-ii)|[Cpp](https://github.com/derek-zr/leetcode/blob/master/./Solution/454-4sum-ii/4sum-ii.cpp)||Medium|
 |455|[assign-cookies](https://leetcode.com/problems/assign-cookies)|[Cpp](https://github.com/derek-zr/leetcode/blob/master/./Solution/455-assign-cookies/assign-cookies.cpp)||Easy|
 |456|[132-pattern](https://leetcode.com/problems/132-pattern)|[Cpp](https://github.com/derek-zr/leetcode/blob/master/./Solution/456-132-pattern/132-pattern.cpp)|[:memo:](https://leetcode.com/articles/132-pattern/)|Medium|
@@ -1016,13 +1016,13 @@ I have solved **504   /   1080** problems~
 |1102|[path-with-maximum-minimum-value](https://leetcode.com/problems/path-with-maximum-minimum-value)|:lock:||Medium|
 |1135|[connecting-cities-with-minimum-cost](https://leetcode.com/problems/connecting-cities-with-minimum-cost)|:lock:||Medium|
 |1136|[parallel-courses](https://leetcode.com/problems/parallel-courses)|:lock:||Hard|
-|1150|[is-a-a-majority-element](https://leetcode.com/problems/is-a-a-majority-element)|:lock:||Easy|
+|1150|[check-if-a-number-is-majority-element-in-a-sorted-array](https://leetcode.com/problems/check-if-a-number-is-majority-element-in-a-sorted-array)|:lock:||Easy|
 |1033|[moving-stones-until-consecutive](https://leetcode.com/problems/moving-stones-until-consecutive)|||Easy|
 |1034|[coloring-a-border](https://leetcode.com/problems/coloring-a-border)|||Medium|
 |1035|[uncrossed-lines](https://leetcode.com/problems/uncrossed-lines)|||Medium|
 |1036|[escape-a-large-maze](https://leetcode.com/problems/escape-a-large-maze)|||Hard|
 |1151|[minimum-swaps-to-group-all-1s-together](https://leetcode.com/problems/minimum-swaps-to-group-all-1s-together)|:lock:||Medium|
-|1152|[analyse-user-website-visit-pattern](https://leetcode.com/problems/analyse-user-website-visit-pattern)|:lock:||Medium|
+|1152|[analyze-user-website-visit-pattern](https://leetcode.com/problems/analyze-user-website-visit-pattern)|:lock:||Medium|
 |1039|[minimum-score-triangulation-of-polygon](https://leetcode.com/problems/minimum-score-triangulation-of-polygon)|||Medium|
 |1040|[moving-stones-until-consecutive-ii](https://leetcode.com/problems/moving-stones-until-consecutive-ii)|||Medium|
 |1038|[binary-search-tree-to-greater-sum-tree](https://leetcode.com/problems/binary-search-tree-to-greater-sum-tree)|||Medium|
@@ -1082,7 +1082,7 @@ I have solved **504   /   1080** problems~
 |1146|[snapshot-array](https://leetcode.com/problems/snapshot-array)|||Medium|
 |1143|[longest-common-subsequence](https://leetcode.com/problems/longest-common-subsequence)|||Medium|
 |1147|[longest-chunked-palindrome-decomposition](https://leetcode.com/problems/longest-chunked-palindrome-decomposition)|||Hard|
-|1154|[ordinal-number-of-date](https://leetcode.com/problems/ordinal-number-of-date)|||Easy|
-|1156|[swap-for-maximum-repeated-substring](https://leetcode.com/problems/swap-for-maximum-repeated-substring)|||Medium|
+|1154|[day-of-the-year](https://leetcode.com/problems/day-of-the-year)|||Easy|
+|1156|[swap-for-longest-repeated-character-substring](https://leetcode.com/problems/swap-for-longest-repeated-character-substring)|||Medium|
 |1157|[online-majority-element-in-subarray](https://leetcode.com/problems/online-majority-element-in-subarray)|||Hard|
 |1155|[number-of-dice-rolls-with-target-sum](https://leetcode.com/problems/number-of-dice-rolls-with-target-sum)|||Medium|
