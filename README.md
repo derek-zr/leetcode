@@ -1,8 +1,8 @@
 # :pencil2: Leetcode Solutions with Cpp  
-Update time:  2019-08-16 12:17:11  
+Update time:  2019-08-17 12:17:11  
 Solution by Derek Zheng (Contact ME at derek.zhengrui@gmail.com)  
 Auto created by [leetcode_generate](https://github.com/bonfy/leetcode)  
-I have solved **520   /   1080** problems~  
+I have solved **522   /   1080** problems~  
 
 | # | Title | Source Code | Article | Difficulty |  
 |:---:|:---:|:---:|:---:|:---:|
@@ -462,8 +462,8 @@ I have solved **520   /   1080** problems~
 |479|[largest-palindrome-product](https://leetcode.com/problems/largest-palindrome-product)|[Cpp](https://github.com/derek-zr/leetcode/blob/master/./Solution/479-largest-palindrome-product/largest-palindrome-product.cpp)||Hard|
 |480|[sliding-window-median](https://leetcode.com/problems/sliding-window-median)|[Cpp](https://github.com/derek-zr/leetcode/blob/master/./Solution/480-sliding-window-median/sliding-window-median.cpp)|[:memo:](https://leetcode.com/articles/sliding-window-median/)|Hard|
 |481|[magical-string](https://leetcode.com/problems/magical-string)|[Cpp](https://github.com/derek-zr/leetcode/blob/master/./Solution/481-magical-string/magical-string.cpp)||Medium|
-|482|[license-key-formatting](https://leetcode.com/problems/license-key-formatting)|||Easy|
-|483|[smallest-good-base](https://leetcode.com/problems/smallest-good-base)|||Hard|
+|482|[license-key-formatting](https://leetcode.com/problems/license-key-formatting)|[Cpp](https://github.com/derek-zr/leetcode/blob/master/./Solution/482-license-key-formatting/license-key-formatting.cpp)||Easy|
+|483|[smallest-good-base](https://leetcode.com/problems/smallest-good-base)|[Cpp](https://github.com/derek-zr/leetcode/blob/master/./Solution/483-smallest-good-base/smallest-good-base.cpp)||Hard|
 |484|[find-permutation](https://leetcode.com/problems/find-permutation)|:lock:|[:memo:](https://leetcode.com/articles/find-permutation/)|Medium|
 |485|[max-consecutive-ones](https://leetcode.com/problems/max-consecutive-ones)|||Easy|
 |486|[predict-the-winner](https://leetcode.com/problems/predict-the-winner)||[:memo:](https://leetcode.com/articles/predict-the-winner/)|Medium|
