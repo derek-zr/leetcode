@@ -36,14 +36,19 @@
 class Solution {
 public:
     int lengthOfLongestSubstring(string s) {
-       int ans=0,left=-1,len=s.size();
-        unordered_map<int,int> m;
-        for(int i=0;i<len;i++){
-            if(m.count(s[i]) && m[s[i]]>left) left = m[s[i]]; //出现相同字符，则将left滑动到第一次出现该字符的位置
-            m[s[i]] = i; //记录字符及其索引
-            ans = max(ans,i-left);
+        //滑动窗口，并记录窗口内字符的出现次数
+        vector<int> cnts(256,0);
+        int left = 0 , right = 0;
+        int ans = 0 , repeat_cha = 0;
+        //遍历
+        while(right < s.size()) {
+            if(cnts[s[right++]]++ > 0) ++repeat_cha; //出现过同样的字符
+            while(repeat_cha > 0) {
+                //移动左窗口
+                if(cnts[s[left++]]-- > 1) --repeat_cha;
+            }
+            ans = max(ans,right - left);
         }
-        
         return ans;
     }
 };

@@ -484,8 +484,8 @@ class Leetcode:
                 title=qtitle, ext=self.prolangdict[slt['lang']].ext
             )
             filename = os.path.join(path, fname)
-            if os.path.exists(filename):
-                continue
+            #if os.path.exists(filename):
+            #    continue
             
             HasNew = True
             content = self._get_code_with_anno(slt)
