@@ -1,8 +1,8 @@
 # :pencil2: Leetcode Solutions with Cpp  
-Update time:  2019-08-18 10:14:41  
+Update time:  2019-08-19 10:15:01  
 Solution by Derek Zheng (Contact ME at derek.zhengrui@gmail.com)  
 Auto created by [leetcode_generate](https://github.com/bonfy/leetcode)  
-I have solved **522   /   1080** problems~  
+I have solved **522   /   1084** problems~  
 
 | # | Title | Source Code | Article | Difficulty |  
 |:---:|:---:|:---:|:---:|:---:|
@@ -1024,9 +1024,12 @@ I have solved **522   /   1080** problems~
 |1151|[minimum-swaps-to-group-all-1s-together](https://leetcode.com/problems/minimum-swaps-to-group-all-1s-together)|:lock:||Medium|
 |1152|[analyze-user-website-visit-pattern](https://leetcode.com/problems/analyze-user-website-visit-pattern)|:lock:||Medium|
 |1039|[minimum-score-triangulation-of-polygon](https://leetcode.com/problems/minimum-score-triangulation-of-polygon)|||Medium|
+|1160|[find-words-that-can-be-formed-by-characters](https://leetcode.com/problems/find-words-that-can-be-formed-by-characters)|||Easy|
 |1040|[moving-stones-until-consecutive-ii](https://leetcode.com/problems/moving-stones-until-consecutive-ii)|||Medium|
 |1038|[binary-search-tree-to-greater-sum-tree](https://leetcode.com/problems/binary-search-tree-to-greater-sum-tree)|||Medium|
 |1037|[valid-boomerang](https://leetcode.com/problems/valid-boomerang)|||Easy|
+|1161|[maximum-level-sum-of-a-binary-tree](https://leetcode.com/problems/maximum-level-sum-of-a-binary-tree)|||Medium|
+|1162|[as-far-from-land-as-possible](https://leetcode.com/problems/as-far-from-land-as-possible)|||Medium|
 |1121|[divide-array-into-increasing-sequences](https://leetcode.com/problems/divide-array-into-increasing-sequences)|:lock:||Hard|
 |1041|[robot-bounded-in-circle](https://leetcode.com/problems/robot-bounded-in-circle)|||Medium|
 |1042|[flower-planting-with-no-adjacent](https://leetcode.com/problems/flower-planting-with-no-adjacent)|||Easy|
@@ -1037,6 +1040,7 @@ I have solved **522   /   1080** problems~
 |1047|[remove-all-adjacent-duplicates-in-string](https://leetcode.com/problems/remove-all-adjacent-duplicates-in-string)||[:memo:](https://leetcode.com/articles/remove-all-adjacent-duplicates-in-string/)|Easy|
 |1048|[longest-string-chain](https://leetcode.com/problems/longest-string-chain)|||Medium|
 |1049|[last-stone-weight-ii](https://leetcode.com/problems/last-stone-weight-ii)|||Medium|
+|1163|[last-substring-in-lexicographical-order](https://leetcode.com/problems/last-substring-in-lexicographical-order)|||Hard|
 |1051|[height-checker](https://leetcode.com/problems/height-checker)|||Easy|
 |1052|[grumpy-bookstore-owner](https://leetcode.com/problems/grumpy-bookstore-owner)|||Medium|
 |1053|[previous-permutation-with-one-swap](https://leetcode.com/problems/previous-permutation-with-one-swap)|||Medium|
