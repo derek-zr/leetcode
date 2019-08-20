@@ -60,11 +60,20 @@
 class Solution {
 public:
     int myAtoi(string str) {
-        if(str.size()==0) return 0;
-        stringstream ss;
-        ss<<str;
-        int value;
-        ss>>value;
-        return value;
+        if(str.empty()) return 0;
+        int sign = 1, base = 0, i = 0, len = str.size();
+        while(i < len && str[i] == ' ') ++i;
+        //read sign
+        if(i  < len && (str[i]=='+' || str[i]=='-')) {
+            sign = str[i++] == '+' ? 1 : -1;
+        }
+        while(i < len && str[i] >= '0' && str[i] <= '9') {
+            if(base > INT_MAX / 10 || (base == INT_MAX / 10 && str[i] >= 8+'0')) {
+                //INT_MAX last digit is 8
+                return sign == 1 ? INT_MAX : INT_MIN;
+            }
+            base = 10*base + (str[i++] - '0');
+        }
+        return base * sign;
     }
 };
