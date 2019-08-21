@@ -21,6 +21,19 @@
 class Solution {
 public:
     int maxArea(vector<int>& height) {
+        //双指针解决，宽度从大到小遍历
+        int ans = 0;
+        int left = 0, right = height.size() - 1;
+        //遍历过程中求最大值
+        while(left < right) {
+            int cur_h = min(height[left], height[right]);
+            ans =  max(ans, (right-left) * cur_h);
+            //移动
+            while(left < right && height[left] <= cur_h) ++left;  //高度相等或小于的直接跳过，不可能更大
+            while(left < right && height[right] <= cur_h) --right;
+        }
+        return ans;
+        /*
         int water = 0;
         int i = 0, j = height.size() - 1;
         while (i < j) {
@@ -30,6 +43,7 @@ public:
             while (height[j] <= h && i < j) j--;
         }
         return water;
+        */
         /*slow
         int area = 0;
         int len = height.size();

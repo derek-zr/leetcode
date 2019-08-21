@@ -68,6 +68,30 @@
 class Solution {
 public:
     bool isMatch(string s, string p) {
+        //dp，二维数组表示(0,i)到(0,j)间能否匹配
+        if(p.empty()) return s.empty();
+        int len1 = s.size();
+        int len2 = p.size();
+        vector<vector<int>> dp(len1+1, vector<int>(len2+1, 0));
+        dp[0][0] = 1;
+
+        //开始dp
+        for(int i = 0; i <= len1; ++i) {
+            for(int j = 1; j <= len2; ++j) {
+                //字符为*,根据其前面的字符计算匹配情况
+                if(j > 1 && p[j-1] == '*') {
+                    //不匹配字符或者匹配多个字符
+                    dp[i][j] = dp[i][j-2] || (i > 0 && (s[i-1]==p[j-2] || p[j-2]=='.') && dp[i-1][j]);  //i-1,j表示之前已经可以匹配，现在利用*匹配任意长度的特点，再匹配一个i
+                }
+                else {
+                    //正常匹配
+                    dp[i][j] = i>0 && (s[i-1] == p[j-1] || p[j-1]=='.') && dp[i-1][j-1];
+                }
+            }
+        }
+        return dp[len1][len2];
+        
+        /*
         //动态规划，缩减为一维数组
         if(p.empty()) return s.empty();
         int len1 = s.size();
@@ -90,7 +114,7 @@ public:
         }
         
         return dp[len2];
-        
+        */
         /*
         //用动态规划解决
         //dp[i][j] 表示s(0,i) 和 p(0,j)的匹配结果
