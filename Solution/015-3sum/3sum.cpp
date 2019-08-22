@@ -20,30 +20,35 @@
 
 class Solution {
 public:
-    //sum为0，则必然有正有负。先对数组排序，在进行遍历搜索，便于剪枝。
     vector<vector<int>> threeSum(vector<int>& nums) {
+        //双指针法遍历查找，利用sort后的有序特性剪枝
+        //这道题用hashmap那种做法，会导致不好去除重复值，利用set去除会TLE
         vector<vector<int>> ans;
-        sort(nums.begin(),nums.end());
-        if(nums.empty()||nums.front()>0||nums.back()<0) return ans;
-        
-        int len = nums.size();
-        for(int i=0;i<len;i++){
-            if(nums[i]>0) break; //当fix的数为正数时（后面均为正数，不可能满足条件）
-            if(i>0 && nums[i]==nums[i-1]) continue; //去除重复
-            int target=0-nums[i];
-            int j=i+1,k=len-1;
-            while(j<k){
-                if(nums[j]+nums[k]==target){
-                    ans.push_back({nums[i],nums[j],nums[k]});
-                    while(j<k&&nums[j]==nums[j+1]) ++j;
-                    while(j<k&&nums[k]==nums[k-1]) --k; //去除重复
-                    ++j;--k;
+        if(nums.empty()) return ans;
+        sort(nums.begin(), nums.end());
+        //剪枝
+        //if(nums.back() < 0 || nums[0] > 0) return ans;   //总和为0.则必然要有正有负
+        for(int a = 0; a < (int)nums.size()-2; ++a) {  //这里必须要做类型转换，size_t-2可能会变成负数，会报heapoverflow的错
+            if(nums[a] > 0) break;  //只找负数，剪枝
+            //删除重复的
+            if(a > 0 && nums[a] == nums[a-1]) continue;
+            //开始遍历
+            int target = -nums[a], b = a+1, c = nums.size()-1;
+            while(b < c) {
+                //cout<<b<<c<<endl;
+                //找到了满足条件的
+                if(nums[b] + nums[c] == target) {
+                    ans.push_back({nums[a], nums[b], nums[c]});
+                    //去除重复
+                    while(b < c && nums[b] == nums[b+1]) ++b;
+                    while(b < c && nums[c] == nums[c-1]) --c;
+                    ++b;
+                    --c;
                 }
-                else if(nums[j]+nums[k]<target) ++j;
-                else --k;
+                else if(nums[b]+nums[c] < target) ++b;
+                else --c;
             }
         }
-        
         return ans;
     }
 };

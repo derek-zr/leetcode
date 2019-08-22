@@ -35,6 +35,7 @@ public:
             while(!s.empty() && heights[i]<=heights[s.top()]){
                 int left = s.top();
                 s.pop();
+                //i - 1 - s.top() uses the starting index where height[s.top() + 1] >= height[tp], because the index on top of the stack right now is the first index left of tp with height smaller than tp's height
                 ans = max(ans,heights[left]* (s.empty()? i : (i-s.top()-1)));
             }
             s.push(i++);
