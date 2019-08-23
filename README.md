@@ -1,5 +1,5 @@
 # :pencil2: Leetcode Solutions with Cpp  
-Update time:  2019-08-22 10:14:44  
+Update time:  2019-08-23 10:14:43  
 Solution by Derek Zheng (Contact ME at derek.zhengrui@gmail.com)  
 Auto created by [leetcode_generate](https://github.com/bonfy/leetcode)  
 I have solved **522   /   1084** problems~  
@@ -306,7 +306,7 @@ I have solved **522   /   1084** problems~
 |315|[count-of-smaller-numbers-after-self](https://leetcode.com/problems/count-of-smaller-numbers-after-self)|[Cpp](https://github.com/derek-zr/leetcode/blob/master/./Solution/315-count-of-smaller-numbers-after-self/count-of-smaller-numbers-after-self.cpp)||Hard|
 |316|[remove-duplicate-letters](https://leetcode.com/problems/remove-duplicate-letters)|[Cpp](https://github.com/derek-zr/leetcode/blob/master/./Solution/316-remove-duplicate-letters/remove-duplicate-letters.cpp)|[:memo:](https://leetcode.com/articles/remove-duplicate-letters/)|Hard|
 |317|[shortest-distance-from-all-buildings](https://leetcode.com/problems/shortest-distance-from-all-buildings)|:lock:||Hard|
-|318|[maximum-product-of-word-lengths](https://leetcode.com/problems/maximum-product-of-word-lengths)|[Cpp](https://github.com/derek-zr/leetcode/blob/master/./Solution/318-maximum-product-of-word-lengths/maximum-product-of-word-lengths.cpp)||Medium|
+|318|[maximum-product-of-word-lengths](https://leetcode.com/problems/maximum-product-of-word-lengths)|[Cpp](https://github.com/derek-zr/leetcode/blob/master/./Solution/318-maximum-product-of-word-lengths/maximum-product-of-word-lengths.cpp)|[:memo:](https://leetcode.com/articles/maximum-product-of-word-lengths/)|Medium|
 |319|[bulb-switcher](https://leetcode.com/problems/bulb-switcher)|[Cpp](https://github.com/derek-zr/leetcode/blob/master/./Solution/319-bulb-switcher/bulb-switcher.cpp)||Medium|
 |320|[generalized-abbreviation](https://leetcode.com/problems/generalized-abbreviation)|:lock:|[:memo:](https://leetcode.com/articles/generalized-abbreviation/)|Medium|
 |321|[create-maximum-number](https://leetcode.com/problems/create-maximum-number)|[Cpp](https://github.com/derek-zr/leetcode/blob/master/./Solution/321-create-maximum-number/create-maximum-number.cpp)||Hard|
