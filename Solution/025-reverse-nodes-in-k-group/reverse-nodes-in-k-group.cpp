@@ -33,6 +33,28 @@
 class Solution {
 public:
     ListNode* reverseKGroup(ListNode* head, int k) {
+        ListNode* dummy = new ListNode(-1), *pre = dummy;
+        dummy->next = head;
+        ListNode* cur = head;
+        int num = 0;
+        //统计个数
+        while(cur) {++num; cur = cur->next;}
+        //翻转
+        while(num >= k) {
+            cur = pre->next;
+            for(int i = 1; i < k; ++i) {   //反转k-1次
+                ListNode* tmp = cur->next;
+                cur->next = tmp->next;
+                tmp->next = pre->next;
+                pre->next = tmp;
+            }
+            num -= k;
+            pre = cur;
+        }
+        
+        return dummy->next;
+            
+        /*
         //以k个为一组，分组反转链表。
         //先统计链表的长度，再每次反转k个节点，并-k，一直到不能再分为一组
         ListNode* dummy = new ListNode(-1), *pre = dummy;
@@ -52,5 +74,6 @@ public:
             pre = cur;  //下一次循环赋值时cur=pre->next,为这一组反转后的最后一个节点
         }
         return dummy->next;
+        */
     }
 };

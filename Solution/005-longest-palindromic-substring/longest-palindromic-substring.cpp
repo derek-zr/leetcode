@@ -20,24 +20,23 @@
 class Solution {
 public:
     string longestPalindrome(string s) {
-        int len=s.size();
-        string ans;
-        string curMax;
-        if(len==0) return ans;
-        if(len==1) return s;
-        for(int i=1;i<len;i++){
-            int j=i-1,k=i+1;
-            curMax+=s[i];
-            while(s[j]==s[i]&&j>=0){curMax+=s[j];j--;}
-            while(s[k]==s[i]&&k<len){curMax+=s[k];k++;}
-            while(s[j]==s[k]&&j>=0&&k<len){
-                curMax=s[j]+curMax+s[k];
-                j--;
-                k++;
+        //dp dp[i][j]表示i到j间的子字符串是否为回文
+        if(s.empty()) return "";
+        int len = s.size();
+        vector<vector<int>> dp(len, vector<int>(len, 0));
+        int start = 0, ans_len = 1;
+        //dp
+        for(int i = 0; i < len; ++i) {
+            dp[i][i] = 1;   //单个字符一定为回文
+            for(int j = 0; j < i; ++j) {
+                //i=j+1时满足两个字符相等即可，否则还需要之前的子串为回文
+                dp[j][i] = (s[i] == s[j]) && (i-j < 2 || dp[j+1][i-1]);
+                if(dp[j][i] && ans_len < i-j+1) {
+                    start = j;
+                    ans_len = i-j+1;  //记录最长回文串的起始index和长度
+                }
             }
-            if(curMax.size()>ans.size()) ans=curMax;
-            curMax.clear();
         }
-        return ans;
+        return s.substr(start, ans_len);
     }
 };

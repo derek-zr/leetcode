@@ -28,7 +28,58 @@
 
 class Solution {
 public:
-    int divide(int dividend, int divisor) {
+    int divide(int a, int b) {
+        // Edge case: INT_MIN is the only value that cannot be sign-flipped with absolute
+        // value.  This causes all kinds of problems in the general algorithm, so we explicitly
+        // handle "divide by 1" identity cases.  In all other cases, we increment INT_MIN so it
+        // will successfully sign-flip - and given how imprecise integer division is, we should
+        // be able to get away with it.
+        int absABoost = 0;
+        
+        if (a == numeric_limits<int>::min()) {
+            if (b == -1) { return numeric_limits<int>::max(); }
+            else if (b == 1) { return numeric_limits<int>::min(); }
+            else { ++a; absABoost = 1; }
+        }
+
+        if (b == numeric_limits<int>::min()) {
+            if (a == numeric_limits<int>::max()) {
+                return 0; // min has a larger absolute value (by 1) than max.
+            } else {
+                ++b;
+            }
+        }
+
+        // Fast reject: If we're dividing an integer by a larger number, quit and return 0 now.
+        // The larger number will not fit inside the smaller number.
+        if (a < 0 && b < a) {
+            return 0;
+        }
+        else if (a > 0 && b > a) {
+            return 0;
+        }
+
+        unsigned int absA = abs(a);
+        unsigned int absB = abs(b);
+        int quotient = 0;
+
+        while (static_cast<int>(absA) >= static_cast<int>(absB)) {
+            int bit = 0;
+            while (bit <= 29 && (absA+absABoost >= (absB << (bit+1)))) {
+                ++bit;
+            }
+
+            quotient += (1 << bit);
+            absA -= (absB << bit);
+        }
+
+        if ((a > 0) == (b > 0)) {
+            return quotient;
+        } else {
+            return -quotient;
+        }
+        
+        /*
         if(divisor==0 ||(dividend==INT_MIN && divisor==-1)) return INT_MAX;  //处理特殊情况
         long long dd = abs((long long)dividend),dr = abs((long long)divisor);
         if(dd < dr) return 0;
@@ -49,5 +100,6 @@ public:
         }
         
         return sign ? ans : -ans;
+        */
     }
 };

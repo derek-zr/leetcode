@@ -25,26 +25,26 @@
 class Solution {
 public:
     ListNode* mergeKLists(vector<ListNode*>& lists) {
-        if(lists.empty()) return NULL;
+        //两个链表的排序很好实现，所以这里考虑分治法，不断合并两个list，得到最终结果
         int len = lists.size();
-        
-        while(len>1) {
-            int interval = (len+1)/2; //两两匹配,如0-2
-            for(int i=0;i<len/2;i++){
-                lists[i] = mergeTwoLists(lists[i],lists[i+interval]);
+        if(len == 0) return NULL;
+        //两两合并
+        while(len > 1) {
+            int interval = (len+1) / 2;   //考虑奇数情况
+            for(int i = 0; i < len/2; ++i) {
+                lists[i] = merge2Lists(lists[i], lists[i+interval]);
             }
-            len = interval;
+            len = interval;  //继续递归合并
         }
-        
         return lists[0];
-        
     }
     
-    ListNode* mergeTwoLists(ListNode* l1, ListNode* l2) {
+    ListNode* merge2Lists(ListNode* l1, ListNode* l2) {
         ListNode* dummy = new ListNode(-1);
         ListNode* cur = dummy;
+        //比较
         while(l1 && l2) {
-            if(l1->val>l2->val){
+            if(l1->val > l2->val) {
                 cur->next = l2;
                 l2 = l2->next;
             }
@@ -52,14 +52,10 @@ public:
                 cur->next = l1;
                 l1 = l1->next;
             }
-            
             cur = cur->next;
         }
-        
         if(l1) cur->next = l1;
         if(l2) cur->next = l2;
-        
         return dummy->next;
     }
-    
 };

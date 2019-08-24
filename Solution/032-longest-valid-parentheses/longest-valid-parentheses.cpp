@@ -21,25 +21,24 @@
 class Solution {
 public:
     int longestValidParentheses(string s) {
-        //用stack或dp，但dp的递推逻辑比较难想。而stack的逻辑更加直观
-        //遇到左括号压栈，遇到右括号出栈。出栈时候根据栈是否为空分情况计算即可。
+        //用栈的思路比较直观
         int len = s.size();
         int ans = 0, start = 0;
-        stack<int> st;  //保存下标，便于计算长度
-        
+        stack<int> st;  //压入的是下标
         for(int i = 0; i < len; ++i) {
             if(s[i] == '(') st.push(i);
             else {
-                if(st.empty()) start = i+1;  //前面缺少左括号，修改起始位置
+                if(st.empty()) start = i+1;  //之前没有(压入，不能匹配
                 else {
+                    int tmp = st.top();
                     st.pop();
-                    //弹出后为空，长度根据起始位置计算。弹出后不为空，则根据栈顶元素计算
-                    int tmp = st.empty() ? (i-start+1) : (i-st.top());
-                    ans = max(ans,tmp);
+                    //如果为空则说明之前所有的括号都已经匹配，则更新长度为上次的start
+                    //如果还有左括号，则说明这个左括号暂时还未匹配，根据栈顶下标计算即可。
+                    int tmp_len = st.empty()? i-start+1 : i-st.top();
+                    ans = max(ans, tmp_len);
                 }
             }
         }
-        
         return ans;
     }
 };

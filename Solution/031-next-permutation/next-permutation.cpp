@@ -15,24 +15,23 @@
 class Solution {
 public:
     void nextPermutation(vector<int>& nums) {
-        //从后往前找到第一个非降序的数字，再找该数字后面的next大的数字，交换两者位置，
-        //再反转其后的数组，即可得到结果。
-        int i,j;
+        //找到尾部第一个逆序的和它next大的数，交换两者位置
         int len = nums.size();
-        
-        for(i=len-2;i>=0;i--){
-            if(nums[i+1] > nums[i]){
-                for(j=len-1;j>i;j--){
-                    if(nums[j] > nums[i]) break;  //从后往前第一个大的即为next大（为降序排列）
+        for(int i = len-2; i >= 0; --i) {
+            int j = i+1;
+            if(nums[i] < nums[j]) {  //逆序
+                for(j = len-1; j > i; --j) {
+                    //找next大的数，从尾部遍历，找到第一个即是
+                    if(nums[j] > nums[i]) break;
                 }
-    
-                swap(nums[i],nums[j]);
-                reverse(nums.begin()+i+1,nums.end());
+                //交换
+                swap(nums[i], nums[j]);
+                reverse(nums.begin()+i+1, nums.end());
                 return;
             }
         }
-        
-        reverse(nums.begin(),nums.end()); //考虑如321这种已经完全降序的情况
+        //全部逆序 321这种情况
+        reverse(nums.begin(), nums.end());
         return;
     }
 };
