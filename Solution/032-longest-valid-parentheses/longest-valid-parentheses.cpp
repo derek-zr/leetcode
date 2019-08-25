@@ -21,6 +21,29 @@
 class Solution {
 public:
     int longestValidParentheses(string s) {
+        //动态规划的方法
+        //dp[i]表示以s[i-1]结尾的最长合格括号的长度
+        int len = s.size();
+        int ans = 0;
+        vector<int> dp(len+1, 0);
+        for(int i = 1; i <= len; ++i) {
+            //s[i] = '('：dp[i] = 0 
+            //s[i] = ')'：找i前一个字符的最长括号串DP[i]的前一个字符j = i-2-DP[i-1]
+            //DP[i] = DP[i-1] + 2 + DP[j]，如果j >=0，且s[j] = '('
+            //DP[i] = 0，如果j<0，或s[j] = ')'
+            int j = i-2-dp[i-1];   //注意i对应i-1，则前一个字符为i-2
+            if(s[i-1] == '(' || j < 0 || s[j]==')') {
+                dp[i] = 0;
+            }
+            else {
+                //s[i-1]=')' && s[j]=='(' 可以配对，长度增加了2
+                dp[i] = dp[i-1] + 2 + dp[j];   //再加上dp[j]结尾的最长长度
+                ans = max(ans, dp[i]);
+            }
+        }
+        return ans;
+        
+        /*
         //用栈的思路比较直观
         int len = s.size();
         int ans = 0, start = 0;
@@ -40,5 +63,6 @@ public:
             }
         }
         return ans;
+        */
     }
 };
