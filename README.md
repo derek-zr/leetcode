@@ -1,5 +1,5 @@
 # :pencil2: Leetcode Solutions with Cpp  
-Update time:  2019-08-25 14:53:37  
+Update time:  2019-08-26 14:53:39  
 Solution by Derek Zheng (Contact ME at derek.zhengrui@gmail.com)  
 Auto created by [leetcode_generate](https://github.com/bonfy/leetcode)  
 I have solved **522   /   1092** problems~  
@@ -249,7 +249,7 @@ I have solved **522   /   1092** problems~
 |257|[binary-tree-paths](https://leetcode.com/problems/binary-tree-paths)|[Cpp](https://github.com/derek-zr/leetcode/blob/master/./Solution/257-binary-tree-paths/binary-tree-paths.cpp)|[:memo:](https://leetcode.com/articles/binary-tree-paths/)|Easy|
 |258|[add-digits](https://leetcode.com/problems/add-digits)|[Cpp](https://github.com/derek-zr/leetcode/blob/master/./Solution/258-add-digits/add-digits.cpp)||Easy|
 |259|[3sum-smaller](https://leetcode.com/problems/3sum-smaller)|:lock:|[:memo:](https://leetcode.com/articles/3sum-smaller/)|Medium|
-|260|[single-number-iii](https://leetcode.com/problems/single-number-iii)|[Cpp](https://github.com/derek-zr/leetcode/blob/master/./Solution/260-single-number-iii/single-number-iii.cpp)||Medium|
+|260|[single-number-iii](https://leetcode.com/problems/single-number-iii)|[Cpp](https://github.com/derek-zr/leetcode/blob/master/./Solution/260-single-number-iii/single-number-iii.cpp)|[:memo:](https://leetcode.com/articles/single-number-iii/)|Medium|
 |261|[graph-valid-tree](https://leetcode.com/problems/graph-valid-tree)|:lock:||Medium|
 |263|[ugly-number](https://leetcode.com/problems/ugly-number)|[Cpp](https://github.com/derek-zr/leetcode/blob/master/./Solution/263-ugly-number/ugly-number.cpp)||Easy|
 |264|[ugly-number-ii](https://leetcode.com/problems/ugly-number-ii)|[Cpp](https://github.com/derek-zr/leetcode/blob/master/./Solution/264-ugly-number-ii/ugly-number-ii.cpp)|[:memo:](https://leetcode.com/articles/ugly-number-ii/)|Medium|
