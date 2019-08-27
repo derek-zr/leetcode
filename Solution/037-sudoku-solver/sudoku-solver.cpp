@@ -28,38 +28,43 @@
 
 class Solution {
 public:
-    void solveSudoku(vector<vector<char> > &board) {
-        //dfs题
-        if (board.empty()) return;
-        solveSudokuDFS(board, 0, 0);
+    void solveSudoku(vector<vector<char>>& board) {
+        //dfs题，不断尝试填入新的数字，并检测是否有效
+        if(board.empty()) return;
+        helper(board, 0 , 0);   //传递行列信息
+        return;
     }
-    bool solveSudokuDFS(vector<vector<char> > &board, int i, int j) {
-        if (i == 9) return true;
-        if (j >= 9) return solveSudokuDFS(board, i + 1, 0);
-        if (board[i][j] == '.') {  //尝试填数字
-            for (int k = 1; k <= 9; ++k) {
-                board[i][j] = (char)(k + '0');
-                if (isValid(board, i , j)) {
-                    if (solveSudokuDFS(board, i, j + 1)) return true; //填的数字有效，则继续向下dfs填
-                }
-                board[i][j] = '.';  //不符合则恢复到原来状态
-            }
-        } else {
-            return solveSudokuDFS(board, i, j + 1);
+    
+    bool helper(vector<vector<char>>& board, int row, int col) {
+        if (row == 9) return true;
+        //新的一行
+        if (col >= 9) return helper(board, row+1, 0);
+        if (board[row][col] != '.') return helper(board, row, col+1);
+        //需要填充，尝试并检测是否有效
+        for(char c = '1'; c <= '9'; ++c) {
+            if (!isValid(board, row, col, c)) continue; //填充的c已经在当前的行列及3*3方块中出现过
+            board[row][col] = c;
+            if(helper(board, row, col+1)) return true;  //dfs
+            board[row][col] = '.';
         }
         return false;
     }
-    bool isValid(vector<vector<char> > &board, int i, int j) {
-        for (int col = 0; col < 9; ++col) {
-            if (col != j && board[i][j] == board[i][col]) return false;
+    
+    bool isValid(vector<vector<char>>& board, int row, int col, char c) {
+        //检查行
+        for(int j =0; j < 9; ++j) {
+            if (board[row][j] == c) return false;
+        } 
+        //检查列
+        for(int i = 0; i < 9; ++i) {
+            if (board[i][col] == c) return false;
         }
-        for (int row = 0; row < 9; ++row) {
-            if (row != i && board[i][j] == board[row][j]) return false;
-        }
-        //找到ij所在的3x3方阵
-        for (int row = i / 3 * 3; row < i / 3 * 3 + 3; ++row) {
-            for (int col = j / 3 * 3; col < j / 3 * 3 + 3; ++col) {
-                if ((row != i || col != j) && board[i][j] == board[row][col]) return false;
+        //检查方格
+        int cur_row = row / 3 * 3;
+        int cur_col = col / 3 * 3;
+        for (int i = 0; i < 3; ++i) {
+            for (int j = 0; j < 3; ++j) {
+                if (board[cur_row + i][cur_col + j] == c) return false;
             }
         }
         return true;
