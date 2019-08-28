@@ -13,9 +13,34 @@
 
 class Solution {
 public:
-    //这道题可以用dp或者stack或者双指针
+    
     int trap(vector<int>& height) {
+        //单调栈的经典题目
+        //保证栈内下标对应的高度是单调递减的
+        int len = height.size();
+        stack<int> st;   //压入的是数组的下标，方便计算长度
+        int i = 0, ans = 0;
+        //开始遍历
+        while(i < len) {
+            //保证单调性
+            if(st.empty() || height[i] < height[st.top()]) {
+                st.push(i++);
+            }
+            else {  //出现了坑，计算面积
+                int trap = st.top();
+                st.pop();
+                //找左边界
+                if(st.empty()) continue;
+                //左边界此时为栈顶元素
+                //求解当前的水高度,即左右边界较低者与坑高度的差
+                int cur_h = min(height[i], height[st.top()]) - height[trap];
+                ans += cur_h * (i-st.top()-1);
+            }
+        }
+        return ans;
         
+        /*
+        //这道题可以用dp或者stack或者双指针
         //stack
         int n = height.size();
         int i = 0,ans = 0;
@@ -33,7 +58,7 @@ public:
         }
         
         return ans;
-        
+        */
         
         /*
         //dp

@@ -37,29 +37,30 @@
 
 class Solution {
 public:
-    //dfs
     vector<vector<int>> combinationSum2(vector<int>& candidates, int target) {
+        //dfs题，但是需要去除重复
         vector<vector<int>> ans;
-        sort(candidates.begin(),candidates.end());
-        if(candidates.size()==0) return ans;
-        vector<int> tmp;
-        int start = 0;
-        dfs(ans,candidates,target,tmp,start);
+        if (candidates.empty()) return ans;
+        sort(candidates.begin(), candidates.end());
+        vector<int> cur;
+        helper(ans, target, candidates, cur, 0);
         return ans;
     }
     
-    void dfs(vector<vector<int>>& ans,vector<int>& candidates,int target,vector<int>& tmp,int start){
-        if(target==0){
-            ans.push_back(tmp);
+    void helper(vector<vector<int>> &ans, int target, vector<int>& candidates, vector<int> &cur, int start) {
+        if(target < 0) return;
+        if(target == 0) {
+            ans.push_back(cur);
             return;
         }
-        
-        for(int i=start;i<candidates.size();i++){
-            if(candidates[i]>target) return;  //剪枝，这种情况没必要再继续dfs
-            if(i && candidates[i]==candidates[i-1]&& i>start) continue; // 去除重复 重要！！！
-            tmp.push_back(candidates[i]);
-            dfs(ans,candidates,target-candidates[i],tmp,i+1);
-            tmp.pop_back();
+        //dfs
+        for (int i = start; i < candidates.size(); ++i) {
+            if (target < candidates[i]) break;  //剪枝
+            if(i > start && candidates[i] == candidates[i-1]) continue;  //去重
+            cur.push_back(candidates[i]);
+            helper(ans, target-candidates[i], candidates, cur, i+1);
+            cur.pop_back();
         }
+        return;
     }
 };
