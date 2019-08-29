@@ -30,6 +30,7 @@ public:
         int len1 = num1.size(),len2 = num2.size();
         string ans(len1+len2,'0');
         
+        //从末尾个数开始逐个位置计算
         for(int i=len1-1;i>=0;i--){
             int carry = 0;
             for(int j=len2-1;j>=0;j--){

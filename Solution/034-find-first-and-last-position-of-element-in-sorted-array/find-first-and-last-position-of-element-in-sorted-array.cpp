@@ -21,28 +21,31 @@
 class Solution {
 public:
     vector<int> searchRange(vector<int>& nums, int target) {
-        vector<int> ans(2,-1);
-        if(nums.size()==0) return ans;
-        //第一次二分
-        int left=0,right=nums.size()-1;   //此处要-1，避免出现 [-1] 0 test case错误
-        while(left<right){
-            //cout<<left<<right<<endl;
-            int mid = left+(right-left)/2;
-            if(nums[mid]<target) left=mid+1;
-            else right=mid;
-        }
-        if(nums[right]!=target) return ans;
-        ans[0]=right;
+        //二分法，查找第一个等于和最后一个等于的下标
+        vector<int> ans(2, -1);
+        if(nums.empty())  return ans;
         
-        //第二次二分查找
-        left=0,right=nums.size(); //此处不能-1，避免出现 [1] 1 test case 错误
-        while(left<right){
-            cout<<left<<right<<endl;
-            int mid = left+(right-left)/2;
-            if(nums[mid]<=target) left=mid+1;
-            else right=mid;
+        //第一次二分查找左边界
+        int left = 0, right = nums.size();
+        while(left < right) {
+            int mid = left + (right - left) / 2;
+            if (nums[mid] < target) left = mid + 1;
+            else right = mid;
         }
-        ans[1]=right-1;
+        if (right == nums.size() || nums[right] != target) return ans;
+        ans[0] = right;
+        
+        //第二次二分查找小于target+1的值下标
+        //这里left不需要再初始化为0了，因为我们现在找的是右边界，所以在之前left的右半段查找即可,加速
+        left = 0;  //加或不加都可以AC
+        right = nums.size();
+        while(left < right) {
+            int mid = left + (right - left) / 2;
+            if (nums[mid] <= target) left = mid + 1;
+            else right = mid;
+        }
+        //cout<<right<<nums[right];
+        ans[1] = right-1;
         
         return ans;
     }
