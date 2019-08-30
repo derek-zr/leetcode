@@ -21,16 +21,18 @@
 class Solution {
 public:
     int jump(vector<int>& nums) {
-        int i = 0, n = nums.size(), cur = 0, pre = 0;
+        //统计当前能够调到最远范围内，是否存在位置可以直接跳到终点
         int ans = 0;
-        while ( cur < n-1){
-            ++ ans;
-            pre = cur;
-            for (;i<=pre;i++){
-                cur = max(cur, i + nums[i]);
+        int cur_index = 0, pre_index = 0;
+        int len = nums.size();
+        while(cur_index < len-1) {
+            ++ans;  //必须跳一次
+            int start = pre_index;  //保存上一次能跳到的最远距离
+            pre_index = cur_index;  //更新为当前能跳到的最远距离
+            for(int i = start; i <= pre_index; ++i) {
+                cur_index = max(cur_index, i + nums[i]);
             }
-            if (cur == pre)
-                return -1;
+            //cout<<cur_index;
         }
         return ans;
     }

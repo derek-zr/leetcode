@@ -67,29 +67,28 @@
 
 class Solution {
 public:
-    //用动态规划解决
     bool isMatch(string s, string p) {
-        int len1 = s.size(), len2 = p.size();
-        vector<vector<bool>> dp(len1+1,vector<bool>(len2+1,false));
-        //dp表示s的i位置前字符串和p的j位置前字符串是否匹配
-        dp[0][0] = true;
-        for(int i=1;i<=len2;i++){
-            if(p[i-1]=='*') dp[0][i] = dp[0][i-1];  //星号可以匹配空字符串
+        //可以递归匹配，也可以用dp递推公式计算
+        //dp[i][j]表示s前i个字符和p前j个字符是否匹配
+        int s_len = s.size(), p_len = p.size();
+        vector<vector<int>> dp(s_len+1, vector<int>(p_len+1,0));
+        dp[0][0] = 1;
+        //s如果为空串的情况，根据p中*的情况判断是否符合
+        for(int j = 1; j <= p_len; ++j) {
+            if(p[j-1] == '*') dp[0][j] = dp[0][j-1];
         }
-        
-        //开始dp
-        for(int i=1;i<=len1;i++){
-            for(int j=1;j<=len2;j++){
-                if(p[j-1]=='*'){
-                    dp[i][j] = dp[i-1][j] || dp[i][j-1];  //星号可以匹配空字符串，也可以匹配n个字符
+        //dp
+        for(int i = 1; i <= s_len; ++i) {
+            for(int j = 1; j <= p_len; ++j) {
+                if(p[j-1] == '*') {
+                    //匹配空字符或只匹配一个字符
+                    dp[i][j] = dp[i-1][j] || dp[i][j-1];  
                 }
                 else {
-                    dp[i][j] = dp[i-1][j-1] && (p[j-1]==s[i-1] || p[j-1]=='?');
+                    dp[i][j] = (s[i-1] == p[j-1] || p[j-1] == '?') && dp[i-1][j-1];
                 }
             }
         }
-        
-        
-        return dp[len1][len2];
+        return dp[s_len][p_len];
     }
 };
