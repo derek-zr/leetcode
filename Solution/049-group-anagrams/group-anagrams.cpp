@@ -46,7 +46,9 @@ public:
         for(char c : s) cnts[c-'a']++;
         
         for(int i=0;i<26;i++){
-            res += (to_string(cnts[i])+to_string('a'+i));
+            if(cnts[i] != 0) {
+                res += to_string(cnts[i])+string(1,'a'+i);
+            }
         }
         
         //cout<<res<<endl;

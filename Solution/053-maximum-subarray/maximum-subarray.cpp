@@ -17,14 +17,12 @@
 class Solution {
 public:
     int maxSubArray(vector<int>& nums) {
-        int n=nums.size();
-        if(n==0) return 0;
-        vector<int> dp(n,0);
-        dp[0]=nums[0];
-        int ans=dp[0];
-        for(int i=1;i<n;i++){
-            dp[i]=nums[i]+(dp[i-1]>0?dp[i-1]:0);
-            ans=max(ans,dp[i]);
+        //另一种方法是分治法：分别找左右两边数组的最大子数组之和，同时从中间向左右扫描求出最大值并进行比较
+        
+        int ans  = INT_MIN, curSum = 0;
+        for(int num : nums) {
+            curSum = max(curSum + num, num);
+            ans = max(ans, curSum);
         }
         return ans;
     }
