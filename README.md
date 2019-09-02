@@ -1,5 +1,5 @@
 # :pencil2: Leetcode Solutions with Cpp  
-Update time:  2019-09-01 19:29:44  
+Update time:  2019-09-02 19:29:41  
 Solution by Derek Zheng (Contact ME at derek.zhengrui@gmail.com)  
 Auto created by [leetcode_generate](https://github.com/bonfy/leetcode)  
 I have solved **522   /   1096** problems~  
@@ -356,7 +356,7 @@ I have solved **522   /   1096** problems~
 |365|[water-and-jug-problem](https://leetcode.com/problems/water-and-jug-problem)|[Cpp](https://github.com/derek-zr/leetcode/blob/master/./Solution/365-water-and-jug-problem/water-and-jug-problem.cpp)||Medium|
 |366|[find-leaves-of-binary-tree](https://leetcode.com/problems/find-leaves-of-binary-tree)|:lock:||Medium|
 |367|[valid-perfect-square](https://leetcode.com/problems/valid-perfect-square)|[Cpp](https://github.com/derek-zr/leetcode/blob/master/./Solution/367-valid-perfect-square/valid-perfect-square.cpp)||Easy|
-|368|[largest-divisible-subset](https://leetcode.com/problems/largest-divisible-subset)|[Cpp](https://github.com/derek-zr/leetcode/blob/master/./Solution/368-largest-divisible-subset/largest-divisible-subset.cpp)||Medium|
+|368|[largest-divisible-subset](https://leetcode.com/problems/largest-divisible-subset)|[Cpp](https://github.com/derek-zr/leetcode/blob/master/./Solution/368-largest-divisible-subset/largest-divisible-subset.cpp)|[:memo:](https://leetcode.com/articles/largest-divisible-subset/)|Medium|
 |369|[plus-one-linked-list](https://leetcode.com/problems/plus-one-linked-list)|:lock:||Medium|
 |370|[range-addition](https://leetcode.com/problems/range-addition)|:lock:|[:memo:](https://leetcode.com/articles/range-addition/)|Medium|
 |371|[sum-of-two-integers](https://leetcode.com/problems/sum-of-two-integers)|[Cpp](https://github.com/derek-zr/leetcode/blob/master/./Solution/371-sum-of-two-integers/sum-of-two-integers.cpp)||Easy|

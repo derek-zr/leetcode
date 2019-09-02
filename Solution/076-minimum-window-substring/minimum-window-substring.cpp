@@ -19,27 +19,29 @@
 class Solution {
 public:
     string minWindow(string s, string t) {
+        //滑动窗口法
         string ans = "";
-        vector<int> cnts(256,0);
-        int tmp_len = 0, min_len = INT_MAX, left = 0;
+        int min_len = INT_MAX;
+        int left = 0, len = s.size();
+        vector<int> cnts(256, 0);
+        //统计t中出现的字符次数
+        for(char c : t)  ++cnts[c];
         
-        //统计t中字符出现的次数
-        for(char c : t) ++cnts[c];
-        
-        //遍历s字符串
-        for(int i=0;i<s.size();i++) {
-            if(--cnts[s[i]] >= 0) ++tmp_len; //s[i]在t中出现了
-            while(tmp_len == t.size()){  //此时的窗口含有全部t的字符，下面开始滑动窗口
-                //cout<<i-left+1<<endl;
-                if(min_len > i-left+1) {
-                    min_len = i-left+1;
-                    ans = s.substr(left,min_len);
-                }
-                if(++cnts[s[left]] > 0) --tmp_len; //移动的left字符出现在t中，此时不valid
+        int cur_len = 0;
+        //滑动窗口
+        for (int i = 0 ; i < len; ++i) {
+            if (cnts[s[i]]-- > 0) ++cur_len;
+            //找到一个valid的窗口
+            while (cur_len == t.size()) {
+                if (i - left + 1< min_len) {
+                    min_len = i - left + 1;
+                    ans = s.substr(left, min_len);
+                } 
+                //移动left
+                if (++cnts[s[left]] > 0)  --cur_len; 
                 ++left;
             }
         }
-        
         return ans;
     }
 };
