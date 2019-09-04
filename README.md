@@ -1,5 +1,5 @@
 # :pencil2: Leetcode Solutions with Cpp  
-Update time:  2019-09-03 19:29:44  
+Update time:  2019-09-04 19:29:44  
 Solution by Derek Zheng (Contact ME at derek.zhengrui@gmail.com)  
 Auto created by [leetcode_generate](https://github.com/bonfy/leetcode)  
 I have solved **522   /   1096** problems~  
@@ -892,7 +892,7 @@ I have solved **522   /   1096** problems~
 |934|[shortest-bridge](https://leetcode.com/problems/shortest-bridge)|[Cpp](https://github.com/derek-zr/leetcode/blob/master/./Solution/934-shortest-bridge/shortest-bridge.cpp)|[:memo:](https://leetcode.com/articles/shortest-bridge/)|Medium|
 |935|[knight-dialer](https://leetcode.com/problems/knight-dialer)||[:memo:](https://leetcode.com/articles/knight-dialer/)|Medium|
 |936|[stamping-the-sequence](https://leetcode.com/problems/stamping-the-sequence)||[:memo:](https://leetcode.com/articles/stamping-the-sequence/)|Hard|
-|937|[reorder-log-files](https://leetcode.com/problems/reorder-log-files)||[:memo:](https://leetcode.com/articles/reorder-log-files/)|Easy|
+|937|[reorder-data-in-log-files](https://leetcode.com/problems/reorder-data-in-log-files)||[:memo:](https://leetcode.com/articles/reorder-log-files/)|Easy|
 |938|[range-sum-of-bst](https://leetcode.com/problems/range-sum-of-bst)||[:memo:](https://leetcode.com/articles/range-sum-of-bst/)|Easy|
 |939|[minimum-area-rectangle](https://leetcode.com/problems/minimum-area-rectangle)|[Cpp](https://github.com/derek-zr/leetcode/blob/master/./Solution/939-minimum-area-rectangle/minimum-area-rectangle.cpp)|[:memo:](https://leetcode.com/articles/minimum-area-rectangle/)|Medium|
 |940|[distinct-subsequences-ii](https://leetcode.com/problems/distinct-subsequences-ii)||[:memo:](https://leetcode.com/articles/distinct-subsequences-ii/)|Hard|
