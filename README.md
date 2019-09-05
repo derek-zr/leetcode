@@ -1,5 +1,5 @@
 # :pencil2: Leetcode Solutions with Cpp  
-Update time:  2019-09-04 19:29:44  
+Update time:  2019-09-05 19:29:43  
 Solution by Derek Zheng (Contact ME at derek.zhengrui@gmail.com)  
 Auto created by [leetcode_generate](https://github.com/bonfy/leetcode)  
 I have solved **522   /   1096** problems~  
@@ -330,7 +330,7 @@ I have solved **522   /   1096** problems~
 |339|[nested-list-weight-sum](https://leetcode.com/problems/nested-list-weight-sum)|:lock:|[:memo:](https://leetcode.com/articles/nested-list-weight-sum/)|Easy|
 |340|[longest-substring-with-at-most-k-distinct-characters](https://leetcode.com/problems/longest-substring-with-at-most-k-distinct-characters)|:lock:|[:memo:](https://leetcode.com/articles/longest-substring-with-at-most-k-distinct-characte/)|Hard|
 |341|[flatten-nested-list-iterator](https://leetcode.com/problems/flatten-nested-list-iterator)|[Cpp](https://github.com/derek-zr/leetcode/blob/master/./Solution/341-flatten-nested-list-iterator/flatten-nested-list-iterator.cpp)||Medium|
-|342|[power-of-four](https://leetcode.com/problems/power-of-four)|[Cpp](https://github.com/derek-zr/leetcode/blob/master/./Solution/342-power-of-four/power-of-four.cpp)||Easy|
+|342|[power-of-four](https://leetcode.com/problems/power-of-four)|[Cpp](https://github.com/derek-zr/leetcode/blob/master/./Solution/342-power-of-four/power-of-four.cpp)|[:memo:](https://leetcode.com/articles/power-of-four/)|Easy|
 |343|[integer-break](https://leetcode.com/problems/integer-break)|[Cpp](https://github.com/derek-zr/leetcode/blob/master/./Solution/343-integer-break/integer-break.cpp)||Medium|
 |344|[reverse-string](https://leetcode.com/problems/reverse-string)|[Cpp](https://github.com/derek-zr/leetcode/blob/master/./Solution/344-reverse-string/reverse-string.cpp)||Easy|
 |345|[reverse-vowels-of-a-string](https://leetcode.com/problems/reverse-vowels-of-a-string)|[Cpp](https://github.com/derek-zr/leetcode/blob/master/./Solution/345-reverse-vowels-of-a-string/reverse-vowels-of-a-string.cpp)||Easy|
