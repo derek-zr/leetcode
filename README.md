@@ -1,5 +1,5 @@
 # :pencil2: Leetcode Solutions with Cpp  
-Update time:  2019-09-05 19:29:43  
+Update time:  2019-09-06 19:29:45  
 Solution by Derek Zheng (Contact ME at derek.zhengrui@gmail.com)  
 Auto created by [leetcode_generate](https://github.com/bonfy/leetcode)  
 I have solved **522   /   1096** problems~  
@@ -1099,6 +1099,6 @@ I have solved **522   /   1096** problems~
 |1169|[invalid-transactions](https://leetcode.com/problems/invalid-transactions)|||Medium|
 |1170|[compare-strings-by-frequency-of-the-smallest-character](https://leetcode.com/problems/compare-strings-by-frequency-of-the-smallest-character)|||Easy|
 |1175|[prime-arrangements](https://leetcode.com/problems/prime-arrangements)|||Easy|
-|1176|[diet-plan-performance](https://leetcode.com/problems/diet-plan-performance)|||Easy|
+|1176|[diet-plan-performance](https://leetcode.com/problems/diet-plan-performance)|:lock:||Easy|
 |1177|[can-make-palindrome-from-substring](https://leetcode.com/problems/can-make-palindrome-from-substring)|||Medium|
 |1178|[number-of-valid-words-for-each-puzzle](https://leetcode.com/problems/number-of-valid-words-for-each-puzzle)|||Hard|
