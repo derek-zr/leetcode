@@ -26,12 +26,12 @@
 class Solution {
 public:
     bool canJump(vector<int>& nums) {
-        int len = nums.size(),max_len=0;
-        for(int i=0;i<len;++i){
-            if(i>max_len || max_len>=len-1) break;
-            max_len = max(max_len,i+nums[i]);
+        int max_len = nums[0];   //当前能够达到的最长长度
+        int i = 1;
+        for(i; i < nums.size(); ++i) {
+            if(max_len < i || max_len >= nums.size()) break;
+            max_len = max(max_len, i+nums[i]);
         }
-        
-        return max_len>=len-1;
+        return max_len >= nums.size()-1;
     }
 };

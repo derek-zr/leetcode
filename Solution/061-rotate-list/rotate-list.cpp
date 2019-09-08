@@ -34,23 +34,28 @@
 class Solution {
 public:
     ListNode* rotateRight(ListNode* head, int k) {
-        if(!head || !head->next) return head;
-        ListNode *newhead = head,*tail = head; 
-        int len = 1; //链表的长度
-        while(tail->next) {
-            tail = tail->next;
-            ++len;  //找到尾部节点
+        //把链表首尾相连，根据k找到应该断开的位置即可
+        ListNode* dummy = new ListNode(-1), *cur = dummy;
+        dummy->next = head;
+        //统计链表长度，并且首尾相连
+        int len = 0;
+        while(cur->next) {cur = cur->next; ++len;}
+        cur->next = head;
+        if(len == 0) return dummy->next;
+        //找k的断开位置
+        k = k % len;
+        if(k == 0) {
+            cur->next = NULL;
+            return dummy->next;
         }
-        tail->next = head;  //将头尾相连，后续只需要找到断开节点
-        k = k % len;  //对长度取余
-        if(k!=0){
-            //找到断开节点的位置
+        else {
+            //找到断开位置的节点
             for(int i = 0; i < len-k; ++i) {
-                tail = tail->next;
+                cur = cur->next;
             }
+            dummy->next = cur->next;
+            cur->next = NULL;
+            return dummy->next;
         }
-        newhead = tail->next;
-        tail->next = NULL;
-        return newhead;
     }
 };

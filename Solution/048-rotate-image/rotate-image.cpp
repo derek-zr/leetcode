@@ -48,31 +48,16 @@
 
 class Solution {
 public:
-   
     void rotate(vector<vector<int>>& matrix) {
-        int n = matrix.size();
-        
-        //先对数组转置，再对每一行取reverse
-        for(int i=0;i<n;i++){
-            for(int j=i+1;j<n;j++){
-                swap(matrix[i][j],matrix[j][i]);
+        //旋转90度，可以转换为先转置，再对每一行取反
+        int rows = matrix.size(), cols = matrix[0].size();
+        //转置
+        for(int i = 0; i < rows; ++i) {
+            for(int j = i; j < cols; ++j) {
+                swap(matrix[i][j], matrix[j][i]);
             }
+            //每一行反转
+            reverse(matrix[i].begin(), matrix[i].end());
         }
-        
-        for(int i=0;i<n;i++) reverse(matrix[i].begin(),matrix[i].end());
-        
-        /*
-         //每次旋转四个值（如 左上、左下、右上、右下）
-        for(int i=0;i<n/2;i++){
-            for(int j=i;j<n-i-1;j++){
-                int tmp = matrix[i][j];
-                matrix[i][j] = matrix[n-j-1][i];
-                matrix[n-1-j][i] = matrix[n-i-1][n-1-j];
-                matrix[n-1-i][n-1-j] = matrix[j][n-i-1];
-                matrix[j][n-i-1] = tmp;
-            }
-        }
-        */
-        return;
     }
 };

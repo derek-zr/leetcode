@@ -52,7 +52,7 @@ public:
         //接下来开始逐步确定位置
         for(int i = n; i > 0; --i) {
             int index = k / fac[i-1];
-            cout<<index;
+            //cout<<index;
             k = k % fac[i-1];
             ans.push_back(nums[index]);  
             nums.erase(index,1);  //确定后则从数组中删除
