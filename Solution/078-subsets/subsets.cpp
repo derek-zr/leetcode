@@ -23,16 +23,18 @@
 class Solution {
 public:
     vector<vector<int>> subsets(vector<int>& nums) {
-        vector<vector<int>> ans(1);
-        sort(nums.begin(),nums.end());
-        for(int i=0;i<nums.size();i++){
-           int len = ans.size();
-           for(int j=0;j<len;j++){
-               ans.push_back(ans[j]);
-               ans.back().push_back(nums[i]);
-           }
-        }
+        //每次操作如下：
+        //一开始ans压入一个空串，然后对ans中当前压入的所有数组，压入数组，并在尾部添加一个nums[i]即可得到第二步结果，即[][1]
+        //以此递推，就能够得到所有的子串
+        vector<vector<int>> ans(1);  //存入一个空串
         
+        for (int i = 0 ; i < nums.size(); ++i) {
+            int len = ans.size();
+            for (int j  = 0; j < len; ++j) {
+                ans.push_back(ans[j]);
+                ans.back().push_back(nums[i]);
+            } 
+        }
         return ans;
     }
 };

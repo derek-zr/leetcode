@@ -59,8 +59,8 @@ public:
             }
             else{
                 tmp1=a[i];
-                tmp2=b[j];}
-
+                tmp2=b[j];
+            }
             if(jinwei){
                 if ((tmp1=='0')&&(tmp2=='0')) {ans+='1';jinwei=false;}
                 else if ((tmp1=='1')&&(tmp2=='1')) {ans+='1',jinwei=true;}
