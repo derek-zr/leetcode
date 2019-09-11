@@ -1,5 +1,5 @@
 # :pencil2: Leetcode Solutions with Cpp  
-Update time:  2019-09-10 08:52:57  
+Update time:  2019-09-11 08:50:45  
 Solution by Derek Zheng (Contact ME at derek.zhengrui@gmail.com)  
 Auto created by [leetcode_generate](https://github.com/bonfy/leetcode)  
 I have solved **522   /   1104** problems~  
@@ -182,7 +182,7 @@ I have solved **522   /   1104** problems~
 |174|[dungeon-game](https://leetcode.com/problems/dungeon-game)|[Cpp](https://github.com/derek-zr/leetcode/blob/master/./Solution/174-dungeon-game/dungeon-game.cpp)||Hard|
 |179|[largest-number](https://leetcode.com/problems/largest-number)|[Cpp](https://github.com/derek-zr/leetcode/blob/master/./Solution/179-largest-number/largest-number.cpp)|[:memo:](https://leetcode.com/articles/largest-number/)|Medium|
 |186|[reverse-words-in-a-string-ii](https://leetcode.com/problems/reverse-words-in-a-string-ii)|:lock:||Medium|
-|187|[repeated-dna-sequences](https://leetcode.com/problems/repeated-dna-sequences)|[Cpp](https://github.com/derek-zr/leetcode/blob/master/./Solution/187-repeated-dna-sequences/repeated-dna-sequences.cpp)||Medium|
+|187|[repeated-dna-sequences](https://leetcode.com/problems/repeated-dna-sequences)|[Cpp](https://github.com/derek-zr/leetcode/blob/master/./Solution/187-repeated-dna-sequences/repeated-dna-sequences.cpp)|[:memo:](https://leetcode.com/articles/repeated-dna-sequences/)|Medium|
 |188|[best-time-to-buy-and-sell-stock-iv](https://leetcode.com/problems/best-time-to-buy-and-sell-stock-iv)|[Cpp](https://github.com/derek-zr/leetcode/blob/master/./Solution/188-best-time-to-buy-and-sell-stock-iv/best-time-to-buy-and-sell-stock-iv.cpp)||Hard|
 |189|[rotate-array](https://leetcode.com/problems/rotate-array)|[Cpp](https://github.com/derek-zr/leetcode/blob/master/./Solution/189-rotate-array/rotate-array.cpp)|[:memo:](https://leetcode.com/articles/rotate-array/)|Easy|
 |190|[reverse-bits](https://leetcode.com/problems/reverse-bits)|[Cpp](https://github.com/derek-zr/leetcode/blob/master/./Solution/190-reverse-bits/reverse-bits.cpp)||Easy|
