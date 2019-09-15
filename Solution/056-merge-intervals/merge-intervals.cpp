@@ -19,25 +19,29 @@
 //
 
 
+/**
+ * Definition for an interval.
+ * struct Interval {
+ *     int start;
+ *     int end;
+ *     Interval() : start(0), end(0) {}
+ *     Interval(int s, int e) : start(s), end(e) {}
+ * };
+ */
 class Solution {
 public:
-    vector<vector<int>> merge(vector<vector<int>>& intervals) {
-        //不断比较压入数组的最后一个end和新遍历到的start大小关系
-        //如果小于则可以直接压入，如果大于则需要更新上一个end
-        vector<vector<int>> ans;
-        if(intervals.empty()) return ans;
-        int len = intervals.size();
-        sort(intervals.begin(), intervals.end());
+    vector<Interval> merge(vector<Interval>& intervals) {
+        if(intervals.empty()) return {};
+        sort(intervals.begin(),intervals.end(),[](Interval&a,Interval&b) {return a.start<b.start;});
+        vector<Interval> ans;
         ans.push_back(intervals[0]);
-        //遍历
-        for(int i = 1; i < len; ++i) {
-            if(ans.back()[1] < intervals[i][0]) {
-                ans.push_back(intervals[i]);
-            }
-            else {
-                ans.back()[1] = max(ans.back()[1], intervals[i][1]);
-            }
+        
+        for(int i=1;i<intervals.size();++i){
+            if(ans.back().end < intervals[i].start) ans.push_back(intervals[i]);
+            else ans.back().end = max(ans.back().end,intervals[i].end);
         }
+        
         return ans;
+        
     }
 };

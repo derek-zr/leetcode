@@ -30,16 +30,18 @@
 class Solution {
 public:
     int firstMissingPositive(vector<int>& nums) {
-        //核心思想是把nums[i]放在nums[i]-1的下标位置上。即保证最后的数组，i+1位置存放的是i
         int len = nums.size();
-        for(int i = 0; i < len; ++i) {
-            //核心步骤,一定要用while循环，保证交换后的位置也被正确处理
-            while(nums[i] > 0 && nums[i] <= len && nums[nums[i]-1] != nums[i]) { //这里不能直接判断下标是否符合条件，因为数组中可能存在相同的值如[1,1]，会死循环
-                swap(nums[i], nums[nums[i]-1]);
+        
+        //nums[i]放在nums[i]-1的位置上，负数和大于len的数直接跳过
+        for(int i=0;i<len;i++){
+            while(nums[i]>0 && nums[i]<=len && nums[i]!=nums[nums[i]-1]){  //这里必须用while，保证交换后位置也满足条件
+                swap(nums[i],nums[nums[i]-1]);
             }
         }
-        for(int i = 0; i < len; ++i) {
-            if(nums[i] != i+1) return i+1;
+        
+        //遍历数组，不满足条件的即为结果
+        for(int i=0;i<len;i++){
+            if(nums[i]!=i+1) return i+1;
         }
         
         return len+1;
