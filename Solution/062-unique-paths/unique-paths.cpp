@@ -32,18 +32,6 @@
 class Solution {
 public:
     int uniquePaths(int m, int n) {
-        //典型的dp题
-        //dp数组空间压缩到一维
-        vector<int> dp(n, 1);
-        for(int i = 1; i < m; ++i) {
-            for(int j = 1; j < n; ++j) {
-                //相当于利用了上一次遍历的状态，节省了空间
-                dp[j] += dp[j-1];
-            }
-        }
-        return dp[n-1];
-        
-        /*
         int dp[m][n];
         memset(dp,0,sizeof(dp));
         dp[0][0]=1;
@@ -58,6 +46,5 @@ public:
             }
         }
         return dp[m-1][n-1];
-        */
     }
 };

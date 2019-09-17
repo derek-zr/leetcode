@@ -22,19 +22,6 @@ public:
     int minPathSum(vector<vector<int>>& grid) {
         int rows=grid.size();
         int cols=grid[0].size();
-        //优化空间，为一维数组。
-        vector<int> dp(cols, INT_MAX);
-        dp[0] = 0;
-        for(int i = 0; i < rows; ++i) {
-            for(int j = 0; j < cols; ++j) {
-                //处理第一列的情况
-                if(j == 0) dp[j] += grid[i][j];
-                else dp[j] = grid[i][j] + min(dp[j], dp[j-1]);
-            }
-        }
-        return dp[cols-1];
-        
-        /*
         int dp[rows][cols];
         memset(dp,0,sizeof(dp));
         dp[0][0]=grid[0][0];
@@ -49,6 +36,5 @@ public:
             }
         }
         return dp[rows-1][cols-1];
-        */
     }
 };
