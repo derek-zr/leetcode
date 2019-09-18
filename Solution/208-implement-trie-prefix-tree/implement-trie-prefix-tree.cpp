@@ -24,10 +24,10 @@
 
 class TrieNode {
 public:
-    TrieNode* child [26];
-    bool end_word;
-    TrieNode() :end_word(false){
-        for(auto& c : child) c=NULL;
+    TrieNode* children[26];
+    bool word_end;
+    TrieNode() : word_end(false) {
+        for (int i = 0; i < 26; ++i) children[i] = NULL;
     }
 };
 
@@ -35,46 +35,47 @@ class Trie {
 public:
     /** Initialize your data structure here. */
     Trie() {
-        root = new TrieNode();
+       root = new TrieNode(); 
     }
     
     /** Inserts a word into the trie. */
     void insert(string word) {
-        TrieNode* tmp = root;
-        for(char c : word){
-            if(!tmp->child[c-'a']) tmp->child[c-'a'] = new TrieNode();
-            tmp = tmp->child[c-'a'];
+        TrieNode* cur = root;
+        for (char c : word) {
+            if (!cur->children[c-'a'])  cur->children[c-'a'] = new TrieNode();
+            cur = cur->children[c-'a'];
         }
-        tmp->end_word = true;
+        cur->word_end = true;
     }
     
     /** Returns if the word is in the trie. */
     bool search(string word) {
-        TrieNode* tmp = root;
-        for(char c : word){
-            if(!tmp->child[c-'a']) return false;
-            tmp = tmp->child[c-'a'];
+        TrieNode* cur = root;
+        for (char c : word) {
+            if (!cur->children[c-'a'])  return false;
+            cur = cur->children[c-'a'];
         }
-        return tmp->end_word;
+        return cur->word_end;
     }
     
     /** Returns if there is any word in the trie that starts with the given prefix. */
     bool startsWith(string prefix) {
-        TrieNode* tmp = root;
-        for(char c : prefix){
-            if(!tmp->child[c-'a']) return false;
-            tmp = tmp->child[c-'a'];
+        TrieNode* cur = root;
+        for (char c : prefix) {
+            if (!cur->children[c-'a'])  return false;
+            cur = cur->children[c-'a'];
         }
         return true;
     }
+    
 private:
     TrieNode* root;
 };
 
 /**
  * Your Trie object will be instantiated and called as such:
- * Trie obj = new Trie();
- * obj.insert(word);
- * bool param_2 = obj.search(word);
- * bool param_3 = obj.startsWith(prefix);
+ * Trie* obj = new Trie();
+ * obj->insert(word);
+ * bool param_2 = obj->search(word);
+ * bool param_3 = obj->startsWith(prefix);
  */

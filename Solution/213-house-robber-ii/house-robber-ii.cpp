@@ -24,23 +24,23 @@
 class Solution {
 public:
     int rob(vector<int>& nums) {
-        int size=nums.size();
-        if(size==0) return 0;
-        if(size==1) return nums[0];
-        int ans1=dpSolve(nums,0,size-1);
-        int ans2=dpSolve(nums,1,size);
-        return max(ans1,ans2);
+        //动态规划，转换为之前的问题。对于连成圈后的house，对0-len-1, 1-len两段做dp即可（因为第一家和最后一家不能同时抢）
+        if (nums.empty()) return 0;
+        if (nums.size() == 1)  return nums[0];
+        int ans1 = helper(nums, 0, nums.size()-1);
+        int ans2 = helper(nums, 1, nums.size());
+        return max(ans1, ans2);
     }
     
-    int dpSolve(vector<int>& nums,int start,int end)
-    {
-        vector<int> dp1(end-start,0);  //抢当前这间
-        vector<int> dp2(end-start,0);  //不抢当前这间
-        dp1[0]=nums[start];
-        for(int i=1;i<end-start;i++){
-            dp2[i]=max(dp1[i-1],dp2[i-1]);
-            dp1[i]=max(dp1[i],dp2[i-1]+nums[i+start]);
+    int helper(vector<int> &nums, int left, int right) {
+        if (right - left == 1)  return nums[left];
+        vector<int> dp(right, 0);
+        dp[left] = nums[left];
+        dp[left + 1] = max(nums[left], nums[left + 1]);
+        for (int i = left + 2; i < right; ++i) {
+            dp[i] = max(nums[i] + dp[i - 2], dp[i - 1]);
         }
-        return max(dp1[end-start-1],dp2[end-start-1]);
+        
+        return dp[right-1];
     }
 };

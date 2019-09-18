@@ -33,65 +33,69 @@
 class Solution {
 public:
     vector<string> findWords(vector<vector<char>>& board, vector<string>& words) {
+        //典型的dfs题，但问题在于如何剪枝。对于字符串，很容易想到Trie树，判断前缀是否相等，及时剪枝
+        //但这里的Trie树需要做一些变化，为了方便存储结果，最后叶子节点的IsWordEnd被换成了当前路径的str
         vector<string> ans;
-        if(board.empty() || board[0].empty() || words.empty()) return ans;
-        Trie t;
-        for(string s : words) t.insert(s);
+        if (board.empty() || board[0].empty() || words.empty()) return ans;
+        //辅助数据结构
         int rows = board.size();
         int cols = board[0].size();
-        vector<vector<bool>> visited(rows,vector<bool>(cols,false));
-        for(int i = 0; i < rows; ++i) {
-            for(int j = 0; j < cols; ++j) {
-                if(t.root->child[board[i][j]-'a']){
-                    dfs(ans,board,t.root->child[board[i][j]-'a'],visited,i,j);
+        vector<vector<int>> visited(rows, vector<int>(cols, 0));
+        //Trie树
+        Trie t;
+        for (string word : words) t.insert(word);
+        
+        //开始遍历
+        for (int i = 0; i < rows; ++i) {
+            for (int j = 0; j < cols; ++j) {
+                //根据第一个字符剪枝
+                if (t.root->child[board[i][j]-'a']) {
+                    dfs(ans, board, t.root->child[board[i][j]-'a'], visited, i, j);
                 }
             }
         }
-        //sort(ans.begin(),ans.end());
         return ans;
     }
 
 private:
     struct TrieNode {
-        TrieNode *child[26];
-        string str;   //保存叶子节点的字符串值
-        TrieNode() :str("") {
-            for(auto &a : child) a = NULL;
+        TrieNode * child[26];
+        string str;
+        TrieNode() : str("") {
+            for (auto &c :child) c = NULL;
         }
     };
     
     struct Trie {
-        TrieNode * root;
-        Trie() : root(new TrieNode()) { };
-        
+        TrieNode* root;
+        Trie() : root(new TrieNode()) { }
+        //插入函数
         void insert(string s) {
-            TrieNode* tmp = root;
-            for(char c : s) {
-                int i = c - 'a';
-                if(!tmp->child[i]) tmp->child[i] = new TrieNode();
-                tmp = tmp->child[i];
+            TrieNode* cur = root;
+            for (char c : s) {
+                if (!cur->child[c-'a']) cur->child[c-'a'] = new TrieNode();
+                cur = cur->child[c-'a'];
             }
-            
-            tmp->str = s;  //叶子节点保存当前树的值
+            cur->str = s;   //叶子节点
         }
     };
     
-     void dfs(vector<string>& ans,vector<vector<char>>& board,TrieNode *p,vector<vector<bool>> &visited,int i,int j) {
-        if(!p->str.empty()) {
+    void dfs(vector<string> &ans, vector<vector<char>>& board, TrieNode* p, vector<vector<int>> &visited, int i, int j) {
+        if (!p->str.empty()) {
             ans.push_back(p->str);
-            p->str.clear();   //这里需要清空，因为最终结果同一个word只能出现一次
-            //return;        //注意这里不能return，因为words中可能存在一个word是另一个的子串，如bend,benda,这时候如果return的话，则不会继续遍历到benda
+            p->str.clear();    //清空叶子节点，避免再次存入结果中
+            //注意这里与一般的dfs不同，不需要返回。eg. app appa 还需要继续找叶子节点的叶子节点，是否有新的word
         }
         int dirs[][2] = {{-1, 0}, {1, 0}, {0, -1}, {0, 1}};
         visited[i][j] = true;
-        for(int k = 0; k < 4; ++k) {
-            int tmpX = dirs[k][0] + i;
-            int tmpY = dirs[k][1] + j;
-            if(tmpX >= 0 && tmpX < board.size() && tmpY >= 0 && tmpY < board[0].size() && !visited[tmpX][tmpY] && p->child[board[tmpX][tmpY]-'a']) {
-                dfs(ans,board,p->child[board[tmpX][tmpY]-'a'],visited,tmpX,tmpY);
+        
+        for (int k = 0; k < 4; ++k) {
+            int curX = i + dirs[k][0];
+            int curY = j + dirs[k][1];
+            if (curX >= 0 && curX < board.size() && curY >= 0 && curY < board[0].size() && !visited[curX][curY] && p->child[board[curX][curY]-'a']) {
+                dfs(ans, board, p->child[board[curX][curY]-'a'], visited, curX, curY);
             }
         }
-        
         visited[i][j] = false;
         return;
     }

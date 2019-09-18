@@ -18,6 +18,7 @@
 class Solution {
 public:
     bool isHappy(int n) {
+        //某个数字再次出现即表示不可能符合条件，得到1
         unordered_set<int> s;
         while(n != 1) {
             int sum = 0;

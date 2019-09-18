@@ -24,14 +24,11 @@
 class Solution {
 public:
     ListNode* reverseList(ListNode* head) {
-        ListNode* pre = NULL;
-        while(head){
-            ListNode* tmp =head->next;
-            head->next = pre;
-            pre = head;
-            head = tmp;
-        }
-        
-        return pre;
+        //递归法
+        if (!head || !head->next) return head;
+        ListNode* ans = reverseList(head->next);    //先反转后面的
+        head->next->next = head;   //反转
+        head->next = NULL;
+        return ans;
     }
 };
