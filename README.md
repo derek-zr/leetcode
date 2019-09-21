@@ -1,5 +1,5 @@
 # :pencil2: Leetcode Solutions with Cpp  
-Update time:  2019-09-20 09:34:51  
+Update time:  2019-09-21 09:34:48  
 Solution by Derek Zheng (Contact ME at derek.zhengrui@gmail.com)  
 Auto created by [leetcode_generate](https://github.com/bonfy/leetcode)  
 I have solved **522   /   1108** problems~  
@@ -712,7 +712,7 @@ I have solved **522   /   1108** problems~
 |700|[search-in-a-binary-search-tree](https://leetcode.com/problems/search-in-a-binary-search-tree)|[Cpp](https://github.com/derek-zr/leetcode/blob/master/./Solution/700-search-in-a-binary-search-tree/search-in-a-binary-search-tree.cpp)|[:memo:](https://leetcode.com/articles/search-in-a-bst/)|Easy|
 |701|[insert-into-a-binary-search-tree](https://leetcode.com/problems/insert-into-a-binary-search-tree)|[Cpp](https://github.com/derek-zr/leetcode/blob/master/./Solution/701-insert-into-a-binary-search-tree/insert-into-a-binary-search-tree.cpp)|[:memo:](https://leetcode.com/articles/insert-into-a-bst/)|Medium|
 |772|[basic-calculator-iii](https://leetcode.com/problems/basic-calculator-iii)|:lock:||Hard|
-|702|[search-in-a-sorted-array-of-unknown-size](https://leetcode.com/problems/search-in-a-sorted-array-of-unknown-size)|:lock:||Medium|
+|702|[search-in-a-sorted-array-of-unknown-size](https://leetcode.com/problems/search-in-a-sorted-array-of-unknown-size)|:lock:|[:memo:](https://leetcode.com/articles/search-in-a-sorted-array-of-unknown-size/)|Medium|
 |773|[sliding-puzzle](https://leetcode.com/problems/sliding-puzzle)||[:memo:](https://leetcode.com/articles/sliding-puzzle/)|Hard|
 |774|[minimize-max-distance-to-gas-station](https://leetcode.com/problems/minimize-max-distance-to-gas-station)|:lock:|[:memo:](https://leetcode.com/articles/minimize-max-distance-to-gas-station/)|Hard|
 |703|[kth-largest-element-in-a-stream](https://leetcode.com/problems/kth-largest-element-in-a-stream)|[Cpp](https://github.com/derek-zr/leetcode/blob/master/./Solution/703-kth-largest-element-in-a-stream/kth-largest-element-in-a-stream.cpp)||Easy|
