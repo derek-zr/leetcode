@@ -23,7 +23,7 @@ public:
         unordered_set<int> s(nums.begin(),nums.end());
         for(int num : nums){
             if(!s.count(num)) continue;
-            s.erase(num);
+            s.erase(num);       //删除num是为了减少重复计算，比如1 2 3 4, 如果不删除，则每次都会遍历一遍这几个数
             int small = num - 1 ,large = num + 1;
             while(s.count(small)) {s.erase(small);--small;}
             while(s.count(large)) {s.erase(large);++large;}

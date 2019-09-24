@@ -26,6 +26,8 @@
 class Solution {
 public:
     int maxProfit(vector<int>& prices) {
+        //因为最多只能交易一次，所以找到符合顺序的最大差值即可
+        //即遍历查找目前能买到的最低价，再计算利润差值
         int len = prices.size();
         int profit = 0;
         int minPrice = INT_MAX;

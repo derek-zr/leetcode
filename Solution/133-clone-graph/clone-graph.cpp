@@ -54,11 +54,12 @@ public:
     
     Node* clone(Node* node,unordered_map<Node*,Node*>& m){
         if(!node) return node;
+        //返回已经映射过的节点,避免重复拷贝
         if(m.count(node)) return m[node];
         Node* tmp = new Node(node->val);
         m[node] = tmp;
         for(int i = 0; i < node->neighbors.size(); i++){
-            (tmp->neighbors).push_back(clone(node->neighbors[i],m));
+            (tmp->neighbors).push_back(clone(node->neighbors[i], m));
         }
         
         return tmp;

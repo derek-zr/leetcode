@@ -24,6 +24,19 @@ public:
     int minimumTotal(vector<vector<int>>& triangle) {
         int rows=triangle.size();
         if(rows==0) return 0;
+        //优化dp数组的空间，一维数组
+        
+        //初始值即最后一行的值
+        vector<int> dp(triangle.back());
+        
+        //从最后一行往上遍历
+        for (int i = rows - 2; i >= 0; --i) {
+            for (int j = 0; j <= i; ++j) {
+                dp[j] = min(dp[j], dp[j+1]) + triangle[i][j];
+            }
+        }
+        return dp[0];
+        /*
         vector<int> dp[rows];   //n个数组
         dp[0].push_back(triangle[0][0]);
         
@@ -36,5 +49,6 @@ public:
         }
         sort(dp[rows-1].begin(),dp[rows-1].end());
         return dp[rows-1][0];
+        */
     }
 };

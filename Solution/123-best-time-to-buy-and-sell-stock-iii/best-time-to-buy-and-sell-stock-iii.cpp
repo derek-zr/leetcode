@@ -34,6 +34,27 @@
 class Solution {
 public:
     int maxProfit(vector<int>& prices) {
+        //动态规划 dp[i][j]表示前i天最多j次交易的最大值
+        //由于可以选择某天卖出或不卖出，所以需要建立两个数组，分别表示第i天一定卖出和第i天不一定卖出
+        if (prices.empty()) return 0;
+        int len = prices.size();
+        int k = 2;   //最多交易两次
+        vector<vector<int>> sellToday(len, vector<int>(k+1, 0));
+        vector<vector<int>> sell(len, vector<int>(k+1, 0));
+        
+        //开始dp
+        for (int i = 1; i < len; ++i) {
+            int diffToday = prices[i] - prices[i-1];
+            for (int j = 1; j <= k; ++j) {
+                //今天一定卖出
+                //注意这里不需要判断diff和0的关系，因为当天买当天卖不增加利润，即等于sell[i-1][j],在后续更新全局最大值时候已经进行了比较
+                sellToday[i][j] = max(sell[i-1][j-1], sellToday[i-1][j]) + diffToday;
+                sell[i][j] = max(sellToday[i][j], sell[i-1][j]);
+            }
+        }
+        
+        return sell[len-1][2];
+        /*
         //动态规划。dp[i][j]表示前i天最多j次交易的最大利润
         //但这里dp存在两种情况：local[i][j]表示第i天一定卖出，global[i][j]则不一定
         //最后找到的global[len-1][2]即为最大利润
@@ -53,5 +74,6 @@ public:
             }
         }
         return global[len-1][2];
+        */
     }
 };

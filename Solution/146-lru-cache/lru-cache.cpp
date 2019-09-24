@@ -30,11 +30,23 @@
 
 class LRUCache {
 public:
-    LRUCache(int capacity):cap(capacity) {
+    LRUCache(int capacity):capacity_(capacity) {
         
     }
     
     int get(int key) {
+        if (m.find(key) == m.end()) {
+            return -1;
+        }
+        else {
+            //链表的spice函数，把l指向m[key]位置的元素移动到链表头部
+            l.splice(l.begin(), l, m[key]);   //把m[key]放到链表的头部
+            m[key] = l.begin();
+            //cout<<m[key]->second;
+            return l.begin()->second;
+        }
+        
+        /*
         if(m.find(key) == m.end()) 
         {
             return -1;
@@ -43,10 +55,27 @@ public:
             touch(m[key]);
             return l.begin()->second;
         }
-        
+        */
     }
     
     void put(int key, int value) {
+        if (m.find(key) != m.end()) {
+            //更新key的value
+            l.splice(l.begin(), l, m[key]);
+            l.begin()->second = value;
+        }
+        else {
+            //如果超过capacity了
+            if (m.size() == capacity_) {
+                m.erase(l.back().first);
+                l.pop_back();
+            }
+            l.push_front({key, value});
+            m[key] = l.begin();
+        }
+        
+        
+        /*
         if(m.find(key) != m.end()) {
             //OR l.splice(l.begin(),l,m[key])
             touch(m[key]);
@@ -62,9 +91,21 @@ public:
             l.push_front({key,value});
             m[key] = l.begin();
         }
+        */
     }
 
 private:
+    //数据结构思考：因为需要查找是O(1)，所以自然需要建立一个hashmap
+    //同时需要添加操作也是O(1),如果使用数组的话，每次put后更新最近使用key时，都需要移动整个数组，开销很大
+    //对于增删比较频繁的结构，链表是比较合适的选择
+    typedef list<pair<int, int>> PLIST;   //用于保存key和value的链表
+    int capacity_;
+    PLIST l;
+    unordered_map<int, PLIST::iterator> m;   //key和对应链表位置的map
+    
+    
+    
+    /*
     typedef std::list<std::pair<int,int>> PLIST;
     
     int cap;
@@ -79,6 +120,7 @@ private:
         l.push_front({key,value});
         m[key] = l.begin();
     }
+    */
 };
 
 /**
