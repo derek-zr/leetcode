@@ -6,11 +6,15 @@
 //
 // Note:
 //
-// The order of returned grid coordinates does not matter.
-// Both m and n are less than 150.
 //
+// 	The order of returned grid coordinates does not matter.
+// 	Both m and n are less than 150.
+//
+//
+//  
 //
 // Example:
+//
 //
 // Given the following 5x5 matrix:
 //
@@ -26,6 +30,8 @@
 //
 // [[0, 4], [1, 3], [1, 4], [2, 2], [3, 0], [3, 1], [4, 0]] (positions with parentheses in above matrix).
 //
+//
+//  
 //
 
 

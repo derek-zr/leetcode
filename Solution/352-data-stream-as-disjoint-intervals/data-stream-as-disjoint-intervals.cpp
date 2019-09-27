@@ -10,10 +10,11 @@
 // [1, 3], [6, 7]
 //
 //
-// Follow up:
-// What if there are lots of merges and the number of disjoint intervals are small compared to the data stream's size?
+//  
 //
-// NOTE: input types have been changed on April 15, 2019. Please reset to default code definition to get new method signature.
+// Follow up:
+//
+// What if there are lots of merges and the number of disjoint intervals are small compared to the data stream's size?
 //
 
 

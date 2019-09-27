@@ -1,6 +1,7 @@
-//  Given an integer array with all positive numbers and no duplicates, find the number of possible combinations that add up to a positive integer target.
+// Given an integer array with all positive numbers and no duplicates, find the number of possible combinations that add up to a positive integer target.
 //
 // Example:
+//
 //
 // nums = [1, 2, 3]
 // target = 4
@@ -19,13 +20,16 @@
 // Therefore the output is 7.
 //
 //
+//  
 //
 // Follow up:
 // What if negative numbers are allowed in the given array?
 // How does it change the problem?
-// What limitation we need to add to the question to allow negative numbers? 
+// What limitation we need to add to the question to allow negative numbers?
 //
-// Credits:Special thanks to @pbrother for adding this problem and creating all test cases.
+// Credits:
+// Special thanks to @pbrother for adding this problem and creating all test cases.
+//
 
 
 /*class Solution {
