@@ -24,21 +24,33 @@
 
 class Solution {
 public:
-    int calculate(int num)
-    {
-        int counts=0;
-        while(num)
-        {
-           num&=(num-1); 
-           counts++;
-        }
-        return counts;
-    }
     vector<int> countBits(int num) {
-       vector<int> ans;
+        vector<int> ans(num + 1, 0);
+        //n&(n-1)相当于去掉最右端的1
+        for (int i = 1; i <= num; ++i) {
+            ans[i] = ans[i & (i - 1)] + 1;
+        }
+        
+        return ans;
+        
+        /*
+        vector<int> ans;
        for(int i=0;i<=num;i++){
           ans.push_back(calculate(i)); 
        }
        return ans;
+       */
     }
+    
+     int calculate(int num)
+    {
+        int counts = 0;
+        while(num)
+        {
+           num &= (num-1); 
+           counts++;
+        }
+        return counts;
+    }
+    
 };

@@ -68,7 +68,7 @@ public:
         vector<int> ans;
         //每次取数组头部的最大值
         while (!nums1.empty() || !nums2.empty()) {
-            vector<int> &nums = (nums1 > nums2) ? nums1 : nums2;
+            vector<int> &nums = (nums1 > nums2) ? nums1 : nums2;    //这里很巧妙，利用数组指针，减少了if的判断
             ans.push_back(nums[0]);
             nums.erase(nums.begin());
         }

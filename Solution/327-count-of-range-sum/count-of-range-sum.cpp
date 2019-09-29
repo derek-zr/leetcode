@@ -16,6 +16,20 @@
 class Solution {
 public:
     int countRangeSum(vector<int>& nums, int lower, int upper) {
+        //more concise
+        //相当于这里用multiset作为前缀和数组，对于某一个前缀和sums[i]，找到符合条件的j的范围
+        int res = 0;
+        long long sum = 0;
+        multiset<long long> sums;
+        sums.insert(0);
+        for (int i = 0; i < nums.size(); ++i) {
+            sum += nums[i];
+            res += distance(sums.lower_bound(sum - upper), sums.upper_bound(sum - lower));
+            sums.insert(sum);
+        }
+        return res;
+        
+        /*
         //用mergeSort。在前缀和数组中不断寻找符合条件的组合。
         //mergeSort保证了左右有序后，对于左边的i，我们只要找到右边数组中lower+preSum[i] < preSum[j] < upper+preSum[i]的范围，加到最后的结果中。
         int len = nums.size();
@@ -25,6 +39,7 @@ public:
             preSum[i+1] = preSum[i] + nums[i];
         }
         return helper(preSum,0,len+1,lower,upper);
+        */
     }
     
     int helper(vector<long> &preSum, int left, int right, int lower, int upper) {

@@ -27,6 +27,9 @@
 class Solution {
 public:
     int maxProduct(vector<string>& words) {
+        //这道题最大的难点在于大用例，如果用一个map或者cnts数组存储每个单词的字符出现次数，不能AC
+        //所以这里用bit map表示字符的出现与否，总共26个字母，可以通过int 32位的后26位是否为1来标识
+        
         int ans = 0;
         //用bit表示某位置上字母是否出现
         int len = words.size();

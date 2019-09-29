@@ -22,12 +22,15 @@
 class Solution {
 public:
     int coinChange(vector<int>& coins, int amount) {
-        vector<int> dp(amount+1,amount+1);
-        dp[0]=0;
-        for(int i=1;i<=amount;i++){
+        
+        //动态规划,dp[i]表示组成i需要的最少coin数目
+        vector<int> dp(amount+1, amount+1);
+        dp[0] = 0;
+        for(int i = 1; i <= amount; i++){
             for(auto coin : coins){
-                if(coin<=i){
-                    dp[i] = min(dp[i],dp[i-coin]+1);
+                if(coin <= i){
+                    //是否使用当前coin，得到最小值
+                    dp[i] = min(dp[i], dp[i-coin]+1);
                 }
             }
         }

@@ -28,6 +28,8 @@ public:
         int left = mid-1, right = len-1;
         sort(tmp.begin(),tmp.end());
         //按照奇偶位数，分别从左右半部的末端取相应的数
+        //这里从末端取的原因是为了把可能相等的错开
+        //否则对于4554这样的情况，从头部取得到的依然是4554
         for(int i = 0; i < len; ++i) {
             nums[i] = (i & 1) ? tmp[right--] : tmp[left--];
         }

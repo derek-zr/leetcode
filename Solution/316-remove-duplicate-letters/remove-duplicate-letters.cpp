@@ -1,4 +1,4 @@
-// Given a string which contains only lowercase letters, remove duplicate letters so that every letter appear once and only once. You must make sure your result is the smallest in lexicographical order among all possible results.
+// Given a string which contains only lowercase letters, remove duplicate letters so that every letter appears once and only once. You must make sure your result is the smallest in lexicographical order among all possible results.
 //
 // Example 1:
 //
@@ -13,27 +13,33 @@
 // Input: "cbacdcbc"
 // Output: "acdb"
 //
+//
 
 
 class Solution {
 public:
     string removeDuplicateLetters(string s) {
-        vector<int> cnts(26,0);
-        vector<int> visited(26,0);
-        string ans = "0";   //先放个0，方便与第一个字符进行比较
-        for(auto letter:s) ++cnts[letter-'a'];
-        for(auto letter:s){
-            --cnts[letter-'a']; //先减去一个计数
-            if(visited[letter-'a']) continue;
-            while(letter<ans.back() && cnts[ans.back()-'a']){  //当前的letter小于ans中的最后一个字母且最后一个字母后面还会出现，则可以先删除这个字母，等后面再加上
-                visited[ans.back()-'a']=0;
+        //类似于维持一个单调序列，保证符合条件的情况时，使得答案中的字母尽量按照顺序单调排列
+        //使用cnts和visited数组来表示某个字符的出现次数和访问情况
+        vector<int> cnts(26, 0);
+        vector<int> visited(26, 0);
+        string ans; 
+        for (char c : s)  ++cnts[c - 'a'];
+        
+        //开始遍历
+        for (char c : s) {
+            --cnts[c - 'a']; 
+            if (visited[c - 'a'])  continue;    //说明之前已经访问过，并且排好了位置
+            //维持答案的单调性（符合条件的情况下）
+            //小于当前ans的最后一个字符，并且ans中的字符后续还会出现，可以先删除，后面再加上
+            while (!ans.empty() && c < ans.back() && cnts[ans.back() - 'a']) {
+                visited[ans.back() - 'a'] = 0;    //需要重新访问，安排位置
                 ans.pop_back();
             }
-            ans += letter;
-            visited[letter-'a'] = 1;
+            ans += c;
+            visited[ans.back() - 'a'] = 1;
         }
         
-        return ans.substr(1);
-        
+        return ans;
     }
 };

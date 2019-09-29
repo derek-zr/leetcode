@@ -1,8 +1,8 @@
 # :pencil2: Leetcode Solutions with Cpp  
-Update time:  2019-09-28 09:58:23  
+Update time:  2019-09-29 09:58:31  
 Solution by Derek Zheng (Contact ME at derek.zhengrui@gmail.com)  
 Auto created by [leetcode_generate](https://github.com/bonfy/leetcode)  
-I have solved **522   /   1116** problems~  
+I have solved **522   /   1117** problems~  
 
 | # | Title | Source Code | Article | Difficulty |  
 |:---:|:---:|:---:|:---:|:---:|
@@ -1122,3 +1122,4 @@ I have solved **522   /   1116** problems~
 |1201|[ugly-number-iii](https://leetcode.com/problems/ugly-number-iii)|||Medium|
 |1202|[smallest-string-with-swaps](https://leetcode.com/problems/smallest-string-with-swaps)|||Medium|
 |1203|[sort-items-by-groups-respecting-dependencies](https://leetcode.com/problems/sort-items-by-groups-respecting-dependencies)|||Hard|
+|1206|[design-skiplist](https://leetcode.com/problems/design-skiplist)|||Hard|
