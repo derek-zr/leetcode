@@ -37,7 +37,7 @@ public:
     // Encodes a tree to a single string.
     string serialize(TreeNode* root) {
         ostringstream out;
-        serialize(root,out);
+        serialize(root, out);
         return out.str();
     }
 
@@ -51,8 +51,8 @@ private:
     void serialize(TreeNode* root, ostringstream &out) {
         if(root) {
             out << root->val << ' ';
-            serialize(root->left,out);
-            serialize(root->right,out);
+            serialize(root->left, out);
+            serialize(root->right, out);
         }
         else {
             out << "null ";
@@ -62,7 +62,7 @@ private:
     TreeNode* deserialize(istringstream &in) {
         string tmp;
         in >> tmp;
-        if(tmp == "null") return NULL;
+        if (tmp == "null") return NULL;
         TreeNode* root = new TreeNode(stoi(tmp));
         root->left = deserialize(in);
         root->right = deserialize(in);

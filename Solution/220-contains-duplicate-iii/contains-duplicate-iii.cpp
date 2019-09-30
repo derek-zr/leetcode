@@ -31,15 +31,26 @@
 class Solution {
 public:
     bool containsNearbyAlmostDuplicate(vector<int>& nums, int k, int t) {
-        map<long long,int> m;  //这里需要用longlong，因为INT_MAX-(-INT_MAX) 超过了int范围
-        int j=0;
-        for(int i=0;i<nums.size();i++){
-            if(i-j>k) m.erase(nums[j++]);
-            //|nums[i]-nums[j]|<=t  ==>>  -t<=nums[i]-nums[j]<=t
-            auto index = m.lower_bound((long long)nums[i]-t);
-            if(index!=m.end() && abs(index->first-nums[i])<=t) return true;
-            m[nums[i]]=i;
+        //维持一个k的滑动窗口（保证坐标相差为k以内），同时用set这种自带排序的数据结构，找相差为t的下边界
+        set<long> s;
+        for (int i = 0; i < nums.size(); ++i) {
+            if (i > k)  s.erase(nums[i - k - 1]);
+            //找第一个大于等于nums[i]-t的下标
+            auto index = s.lower_bound((long long)nums[i] - t);
+            if (index != s.end() && abs(*index - nums[i] <= t))  return true;
+            s.insert(nums[i]);
         }
         return false;
+        /*
+        set<long> m;  //这里需要用long，因为INT_MAX-(-INT_MAX) 超过了int范围
+        for(int i=0;i<nums.size();i++){
+            if(i>k) m.erase(nums[i-k-1]);
+            //|nums[i]-nums[j]|<=t  ==>>  -t<=nums[i]-nums[j]<=t
+            auto index = m.lower_bound((long long)nums[i]-t);
+            if(index!=m.end() && abs(*index-nums[i])<=t) return true;
+            m.insert(nums[i]);
+        }
+        return false;
+        */
     }
 };

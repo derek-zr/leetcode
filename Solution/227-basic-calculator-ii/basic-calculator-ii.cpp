@@ -34,6 +34,38 @@
 class Solution {
 public:
     int calculate(string s) {
+        //因为存在乘除法，在运算时候需要考虑优先级，则先压栈，再根据相应的运算符计算
+        long ans = 0, num = 0, len = s.size();
+        char preOp = '+';   //上一个遍历到的运算符,第一个数字进栈
+        stack<int> st;     //保存数字和中间计算结果
+        
+        for (int i = 0; i < len; ++i) {
+            while (i < len && s[i] >= '0' && s[i] <= '9') {
+                num = num * 10 + s[i] - '0';
+                i++;
+            }
+            //出现了新的运算符
+            if ((s[i] < '0' && s[i] != ' ') || i == len-1) {
+                if (preOp == '+')  st.push(num);
+                else if (preOp == '-')  st.push(-num);
+                else if (preOp == '*' || preOp == '/') {
+                    int tmp = (preOp == '*') ? st.top() * num : st.top() / num;
+                    st.pop();
+                    st.push(tmp);
+                }
+                preOp = s[i];
+                num = 0;
+            }
+        }
+        //计算栈内仍存在的元素
+        while (! st.empty()) {
+            ans += st.top();
+            st.pop();
+        }
+        
+        return ans;
+        
+        /*
         long ans = 0, num = 0, len = s.size();
         char op = '+';  //第一个数字相当于0+num
         stack<int> res;
@@ -61,5 +93,6 @@ public:
         }
         
         return ans;
+        */
     }
 };

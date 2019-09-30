@@ -22,31 +22,44 @@
 
 class Solution {
 public:
-    vector<pair<int, int>> getSkyline(vector<vector<int>>& buildings) {
-        vector<pair<int,int>> height,ans;
-        multiset<int> m;     //用multiset（可能存在多个相同的高度）储存当前遍历到的高度
+    vector<vector<int>> getSkyline(vector<vector<int>>& buildings) {
+        //这道题有两个关键点：
+        //第一个是必须要按照顺序遍历左边界，再遍历右边界。即先找左边界构成的point，再找由于右边界相交产生的point
+        //第二个是如何判断产生了point：
+        //对于左边界，只要出现了自身比之前的最高高度还高，则说明产生了point
+        //对于右边界，如果去除自身，自身高度仍然高于当前的最高高度，也会产生point
+        vector<pair<int, int>> heights;
+        vector<vector<int>>  ans;
+        multiset<int> m;     //可能存在多个相同的高度
         
-        //存储所有的高度
-        for(auto p : buildings) {
-            height.push_back({p[0],-p[2]});  //左边界高度存成负数，和右边界区分
-            height.push_back({p[1],p[2]});
+        //存储所有的高度，便于排序遍历
+        for (auto build : buildings) {
+            //这里有个技巧，左边界压入的是高度负值，便于区分左右边界，这样就不需要自定义排序函数
+            heights.push_back({build[0], -build[2]});
+            heights.push_back({build[1], build[2]});
         }
-        //根据左边界排序
-        sort(height.begin(),height.end());
         
-        //先插入一个0，最后遍历时得到最右的keypoint
+        //横坐标排序，同时保证左坐标在前面
+        sort(heights.begin(), heights.end());
+        
+        //插入一个0，便于最后一个点确定
         m.insert(0);
         
-        int pre = 0, cur = 0; //pre为0，则左边界一定能插入
+        int preHighest = 0, curHighest = 0;
         
-        for(auto p : height) {
-            if(p.second < 0) m.insert(-p.second);   //遇到左边界则插入
-            else m.erase(m.find(p.second));         //遇到右边界则删除（说明此时该大楼已经达到右边界，不会影响后面的skyline了）
+        for (auto p : heights) {
+            //遇到左边界则插入，遇到右边界则删除
+            if (p.second < 0)  m.insert({-p.second});
+            else m.erase(m.find(p.second));
             
-            cur = *m.rbegin();    //取出此时遍历到的最高的大楼高度
-            if(cur != pre) {      //如果当前的最高高度与之前的最高高度不相等，则说明出现了keypoint
-                ans.push_back({p.first,cur});   //横坐标为当前遍历的坐标，高度为最高高度
-                pre = cur;
+            //当前最高的，set会自动排序
+            curHighest = *m.rbegin();
+            
+            if (curHighest != preHighest) {
+                //遇到高度变化则说明有point
+                //cout<<p.first<<curHighest<<endl;
+                ans.push_back({p.first, curHighest});
+                preHighest = curHighest;
             }
         }
         

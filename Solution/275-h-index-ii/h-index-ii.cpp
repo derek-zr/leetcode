@@ -28,15 +28,15 @@
 class Solution {
 public:
     int hIndex(vector<int>& citations) {
-        //对于不固定值的查找，使用len-1。下面对应的循环一般需要加等号，但也有例外。
+        //二分查找，如果citations[i] == len - i则说明找到了最大的h-index
         int len = citations.size();
-        int left = 0, right = len-1;
-        while(left <= right) {
-            int mid = left + (right-left)/2;
-            if(citations[mid] == len-mid) return len-mid;
-            else if(citations[mid] > len-mid) right = mid - 1; //搭配len-1
+        int left = 0, right = len;
+        while (left < right) {
+            int mid = left + (right - left) / 2;
+            if (citations[mid] >= len - mid)  right = mid;
             else left = mid + 1;
         }
-        return len-left;
+        //left和right相等，都可以作为答案
+        return len - left;
     }
 };

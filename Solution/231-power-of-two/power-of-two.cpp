@@ -26,8 +26,10 @@
 class Solution {
 public:
     bool isPowerOfTwo(int n) {
-       if(n<=0) return false;
-       if(n&(n-1)) return false;
+       //2的幂次即10000000....  那n-1就是0111111...
+       //所以n & n-1 应该为0 
+       if(n <= 0) return false;
+       if( n & (n-1)) return false;
        else return true;
     }
 };
