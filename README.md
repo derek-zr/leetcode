@@ -1,8 +1,8 @@
 # :pencil2: Leetcode Solutions with Cpp  
-Update time:  2019-10-05 09:58:14  
+Update time:  2019-10-08 10:15:02  
 Solution by Derek Zheng (Contact ME at derek.zhengrui@gmail.com)  
 Auto created by [leetcode_generate](https://github.com/bonfy/leetcode)  
-I have solved **522   /   1121** problems~  
+I have solved **522   /   1129** problems~  
 
 | # | Title | Source Code | Article | Difficulty |  
 |:---:|:---:|:---:|:---:|:---:|
@@ -334,7 +334,7 @@ I have solved **522   /   1121** problems~
 |343|[integer-break](https://leetcode.com/problems/integer-break)|[Cpp](https://github.com/derek-zr/leetcode/blob/master/./Solution/343-integer-break/integer-break.cpp)||Medium|
 |344|[reverse-string](https://leetcode.com/problems/reverse-string)|[Cpp](https://github.com/derek-zr/leetcode/blob/master/./Solution/344-reverse-string/reverse-string.cpp)||Easy|
 |345|[reverse-vowels-of-a-string](https://leetcode.com/problems/reverse-vowels-of-a-string)|[Cpp](https://github.com/derek-zr/leetcode/blob/master/./Solution/345-reverse-vowels-of-a-string/reverse-vowels-of-a-string.cpp)||Easy|
-|346|[moving-average-from-data-stream](https://leetcode.com/problems/moving-average-from-data-stream)|:lock:||Easy|
+|346|[moving-average-from-data-stream](https://leetcode.com/problems/moving-average-from-data-stream)|:lock:|[:memo:](https://leetcode.com/articles/moving-average-from-data-stream/)|Easy|
 |347|[top-k-frequent-elements](https://leetcode.com/problems/top-k-frequent-elements)|[Cpp](https://github.com/derek-zr/leetcode/blob/master/./Solution/347-top-k-frequent-elements/top-k-frequent-elements.cpp)|[:memo:](https://leetcode.com/articles/top-k-frequent-elements/)|Medium|
 |348|[design-tic-tac-toe](https://leetcode.com/problems/design-tic-tac-toe)|:lock:||Medium|
 |349|[intersection-of-two-arrays](https://leetcode.com/problems/intersection-of-two-arrays)|[Cpp](https://github.com/derek-zr/leetcode/blob/master/./Solution/349-intersection-of-two-arrays/intersection-of-two-arrays.cpp)|[:memo:](https://leetcode.com/articles/intersection-of-two-arrays/)|Easy|
@@ -764,7 +764,7 @@ I have solved **522   /   1121** problems~
 |817|[linked-list-components](https://leetcode.com/problems/linked-list-components)||[:memo:](https://leetcode.com/articles/linked-list-components/)|Medium|
 |818|[race-car](https://leetcode.com/problems/race-car)||[:memo:](https://leetcode.com/articles/race-car/)|Hard|
 |819|[most-common-word](https://leetcode.com/problems/most-common-word)||[:memo:](https://leetcode.com/articles/most-common-word/)|Easy|
-|707|[design-linked-list](https://leetcode.com/problems/design-linked-list)|||Easy|
+|707|[design-linked-list](https://leetcode.com/problems/design-linked-list)||[:memo:](https://leetcode.com/articles/design-linked-list/)|Easy|
 |820|[short-encoding-of-words](https://leetcode.com/problems/short-encoding-of-words)||[:memo:](https://leetcode.com/articles/short-encoding-of-words/)|Medium|
 |821|[shortest-distance-to-a-character](https://leetcode.com/problems/shortest-distance-to-a-character)|[Cpp](https://github.com/derek-zr/leetcode/blob/master/./Solution/821-shortest-distance-to-a-character/shortest-distance-to-a-character.cpp)|[:memo:](https://leetcode.com/articles/shortest-distance-to-a-character/)|Easy|
 |822|[card-flipping-game](https://leetcode.com/problems/card-flipping-game)||[:memo:](https://leetcode.com/articles/card-flipping-game/)|Medium|
@@ -1059,6 +1059,9 @@ I have solved **522   /   1121** problems~
 |1071|[greatest-common-divisor-of-strings](https://leetcode.com/problems/greatest-common-divisor-of-strings)|||Easy|
 |1072|[flip-columns-for-maximum-number-of-equal-rows](https://leetcode.com/problems/flip-columns-for-maximum-number-of-equal-rows)|||Medium|
 |1073|[adding-two-negabinary-numbers](https://leetcode.com/problems/adding-two-negabinary-numbers)|||Medium|
+|1213|[intersection-of-three-sorted-arrays](https://leetcode.com/problems/intersection-of-three-sorted-arrays)|:lock:||Easy|
+|1214|[two-sum-bsts](https://leetcode.com/problems/two-sum-bsts)|:lock:||Medium|
+|1215|[stepping-numbers](https://leetcode.com/problems/stepping-numbers)|:lock:||Medium|
 |1183|[maximum-number-of-ones](https://leetcode.com/problems/maximum-number-of-ones)|:lock:||Hard|
 |1078|[occurrences-after-bigram](https://leetcode.com/problems/occurrences-after-bigram)|||Easy|
 |1080|[insufficient-nodes-in-root-to-leaf-paths](https://leetcode.com/problems/insufficient-nodes-in-root-to-leaf-paths)|||Medium|
@@ -1069,6 +1072,7 @@ I have solved **522   /   1121** problems~
 |1090|[largest-values-from-labels](https://leetcode.com/problems/largest-values-from-labels)|||Medium|
 |1092|[shortest-common-supersequence](https://leetcode.com/problems/shortest-common-supersequence)|||Hard|
 |1091|[shortest-path-in-binary-matrix](https://leetcode.com/problems/shortest-path-in-binary-matrix)|||Medium|
+|1216|[valid-palindrome-iii](https://leetcode.com/problems/valid-palindrome-iii)|:lock:||Hard|
 |1093|[statistics-from-a-large-sample](https://leetcode.com/problems/statistics-from-a-large-sample)|||Medium|
 |1094|[car-pooling](https://leetcode.com/problems/car-pooling)|||Medium|
 |1095|[find-in-mountain-array](https://leetcode.com/problems/find-in-mountain-array)|||Hard|
@@ -1126,4 +1130,8 @@ I have solved **522   /   1121** problems~
 |1209|[remove-all-adjacent-duplicates-in-string-ii](https://leetcode.com/problems/remove-all-adjacent-duplicates-in-string-ii)|||Medium|
 |1208|[get-equal-substrings-within-budget](https://leetcode.com/problems/get-equal-substrings-within-budget)|||Medium|
 |1210|[minimum-moves-to-reach-target-with-rotations](https://leetcode.com/problems/minimum-moves-to-reach-target-with-rotations)|||Hard|
+|1217|[play-with-chips](https://leetcode.com/problems/play-with-chips)|||Easy|
+|1218|[longest-arithmetic-subsequence-of-given-difference](https://leetcode.com/problems/longest-arithmetic-subsequence-of-given-difference)|||Medium|
+|1219|[path-with-maximum-gold](https://leetcode.com/problems/path-with-maximum-gold)|||Medium|
+|1220|[count-vowels-permutation](https://leetcode.com/problems/count-vowels-permutation)|||Hard|
 |1206|[design-skiplist](https://leetcode.com/problems/design-skiplist)|||Hard|

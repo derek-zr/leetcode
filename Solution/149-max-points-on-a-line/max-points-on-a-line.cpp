@@ -31,40 +31,40 @@
 // 0  1  2  3  4  5  6
 //
 //
+// NOTE: input types have been changed on April 15, 2019. Please reset to default code definition to get new method signature.
+//
 
 
-/**
- * Definition for a point.
- * struct Point {
- *     int x;
- *     int y;
- *     Point() : x(0), y(0) {}
- *     Point(int a, int b) : x(a), y(b) {}
- * };
- */
 class Solution {
 public:
-    int maxPoints(vector<Point>& points) {
+    int maxPoints(vector<vector<int>>& points) {
+        //同一个斜率的点在同一条直线上，但问题在于斜率需要做除法，因此进度很难保证
+        //所以这里同时保存分子和分母，即x的差值和y的差值
+        int len = points.size();   
         int ans = 0;
-        int len = points.size();
-        for(int i = 0; i < len; ++i) {
-            map<pair<int,int>,int> m ; //考虑到斜率要算除法，如果直接相除可能存在double精度不够的情况，所以这里改存分子和分母
-            int dup = 1;  //可能存在相同坐标的点
-            for(int j = i+1; j < len; ++j) {
-                if(points[i].x == points[j].x && points[i].y == points[j].y) {++dup;continue;}
-                int dx = points[j].x - points[i].x;
-                int dy = points[j].y - points[i].y;
-                int d = gcd(dx,dy);   //求分子分母的最大公约数
-                ++m[{dx/d,dy/d}];
+        
+        for (int i = 0 ; i < len; ++i) {
+            map<pair<int, int>, int> m; 
+            int dup = 1;
+            for (int j = i+1; j < len; ++j) {
+                //可能存在重复的点
+                if (points[i][0] == points[j][0] && points[i][1] == points[j][1]) { ++dup; continue; }
+                int dx = points[j][0] - points[i][0];    
+                int dy = points[j][1] - points[i][1];
+                //cout<<dx<<dy;
+                int gcd_num = gcd(dx, dy);   //两者的最大公约数
+                ++m[{dx / gcd_num, dy / gcd_num}];
             }
-            ans = max(ans,dup);
-            for(auto it = m.begin(); it != m.end(); ++it) ans = max(ans,it->second+dup);
+            ans = max(ans, dup);    //解决只有一个点的情况，以及全部为重复点的情况
+            for (auto &p : m) ans = max(ans, p.second + dup);
         }
         
         return ans;
     }
     
-    int gcd(int num1,int num2) {
-        return (num2==0) ? num1 : gcd(num2,num1%num2);
+    int gcd(int a, int b) {
+        //对于负数情况也能够正确计算
+        return (b == 0) ? a : gcd(b, a % b);    
     }
+    
 };
