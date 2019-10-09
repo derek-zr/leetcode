@@ -1,8 +1,8 @@
 # :pencil2: Leetcode Solutions with Cpp  
-Update time:  2019-10-08 10:15:02  
+Update time:  2019-10-09 10:15:38  
 Solution by Derek Zheng (Contact ME at derek.zhengrui@gmail.com)  
 Auto created by [leetcode_generate](https://github.com/bonfy/leetcode)  
-I have solved **522   /   1129** problems~  
+I have solved **523   /   1129** problems~  
 
 | # | Title | Source Code | Article | Difficulty |  
 |:---:|:---:|:---:|:---:|:---:|
@@ -388,7 +388,7 @@ I have solved **522   /   1129** problems~
 |397|[integer-replacement](https://leetcode.com/problems/integer-replacement)|[Cpp](https://github.com/derek-zr/leetcode/blob/master/./Solution/397-integer-replacement/integer-replacement.cpp)||Medium|
 |398|[random-pick-index](https://leetcode.com/problems/random-pick-index)|[Cpp](https://github.com/derek-zr/leetcode/blob/master/./Solution/398-random-pick-index/random-pick-index.cpp)||Medium|
 |399|[evaluate-division](https://leetcode.com/problems/evaluate-division)|[Cpp](https://github.com/derek-zr/leetcode/blob/master/./Solution/399-evaluate-division/evaluate-division.cpp)||Medium|
-|400|[nth-digit](https://leetcode.com/problems/nth-digit)|||Medium|
+|400|[nth-digit](https://leetcode.com/problems/nth-digit)|[Cpp](https://github.com/derek-zr/leetcode/blob/master/./Solution/400-nth-digit/nth-digit.cpp)||Medium|
 |401|[binary-watch](https://leetcode.com/problems/binary-watch)|[Cpp](https://github.com/derek-zr/leetcode/blob/master/./Solution/401-binary-watch/binary-watch.cpp)||Easy|
 |402|[remove-k-digits](https://leetcode.com/problems/remove-k-digits)|[Cpp](https://github.com/derek-zr/leetcode/blob/master/./Solution/402-remove-k-digits/remove-k-digits.cpp)|[:memo:](https://leetcode.com/articles/remove-k-digits/)|Medium|
 |403|[frog-jump](https://leetcode.com/problems/frog-jump)|[Cpp](https://github.com/derek-zr/leetcode/blob/master/./Solution/403-frog-jump/frog-jump.cpp)|[:memo:](https://leetcode.com/articles/frog-jump/)|Hard|
