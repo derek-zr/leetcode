@@ -39,7 +39,9 @@
 
 class RandomizedSet {
 public:
+    //对于这种设计题，需要熟悉各种数据结构
     //map的插入和删除是O(1),但为了实现随机的产生也是O(1),还需要一个数组存放，因为数组访问某个位置的数是O(1)
+    //为了方便删除和插入，这里map存放的是value和其在数组中下标的映射，便于直接找到对应值的下标，进行删除（因为数组的删除不是O(1)）
     
     /** Initialize your data structure here. */
     RandomizedSet() { }
@@ -55,9 +57,9 @@ public:
     /** Removes a value from the set. Returns true if the set contained the specified element. */
     bool remove(int val) {
         if(!m.count(val)) return false;
-        //数组的删除不是O(1)，所以这里把要删除位置的数交换到数组末尾的数，并删除末尾的数
+        //数组的删除不是O(1)，所以这里把要删除位置的数替换为数组末尾的数，并删除末尾的数
         int last_num = nums.back();
-        m[last_num] = m[val];   //交换
+        m[last_num] = m[val];    //替换
         nums[m[val]] = last_num;
         nums.pop_back();
         m.erase(val);

@@ -36,17 +36,37 @@
 class Solution {
 public:
     int wiggleMaxLength(vector<int>& nums) {
-        int size=nums.size();
-        if(size==0) return 0;
-        vector<int> dp1(size,1);
-        vector<int> dp2(size,1);
-        int ans=0;
-        for(int i=1;i<size;i++){
-            for(int j=0;j<i;j++){
-               if(nums[j]<nums[i]) dp1[i]=max(dp1[i],dp2[j]+1);
-                else if(nums[j]>nums[i]) dp2[i]=max(dp2[i],dp1[j]+1);
+        //https://www.cnblogs.com/grandyang/p/5697621.html
+        
+        //第二种方法是贪心，从上面链接评论图可以看出，在找到大于或小于的序列时，无需比较大小，直接更新即可，因为一定能够组成更长的子序列
+        if (nums.empty())  return 0;
+        int positive = 1, negative = 1;
+        for (int i = 1; i < nums.size(); ++i) {
+            if (nums[i] > nums[i-1])  positive = negative + 1;
+            else if (nums[i] < nums[i-1])  negative = positive + 1;
+        }
+        return max(positive, negative);
+        
+        /*
+        //第一种方法是dp，由于是寻找子序列，根据当前的差值是正还是负可以建立两个dp数组
+        //分别表示到i位置的差值为正或负的最大子序列长度
+        if (nums.empty())  return 0;
+        int len = nums.size();
+        vector<int> positive(len, 1);
+        vector<int> negative(len, 1);
+        //dp
+        for (int i = 1; i < len; ++i) {
+            for (int j = 0; j < i; ++j) {
+                if (nums[i] > nums[j]) {
+                    //can add one positive seq to the neg seq end with j
+                    positive[i] = max(positive[i], negative[j] + 1);
+                }
+                else if (nums[i] < nums[j]){
+                    negative[i] = max(negative[i], positive[j] + 1);
+                } 
             }
         }
-        return max(dp1[size-1],dp2[size-1]);
+        return max(positive.back(), negative.back());
+        */
     }
 };

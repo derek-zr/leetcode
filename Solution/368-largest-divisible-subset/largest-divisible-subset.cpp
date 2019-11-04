@@ -25,10 +25,41 @@
 
 class Solution {
 public:
+    
     //动态规划
     //dp[i]表示到第i个位置的最大子集长度，parent[i]表示第i个位置前一个加入子集的数
     //从后往前遍历，进行dp
     vector<int> largestDivisibleSubset(vector<int>& nums) {
+        //思路更加清晰的写法，方法同上
+        if (nums.empty())  return {};
+        int len = nums.size();
+        sort(nums.begin(), nums.end());
+        vector<int> dp(len, 1), parents(len, -1);   //parent数组用于回溯记录下标，找到最终结果 
+        vector<int> ans;
+        int max_index = 0;
+        
+        //dp
+        for (int i = 1; i < nums.size(); ++i) {
+            for (int j = 0; j < i; ++j) {
+                if (nums[i] % nums[j] == 0 && dp[i] < dp[j] + 1) {
+                    dp[i] = dp[j] + 1;
+                    parents[i] = j;
+                }
+            }
+        }
+        //找到最长长度对应的最后一个元素下标
+        for (int i = 1; i < len; ++i) {
+            if (dp[i] > dp[max_index]) max_index = i;
+        }  
+        //根据parent数组回溯答案
+        while (parents[max_index] != -1) {
+            ans.push_back(nums[max_index]);
+            max_index = parents[max_index];
+        }
+        ans.push_back(nums[max_index]);
+        return ans;
+        
+        /*
         int len = nums.size();
         vector<int> ans;
         vector<int> dp(len,0),parent(len,0);
@@ -53,6 +84,6 @@ public:
             max_index=parent[max_index];
         }
         return ans;
-        
+      */  
     }
 };

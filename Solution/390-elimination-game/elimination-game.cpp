@@ -30,14 +30,14 @@ public:
     
     int helper(int n , bool left2right) {
         if(n == 1) return 1;
-        //如果从左往右
+        //如果从右往左
         //[1,2,3,4] = 2*[1,2]  [1,2,3,4,5] = 2*[1,2]
         if(left2right) return 2*helper(n/2 , false);
         else {
             //奇偶情况不同
             //[1,2,3,4] = [1,3] = 2*[1,2]-1
             //[1,2,3,4,5] = [2,4] = 2*[1,2]
-            return 2*helper(n/2,true)-1+n%2;
+            return 2*helper(n/2,true) - 1 + n%2;
         }
     }
 };

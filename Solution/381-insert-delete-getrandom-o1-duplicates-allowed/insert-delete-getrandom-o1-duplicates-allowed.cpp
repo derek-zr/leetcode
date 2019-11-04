@@ -36,6 +36,11 @@
 
 class RandomizedCollection {
 public:
+    
+    //这道题和上一道题主要思路基本相同，但不同之处在于这道题会出现重复，即map对应的数组下标可能不止一个
+    //所以这里用unordered_set来存储所有出现过的相同值的下标,因此难点仍然在于如何做到数组的O(1)删除
+    //注意这里的getRandom无需做特别的修改，因为均匀抽样就保证了某个数字出现的次数与其出现次数是线性相关的
+    
     /** Initialize your data structure here. */
     RandomizedCollection() {}
     
@@ -54,7 +59,7 @@ public:
         int index = *m[val].begin();
         m[val].erase(index);
         if(index != (nums.size()-1)) {
-            //交换index和数组末尾的值
+            //将index位置的值替换为数组末尾的值，再弹出数组末尾即可
             int tmp = nums.back();
             nums[index] = tmp;
             m[tmp].erase(nums.size()-1);

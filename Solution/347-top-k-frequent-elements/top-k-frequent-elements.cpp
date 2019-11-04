@@ -32,6 +32,7 @@ public:
         for(int num : nums) ++m[num];
         
         //再将次数和对应的数放进一个最大堆中
+        //或者使用桶排序，按照出现次数将数字放到对应位置
         priority_queue<pair<int,int>> h;
         for(auto p : m) {
             h.push({-p.second,p.first}); //压入次数的负值，相当于最小堆

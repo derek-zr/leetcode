@@ -34,6 +34,7 @@ class Solution {
 public:
     vector<vector<int>> kSmallestPairs(vector<int>& nums1, vector<int>& nums2, int k) {
         vector<vector<int>> ans;
+        //建立一个最大堆
         priority_queue<vector<int> , vector<vector<int>> , compare> q;
         
         //开始遍历

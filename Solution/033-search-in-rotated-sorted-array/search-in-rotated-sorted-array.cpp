@@ -26,9 +26,43 @@
 class Solution {
 public:
     int search(vector<int>& nums, int target) {
-        //二分法。难点在于left++和right--的条件寻找
+        
+        //二分法
+        if (nums.empty())  return -1;
+        int left = 0, right = nums.size();
+        while (left < right) {
+            int mid = left + (right - left) / 2;
+            //这里采用另一种方法，通过比较target和nums[mid]是不是处在同一个半段
+            //如果处在同一个半段，那说明退化成了正常的二分查找，能够收敛
+            //如果处在不同的半段，为了在target所在的分段查找，我们需要把nums[mid]置为正无穷或负无穷，来跳过其所在的分段
+            int cmp = nums[mid];
+            if ( (target < nums[0]) == (nums[mid] < nums[0]) )
+                cmp = nums[mid];
+            else {
+                //target在左半段
+                if (target >= nums[0])
+                    cmp = INT_MAX;
+                else 
+                    cmp = -INT_MAX;
+            }
+            //cout << left << right << mid << endl;
+            //此时再进行二分比较
+            //在右半段找
+            if (target > cmp)
+                left = mid + 1;
+            else if (target < cmp)
+                right = mid;
+            else 
+                return mid;
+        }
+        //cout << right;
+        //if (right != nums.size() && nums[right] == target)  return right;
+        return -1;
+        
+        /*
+        //二分法。难点在于二分条件的寻找
         if (nums.empty()) return -1;
-        int left = 0, right = nums.size()-1;
+        int left = 0, right = nums.size()-1;    //这里必须要初始化为size-1,因为我们需要和nums[right]比较大小，那么必须要求right对应的下标是有效的
         //二分
         while(left <= right) {
             int mid = left + (right - left) / 2;
@@ -45,6 +79,7 @@ public:
                 else right = mid - 1;
             }
         }
+        */
         return -1;
     }
 };

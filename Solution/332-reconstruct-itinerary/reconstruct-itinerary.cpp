@@ -31,11 +31,12 @@ public:
     vector<string> findItinerary(vector<vector<string>>& tickets) {
         //dfs
         vector<string> ans;
-        unordered_map<string,multiset<string>> m; //这里用multiset，允许出现多个相同的键值，且自动排序
+        unordered_map<string,multiset<string>> m; //这里用multiset，允许出现多个相同的键值，且自动排序。可能会出现相同的行程单
         
         for(auto t : tickets) {
             m[t[0]].insert(t[1]);
         }
+        
         dfs(m,ans,"JFK");
         reverse(ans.begin(),ans.end());
         return ans;

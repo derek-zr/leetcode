@@ -29,6 +29,7 @@
 class Solution {
 public:
     bool increasingTriplet(vector<int>& nums) {
+        
         //第二种方法，O(n)时间复杂度和O(1)空间复杂度
         //用两个值记录，保证num1和num2的递增关系，在向后遍历的过程中，不断更新num1和num2，如果遍历到了大于num2的值，则说明此时num1，num2，now构成了一组递增三元组
         int len = nums.size();
@@ -42,6 +43,7 @@ public:
         }
         
         return false;
+        
         
         /*
         //第一种方法，用两个数组：pre代表0-i内最小的数字，after代表i-n内最大的数字

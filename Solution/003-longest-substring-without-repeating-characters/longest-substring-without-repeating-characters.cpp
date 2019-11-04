@@ -36,6 +36,19 @@
 class Solution {
 public:
     int lengthOfLongestSubstring(string s) {
+        //hashmap建立字符与出现下标间的映射关系，每次更新最长长度即可
+        int start = -1, ans = 0;
+        vector<int> m(256, -1);
+        for (int i = 0; i < s.size(); ++i) {
+            //计算当前无重复的最大起始位置, start和上一次这个字符出现的位置比较
+            start = max(start, m[s[i]]);
+            //更新当前字符的位置
+            m[s[i]] = i;
+            ans = max(ans, i - start);
+        }
+        return ans;
+        
+        /*
         //滑动窗口，并记录窗口内字符的出现次数
         vector<int> cnts(256,0);
         int left = 0 , right = 0;
@@ -50,5 +63,6 @@ public:
             ans = max(ans,right - left);
         }
         return ans;
+        */
     }
 };
