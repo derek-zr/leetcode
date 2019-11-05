@@ -27,7 +27,27 @@
 class Solution {
 public:
     int findDuplicate(vector<int>& nums) {
-        //第一种用二分法，先找到1-n的mid，再统计数组中大于mid和小于mid的数目。
+        //O(n)解法。这道题和找链表环的入口点一样，
+        
+        //第一步用快慢指针找到环
+        int slow = 0, fast = 0, start = 0;
+        while (true) {
+            slow = nums[slow];
+            fast = nums[nums[fast]];
+            if (slow == fast)  break;
+        }
+        
+        //找环的入口点，一个从头走，一个从相遇点走
+        while (true) {
+            slow = nums[slow];
+            start = nums[start];
+            if (slow == start)  break;
+        }
+        
+        return slow;
+        
+        /*
+        //第一种用二分法，先找到1-n的mid，再统计数组中大于mid和小于mid的数目。O(nlogn)
         int left = 0, right = nums.size();
         while(left < right) {
             int mid = left + (right-left)/2;
@@ -41,5 +61,6 @@ public:
         }
         
         return right;
+        */
     }
 };

@@ -30,6 +30,8 @@
 class Solution {
 public:
     int minPatches(vector<int>& nums, int n) {
+        //这道题很像腾讯暑期实习的机试题，凑硬币和这个的题目要求基本相同
+        
         long cur_last = 1;  //表示当前遍历到的数组能够组成的范围为[0,cur_last-1]
         int ans = 0, i = 0;
         //直到当前能够遍历到的范围大于n

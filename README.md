@@ -1,8 +1,8 @@
 # :pencil2: Leetcode Solutions with Cpp  
-Update time:  2019-11-04 10:50:04  
+Update time:  2019-11-05 10:50:32  
 Solution by Derek Zheng (Contact ME at derek.zhengrui@gmail.com)  
 Auto created by [leetcode_generate](https://github.com/bonfy/leetcode)  
-I have solved **525   /   1155** problems~  
+I have solved **530   /   1155** problems~  
 
 | # | Title | Source Code | Article | Difficulty |  
 |:---:|:---:|:---:|:---:|:---:|
@@ -468,19 +468,19 @@ I have solved **525   /   1155** problems~
 |485|[max-consecutive-ones](https://leetcode.com/problems/max-consecutive-ones)|[Cpp](https://github.com/derek-zr/leetcode/blob/master/./Solution/485-max-consecutive-ones/max-consecutive-ones.cpp)|[:memo:](https://leetcode.com/articles/max-consecutive-ones/)|Easy|
 |486|[predict-the-winner](https://leetcode.com/problems/predict-the-winner)|[Cpp](https://github.com/derek-zr/leetcode/blob/master/./Solution/486-predict-the-winner/predict-the-winner.cpp)|[:memo:](https://leetcode.com/articles/predict-the-winner/)|Medium|
 |487|[max-consecutive-ones-ii](https://leetcode.com/problems/max-consecutive-ones-ii)|:lock:||Medium|
-|488|[zuma-game](https://leetcode.com/problems/zuma-game)|||Hard|
+|488|[zuma-game](https://leetcode.com/problems/zuma-game)|[Cpp](https://github.com/derek-zr/leetcode/blob/master/./Solution/488-zuma-game/zuma-game.cpp)||Hard|
 |490|[the-maze](https://leetcode.com/problems/the-maze)|:lock:|[:memo:](https://leetcode.com/articles/the-maze/)|Medium|
 |491|[increasing-subsequences](https://leetcode.com/problems/increasing-subsequences)|[Cpp](https://github.com/derek-zr/leetcode/blob/master/./Solution/491-increasing-subsequences/increasing-subsequences.cpp)||Medium|
 |492|[construct-the-rectangle](https://leetcode.com/problems/construct-the-rectangle)|[Cpp](https://github.com/derek-zr/leetcode/blob/master/./Solution/492-construct-the-rectangle/construct-the-rectangle.cpp)||Easy|
 |493|[reverse-pairs](https://leetcode.com/problems/reverse-pairs)|[Cpp](https://github.com/derek-zr/leetcode/blob/master/./Solution/493-reverse-pairs/reverse-pairs.cpp)|[:memo:](https://leetcode.com/articles/reverse-pairs/)|Hard|
 |494|[target-sum](https://leetcode.com/problems/target-sum)|[Cpp](https://github.com/derek-zr/leetcode/blob/master/./Solution/494-target-sum/target-sum.cpp)|[:memo:](https://leetcode.com/articles/target-sum/)|Medium|
-|495|[teemo-attacking](https://leetcode.com/problems/teemo-attacking)||[:memo:](https://leetcode.com/articles/teemo-attacking/)|Medium|
+|495|[teemo-attacking](https://leetcode.com/problems/teemo-attacking)|[Cpp](https://github.com/derek-zr/leetcode/blob/master/./Solution/495-teemo-attacking/teemo-attacking.cpp)|[:memo:](https://leetcode.com/articles/teemo-attacking/)|Medium|
 |496|[next-greater-element-i](https://leetcode.com/problems/next-greater-element-i)|[Cpp](https://github.com/derek-zr/leetcode/blob/master/./Solution/496-next-greater-element-i/next-greater-element-i.cpp)|[:memo:](https://leetcode.com/articles/greater-element-i/)|Easy|
-|498|[diagonal-traverse](https://leetcode.com/problems/diagonal-traverse)|||Medium|
+|498|[diagonal-traverse](https://leetcode.com/problems/diagonal-traverse)|[Cpp](https://github.com/derek-zr/leetcode/blob/master/./Solution/498-diagonal-traverse/diagonal-traverse.cpp)||Medium|
 |499|[the-maze-iii](https://leetcode.com/problems/the-maze-iii)|:lock:||Hard|
 |500|[keyboard-row](https://leetcode.com/problems/keyboard-row)|[Cpp](https://github.com/derek-zr/leetcode/blob/master/./Solution/500-keyboard-row/keyboard-row.cpp)||Easy|
-|501|[find-mode-in-binary-search-tree](https://leetcode.com/problems/find-mode-in-binary-search-tree)|||Easy|
-|502|[ipo](https://leetcode.com/problems/ipo)||[:memo:](https://leetcode.com/articles/ipo/)|Hard|
+|501|[find-mode-in-binary-search-tree](https://leetcode.com/problems/find-mode-in-binary-search-tree)|[Cpp](https://github.com/derek-zr/leetcode/blob/master/./Solution/501-find-mode-in-binary-search-tree/find-mode-in-binary-search-tree.cpp)||Easy|
+|502|[ipo](https://leetcode.com/problems/ipo)|[Cpp](https://github.com/derek-zr/leetcode/blob/master/./Solution/502-ipo/ipo.cpp)|[:memo:](https://leetcode.com/articles/ipo/)|Hard|
 |503|[next-greater-element-ii](https://leetcode.com/problems/next-greater-element-ii)||[:memo:](https://leetcode.com/articles/next-greater-element-ii/)|Medium|
 |504|[base-7](https://leetcode.com/problems/base-7)|||Easy|
 |505|[the-maze-ii](https://leetcode.com/problems/the-maze-ii)|:lock:|[:memo:](https://leetcode.com/articles/the-maze-ii/)|Medium|
@@ -1075,9 +1075,9 @@ I have solved **525   /   1155** problems~
 |1090|[largest-values-from-labels](https://leetcode.com/problems/largest-values-from-labels)|||Medium|
 |1092|[shortest-common-supersequence](https://leetcode.com/problems/shortest-common-supersequence)|||Hard|
 |1091|[shortest-path-in-binary-matrix](https://leetcode.com/problems/shortest-path-in-binary-matrix)|||Medium|
-|1243|[array-transformation](https://leetcode.com/problems/array-transformation)|||Easy|
-|1244|[design-a-leaderboard](https://leetcode.com/problems/design-a-leaderboard)|||Medium|
-|1245|[tree-diameter](https://leetcode.com/problems/tree-diameter)|||Medium|
+|1243|[array-transformation](https://leetcode.com/problems/array-transformation)|:lock:||Easy|
+|1244|[design-a-leaderboard](https://leetcode.com/problems/design-a-leaderboard)|:lock:||Medium|
+|1245|[tree-diameter](https://leetcode.com/problems/tree-diameter)|:lock:||Medium|
 |1216|[valid-palindrome-iii](https://leetcode.com/problems/valid-palindrome-iii)|:lock:||Hard|
 |1093|[statistics-from-a-large-sample](https://leetcode.com/problems/statistics-from-a-large-sample)|||Medium|
 |1094|[car-pooling](https://leetcode.com/problems/car-pooling)|||Medium|
@@ -1088,7 +1088,7 @@ I have solved **525   /   1155** problems~
 |1103|[distribute-candies-to-people](https://leetcode.com/problems/distribute-candies-to-people)||[:memo:](https://leetcode.com/articles/distribute-candies-to-people/)|Easy|
 |1105|[filling-bookcase-shelves](https://leetcode.com/problems/filling-bookcase-shelves)|||Medium|
 |1106|[parsing-a-boolean-expression](https://leetcode.com/problems/parsing-a-boolean-expression)|||Hard|
-|1246|[palindrome-removal](https://leetcode.com/problems/palindrome-removal)|||Hard|
+|1246|[palindrome-removal](https://leetcode.com/problems/palindrome-removal)|:lock:||Hard|
 |1108|[defanging-an-ip-address](https://leetcode.com/problems/defanging-an-ip-address)|||Easy|
 |1109|[corporate-flight-bookings](https://leetcode.com/problems/corporate-flight-bookings)|||Medium|
 |1110|[delete-nodes-and-return-forest](https://leetcode.com/problems/delete-nodes-and-return-forest)|||Medium|
@@ -1157,7 +1157,7 @@ I have solved **525   /   1155** problems~
 |1239|[maximum-length-of-a-concatenated-string-with-unique-characters](https://leetcode.com/problems/maximum-length-of-a-concatenated-string-with-unique-characters)|||Medium|
 |1240|[tiling-a-rectangle-with-the-fewest-squares](https://leetcode.com/problems/tiling-a-rectangle-with-the-fewest-squares)|||Hard|
 |1227|[airplane-seat-assignment-probability](https://leetcode.com/problems/airplane-seat-assignment-probability)|||Medium|
-|1247|[minimum-swaps-to-make-strings-equal](https://leetcode.com/problems/minimum-swaps-to-make-strings-equal)|||Easy|
+|1247|[minimum-swaps-to-make-strings-equal](https://leetcode.com/problems/minimum-swaps-to-make-strings-equal)|||Medium|
 |1248|[count-number-of-nice-subarrays](https://leetcode.com/problems/count-number-of-nice-subarrays)|||Medium|
 |1249|[minimum-remove-to-make-valid-parentheses](https://leetcode.com/problems/minimum-remove-to-make-valid-parentheses)|||Medium|
 |1250|[check-if-it-is-a-good-array](https://leetcode.com/problems/check-if-it-is-a-good-array)|||Hard|

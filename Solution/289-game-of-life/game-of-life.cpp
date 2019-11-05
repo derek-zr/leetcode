@@ -43,10 +43,10 @@ class Solution {
 public:
     //用状态机编码解决。能够在 in place内解决
     //将各种情况分别编码为1 2 3 4.
-    //状态0： 死细胞转为死细胞
     //状态1： 活细胞转为活细胞
     //状态2： 活细胞转为死细胞
     //状态3： 死细胞转为活细胞
+    //状态4： 死细胞转为死细胞
     //最后能活下来的即1 3, 所以得到状态后对各点取余即可
     void gameOfLife(vector<vector<int>>& board) {
         if(board.empty() || board[0].empty()) return; 
@@ -61,6 +61,7 @@ public:
                 for(int k = 0; k < 8; ++k) {
                     int tmpX = i + dx[k];
                     int tmpY = j + dy[k];
+                    //状态为1或2代表当前状态为live
                     if(tmpX>=0 && tmpX<rows && tmpY>=0 && tmpY<cols && (board[tmpX][tmpY]==1 || board[tmpX][tmpY]==2)){
                         ++cnts;
                     }

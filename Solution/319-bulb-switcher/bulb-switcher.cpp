@@ -19,8 +19,9 @@
 class Solution {
 public:
     int bulbSwitch(int n) {
+        //找完全平方数的个数
         int res = 1;
-        while(res*res<=n) res++;
+        while(res*res <= n) res++;
         return res-1;
     }
 };
