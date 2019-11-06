@@ -1,8 +1,8 @@
 # :pencil2: Leetcode Solutions with Cpp  
-Update time:  2019-11-05 10:50:32  
+Update time:  2019-11-06 10:50:25  
 Solution by Derek Zheng (Contact ME at derek.zhengrui@gmail.com)  
 Auto created by [leetcode_generate](https://github.com/bonfy/leetcode)  
-I have solved **530   /   1155** problems~  
+I have solved **532   /   1155** problems~  
 
 | # | Title | Source Code | Article | Difficulty |  
 |:---:|:---:|:---:|:---:|:---:|
@@ -138,7 +138,7 @@ I have solved **530   /   1155** problems~
 |130|[surrounded-regions](https://leetcode.com/problems/surrounded-regions)|[Cpp](https://github.com/derek-zr/leetcode/blob/master/./Solution/130-surrounded-regions/surrounded-regions.cpp)||Medium|
 |131|[palindrome-partitioning](https://leetcode.com/problems/palindrome-partitioning)|[Cpp](https://github.com/derek-zr/leetcode/blob/master/./Solution/131-palindrome-partitioning/palindrome-partitioning.cpp)||Medium|
 |132|[palindrome-partitioning-ii](https://leetcode.com/problems/palindrome-partitioning-ii)|[Cpp](https://github.com/derek-zr/leetcode/blob/master/./Solution/132-palindrome-partitioning-ii/palindrome-partitioning-ii.cpp)||Hard|
-|133|[clone-graph](https://leetcode.com/problems/clone-graph)|[Cpp](https://github.com/derek-zr/leetcode/blob/master/./Solution/133-clone-graph/clone-graph.cpp)||Medium|
+|133|[clone-graph](https://leetcode.com/problems/clone-graph)|[Cpp](https://github.com/derek-zr/leetcode/blob/master/./Solution/133-clone-graph/clone-graph.cpp)|[:memo:](https://leetcode.com/articles/clone-graph/)|Medium|
 |134|[gas-station](https://leetcode.com/problems/gas-station)|[Cpp](https://github.com/derek-zr/leetcode/blob/master/./Solution/134-gas-station/gas-station.cpp)|[:memo:](https://leetcode.com/articles/gas-station/)|Medium|
 |135|[candy](https://leetcode.com/problems/candy)|[Cpp](https://github.com/derek-zr/leetcode/blob/master/./Solution/135-candy/candy.cpp)|[:memo:](https://leetcode.com/articles/candy/)|Hard|
 |136|[single-number](https://leetcode.com/problems/single-number)|[Cpp](https://github.com/derek-zr/leetcode/blob/master/./Solution/136-single-number/single-number.cpp)|[:memo:](https://leetcode.com/articles/single-number/)|Easy|
@@ -191,7 +191,7 @@ I have solved **530   /   1155** problems~
 |199|[binary-tree-right-side-view](https://leetcode.com/problems/binary-tree-right-side-view)|[Cpp](https://github.com/derek-zr/leetcode/blob/master/./Solution/199-binary-tree-right-side-view/binary-tree-right-side-view.cpp)|[:memo:](https://leetcode.com/articles/binary-tree-right-side-view/)|Medium|
 |200|[number-of-islands](https://leetcode.com/problems/number-of-islands)|[Cpp](https://github.com/derek-zr/leetcode/blob/master/./Solution/200-number-of-islands/number-of-islands.cpp)|[:memo:](https://leetcode.com/articles/number-of-islands/)|Medium|
 |201|[bitwise-and-of-numbers-range](https://leetcode.com/problems/bitwise-and-of-numbers-range)|[Cpp](https://github.com/derek-zr/leetcode/blob/master/./Solution/201-bitwise-and-of-numbers-range/bitwise-and-of-numbers-range.cpp)||Medium|
-|202|[happy-number](https://leetcode.com/problems/happy-number)|[Cpp](https://github.com/derek-zr/leetcode/blob/master/./Solution/202-happy-number/happy-number.cpp)||Easy|
+|202|[happy-number](https://leetcode.com/problems/happy-number)|[Cpp](https://github.com/derek-zr/leetcode/blob/master/./Solution/202-happy-number/happy-number.cpp)|[:memo:](https://leetcode.com/articles/happy-number/)|Easy|
 |203|[remove-linked-list-elements](https://leetcode.com/problems/remove-linked-list-elements)|[Cpp](https://github.com/derek-zr/leetcode/blob/master/./Solution/203-remove-linked-list-elements/remove-linked-list-elements.cpp)|[:memo:](https://leetcode.com/articles/remove-linked-list-elements/)|Easy|
 |204|[count-primes](https://leetcode.com/problems/count-primes)|[Cpp](https://github.com/derek-zr/leetcode/blob/master/./Solution/204-count-primes/count-primes.cpp)||Easy|
 |205|[isomorphic-strings](https://leetcode.com/problems/isomorphic-strings)|[Cpp](https://github.com/derek-zr/leetcode/blob/master/./Solution/205-isomorphic-strings/isomorphic-strings.cpp)||Easy|
@@ -481,8 +481,8 @@ I have solved **530   /   1155** problems~
 |500|[keyboard-row](https://leetcode.com/problems/keyboard-row)|[Cpp](https://github.com/derek-zr/leetcode/blob/master/./Solution/500-keyboard-row/keyboard-row.cpp)||Easy|
 |501|[find-mode-in-binary-search-tree](https://leetcode.com/problems/find-mode-in-binary-search-tree)|[Cpp](https://github.com/derek-zr/leetcode/blob/master/./Solution/501-find-mode-in-binary-search-tree/find-mode-in-binary-search-tree.cpp)||Easy|
 |502|[ipo](https://leetcode.com/problems/ipo)|[Cpp](https://github.com/derek-zr/leetcode/blob/master/./Solution/502-ipo/ipo.cpp)|[:memo:](https://leetcode.com/articles/ipo/)|Hard|
-|503|[next-greater-element-ii](https://leetcode.com/problems/next-greater-element-ii)||[:memo:](https://leetcode.com/articles/next-greater-element-ii/)|Medium|
-|504|[base-7](https://leetcode.com/problems/base-7)|||Easy|
+|503|[next-greater-element-ii](https://leetcode.com/problems/next-greater-element-ii)|[Cpp](https://github.com/derek-zr/leetcode/blob/master/./Solution/503-next-greater-element-ii/next-greater-element-ii.cpp)|[:memo:](https://leetcode.com/articles/next-greater-element-ii/)|Medium|
+|504|[base-7](https://leetcode.com/problems/base-7)|[Cpp](https://github.com/derek-zr/leetcode/blob/master/./Solution/504-base-7/base-7.cpp)||Easy|
 |505|[the-maze-ii](https://leetcode.com/problems/the-maze-ii)|:lock:|[:memo:](https://leetcode.com/articles/the-maze-ii/)|Medium|
 |506|[relative-ranks](https://leetcode.com/problems/relative-ranks)|[Cpp](https://github.com/derek-zr/leetcode/blob/master/./Solution/506-relative-ranks/relative-ranks.cpp)||Easy|
 |507|[perfect-number](https://leetcode.com/problems/perfect-number)|[Cpp](https://github.com/derek-zr/leetcode/blob/master/./Solution/507-perfect-number/perfect-number.cpp)|[:memo:](https://leetcode.com/articles/perfect-number/)|Easy|
