@@ -36,34 +36,36 @@
 class Solution {
 public:
     vector<TreeNode*> generateTrees(int n) {
-        if(n==0) return {};
-        //递归法。如果i是根节点，则左子树必定为1 to i-1的点，右子树必定为i+1 to n的点。
-        return helper(1,n);
+        //遍历各个数字作为root的情况
+        vector<TreeNode*> ans;
+        if (n == 0)  return ans;
+        return helper(1, n);
     }
     
-    vector<TreeNode*> helper(int start,int end) {
+    vector<TreeNode*> helper(int start, int end) {
         vector<TreeNode*> ans;
-        if(start>end) {  //不可能存在这样的数，即为空节点
+        //没有符合条件的点
+        if (start > end) {
             ans.push_back(NULL);
             return ans;
-        }
-        if(start==end) {  //只有一个符合条件的数
+        }    
+        //只有一个符合条件的点
+        if (start == end) {
             ans.push_back(new TreeNode(start));
             return ans;
         }
         
-        //左右子树的可能性
-        vector<TreeNode*> leftTree,rightTree;
-        for(int i = start; i <= end; ++i) {
-            //i为根节点
-            leftTree = helper(start,i-1);  
-            rightTree = helper(i+1,end);
-            for(TreeNode* left_t : leftTree) {
-                for(TreeNode* right_t : rightTree) {
+        //遍历各个点作为根节点
+        for (int i = start; i <= end; ++i) {
+            vector<TreeNode*> leftTree = helper(start, i - 1);
+            vector<TreeNode*> rightTree = helper(i + 1, end);
+            //连接根节点和左右子树
+            for (TreeNode* l : leftTree) {
+                for (TreeNode* r : rightTree) {
                     TreeNode* root = new TreeNode(i);
-                    root->left = left_t;
-                    root->right = right_t;  
-                    ans.push_back(root);  //存入各种情况
+                    root->left = l;
+                    root->right = r;
+                    ans.push_back(root);
                 }
             }
         }
