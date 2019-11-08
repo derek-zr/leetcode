@@ -16,6 +16,44 @@
 class Solution {
 public:
     int minSubArrayLen(int s, vector<int>& nums) {
+        //前缀和数组找边界
+        int len = nums.size(), ans = INT_MAX;
+        vector<int> preSum(len + 1, 0);
+        for (int i = 1; i <= len; ++i) preSum[i] = preSum[i-1] + nums[i-1];
+        //二分法找边界
+        for (int i = 0; i < len; ++i) {
+            //注意！！！preSum数组比nums数组要长一个，所以二分边界要注意
+            int left = i + 1, right = len + 1, target = preSum[i] + s;
+            while(left < right) {
+                int mid = left + (right - left) / 2;
+                if (preSum[mid] < target) left = mid + 1;
+                else right = mid;
+            }
+            //cout<<left<<right<<i<<endl;
+            if (right == len+1) break;
+            ans = min(ans, right - i);
+        }
+        
+        return ans == INT_MAX ? 0 : ans;
+        
+        
+        /*
+        //双指针
+        int len = nums.size(), left = 0, sum = 0;
+        int ans = INT_MAX;
+        for (int i = 0; i < len; ++i) {
+            sum += nums[i];
+            while (left <= i && sum >= s) {
+                ans = min(ans, i - left + 1);
+                sum -= nums[left];
+                ++left;
+            }
+        }
+        
+        return ans == INT_MAX ? 0 : ans;
+        */
+        
+        /*
         //O(nlogn) 在前缀和数组里面找右边界
         int len = nums.size(), ans = INT_MAX;
         vector<int> sums(len+1,0);
@@ -33,7 +71,7 @@ public:
             ans = min(ans,left-i);
         }
         return ans==INT_MAX? 0 : ans;
-        
+        */
         
         /* O(n)
         //双指针，在遍历中不断移动左指针

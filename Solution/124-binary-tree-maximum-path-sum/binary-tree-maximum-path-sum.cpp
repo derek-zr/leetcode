@@ -43,15 +43,15 @@ class Solution {
 public:
     int maxPathSum(TreeNode* root) {
         int ans  = INT_MIN;
-        dfs(root,ans);
+        dfs(root, ans);
         return ans;
     }
     
-    int dfs(TreeNode* root,int& ans) {
-        if(root==NULL) return 0;
-        int left_sum =  max(0,dfs(root->left,ans));
-        int right_sum =  max(0,dfs(root->right,ans));
-        ans = max(ans,left_sum+right_sum+root->val);  //要考虑不经过顶层根节点的情况
-        return max(left_sum,right_sum) + root->val;   //回溯到上层根节点时，只能选择左右子树中的一个
+    int dfs(TreeNode* root, int& ans) {
+        if(root == NULL) return 0;
+        int left_sum =  max(0, dfs(root->left, ans));
+        int right_sum =  max(0, dfs(root->right, ans));
+        ans = max(ans, left_sum + right_sum + root->val);  //要考虑不经过顶层根节点的情况
+        return max(left_sum, right_sum) + root->val;   //回溯到上层根节点时，只能选择左右子树中的一个
     }
 };
