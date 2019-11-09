@@ -1,8 +1,8 @@
 # :pencil2: Leetcode Solutions with Cpp  
-Update time:  2019-11-08 10:53:00  
+Update time:  2019-11-09 10:49:44  
 Solution by Derek Zheng (Contact ME at derek.zhengrui@gmail.com)  
 Auto created by [leetcode_generate](https://github.com/bonfy/leetcode)  
-I have solved **532   /   1155** problems~  
+I have solved **533   /   1155** problems~  
 
 | # | Title | Source Code | Article | Difficulty |  
 |:---:|:---:|:---:|:---:|:---:|
@@ -498,7 +498,7 @@ I have solved **532   /   1155** problems~
 |520|[detect-capital](https://leetcode.com/problems/detect-capital)|[Cpp](https://github.com/derek-zr/leetcode/blob/master/./Solution/520-detect-capital/detect-capital.cpp)||Easy|
 |521|[longest-uncommon-subsequence-i](https://leetcode.com/problems/longest-uncommon-subsequence-i)|[Cpp](https://github.com/derek-zr/leetcode/blob/master/./Solution/521-longest-uncommon-subsequence-i/longest-uncommon-subsequence-i.cpp)|[:memo:](https://leetcode.com/articles/longest-uncommon-subsequence-i/)|Easy|
 |522|[longest-uncommon-subsequence-ii](https://leetcode.com/problems/longest-uncommon-subsequence-ii)||[:memo:](https://leetcode.com/articles/longest-uncommon-subsequence-ii/)|Medium|
-|523|[continuous-subarray-sum](https://leetcode.com/problems/continuous-subarray-sum)||[:memo:](https://leetcode.com/articles/continous-subarray-sum/)|Medium|
+|523|[continuous-subarray-sum](https://leetcode.com/problems/continuous-subarray-sum)|[Cpp](https://github.com/derek-zr/leetcode/blob/master/./Solution/523-continuous-subarray-sum/continuous-subarray-sum.cpp)|[:memo:](https://leetcode.com/articles/continous-subarray-sum/)|Medium|
 |524|[longest-word-in-dictionary-through-deleting](https://leetcode.com/problems/longest-word-in-dictionary-through-deleting)||[:memo:](https://leetcode.com/articles/longest-word-in-dictionary-through-deletion/)|Medium|
 |525|[contiguous-array](https://leetcode.com/problems/contiguous-array)||[:memo:](https://leetcode.com/articles/contiguous-array/)|Medium|
 |526|[beautiful-arrangement](https://leetcode.com/problems/beautiful-arrangement)|[Cpp](https://github.com/derek-zr/leetcode/blob/master/./Solution/526-beautiful-arrangement/beautiful-arrangement.cpp)|[:memo:](https://leetcode.com/articles/beautiful-arrangement/)|Medium|
