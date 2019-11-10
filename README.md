@@ -1,8 +1,8 @@
 # :pencil2: Leetcode Solutions with Cpp  
-Update time:  2019-11-09 10:49:44  
+Update time:  2019-11-10 10:48:52  
 Solution by Derek Zheng (Contact ME at derek.zhengrui@gmail.com)  
 Auto created by [leetcode_generate](https://github.com/bonfy/leetcode)  
-I have solved **533   /   1155** problems~  
+I have solved **535   /   1155** problems~  
 
 | # | Title | Source Code | Article | Difficulty |  
 |:---:|:---:|:---:|:---:|:---:|
@@ -499,8 +499,8 @@ I have solved **533   /   1155** problems~
 |521|[longest-uncommon-subsequence-i](https://leetcode.com/problems/longest-uncommon-subsequence-i)|[Cpp](https://github.com/derek-zr/leetcode/blob/master/./Solution/521-longest-uncommon-subsequence-i/longest-uncommon-subsequence-i.cpp)|[:memo:](https://leetcode.com/articles/longest-uncommon-subsequence-i/)|Easy|
 |522|[longest-uncommon-subsequence-ii](https://leetcode.com/problems/longest-uncommon-subsequence-ii)||[:memo:](https://leetcode.com/articles/longest-uncommon-subsequence-ii/)|Medium|
 |523|[continuous-subarray-sum](https://leetcode.com/problems/continuous-subarray-sum)|[Cpp](https://github.com/derek-zr/leetcode/blob/master/./Solution/523-continuous-subarray-sum/continuous-subarray-sum.cpp)|[:memo:](https://leetcode.com/articles/continous-subarray-sum/)|Medium|
-|524|[longest-word-in-dictionary-through-deleting](https://leetcode.com/problems/longest-word-in-dictionary-through-deleting)||[:memo:](https://leetcode.com/articles/longest-word-in-dictionary-through-deletion/)|Medium|
-|525|[contiguous-array](https://leetcode.com/problems/contiguous-array)||[:memo:](https://leetcode.com/articles/contiguous-array/)|Medium|
+|524|[longest-word-in-dictionary-through-deleting](https://leetcode.com/problems/longest-word-in-dictionary-through-deleting)|[Cpp](https://github.com/derek-zr/leetcode/blob/master/./Solution/524-longest-word-in-dictionary-through-deleting/longest-word-in-dictionary-through-deleting.cpp)|[:memo:](https://leetcode.com/articles/longest-word-in-dictionary-through-deletion/)|Medium|
+|525|[contiguous-array](https://leetcode.com/problems/contiguous-array)|[Cpp](https://github.com/derek-zr/leetcode/blob/master/./Solution/525-contiguous-array/contiguous-array.cpp)|[:memo:](https://leetcode.com/articles/contiguous-array/)|Medium|
 |526|[beautiful-arrangement](https://leetcode.com/problems/beautiful-arrangement)|[Cpp](https://github.com/derek-zr/leetcode/blob/master/./Solution/526-beautiful-arrangement/beautiful-arrangement.cpp)|[:memo:](https://leetcode.com/articles/beautiful-arrangement/)|Medium|
 |527|[word-abbreviation](https://leetcode.com/problems/word-abbreviation)|:lock:|[:memo:](https://leetcode.com/articles/word-abbreviation/)|Hard|
 |529|[minesweeper](https://leetcode.com/problems/minesweeper)|||Medium|
