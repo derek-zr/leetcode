@@ -1,8 +1,8 @@
 # :pencil2: Leetcode Solutions with Cpp  
-Update time:  2019-11-10 10:48:52  
+Update time:  2019-11-11 10:49:04  
 Solution by Derek Zheng (Contact ME at derek.zhengrui@gmail.com)  
 Auto created by [leetcode_generate](https://github.com/bonfy/leetcode)  
-I have solved **535   /   1155** problems~  
+I have solved **537   /   1159** problems~  
 
 | # | Title | Source Code | Article | Difficulty |  
 |:---:|:---:|:---:|:---:|:---:|
@@ -159,7 +159,7 @@ I have solved **535   /   1155** problems~
 |151|[reverse-words-in-a-string](https://leetcode.com/problems/reverse-words-in-a-string)|[Cpp](https://github.com/derek-zr/leetcode/blob/master/./Solution/151-reverse-words-in-a-string/reverse-words-in-a-string.cpp)||Medium|
 |152|[maximum-product-subarray](https://leetcode.com/problems/maximum-product-subarray)|[Cpp](https://github.com/derek-zr/leetcode/blob/master/./Solution/152-maximum-product-subarray/maximum-product-subarray.cpp)||Medium|
 |153|[find-minimum-in-rotated-sorted-array](https://leetcode.com/problems/find-minimum-in-rotated-sorted-array)|[Cpp](https://github.com/derek-zr/leetcode/blob/master/./Solution/153-find-minimum-in-rotated-sorted-array/find-minimum-in-rotated-sorted-array.cpp)|[:memo:](https://leetcode.com/articles/find-minimum-in-rotated-sorted-array/)|Medium|
-|154|[find-minimum-in-rotated-sorted-array-ii](https://leetcode.com/problems/find-minimum-in-rotated-sorted-array-ii)|[Cpp](https://github.com/derek-zr/leetcode/blob/master/./Solution/154-find-minimum-in-rotated-sorted-array-ii/find-minimum-in-rotated-sorted-array-ii.cpp)||Hard|
+|154|[find-minimum-in-rotated-sorted-array-ii](https://leetcode.com/problems/find-minimum-in-rotated-sorted-array-ii)|[Cpp](https://github.com/derek-zr/leetcode/blob/master/./Solution/154-find-minimum-in-rotated-sorted-array-ii/find-minimum-in-rotated-sorted-array-ii.cpp)|[:memo:](https://leetcode.com/articles/find-minimum-in-rotated-sorted-array-ii/)|Hard|
 |155|[min-stack](https://leetcode.com/problems/min-stack)|[Cpp](https://github.com/derek-zr/leetcode/blob/master/./Solution/155-min-stack/min-stack.cpp)||Easy|
 |156|[binary-tree-upside-down](https://leetcode.com/problems/binary-tree-upside-down)|:lock:||Medium|
 |157|[read-n-characters-given-read4](https://leetcode.com/problems/read-n-characters-given-read4)|:lock:||Easy|
@@ -503,7 +503,7 @@ I have solved **535   /   1155** problems~
 |525|[contiguous-array](https://leetcode.com/problems/contiguous-array)|[Cpp](https://github.com/derek-zr/leetcode/blob/master/./Solution/525-contiguous-array/contiguous-array.cpp)|[:memo:](https://leetcode.com/articles/contiguous-array/)|Medium|
 |526|[beautiful-arrangement](https://leetcode.com/problems/beautiful-arrangement)|[Cpp](https://github.com/derek-zr/leetcode/blob/master/./Solution/526-beautiful-arrangement/beautiful-arrangement.cpp)|[:memo:](https://leetcode.com/articles/beautiful-arrangement/)|Medium|
 |527|[word-abbreviation](https://leetcode.com/problems/word-abbreviation)|:lock:|[:memo:](https://leetcode.com/articles/word-abbreviation/)|Hard|
-|529|[minesweeper](https://leetcode.com/problems/minesweeper)|||Medium|
+|529|[minesweeper](https://leetcode.com/problems/minesweeper)|[Cpp](https://github.com/derek-zr/leetcode/blob/master/./Solution/529-minesweeper/minesweeper.cpp)||Medium|
 |530|[minimum-absolute-difference-in-bst](https://leetcode.com/problems/minimum-absolute-difference-in-bst)|||Easy|
 |531|[lonely-pixel-i](https://leetcode.com/problems/lonely-pixel-i)|:lock:||Medium|
 |532|[k-diff-pairs-in-an-array](https://leetcode.com/problems/k-diff-pairs-in-an-array)|||Easy|
@@ -831,7 +831,7 @@ I have solved **535   /   1155** problems~
 |877|[stone-game](https://leetcode.com/problems/stone-game)|[Cpp](https://github.com/derek-zr/leetcode/blob/master/./Solution/877-stone-game/stone-game.cpp)|[:memo:](https://leetcode.com/articles/stone-game/)|Medium|
 |878|[nth-magical-number](https://leetcode.com/problems/nth-magical-number)||[:memo:](https://leetcode.com/articles/nth-magical-number/)|Hard|
 |879|[profitable-schemes](https://leetcode.com/problems/profitable-schemes)|[Cpp](https://github.com/derek-zr/leetcode/blob/master/./Solution/879-profitable-schemes/profitable-schemes.cpp)|[:memo:](https://leetcode.com/articles/profitable-schemes/)|Hard|
-|528|[random-pick-with-weight](https://leetcode.com/problems/random-pick-with-weight)||[:memo:](https://leetcode.com/articles/random-pick-with-weight/)|Medium|
+|528|[random-pick-with-weight](https://leetcode.com/problems/random-pick-with-weight)|[Cpp](https://github.com/derek-zr/leetcode/blob/master/./Solution/528-random-pick-with-weight/random-pick-with-weight.cpp)|[:memo:](https://leetcode.com/articles/random-pick-with-weight/)|Medium|
 |519|[random-flip-matrix](https://leetcode.com/problems/random-flip-matrix)|[Cpp](https://github.com/derek-zr/leetcode/blob/master/./Solution/519-random-flip-matrix/random-flip-matrix.cpp)|[:memo:](https://leetcode.com/articles/random-flip-matrix/)|Medium|
 |497|[random-point-in-non-overlapping-rectangles](https://leetcode.com/problems/random-point-in-non-overlapping-rectangles)|[Cpp](https://github.com/derek-zr/leetcode/blob/master/./Solution/497-random-point-in-non-overlapping-rectangles/random-point-in-non-overlapping-rectangles.cpp)|[:memo:](https://leetcode.com/articles/random-point-in-non-overlapping-rectangles/)|Medium|
 |478|[generate-random-point-in-a-circle](https://leetcode.com/problems/generate-random-point-in-a-circle)|[Cpp](https://github.com/derek-zr/leetcode/blob/master/./Solution/478-generate-random-point-in-a-circle/generate-random-point-in-a-circle.cpp)|[:memo:](https://leetcode.com/articles/generate-random-point-in-a-circle/)|Medium|
@@ -1161,3 +1161,7 @@ I have solved **535   /   1155** problems~
 |1248|[count-number-of-nice-subarrays](https://leetcode.com/problems/count-number-of-nice-subarrays)|||Medium|
 |1249|[minimum-remove-to-make-valid-parentheses](https://leetcode.com/problems/minimum-remove-to-make-valid-parentheses)|||Medium|
 |1250|[check-if-it-is-a-good-array](https://leetcode.com/problems/check-if-it-is-a-good-array)|||Hard|
+|1252|[cells-with-odd-values-in-a-matrix](https://leetcode.com/problems/cells-with-odd-values-in-a-matrix)|||Easy|
+|1253|[reconstruct-a-2-row-binary-matrix](https://leetcode.com/problems/reconstruct-a-2-row-binary-matrix)|||Medium|
+|1254|[number-of-closed-islands](https://leetcode.com/problems/number-of-closed-islands)|||Medium|
+|1255|[maximum-score-words-formed-by-letters](https://leetcode.com/problems/maximum-score-words-formed-by-letters)|||Hard|
