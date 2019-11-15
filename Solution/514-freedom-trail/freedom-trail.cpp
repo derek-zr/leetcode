@@ -36,26 +36,34 @@
 //
 
 
-/*
-动态规划记录当前的状态result[i][j]，即当前匹配到key的第i个字母，ring的第j个字母在12点方向，要匹配key的下一个字母时，可以从上一个状态顺时针或者逆时针转移到现在的状态.结尾的+key.length()是因为选中后需要按button，每次按button算一次步骤.
-*/
 class Solution {
 public:
     int findRotateSteps(string ring, string key) {
-        int rsize=ring.size();
-        int ksize=key.size();
-        vector<int> index[26];  //26个数组,不是一个含26元素的数组
-        for(int i=0;i<rsize;i++)
-            index[ring[i]-'a'].push_back(i);
+        //这道题可以用带memo的dfs或者dp求解
         
-        vector<vector<int>> dp(ksize+1,vector<int>(rsize,INT_MAX));
-        dp[ksize].assign(rsize,0);
-        for(int i=ksize-1;i>=0;i--) 
-            for(int j=0;j<rsize;j++)
-                for(int nxt:index[key[i]-'a']) {
-                    int dist = abs(j-nxt);
-                    dp[i][j]=min(dp[i][j],min(dist,rsize-dist)+dp[i+1][nxt]);
-                }
-        return dp[0][0]+ksize;
+        //对于dfs， 我们记memo[i][j]为从ring字符十二点方向为ring[i]的情况与从j开始的key字符间的匹配关系
+        int len1 = ring.size(), len2 = key.size();
+        vector<vector<int> > charas(26);   //某个字符出现的下标数组
+        for (int i = 0; i < len1; ++i)  charas[ring[i] - 'a'].push_back(i);
+        vector<vector<int> > memo(len1, vector<int>(len2));
+        
+        return helper(ring, key, 0, 0, charas, memo);     //memo[0][0], 最终的结果
+        
+    }
+    
+    int helper(string &ring, string &key, int i, int j, vector<vector<int> > &charas, vector<vector<int> > &memo) {
+        if (j == key.size())  return 0;    //已经遍历完了key
+        if (memo[i][j])   return memo[i][j];
+        int minSteps = INT_MAX, len = ring.size();
+        //开始遍历，ring中可能含有多个和key[j]相等的字符
+        for (int k : charas[key[j] - 'a']) {
+            int diff = abs(i - k);
+            //考虑顺时针或逆时针转，两者步数相加等于总长度
+            int curSteps = min(diff, len - diff);
+            minSteps = min(minSteps, curSteps + helper(ring, key, k, j + 1, charas, memo));
+        }
+        
+        memo[i][j] = minSteps + 1;     //one more step for spelling
+        return memo[i][j];
     }
 };
