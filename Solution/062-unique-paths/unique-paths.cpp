@@ -7,8 +7,7 @@
 //
 // Above is a 7 x 3 grid. How many possible unique paths are there?
 //
-// Note: m and n will be at most 100.
-//
+//  
 // Example 1:
 //
 //
@@ -27,11 +26,32 @@
 // Input: m = 7, n = 3
 // Output: 28
 //
+//
+//  
+// Constraints:
+//
+//
+// 	1 <= m, n <= 100
+// 	It's guaranteed that the answer will be less than or equal to 2 * 10 ^ 9.
+//
+//
 
 
 class Solution {
 public:
     int uniquePaths(int m, int n) {
+        //典型的dp题
+        //dp数组空间压缩到一维
+        vector<int> dp(n, 1);
+        for(int i = 1; i < m; ++i) {
+            for(int j = 1; j < n; ++j) {
+                //相当于利用了上一次遍历的状态，节省了空间
+                dp[j] += dp[j-1];
+            }
+        }
+        return dp[n-1];
+        
+        /*
         int dp[m][n];
         memset(dp,0,sizeof(dp));
         dp[0][0]=1;
@@ -46,5 +66,6 @@ public:
             }
         }
         return dp[m-1][n-1];
+        */
     }
 };

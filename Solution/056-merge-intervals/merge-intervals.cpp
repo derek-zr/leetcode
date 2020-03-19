@@ -19,29 +19,22 @@
 //
 
 
-/**
- * Definition for an interval.
- * struct Interval {
- *     int start;
- *     int end;
- *     Interval() : start(0), end(0) {}
- *     Interval(int s, int e) : start(s), end(e) {}
- * };
- */
 class Solution {
 public:
-    vector<Interval> merge(vector<Interval>& intervals) {
-        if(intervals.empty()) return {};
-        sort(intervals.begin(),intervals.end(),[](Interval&a,Interval&b) {return a.start<b.start;});
-        vector<Interval> ans;
-        ans.push_back(intervals[0]);
+    vector<vector<int>> merge(vector<vector<int>>& intervals) {
+        if (intervals.empty()) return intervals;
+        vector<vector<int>> ans;
+        int len = intervals.size();
+        if (len == 1) return intervals;
+        //题干中没有说明有序，则需要先排序
+        sort(intervals.begin(), intervals.end());
         
-        for(int i=1;i<intervals.size();++i){
-            if(ans.back().end < intervals[i].start) ans.push_back(intervals[i]);
-            else ans.back().end = max(ans.back().end,intervals[i].end);
+        for (int i = 0; i < len; ++i) {
+            if (ans.empty() || ans.back()[1] < intervals[i][0])
+                ans.push_back(intervals[i]);
+            else
+                ans.back()[1] = max(ans.back()[1], intervals[i][1]);
         }
-        
         return ans;
-        
     }
 };

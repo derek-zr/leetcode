@@ -108,6 +108,7 @@
 class Solution {
 public:
     bool isValid(string s) {
+        //左括号压栈，遇到右括号出栈，判断是否匹配
         if(s.size()==0) return true;
         if(s.size()%2==1) return false;
         stack<char> parens;

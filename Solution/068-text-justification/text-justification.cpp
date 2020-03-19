@@ -69,39 +69,46 @@ class Solution {
 public:
     vector<string> fullJustify(vector<string>& words, int maxWidth) {
         vector<string> ans;
-        int i = 0;
-        int len = words.size();
-        while(i < len) {
-            int j = i, tmplen = 0;
-            //word的长度和word间的空格长度
-            while(j < len && tmplen+words[j].size()+j-i <= maxWidth) {
-                tmplen += words[j++].size();
+        int i = 0, len = words.size();
+        while (i < len) {
+            int j = i;
+            int curLen = 0;   //当前行的长度
+            //加空格加下一个单词不超过maxWidth
+            while (j < len && curLen+words[j].size()+j-i <= maxWidth) {
+                curLen += words[j].size();
+                ++j;
             }
-            string tmpstr;  //此时已经达到一行
-            int spacenum = maxWidth - tmplen;
-            for(int k = i; k < j; ++k) {
-                //逐个插入word
-                tmpstr += words[k];
-                if(spacenum > 0) {
-                    int tmp;
-                    if(j==len) { //单独处理最后一行
-                        if(j-k==1) tmp = spacenum; //最后一行的末尾补全空格
-                        else tmp = 1;  //最后一行每个word间相隔1个空格
+            //当前行已经尽可能装满了
+            int spaceNum = maxWidth - curLen;
+            string curStr;
+            int spaceInterval;
+            //开始填单词
+            for (int k = i; k < j; ++k) {
+                curStr += words[k];
+                //计算空格数
+                if (j != len) {
+                    //不是最后一行，则空格需要尽可能分散
+                    if (j-k-1 > 0) {
+                        if (spaceNum % (j-k-1) == 0) spaceInterval = spaceNum / (j-k-1);
+                        else spaceInterval = spaceNum / (j-k-1) + 1;
                     }
-                    else {
-                        //除最后一行外，各word间的空格数目均分
-                        if (j - k - 1 > 0) {
-                            if (spacenum % (j - k - 1) == 0) tmp = spacenum / (j - k - 1);
-                            else tmp = spacenum / (j - k - 1) + 1;
-                        } else tmp = spacenum;  //行末尾处
-                    }
-                    tmpstr.append(tmp,' ');  //添加空格
-                    spacenum -= tmp;
+                    else
+                        spaceInterval = spaceNum;   //最后一个单词，直接后面补全空格
                 }
+                else {
+                    //最后一行单独处理
+                    if (j-k-1 == 0) spaceInterval = spaceNum;  //最后一个单词了
+                    else spaceInterval = 1;
+                }
+                //统一添加空格
+                curStr += string(spaceInterval, ' ');
+                spaceNum -= spaceInterval;
             }
-            ans.push_back(tmpstr);
+            //处理完一行了
+            ans.push_back(curStr);
             i = j;
         }
+        
         return ans;
     }
 };

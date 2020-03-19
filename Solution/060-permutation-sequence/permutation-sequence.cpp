@@ -39,23 +39,21 @@
 class Solution {
 public:
     string getPermutation(int n, int k) {
-        //这道题主要是找数学规律
-        //从高位到低位逐步确定值
-        //例如：1234 1243 1324 1342 1423 1432 最高位以1开头的有6个，同理以2、3、4开头的也有6个
-        //确定最高位后，以此类推，可以逐步推出各位置上的数
-        //总结数学规律如下：index = k/(n-1)!,k = k %(n-1)!
-        string ans = "";
-        string nums = "123456789";
-        vector<int> fac(n,1);  //建立阶乘数组
-        for(int i = 1; i < n; ++i) fac[i] = fac[i-1]*i;
+        string ans = "", nums = "";
+        for (int i = 1; i <= n; ++i)
+            nums += (i + '0');
+        if (k == 1) return nums;
+        //计算阶乘
+        vector<int> fac(n, 1);
+        for (int i = 1; i < n; ++i) 
+            fac[i] = fac[i-1] * i;
+        //逐个位置确定
         --k;  //下标从0开始
-        //接下来开始逐步确定位置
-        for(int i = n; i > 0; --i) {
-            int index = k / fac[i-1];
-            //cout<<index;
-            k = k % fac[i-1];
-            ans.push_back(nums[index]);  
-            nums.erase(index,1);  //确定后则从数组中删除
+        int index = n-1;
+        for (index; index >= 0; --index) {
+            ans += nums[k / fac[index]];
+            nums.erase(k / fac[index], 1);   //已经确定的数字就可以从备选列表里面删除了
+            k = k % fac[index];
         }
         return ans;
     }
