@@ -19,8 +19,7 @@
 //
 //
 //  
-//
-// Note:
+// Constraints:
 //
 //
 // 	The length of the array won't exceed 10,000.

@@ -1,28 +1,43 @@
+// Given two strings a and b, find the length of the longest uncommon subsequence between them.
 //
-// Given a group of two strings, you need to find the longest uncommon subsequence of this group of two strings.
-// The longest uncommon subsequence is defined as the longest subsequence of one of these strings and this subsequence should not be any subsequence of the other strings.
+// A subsequence of a string s is a string that can be obtained after deleting any number of characters from s. For example, "abc" is a subsequence of "aebdc" because you can delete the underlined characters in "aebdc" to get "abc". Other subsequences of "aebdc" include "aebdc", "aeb", and "" (empty string).
 //
+// An uncommon subsequence between two strings is a string that is a subsequence of one but not the other.
 //
+// Return the length of the longest uncommon subsequence between a and b. If the longest uncommon subsequence doesn't exist, return -1.
 //
-// A subsequence is a sequence that can be derived from one sequence by deleting some characters without changing the order of the remaining elements. Trivially, any string is a subsequence of itself and an empty string is a subsequence of any string.
-//
-//
-//
-// The input will be two strings, and the output needs to be the length of the longest uncommon subsequence. If the longest uncommon subsequence doesn't exist, return -1.
-//
-//
+//  
 // Example 1:
 //
-// Input: "aba", "cdc"
+//
+// Input: a = "aba", b = "cdc"
 // Output: 3
-// Explanation: The longest uncommon subsequence is "aba" (or "cdc"), because "aba" is a subsequence of "aba", but not a subsequence of any other strings in the group of two strings. 
+// Explanation: One longest uncommon subsequence is "aba" because "aba" is a subsequence of "aba" but not "cdc".
+// Note that "cdc" is also a longest uncommon subsequence.
 //
 //
+// Example 2:
 //
-// Note:
 //
-// Both strings' lengths will not exceed 100.
-// Only letters from a ~ z will appear in input strings. 
+// Input: a = "aaa", b = "bbb"
+// Output: 3
+// Explanation: The longest uncommon subsequences are "aaa" and "bbb".
+//
+//
+// Example 3:
+//
+//
+// Input: a = "aaa", b = "aaa"
+// Output: -1
+// Explanation: Every subsequence of string a is also a subsequence of string b. Similarly, every subsequence of string b is also a subsequence of string a.
+//
+//
+//  
+// Constraints:
+//
+//
+// 	1 <= a.length, b.length <= 100
+// 	a and b consist of lower-case English letters.
 //
 //
 

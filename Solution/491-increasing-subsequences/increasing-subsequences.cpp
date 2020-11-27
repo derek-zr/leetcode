@@ -10,8 +10,7 @@
 //
 //
 //  
-//
-// Note:
+// Constraints:
 //
 //
 // 	The length of the given array will not exceed 15.

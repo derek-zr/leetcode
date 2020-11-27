@@ -1,39 +1,37 @@
-// In the computer world, use restricted resource you have to generate maximum benefit is what we always want to pursue.
+// You are given an array of binary strings strs and two integers m and n.
 //
-// For now, suppose you are a dominator of m 0s and n 1s respectively. On the other hand, there is an array with strings consisting of only 0s and 1s.
+// Return the size of the largest subset of strs such that there are at most m 0's and n 1's in the subset.
 //
-// Now your task is to find the maximum number of strings that you can form with given m 0s and n 1s. Each 0 and 1 can be used at most once.
-//
-// Note:
-//
-//
-// 	The given numbers of 0s and 1s will both not exceed 100
-// 	The size of given string array won't exceed 600.
-//
+// A set x is a subset of a set y if all elements of x are also elements of y.
 //
 //  
-//
 // Example 1:
 //
 //
-// Input: Array = {"10", "0001", "111001", "1", "0"}, m = 5, n = 3
+// Input: strs = ["10","0001","111001","1","0"], m = 5, n = 3
 // Output: 4
+// Explanation: The largest subset with at most 5 0's and 3 1's is {"10", "0001", "1", "0"}, so the answer is 4.
+// Other valid but smaller subsets include {"0001", "1"} and {"10", "1", "0"}.
+// {"111001"} is an invalid subset because it contains 4 1's, greater than the maximum of 3.
 //
-// Explanation: This are totally 4 strings can be formed by the using of 5 0s and 3 1s, which are “10,”0001”,”1”,”0”
-//
-//
-//  
 //
 // Example 2:
 //
 //
-// Input: Array = {"10", "0", "1"}, m = 1, n = 1
+// Input: strs = ["10","0","1"], m = 1, n = 1
 // Output: 2
-//
-// Explanation: You could form "10", but then you'd have nothing left. Better form "0" and "1".
+// Explanation: The largest subset is {"0", "1"}, so the answer is 2.
 //
 //
 //  
+// Constraints:
+//
+//
+// 	1 <= strs.length <= 600
+// 	1 <= strs[i].length <= 100
+// 	strs[i] consists only of digits '0' and '1'.
+// 	1 <= m, n <= 100
+//
 //
 
 

@@ -18,35 +18,19 @@
 class Solution {
 public:
     vector<int> nextGreaterElements(vector<int>& nums) {
-        //第二种方法，用stack缓存之前遇到的数
+        //这道题是单调栈的经典问题，从尾部开始遍历，维持栈内的递减
+        //环状数组可以视为在尾部再拼接一个数组，即从2*len-1遍历，取i%len
         int len = nums.size();
-        vector<int> ans(len, -1);
+        vector<int> ans(len);
         stack<int> st;
-        //遍历两遍，第二遍是为了填上所有之前压入的数字的greater element
-        for (int i = 0; i < 2 * len; ++i) {
-            int num = nums[i % len];
-            while (!st.empty() && nums[st.top()] < num) {
-                ans[st.top()] = num;
+        //从后向前遍历
+        for (int i = 2*len-1; i >= 0; --i) {
+            while (!st.empty() && st.top() <= nums[i % len]) {
                 st.pop();
             }
-            if (i < len)  st.push(i);
-        }
-        
-        return ans;
-        
-        /*
-        //第一种是暴力方法，对于每一个数字，遍历其左边的所有数字(并包含其前面的部分)
-        int len = nums.size();
-        vector<int> ans(len, -1);
-        for (int i = 0; i < len; ++i) {
-            for (int j = i + 1; j < i + len; ++j) {
-                if (nums[j % len] > nums[i]) {
-                    ans[i] = nums[j % len];
-                    break;
-                }
-            }
+            ans[i % len] = st.empty() ? -1 : st.top();
+            st.push(nums[i % len]);
         }
         return ans;
-        */
     }
 };

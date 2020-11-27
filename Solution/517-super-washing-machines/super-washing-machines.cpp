@@ -51,16 +51,37 @@
 class Solution {
 public:
     int findMinMoves(vector<int>& machines) {
-        auto sum=0;
-        int size=machines.size();
-        for(int i=0;i<size;i++) sum+=machines[i];
-        if(sum%size!=0) return -1;
-        int target=sum/size;
-        int preMove=0,ans=0;
+        //dp求解，详见https://blog.csdn.net/tstsugeg/article/details/62427718
+        //主要思想是,对位置k上的洗衣机来说，如果左边k个洗衣机中（下标从0开始）原有衣服总数小于avg*k，表明左边k个洗衣机作为整体最终需要从右边洗衣机（包含位置k）中获取衣服，
+        //而获取衣服必定需要通过位置k的洗衣机，右边同理。这里拿lCnt表示位置k左边所有洗衣机最终向右边洗衣机（包含位置k）输送的衣服数，如果lCnt小于0，
+        //表示左边洗衣机最终需要从右边洗衣机中获取衣服，同理拿rCnt表示位置k右边所有洗衣机最终向左边洗衣机（包含位置k）中输送的衣服数。
+        if (machines.empty())  return 0;
+        int len = machines.size();
+        vector<int> sum(len+1, 0);
+        for (int i = 0; i < len; ++i) {
+            sum[i+1] = sum[i] + machines[i];
+        }
+        //检查能不能整除
+        if (sum[len] % len != 0)   return -1;
+        int ans = INT_MIN, avg = sum[len] / len;
         
-        for(int i=0;i<size;i++){
-            preMove+=machines[i]-target;
-            ans=max(ans,max(machines[i]-target,abs(preMove)));
+        //开始遍历
+        for (int i = 0; i < len; ++i) {
+            //计算左边和右边能够提供的dress数目
+            int left = sum[i] - avg * i;
+            int right = sum[len] - sum[i+1] - (len - i - 1) * avg;    //相当于是右边当前的总和减去最后需要的
+            if (left > 0 && right > 0) {
+                //说明k位置需要左边和右边提供dress，过程可以同时进行
+                ans = max(ans, max(left, right));   //取最大值，即最多的步数
+            }
+            else if (left < 0 && right  < 0) {
+                //说明k位置需要给左边和右边提供dress，这个过程不能同时进行
+                ans = max(ans,  - left - right);
+            }
+            else {
+                //说明k位置需要某一边提供，同时可以提供给另一边。这个过程是可以同时进行的
+                ans = max(ans, max(abs(left), abs(right)));    //取绝对值的较大值，影响最终minimum moves的关键
+            }
         }
         return ans;
     }
